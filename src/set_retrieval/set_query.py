@@ -1,19 +1,22 @@
 import os
-import json
 import torch
 import numpy as np
 import polars as pl
 from pathlib import Path
 from dotenv import load_dotenv
 from sklearn.cluster import KMeans
+from transformers import AutoTokenizer
+from adapters import AutoAdapterModel
 
 load_dotenv()
 DATA_DIR = Path(os.getenv("DATA_DIR", "data"))
 OUTPUT_DIR = Path(os.getenv("OUTPUT_DIR", "output"))
 
-# using specter2 embeddings from weeks 1-2
 EMBED_DIR = Path("C:/Users/Jagan/OneDrive/Desktop/MasterSet/output/dense/SPECTER2-pretrained/embeddings/")
 TRAIN_PARQUET = DATA_DIR / "train_v2.0.parquet"
+BASE_MODEL = "allenai/specter2_base"
+ADAPTER_NAME = "allenai/specter2"
+DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 TOP_K = 100
 
 
@@ -34,15 +37,33 @@ def load_titles():
     return {row["paper_id"]: row["title"] for row in df.iter_rows(named=True)}
 
 
-def get_seed_embeddings(seed_ids, train_embs, train_pids):
-    pid_to_idx = {pid: i for i, pid in enumerate(train_pids)}
-    found = []
-    for sid in seed_ids:
-        if sid in pid_to_idx:
-            found.append(train_embs[pid_to_idx[sid]])
-        else:
-            print(f"  Warning: seed {sid} not found")
-    return np.array(found, dtype="float32") if found else None
+def load_specter2():
+    print("Loading SPECTER2 model...")
+    tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL)
+    model = AutoAdapterModel.from_pretrained(BASE_MODEL)
+    model.load_adapter(ADAPTER_NAME, source="hf", load_as="proximity", set_active=True)
+    model = model.to(DEVICE)
+    model.eval()
+    print("  Model loaded")
+    return tokenizer, model
+
+
+def embed_seeds(seed_texts, tokenizer, model):
+    # seed_texts is a list of (title, abstract) tuples
+    embs = []
+    with torch.no_grad():
+        for title, abstract in seed_texts:
+            text = f"{title} [SEP] {abstract}"
+            inputs = tokenizer(text, padding=True, truncation=True,
+                               max_length=512, return_tensors="pt",
+                               return_token_type_ids=False).to(DEVICE)
+            outputs = model(**inputs)
+            cls_emb = outputs[0][:, 0, :].cpu().numpy()
+            embs.append(cls_emb[0])
+    embs = np.array(embs, dtype="float32")
+    norms = np.linalg.norm(embs, axis=1, keepdims=True)
+    norms[norms == 0] = 1.0
+    return embs / norms
 
 
 # strategy 1: mean
@@ -58,7 +79,7 @@ def aggregate_max(seed_embs, train_embs):
     return sim_matrix.max(axis=0)
 
 
-# strategy 3: soft-and 
+# strategy 3: soft-and
 def aggregate_soft_and(seed_embs, train_embs, alpha=0.5):
     sim_matrix = seed_embs @ train_embs.T
     mean_scores = sim_matrix.mean(axis=0)
@@ -71,31 +92,23 @@ def aggregate_cluster(seed_embs, train_embs):
     if len(seed_embs) < 3:
         print("  Not enough seeds to cluster, using mean")
         return aggregate_mean(seed_embs, train_embs)
-
     n_clusters = min(3, len(seed_embs))
     kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
     kmeans.fit(seed_embs)
-
     cluster_scores = []
     for label in range(n_clusters):
         cluster_embs = seed_embs[kmeans.labels_ == label]
         sim_matrix = cluster_embs @ train_embs.T
         cluster_scores.append(sim_matrix.max(axis=0))
-
     return np.mean(cluster_scores, axis=0)
 
 
-def retrieve(seed_ids, strategy_fn, train_embs, train_pids, k=TOP_K):
-    seed_embs = get_seed_embeddings(seed_ids, train_embs, train_pids)
-    if seed_embs is None:
-        return []
+def retrieve(seed_embs, strategy_fn, train_embs, train_pids, k=TOP_K):
     scores = strategy_fn(seed_embs, train_embs)
-    seed_set = set(seed_ids)
     results = []
     for idx in np.argsort(-scores):
         pid = train_pids[idx]
-        if pid not in seed_set:
-            results.append((pid, float(scores[idx])))
+        results.append((pid, float(scores[idx])))
         if len(results) >= k:
             break
     return results
@@ -111,27 +124,35 @@ def print_results(results, pid_to_title, top_n=20):
 if __name__ == "__main__":
     train_embs, train_pids = load_embeddings()
     pid_to_title = load_titles()
+    tokenizer, model = load_specter2()
 
-  
-    query_name = "Query 1: Neural Algorithmic Reasoning"
-    seed_ids = [
-        "0133e9c0-f893-5504-b8c1-b7b05d869d95",
-        "5bf0c02f-8ed2-5e97-9161-541558feab35",
-        "dfbeee5c-e0e2-5942-9441-280635e57976",
-        "1bc7f6e0-b0ae-5038-8787-5c119e4af13f",
-        "b72c39fd-bd6f-5725-95df-9a2039c6c3a3",
-        "e5b7c941-e9e9-5906-b170-68c1e3e27ad2",
-        "8a7ccafe-8c36-5c4a-b729-470a5c679190",
-        "a161b3e2-3e20-56a8-a30b-a1e2686fd7cb",
-        "5a59220e-42bf-52b8-b824-ff2dd7004d1f",
-        "1d2cc124-9fa8-5a19-b0d0-5a331a65f35",
+    # query 1 seeds
+    query1_seeds = [
+        ("Tropical Attention: Neural Algorithmic Reasoning for Combinatorial Algorithms",
+         "We introduce Tropical Attention, an attention mechanism grounded in tropical geometry that lifts the attention kernel into tropical projective space, where reasoning is piecewise-linear and 1-Lipschitz, thus preserving the polyhedral decision structure inherent to combinatorial reasoning."),
+        ("Primal-Dual Neural Algorithmic Reasoning",
+         "We introduce a general NAR framework grounded in the primal-dual paradigm, a classical method for designing efficient approximation algorithms. By leveraging a bipartite representation between primal and dual variables, we establish an alignment between primal-dual algorithms and Graph Neural Networks."),
+        ("Discrete Neural Algorithmic Reasoning",
+         "Neural algorithmic reasoning aims to capture computations with neural networks by training models to imitate the execution of classical algorithms. We propose to force neural reasoners to maintain the execution trajectory as a combination of finite predefined states."),
+        ("Understanding Transformer Reasoning Capabilities via Graph Algorithms",
+         "We investigate transformer scaling regimes able to perfectly solve different classes of algorithmic problems. Our novel representational hierarchy separates 9 algorithmic reasoning problems into classes solvable by transformers in different realistic parameter scaling regimes."),
+        ("Transformers Can Do Arithmetic with the Right Embeddings",
+         "The poor performance of transformers on arithmetic tasks stems from their inability to keep track of the exact position of each digit. We mend this by adding an embedding to each digit that encodes its position relative to the start of the number."),
+        ("PUZZLES: A Benchmark for Neural Algorithmic Reasoning",
+         "We introduce PUZZLES, a benchmark based on Simon Tatham's Portable Puzzle Collection, aimed at fostering progress in algorithmic and logical reasoning in RL. PUZZLES contains 40 diverse logic puzzles of adjustable sizes and varying levels of complexity."),
+        ("Open-Book Neural Algorithmic Reasoning",
+         "We propose a novel open-book learning framework where the network can access and utilize all instances in the training dataset when reasoning for a given instance."),
+        ("Deep Equilibrium Algorithmic Reasoning",
+         "We study neurally solving algorithms from a different perspective: since the algorithm's solution is often an equilibrium, it is possible to find the solution directly by solving an equilibrium equation."),
+        ("Simulation of Graph Algorithms with Looped Transformers",
+         "We study the ability of transformer networks to simulate algorithms on graphs. We prove by construction that this architecture can simulate Dijkstra's shortest path, Breadth- and Depth-First Search, and Kosaraju's strongly connected components."),
+        ("On the Markov Property of Neural Algorithmic Reasoning: Analyses and Methods",
+         "We present ForgetNet, which does not use historical embeddings and thus is consistent with the Markov nature of algorithmic reasoning tasks."),
     ]
 
-    print(f"\n{query_name} ({len(seed_ids)} seeds)")
-    pid_set = set(train_pids)
-    found = sum(1 for s in seed_ids if s in pid_set)
-    print(f"Seeds found in train set: {found}/{len(seed_ids)}")
+    print("\nQuery 1: Neural Algorithmic Reasoning (10 seeds)")
+    seed_embs = embed_seeds(query1_seeds, tokenizer, model)
 
     print("\n-- Mean --")
-    results = retrieve(seed_ids, aggregate_mean, train_embs, train_pids)
+    results = retrieve(seed_embs, aggregate_mean, train_embs, train_pids)
     print_results(results, pid_to_title)
