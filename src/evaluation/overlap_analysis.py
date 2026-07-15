@@ -1,4 +1,5 @@
 import os
+import json
 import torch
 import numpy as np
 import polars as pl
@@ -73,6 +74,34 @@ def jaccard(set_a, set_b):
     return len(set_a & set_b) / len(set_a | set_b)
 
 
+def save_results_json(query_name, results, result_sets, output_dir):
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    filename = query_name.lower().replace(" ", "_").replace(":", "").replace("/", "") + ".json"
+
+    data = {
+        "query": query_name,
+        "top_50_results": {
+            name: [{"rank": i+1, "paper_id": pid, "score": score}
+                   for i, (pid, score) in enumerate(res)]
+            for name, res in results.items()
+        },
+        "overlap_analysis": {
+            "papers_in_all_strategies": list(set.intersection(*result_sets.values())),
+            "unique_per_strategy": {
+                name: list(s - set().union(*[v for k, v in result_sets.items() if k != name]))
+                for name, s in result_sets.items()
+            }
+        }
+    }
+
+    filepath = output_dir / filename
+    with open(filepath, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"  Results saved to {filepath}")
+
+
 def overlap_analysis(query_name, seed_texts, train_embs, train_pids,
                      pid_to_title, tokenizer, model, top_k=50):
     print(f"\n{'='*70}")
@@ -120,6 +149,8 @@ def overlap_analysis(query_name, seed_texts, train_embs, train_pids,
             title = pid_to_title.get(pid, "[unknown]")
             print(f"    - {title[:75]}")
 
+    save_results_json(query_name, results, result_sets, "output/set_retrieval_results")
+
 
 if __name__ == "__main__":
     train_embs, train_pids = load_embeddings()
@@ -130,4 +161,4 @@ if __name__ == "__main__":
         overlap_analysis(query_name, seed_texts, train_embs, train_pids,
                          pid_to_title, tokenizer, model)
 
-    print("\nDone!")  
+    print("\nDone!")
