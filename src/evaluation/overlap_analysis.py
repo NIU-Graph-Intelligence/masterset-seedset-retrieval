@@ -65,6 +65,18 @@ SEED_SETS = {
         ("Tighter Bounds on the Expressivity of Transformer Encoders",
          "We identify a variant of first-order logic with counting quantifiers that is simultaneously an upper and lower bound for transformer encoders."),
     ],
+    "Mixed Set: RL + Formal Language + Efficient Transformers": [
+        ("Expected Policy Gradients",
+         "We derive expected policy gradients, which extend the REINFORCE estimator by marginalizing over actions, reducing variance while maintaining unbiasedness in reinforcement learning settings."),
+        ("Distributed Distributional Deterministic Policy Gradients",
+         "We present a distributed distributional approach to continuous control with deep reinforcement learning, combining distributional value estimation with deterministic policy gradients."),
+        ("Representing Formal Languages: A Comparison Between Finite Automata and Recurrent Neural Networks",
+         "We compare finite automata and recurrent neural networks for representing formal languages, analyzing their expressive power and learning efficiency on regular and context-free languages."),
+        ("On the Ability and Limitations of Transformers to Recognize Formal Languages",
+         "We study which formal languages transformers can recognize, showing they can express any language in AC0 but struggle with counting and certain regular languages without positional encodings."),
+        ("Reformer: The Efficient Transformer",
+         "We introduce the Reformer, an efficient transformer using locality-sensitive hashing attention and reversible residual layers to reduce memory and computational costs for long sequences."),
+    ],
 }
 
 
