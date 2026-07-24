@@ -13,7 +13,7 @@ DATA_DIR = Path(os.getenv("DATA_DIR", "data"))
 OUTPUT_DIR = Path(os.getenv("OUTPUT_DIR", "output"))
 
 EMBED_DIR = Path("C:/Users/Jagan/OneDrive/Desktop/MasterSet/output/dense/SPECTER2-pretrained/embeddings/")
-TRAIN_PARQUET = DATA_DIR / "train_v2.0.parquet"
+TRAIN_PARQUET = DATA_DIR / "train_v1.2.parquet"
 BASE_MODEL = "allenai/specter2_base"
 ADAPTER_NAME = "allenai/specter2"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
