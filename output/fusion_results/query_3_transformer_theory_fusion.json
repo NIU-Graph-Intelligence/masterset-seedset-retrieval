@@ -1,0 +1,1084 @@
+{
+  "query": "Query 3: Transformer Theory",
+  "semantic_only": [
+    {
+      "rank": 1,
+      "paper_id": "1c06ca82-15a9-57f7-a022-152aec8d56eb",
+      "title": "Logical Languages Accepted by Transformer Encoders with Hard Attention",
+      "score": 0.9666883945465088
+    },
+    {
+      "rank": 2,
+      "paper_id": "0c1590eb-b25c-59a0-bb7a-ef483498a5b6",
+      "title": "Tighter Bounds on the Expressivity of Transformer Encoders",
+      "score": 0.9658296704292297
+    },
+    {
+      "rank": 3,
+      "paper_id": "b78af4e4-3db6-59b3-828e-e87422542b49",
+      "title": "Masked Hard-Attention Transformers Recognize Exactly the Star-Free Languages",
+      "score": 0.9616519808769226
+    },
+    {
+      "rank": 4,
+      "paper_id": "a19c1196-43fe-53b0-bbc6-98b11eb5d644",
+      "title": "The Power of Hard Attention Transformers on Data Sequences: A formal language theoretic perspective",
+      "score": 0.9600849151611328
+    },
+    {
+      "rank": 5,
+      "paper_id": "45ce4638-df3c-5acb-a58a-37f10262a185",
+      "title": "A Logic for Expressing Log-Precision Transformers",
+      "score": 0.9548953771591187
+    },
+    {
+      "rank": 6,
+      "paper_id": "5bb37383-023a-5808-b2e4-2c3d19710841",
+      "title": "How Far Can Transformers Reason? The Globality Barrier and Inductive Scratchpad",
+      "score": 0.9493564963340759
+    },
+    {
+      "rank": 7,
+      "paper_id": "63d1b584-a00e-559c-b8f1-ac0bf887d020",
+      "title": "When can transformers reason with abstract symbols?",
+      "score": 0.948395848274231
+    },
+    {
+      "rank": 8,
+      "paper_id": "a8d62b8c-05ad-5719-93ec-989c3c357ada",
+      "title": "Why are Sensitive Functions Hard for Transformers?",
+      "score": 0.9468725919723511
+    },
+    {
+      "rank": 9,
+      "paper_id": "078f3b42-0d95-5c81-8435-5ae961df6330",
+      "title": "Stack Attention: Improving the Ability of Transformers to Model Hierarchical Patterns",
+      "score": 0.9467856287956238
+    },
+    {
+      "rank": 10,
+      "paper_id": "625418d7-8628-5405-9b15-65a996001fa1",
+      "title": "Representational Strengths and Limitations of Transformers",
+      "score": 0.9465030431747437
+    },
+    {
+      "rank": 11,
+      "paper_id": "1ce833f3-fe31-531e-b22b-b3c0a329d375",
+      "title": "Overcoming a Theoretical Limitation of Self-Attention",
+      "score": 0.9463683366775513
+    },
+    {
+      "rank": 12,
+      "paper_id": "8a9f0d1d-8ace-5f1f-a7d5-2fb08e8cca1a",
+      "title": "Systematic Generalization with Edge Transformers",
+      "score": 0.9456236958503723
+    },
+    {
+      "rank": 13,
+      "paper_id": "ccc417e6-cced-5903-816c-6cd7262534dd",
+      "title": "Simplicity Bias in Transformers and their Ability to Learn SparseBoolean Functions",
+      "score": 0.944753885269165
+    },
+    {
+      "rank": 14,
+      "paper_id": "84b0c08d-753c-5ae2-82a6-e9c2cdd07cc2",
+      "title": "Thinking Like Transformers",
+      "score": 0.9441658854484558
+    },
+    {
+      "rank": 15,
+      "paper_id": "569d04f2-2c43-5d67-b7a9-bee23a2c7b33",
+      "title": "Looped Transformers as Programmable Computers",
+      "score": 0.9441611170768738
+    },
+    {
+      "rank": 16,
+      "paper_id": "5df5470f-d1ab-5390-b37e-269ccc7e9ada",
+      "title": "Attention Meets Post-hoc Interpretability: A Mathematical Perspective",
+      "score": 0.9441529512405396
+    },
+    {
+      "rank": 17,
+      "paper_id": "ded38392-2824-5663-a7cc-9535977461c3",
+      "title": "The Expressive Power of Transformers with Chain of Thought",
+      "score": 0.9438775777816772
+    },
+    {
+      "rank": 18,
+      "paper_id": "bbc91939-309b-510a-9451-15083c36b252",
+      "title": "On Identifiability in Transformers",
+      "score": 0.9429625868797302
+    },
+    {
+      "rank": 19,
+      "paper_id": "20325f6c-47d9-5286-a1dc-4408cb3d2a89",
+      "title": "Towards a Theoretical Understanding of the 'Reversal Curse' via Training Dynamics",
+      "score": 0.9420332908630371
+    },
+    {
+      "rank": 20,
+      "paper_id": "21e90331-121d-5888-ba37-1b333a59cb62",
+      "title": "Prompting a Pretrained Transformer Can Be a Universal Approximator",
+      "score": 0.9420207142829895
+    },
+    {
+      "rank": 21,
+      "paper_id": "6d0791e8-c9c7-520a-b406-e6d174f14229",
+      "title": "Transformers are uninterpretable with myopic methods: a case study with bounded Dyck grammars",
+      "score": 0.9416210055351257
+    },
+    {
+      "rank": 22,
+      "paper_id": "b3432c6c-bcc3-5b42-8016-bd9327641882",
+      "title": "Chain of Thought Empowers Transformers to Solve Inherently Serial Problems",
+      "score": 0.9415216445922852
+    },
+    {
+      "rank": 23,
+      "paper_id": "1c237b72-aac4-5a02-9789-80a769f61359",
+      "title": "Transformers, parallel computation, and logarithmic depth",
+      "score": 0.9414709806442261
+    },
+    {
+      "rank": 24,
+      "paper_id": "e22d106e-b061-534d-b8a8-e5b23f1a6b22",
+      "title": "Algebraic Positional Encodings",
+      "score": 0.9414323568344116
+    },
+    {
+      "rank": 25,
+      "paper_id": "6c4588cf-e3bb-511b-8d1a-a19fa629baa6",
+      "title": "Learning to Solve Constraint Satisfaction Problems with Recurrent Transformer",
+      "score": 0.941097617149353
+    },
+    {
+      "rank": 26,
+      "paper_id": "fe25bda7-463e-560d-a0b7-e21534f91c7a",
+      "title": "Recurrent Graph Neural Networks and Their Connections to Bisimulation and Logic",
+      "score": 0.9410152435302734
+    },
+    {
+      "rank": 27,
+      "paper_id": "fe184618-82b7-5ad2-9afd-3eb8e0d548f0",
+      "title": "Simulating weighted automata over sequences and trees with transformers",
+      "score": 0.9408565759658813
+    },
+    {
+      "rank": 28,
+      "paper_id": "d1c04141-cbdd-5627-81c3-b8b34a2bd328",
+      "title": "Practical Computational Power of Linear Transformers and Their Recurrent and Self-Referential Extensions",
+      "score": 0.9404670596122742
+    },
+    {
+      "rank": 29,
+      "paper_id": "23018022-6229-57da-94dd-31fafe9b9876",
+      "title": "Learning Higher-Order Logic Programs From Failures",
+      "score": 0.9404484629631042
+    },
+    {
+      "rank": 30,
+      "paper_id": "d4f9852a-7fd3-50ba-a7e1-9ac56575a13f",
+      "title": "Separations in the Representational Capabilities of Transformers and Recurrent Architectures",
+      "score": 0.9403319358825684
+    },
+    {
+      "rank": 31,
+      "paper_id": "b0be176b-bee2-5060-8cfc-df4bb0f1b8e6",
+      "title": "Influence Patterns for Explaining Information Flow in BERT",
+      "score": 0.9403189420700073
+    },
+    {
+      "rank": 32,
+      "paper_id": "cc854fc2-32da-5e3c-bda6-be443f13e4a6",
+      "title": "Inductive Biases and Variable Creation in Self-Attention Mechanisms",
+      "score": 0.9402775764465332
+    },
+    {
+      "rank": 33,
+      "paper_id": "20b1189d-b4c3-5151-91e9-1e4dc98d6283",
+      "title": "Do Efficient Transformers Really Save Computation?",
+      "score": 0.9398883581161499
+    },
+    {
+      "rank": 34,
+      "paper_id": "ab9144a7-4450-5ed3-8655-369e35cb90b6",
+      "title": "Sparse Universal Transformer",
+      "score": 0.9394329786300659
+    },
+    {
+      "rank": 35,
+      "paper_id": "377033b3-007b-585b-8c10-37cf8274ed75",
+      "title": "Tracr: Compiled Transformers as a Laboratory for Interpretability",
+      "score": 0.9393653869628906
+    },
+    {
+      "rank": 36,
+      "paper_id": "2690e91a-04f3-5e90-a77d-0d6d0ecc4112",
+      "title": "Measuring Systematic Generalization in Neural Proof Generation with Transformers",
+      "score": 0.9393060207366943
+    },
+    {
+      "rank": 37,
+      "paper_id": "a1e7600c-1767-53ba-a1ff-2fda488d4561",
+      "title": "The Expressive Capacity of State Space Models: A Formal Language Perspective",
+      "score": 0.9392557144165039
+    },
+    {
+      "rank": 38,
+      "paper_id": "47fd646a-84bd-5ea5-808d-3b7ad1bff686",
+      "title": "Teaching LTLf Satisfiability Checking to Neural Networks",
+      "score": 0.9392130374908447
+    },
+    {
+      "rank": 39,
+      "paper_id": "f476ad08-5049-5c35-8276-66189b9ec134",
+      "title": "Teaching Temporal Logics to Neural Networks",
+      "score": 0.938933789730072
+    },
+    {
+      "rank": 40,
+      "paper_id": "1d512b27-6444-5d01-91c3-11b5bb623677",
+      "title": "Logic and the 2-Simplicial Transformer",
+      "score": 0.9388348460197449
+    },
+    {
+      "rank": 41,
+      "paper_id": "73b4915d-818b-5d4c-9f57-6ff692cc939c",
+      "title": "Transformers as Soft Reasoners over Language",
+      "score": 0.9375300407409668
+    },
+    {
+      "rank": 42,
+      "paper_id": "11b7fb26-b5b0-561d-9259-2e801bf78a87",
+      "title": "O(n) Connections are Expressive Enough: Universal Approximability of Sparse Transformers",
+      "score": 0.9374811053276062
+    },
+    {
+      "rank": 43,
+      "paper_id": "32fd5f4a-5691-5339-a5a6-f2daf47ede77",
+      "title": "Position: LLMs Can\u2019t Plan, But Can Help Planning in LLM-Modulo Frameworks",
+      "score": 0.9371675252914429
+    },
+    {
+      "rank": 44,
+      "paper_id": "25375e46-99c6-5dee-b332-16c2783d85a6",
+      "title": "Self-Attention Networks Can Process Bounded Hierarchical Languages",
+      "score": 0.9369255304336548
+    },
+    {
+      "rank": 45,
+      "paper_id": "33a8277c-dc46-519d-87fd-abd6fae64793",
+      "title": "Towards Revealing the Mystery behind Chain of Thought: A Theoretical Perspective",
+      "score": 0.9362413287162781
+    },
+    {
+      "rank": 46,
+      "paper_id": "43cd85a0-f701-5b3c-bfe4-8afdb9d7a67b",
+      "title": "Recurrent Neural Networks as Weighted Language Recognizers",
+      "score": 0.9361206889152527
+    },
+    {
+      "rank": 47,
+      "paper_id": "5e9f9741-f95c-57b1-9b58-67e41e750c50",
+      "title": "Approximate Weighted First-Order Model Counting: Exploiting Fast Approximate Model Counters and Symmetry",
+      "score": 0.9361027479171753
+    },
+    {
+      "rank": 48,
+      "paper_id": "53553a03-02b8-5878-8f5c-50aa2d8ac83c",
+      "title": "More Identifiable yet Equally Performant Transformers for Text Classification",
+      "score": 0.9359004497528076
+    },
+    {
+      "rank": 49,
+      "paper_id": "fecef91f-8527-5747-8e3d-edd0bc2c4c48",
+      "title": "Pushing the Limits of Rule Reasoning in Transformers through Natural Language Satisfiability",
+      "score": 0.9358536601066589
+    },
+    {
+      "rank": 50,
+      "paper_id": "c285db1b-70c6-524a-b84f-b3f148bd96cf",
+      "title": "A Pseudo-Semantic Loss for Autoregressive Models with Logical Constraints",
+      "score": 0.9358043670654297
+    }
+  ],
+  "graph_only": [
+    {
+      "rank": 1,
+      "paper_id": "24d7482a-91e1-59ad-857d-c5af78257803",
+      "title": "Attention is Turing-Complete",
+      "score": 0.011484698524513896
+    },
+    {
+      "rank": 2,
+      "paper_id": "84b0c08d-753c-5ae2-82a6-e9c2cdd07cc2",
+      "title": "Thinking Like Transformers",
+      "score": 0.011367948303433689
+    },
+    {
+      "rank": 3,
+      "paper_id": "1ce833f3-fe31-531e-b22b-b3c0a329d375",
+      "title": "Overcoming a Theoretical Limitation of Self-Attention",
+      "score": 0.011155310925258297
+    },
+    {
+      "rank": 4,
+      "paper_id": "25375e46-99c6-5dee-b332-16c2783d85a6",
+      "title": "Self-Attention Networks Can Process Bounded Hierarchical Languages",
+      "score": 0.006357675090452714
+    },
+    {
+      "rank": 5,
+      "paper_id": "b78af4e4-3db6-59b3-828e-e87422542b49",
+      "title": "Masked Hard-Attention Transformers Recognize Exactly the Star-Free Languages",
+      "score": 0.006220005578843857
+    },
+    {
+      "rank": 6,
+      "paper_id": "43cd85a0-f701-5b3c-bfe4-8afdb9d7a67b",
+      "title": "Recurrent Neural Networks as Weighted Language Recognizers",
+      "score": 0.005817113219868701
+    },
+    {
+      "rank": 7,
+      "paper_id": "6a1b3555-c1e9-543c-96be-1837b205a434",
+      "title": "Are Transformers universal approximators of sequence-to-sequence functions?",
+      "score": 0.005407836043893527
+    },
+    {
+      "rank": 8,
+      "paper_id": "a28c6d44-eab8-5437-bc76-6e0afda75e32",
+      "title": "Learning Deep Transformer Models for Machine Translation",
+      "score": 0.005084730323149486
+    },
+    {
+      "rank": 9,
+      "paper_id": "f69adf6e-9f2b-5a9f-a5e1-abd852370d4d",
+      "title": "The Logical Expressiveness of Graph Neural Networks",
+      "score": 0.004862024534077968
+    },
+    {
+      "rank": 10,
+      "paper_id": "19827d5b-0dd4-5a39-be98-335f25943a85",
+      "title": "Large Language Models are Zero-Shot Reasoners",
+      "score": 0.004838009782077577
+    },
+    {
+      "rank": 11,
+      "paper_id": "a1ea9096-f4df-5d0f-be6c-c90f4fd87c3b",
+      "title": "BridgingCNNs,RNNs, and Weighted Finite-State Machines",
+      "score": 0.004837812133736647
+    },
+    {
+      "rank": 12,
+      "paper_id": "4f8f040a-d935-52f3-a2a5-12dcd55f92a4",
+      "title": "On the Turing Completeness of Modern Neural Network Architectures",
+      "score": 0.003357004261830246
+    },
+    {
+      "rank": 13,
+      "paper_id": "554a4051-77cb-53d7-9cd8-68e669dc691f",
+      "title": "Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks",
+      "score": 0.003209399420433811
+    },
+    {
+      "rank": 14,
+      "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+      "title": "Language Models are Few-Shot Learners",
+      "score": 0.0031760293840894824
+    },
+    {
+      "rank": 15,
+      "paper_id": "bf98125a-d432-5f0e-aad1-7d6c94e704f8",
+      "title": "On the Universality of Invariant Networks",
+      "score": 0.003140335060704217
+    },
+    {
+      "rank": 16,
+      "paper_id": "e2b4968b-4da4-5730-b032-7fd25e9be170",
+      "title": "AStructural Probe for Finding Syntax in Word Representations",
+      "score": 0.003116117886592448
+    },
+    {
+      "rank": 17,
+      "paper_id": "f6a1f348-ead8-52c7-9cf3-673ec08e0d5c",
+      "title": "On the equivalence between graph isomorphism testing and function approximation with GNNs",
+      "score": 0.0031069435008641995
+    },
+    {
+      "rank": 18,
+      "paper_id": "e9d94c45-fec8-5c86-82d1-91964493fae5",
+      "title": "Universal Invariant and Equivariant Graph Neural Networks",
+      "score": 0.003082824396686498
+    },
+    {
+      "rank": 19,
+      "paper_id": "33220205-d9e6-5b74-842a-049f9113aa3f",
+      "title": "What graph neural networks cannot learn: depth vs width",
+      "score": 0.0030685841761263375
+    },
+    {
+      "rank": 20,
+      "paper_id": "cc854fc2-32da-5e3c-bda6-be443f13e4a6",
+      "title": "Inductive Biases and Variable Creation in Self-Attention Mechanisms",
+      "score": 0.0030652433657446135
+    },
+    {
+      "rank": 21,
+      "paper_id": "79d362fb-0115-5d4e-accb-7cd785ed4bc5",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "score": 0.0030631184195464255
+    },
+    {
+      "rank": 22,
+      "paper_id": "8cece362-ac2e-543f-b38e-56c1ad3772f7",
+      "title": "Size and Depth Separation in Approximating Benign Functions with Neural Networks",
+      "score": 0.0030443312520895146
+    },
+    {
+      "rank": 23,
+      "paper_id": "ccc417e6-cced-5903-816c-6cd7262534dd",
+      "title": "Simplicity Bias in Transformers and their Ability to Learn SparseBoolean Functions",
+      "score": 0.003044327572115213
+    },
+    {
+      "rank": 24,
+      "paper_id": "86e03a03-3d2c-5bcf-b45f-7f186b5eb158",
+      "title": "Exponentially Improving the Complexity of Simulating the Weisfeiler-Lehman Test with Graph Neural Networks",
+      "score": 0.0030443269256740795
+    },
+    {
+      "rank": 25,
+      "paper_id": "02a0464e-746d-520f-bc16-8d0e5b7ee20c",
+      "title": "CAT-probing: A Metric-based Approach to Interpret How Pre-trained Models for Programming Language Attend Code Structure",
+      "score": 0.0030443262075746766
+    },
+    {
+      "rank": 26,
+      "paper_id": "b4601e00-1b8d-5570-89cd-7e0b1408d0e6",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "score": 0.0009649941775990139
+    },
+    {
+      "rank": 27,
+      "paper_id": "cf7f2c6e-79a5-5c79-9e05-a2f4463b724f",
+      "title": "Universal Transformers",
+      "score": 0.0005354139694250877
+    },
+    {
+      "rank": 28,
+      "paper_id": "8d7a7947-1f99-5431-b75b-6b386b179780",
+      "title": "On the Practical Computational Power of Finite PrecisionRNNs for Language Recognition",
+      "score": 0.0004013977938453424
+    },
+    {
+      "rank": 29,
+      "paper_id": "957b7f6c-3f6a-5943-b7e5-b40836a659f7",
+      "title": "Self-Attention with Relative Position Representations",
+      "score": 0.0003787409548727128
+    },
+    {
+      "rank": 30,
+      "paper_id": "f80f23a6-39e9-59a5-a498-e3cbe08c4ea2",
+      "title": "Effects of Parameter Norm Growth During Transformer Training: Inductive Bias from Gradient Descent",
+      "score": 0.00031014813850806445
+    },
+    {
+      "rank": 31,
+      "paper_id": "23833fc9-4da1-5663-ae86-9353662185e3",
+      "title": "How Powerful are Graph Neural Networks?",
+      "score": 0.0003004648993402099
+    },
+    {
+      "rank": 32,
+      "paper_id": "564387a7-8b83-55e0-a95b-5897035575b5",
+      "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+      "score": 0.00029640380164797434
+    },
+    {
+      "rank": 33,
+      "paper_id": "cf342589-09f9-5069-8981-e2892c140950",
+      "title": "Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples",
+      "score": 0.00021901484952805238
+    },
+    {
+      "rank": 34,
+      "paper_id": "23985d7a-8809-581e-acfc-e5c4570653a1",
+      "title": "A Formal Hierarchy ofRNNArchitectures",
+      "score": 0.00019175626761105765
+    },
+    {
+      "rank": 35,
+      "paper_id": "95cdf65c-7a8d-585f-b339-10bd88af8eff",
+      "title": "RNNs can generate bounded hierarchical languages with optimal memory",
+      "score": 0.00017085650544470605
+    },
+    {
+      "rank": 36,
+      "paper_id": "2b8b6ab0-1c98-5850-99c5-cda44f87d0f7",
+      "title": "How Can Self-Attention Networks RecognizeDyck-n Languages?",
+      "score": 0.00015161487243680135
+    },
+    {
+      "rank": 37,
+      "paper_id": "71d79b8e-e6a0-59b6-a4ce-9bf50874c53a",
+      "title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention",
+      "score": 0.00014886242933915582
+    },
+    {
+      "rank": 38,
+      "paper_id": "cf79a687-0753-5f26-84ad-e0c8be837109",
+      "title": "A Tensorized Transformer for Language Modeling",
+      "score": 0.00014869106847373317
+    },
+    {
+      "rank": 39,
+      "paper_id": "d59cddda-ff18-5371-b940-29ea041486cb",
+      "title": "Neural Execution Engines: Learning to Execute Subroutines",
+      "score": 0.00014864240824109424
+    },
+    {
+      "rank": 40,
+      "paper_id": "25fea28a-4a5b-54c4-9884-68078e6f4df3",
+      "title": "Saccader: Improving Accuracy of Hard Attention Models for Vision",
+      "score": 0.00014860612279633982
+    },
+    {
+      "rank": 41,
+      "paper_id": "7d89e644-7656-5751-8eda-ed6a90f9e13c",
+      "title": "Approximation Ratios of Graph Neural Networks for Combinatorial Problems",
+      "score": 0.0001405364907130819
+    },
+    {
+      "rank": 42,
+      "paper_id": "0ea739ed-db1d-56e2-99d4-534fcfc66f34",
+      "title": "On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups",
+      "score": 0.00013499607910513647
+    },
+    {
+      "rank": 43,
+      "paper_id": "9e2f8712-6a88-5f0f-b01c-0acb2054af83",
+      "title": "Deep Models of Interactions Across Sets",
+      "score": 0.00013443945664682713
+    },
+    {
+      "rank": 44,
+      "paper_id": "27486595-0da2-5ba3-92a9-ca4b28796f98",
+      "title": "Invariant and Equivariant Graph Networks",
+      "score": 0.00013443076031032801
+    },
+    {
+      "rank": 45,
+      "paper_id": "068f9070-c433-5662-922d-f3126a91d260",
+      "title": "Big Bird: Transformers for Longer Sequences",
+      "score": 0.00011704554513691
+    },
+    {
+      "rank": 46,
+      "paper_id": "bcd1fba8-030b-54e5-b883-f3b142b3c7f7",
+      "title": "ETC: Encoding Long and Structured Inputs in Transformers",
+      "score": 0.0001168897377447401
+    },
+    {
+      "rank": 47,
+      "paper_id": "73b4915d-818b-5d4c-9f57-6ff692cc939c",
+      "title": "Transformers as Soft Reasoners over Language",
+      "score": 0.00011683468611232288
+    },
+    {
+      "rank": 48,
+      "paper_id": "44925cdd-e91c-5e61-8ce4-1b62c139f371",
+      "title": "Improving Transformer Models by Reordering their Sublayers",
+      "score": 0.00011680853817599668
+    },
+    {
+      "rank": 49,
+      "paper_id": "6f22d4e3-50fd-56b1-8da9-bb7aa0e9453c",
+      "title": "Connecting Weighted Automata and Recurrent Neural Networks through Spectral Learning",
+      "score": 0.00011677682436533546
+    },
+    {
+      "rank": 50,
+      "paper_id": "3d437f44-2eab-56a6-b668-70dd08f42d15",
+      "title": "The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation",
+      "score": 0.00011452792769302473
+    }
+  ],
+  "fused_rrf": [
+    {
+      "rank": 1,
+      "paper_id": "b78af4e4-3db6-59b3-828e-e87422542b49",
+      "title": "Masked Hard-Attention Transformers Recognize Exactly the Star-Free Languages",
+      "score": 0.03125763125763126
+    },
+    {
+      "rank": 2,
+      "paper_id": "1ce833f3-fe31-531e-b22b-b3c0a329d375",
+      "title": "Overcoming a Theoretical Limitation of Self-Attention",
+      "score": 0.029957522915269395
+    },
+    {
+      "rank": 3,
+      "paper_id": "84b0c08d-753c-5ae2-82a6-e9c2cdd07cc2",
+      "title": "Thinking Like Transformers",
+      "score": 0.02964254577157803
+    },
+    {
+      "rank": 4,
+      "paper_id": "ccc417e6-cced-5903-816c-6cd7262534dd",
+      "title": "Simplicity Bias in Transformers and their Ability to Learn SparseBoolean Functions",
+      "score": 0.02574682290807064
+    },
+    {
+      "rank": 5,
+      "paper_id": "25375e46-99c6-5dee-b332-16c2783d85a6",
+      "title": "Self-Attention Networks Can Process Bounded Hierarchical Languages",
+      "score": 0.025240384615384616
+    },
+    {
+      "rank": 6,
+      "paper_id": "43cd85a0-f701-5b3c-bfe4-8afdb9d7a67b",
+      "title": "Recurrent Neural Networks as Weighted Language Recognizers",
+      "score": 0.024585477415666093
+    },
+    {
+      "rank": 7,
+      "paper_id": "cc854fc2-32da-5e3c-bda6-be443f13e4a6",
+      "title": "Inductive Biases and Variable Creation in Self-Attention Mechanisms",
+      "score": 0.023369565217391305
+    },
+    {
+      "rank": 8,
+      "paper_id": "73b4915d-818b-5d4c-9f57-6ff692cc939c",
+      "title": "Transformers as Soft Reasoners over Language",
+      "score": 0.019246784491533265
+    },
+    {
+      "rank": 9,
+      "paper_id": "24d7482a-91e1-59ad-857d-c5af78257803",
+      "title": "Attention is Turing-Complete",
+      "score": 0.017336838849365915
+    },
+    {
+      "rank": 10,
+      "paper_id": "1c06ca82-15a9-57f7-a022-152aec8d56eb",
+      "title": "Logical Languages Accepted by Transformer Encoders with Hard Attention",
+      "score": 0.017336838849365915
+    },
+    {
+      "rank": 11,
+      "paper_id": "0c1590eb-b25c-59a0-bb7a-ef483498a5b6",
+      "title": "Tighter Bounds on the Expressivity of Transformer Encoders",
+      "score": 0.01707242848447961
+    },
+    {
+      "rank": 12,
+      "paper_id": "a19c1196-43fe-53b0-bbc6-98b11eb5d644",
+      "title": "The Power of Hard Attention Transformers on Data Sequences: A formal language theoretic perspective",
+      "score": 0.016568396226415094
+    },
+    {
+      "rank": 13,
+      "paper_id": "45ce4638-df3c-5acb-a58a-37f10262a185",
+      "title": "A Logic for Expressing Log-Precision Transformers",
+      "score": 0.01632801161103048
+    },
+    {
+      "rank": 14,
+      "paper_id": "5bb37383-023a-5808-b2e4-2c3d19710841",
+      "title": "How Far Can Transformers Reason? The Globality Barrier and Inductive Scratchpad",
+      "score": 0.016094911377930246
+    },
+    {
+      "rank": 15,
+      "paper_id": "63d1b584-a00e-559c-b8f1-ac0bf887d020",
+      "title": "When can transformers reason with abstract symbols?",
+      "score": 0.015868769360743454
+    },
+    {
+      "rank": 16,
+      "paper_id": "6a1b3555-c1e9-543c-96be-1837b205a434",
+      "title": "Are Transformers universal approximators of sequence-to-sequence functions?",
+      "score": 0.015868769360743454
+    },
+    {
+      "rank": 17,
+      "paper_id": "a8d62b8c-05ad-5719-93ec-989c3c357ada",
+      "title": "Why are Sensitive Functions Hard for Transformers?",
+      "score": 0.01564927857935627
+    },
+    {
+      "rank": 18,
+      "paper_id": "a28c6d44-eab8-5437-bc76-6e0afda75e32",
+      "title": "Learning Deep Transformer Models for Machine Translation",
+      "score": 0.01564927857935627
+    },
+    {
+      "rank": 19,
+      "paper_id": "078f3b42-0d95-5c81-8435-5ae961df6330",
+      "title": "Stack Attention: Improving the Ability of Transformers to Model Hierarchical Patterns",
+      "score": 0.0154361498496035
+    },
+    {
+      "rank": 20,
+      "paper_id": "f69adf6e-9f2b-5a9f-a5e1-abd852370d4d",
+      "title": "The Logical Expressiveness of Graph Neural Networks",
+      "score": 0.0154361498496035
+    },
+    {
+      "rank": 21,
+      "paper_id": "19827d5b-0dd4-5a39-be98-335f25943a85",
+      "title": "Large Language Models are Zero-Shot Reasoners",
+      "score": 0.01522911051212938
+    },
+    {
+      "rank": 22,
+      "paper_id": "625418d7-8628-5405-9b15-65a996001fa1",
+      "title": "Representational Strengths and Limitations of Transformers",
+      "score": 0.01522911051212938
+    },
+    {
+      "rank": 23,
+      "paper_id": "a1ea9096-f4df-5d0f-be6c-c90f4fd87c3b",
+      "title": "BridgingCNNs,RNNs, and Weighted Finite-State Machines",
+      "score": 0.015027903268668616
+    },
+    {
+      "rank": 24,
+      "paper_id": "4f8f040a-d935-52f3-a2a5-12dcd55f92a4",
+      "title": "On the Turing Completeness of Modern Neural Network Architectures",
+      "score": 0.014832285115303982
+    },
+    {
+      "rank": 25,
+      "paper_id": "8a9f0d1d-8ace-5f1f-a7d5-2fb08e8cca1a",
+      "title": "Systematic Generalization with Edge Transformers",
+      "score": 0.014832285115303982
+    },
+    {
+      "rank": 26,
+      "paper_id": "554a4051-77cb-53d7-9cd8-68e669dc691f",
+      "title": "Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks",
+      "score": 0.014642026363401395
+    },
+    {
+      "rank": 27,
+      "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+      "title": "Language Models are Few-Shot Learners",
+      "score": 0.014456909739928608
+    },
+    {
+      "rank": 28,
+      "paper_id": "bf98125a-d432-5f0e-aad1-7d6c94e704f8",
+      "title": "On the Universality of Invariant Networks",
+      "score": 0.014276729559748428
+    },
+    {
+      "rank": 29,
+      "paper_id": "569d04f2-2c43-5d67-b7a9-bee23a2c7b33",
+      "title": "Looped Transformers as Programmable Computers",
+      "score": 0.014276729559748428
+    },
+    {
+      "rank": 30,
+      "paper_id": "5df5470f-d1ab-5390-b37e-269ccc7e9ada",
+      "title": "Attention Meets Post-hoc Interpretability: A Mathematical Perspective",
+      "score": 0.014101290963257199
+    },
+    {
+      "rank": 31,
+      "paper_id": "e2b4968b-4da4-5730-b032-7fd25e9be170",
+      "title": "AStructural Probe for Finding Syntax in Word Representations",
+      "score": 0.014101290963257199
+    },
+    {
+      "rank": 32,
+      "paper_id": "f6a1f348-ead8-52c7-9cf3-673ec08e0d5c",
+      "title": "On the equivalence between graph isomorphism testing and function approximation with GNNs",
+      "score": 0.013930409213428082
+    },
+    {
+      "rank": 33,
+      "paper_id": "ded38392-2824-5663-a7cc-9535977461c3",
+      "title": "The Expressive Power of Transformers with Chain of Thought",
+      "score": 0.013930409213428082
+    },
+    {
+      "rank": 34,
+      "paper_id": "bbc91939-309b-510a-9451-15083c36b252",
+      "title": "On Identifiability in Transformers",
+      "score": 0.013763909046927914
+    },
+    {
+      "rank": 35,
+      "paper_id": "e9d94c45-fec8-5c86-82d1-91964493fae5",
+      "title": "Universal Invariant and Equivariant Graph Neural Networks",
+      "score": 0.013763909046927914
+    },
+    {
+      "rank": 36,
+      "paper_id": "20325f6c-47d9-5286-a1dc-4408cb3d2a89",
+      "title": "Towards a Theoretical Understanding of the 'Reversal Curse' via Training Dynamics",
+      "score": 0.01360162407451636
+    },
+    {
+      "rank": 37,
+      "paper_id": "33220205-d9e6-5b74-842a-049f9113aa3f",
+      "title": "What graph neural networks cannot learn: depth vs width",
+      "score": 0.01360162407451636
+    },
+    {
+      "rank": 38,
+      "paper_id": "21e90331-121d-5888-ba37-1b333a59cb62",
+      "title": "Prompting a Pretrained Transformer Can Be a Universal Approximator",
+      "score": 0.013443396226415095
+    },
+    {
+      "rank": 39,
+      "paper_id": "79d362fb-0115-5d4e-accb-7cd785ed4bc5",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "score": 0.013289075238760772
+    },
+    {
+      "rank": 40,
+      "paper_id": "6d0791e8-c9c7-520a-b406-e6d174f14229",
+      "title": "Transformers are uninterpretable with myopic methods: a case study with bounded Dyck grammars",
+      "score": 0.013289075238760772
+    },
+    {
+      "rank": 41,
+      "paper_id": "8cece362-ac2e-543f-b38e-56c1ad3772f7",
+      "title": "Size and Depth Separation in Approximating Benign Functions with Neural Networks",
+      "score": 0.013138518177634607
+    },
+    {
+      "rank": 42,
+      "paper_id": "b3432c6c-bcc3-5b42-8016-bd9327641882",
+      "title": "Chain of Thought Empowers Transformers to Solve Inherently Serial Problems",
+      "score": 0.013138518177634607
+    },
+    {
+      "rank": 43,
+      "paper_id": "1c237b72-aac4-5a02-9789-80a769f61359",
+      "title": "Transformers, parallel computation, and logarithmic depth",
+      "score": 0.012991588997499432
+    },
+    {
+      "rank": 44,
+      "paper_id": "86e03a03-3d2c-5bcf-b45f-7f186b5eb158",
+      "title": "Exponentially Improving the Complexity of Simulating the Weisfeiler-Lehman Test with Graph Neural Networks",
+      "score": 0.012848158131176998
+    },
+    {
+      "rank": 45,
+      "paper_id": "e22d106e-b061-534d-b8a8-e5b23f1a6b22",
+      "title": "Algebraic Positional Encodings",
+      "score": 0.012848158131176998
+    },
+    {
+      "rank": 46,
+      "paper_id": "6c4588cf-e3bb-511b-8d1a-a19fa629baa6",
+      "title": "Learning to Solve Constraint Satisfaction Problems with Recurrent Transformer",
+      "score": 0.012708102108768035
+    },
+    {
+      "rank": 47,
+      "paper_id": "02a0464e-746d-520f-bc16-8d0e5b7ee20c",
+      "title": "CAT-probing: A Metric-based Approach to Interpret How Pre-trained Models for Programming Language Attend Code Structure",
+      "score": 0.012708102108768035
+    },
+    {
+      "rank": 48,
+      "paper_id": "b4601e00-1b8d-5570-89cd-7e0b1408d0e6",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "score": 0.01257130320315928
+    },
+    {
+      "rank": 49,
+      "paper_id": "fe25bda7-463e-560d-a0b7-e21534f91c7a",
+      "title": "Recurrent Graph Neural Networks and Their Connections to Bisimulation and Logic",
+      "score": 0.01257130320315928
+    },
+    {
+      "rank": 50,
+      "paper_id": "fe184618-82b7-5ad2-9afd-3eb8e0d548f0",
+      "title": "Simulating weighted automata over sequences and trees with transformers",
+      "score": 0.012437649099978312
+    }
+  ],
+  "overlap": {
+    "semantic_vs_graph_jaccard": 0.087,
+    "semantic_vs_fused_jaccard": 0.449,
+    "graph_vs_fused_jaccard": 0.37,
+    "graph_only_papers": [
+      {
+        "paper_id": "6f22d4e3-50fd-56b1-8da9-bb7aa0e9453c",
+        "title": "Connecting Weighted Automata and Recurrent Neural Networks through Spectral Learning"
+      },
+      {
+        "paper_id": "9e2f8712-6a88-5f0f-b01c-0acb2054af83",
+        "title": "Deep Models of Interactions Across Sets"
+      },
+      {
+        "paper_id": "cf7f2c6e-79a5-5c79-9e05-a2f4463b724f",
+        "title": "Universal Transformers"
+      },
+      {
+        "paper_id": "0ea739ed-db1d-56e2-99d4-534fcfc66f34",
+        "title": "On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups"
+      },
+      {
+        "paper_id": "a28c6d44-eab8-5437-bc76-6e0afda75e32",
+        "title": "Learning Deep Transformer Models for Machine Translation"
+      },
+      {
+        "paper_id": "d59cddda-ff18-5371-b940-29ea041486cb",
+        "title": "Neural Execution Engines: Learning to Execute Subroutines"
+      },
+      {
+        "paper_id": "86e03a03-3d2c-5bcf-b45f-7f186b5eb158",
+        "title": "Exponentially Improving the Complexity of Simulating the Weisfeiler-Lehman Test with Graph Neural Networks"
+      },
+      {
+        "paper_id": "f80f23a6-39e9-59a5-a498-e3cbe08c4ea2",
+        "title": "Effects of Parameter Norm Growth During Transformer Training: Inductive Bias from Gradient Descent"
+      },
+      {
+        "paper_id": "71d79b8e-e6a0-59b6-a4ce-9bf50874c53a",
+        "title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention"
+      },
+      {
+        "paper_id": "cf79a687-0753-5f26-84ad-e0c8be837109",
+        "title": "A Tensorized Transformer for Language Modeling"
+      },
+      {
+        "paper_id": "95cdf65c-7a8d-585f-b339-10bd88af8eff",
+        "title": "RNNs can generate bounded hierarchical languages with optimal memory"
+      },
+      {
+        "paper_id": "33220205-d9e6-5b74-842a-049f9113aa3f",
+        "title": "What graph neural networks cannot learn: depth vs width"
+      },
+      {
+        "paper_id": "2b8b6ab0-1c98-5850-99c5-cda44f87d0f7",
+        "title": "How Can Self-Attention Networks RecognizeDyck-n Languages?"
+      },
+      {
+        "paper_id": "7d89e644-7656-5751-8eda-ed6a90f9e13c",
+        "title": "Approximation Ratios of Graph Neural Networks for Combinatorial Problems"
+      },
+      {
+        "paper_id": "bf98125a-d432-5f0e-aad1-7d6c94e704f8",
+        "title": "On the Universality of Invariant Networks"
+      },
+      {
+        "paper_id": "957b7f6c-3f6a-5943-b7e5-b40836a659f7",
+        "title": "Self-Attention with Relative Position Representations"
+      },
+      {
+        "paper_id": "19827d5b-0dd4-5a39-be98-335f25943a85",
+        "title": "Large Language Models are Zero-Shot Reasoners"
+      },
+      {
+        "paper_id": "44925cdd-e91c-5e61-8ce4-1b62c139f371",
+        "title": "Improving Transformer Models by Reordering their Sublayers"
+      },
+      {
+        "paper_id": "a1ea9096-f4df-5d0f-be6c-c90f4fd87c3b",
+        "title": "BridgingCNNs,RNNs, and Weighted Finite-State Machines"
+      },
+      {
+        "paper_id": "f6a1f348-ead8-52c7-9cf3-673ec08e0d5c",
+        "title": "On the equivalence between graph isomorphism testing and function approximation with GNNs"
+      },
+      {
+        "paper_id": "f69adf6e-9f2b-5a9f-a5e1-abd852370d4d",
+        "title": "The Logical Expressiveness of Graph Neural Networks"
+      },
+      {
+        "paper_id": "8cece362-ac2e-543f-b38e-56c1ad3772f7",
+        "title": "Size and Depth Separation in Approximating Benign Functions with Neural Networks"
+      },
+      {
+        "paper_id": "e2b4968b-4da4-5730-b032-7fd25e9be170",
+        "title": "AStructural Probe for Finding Syntax in Word Representations"
+      },
+      {
+        "paper_id": "4f8f040a-d935-52f3-a2a5-12dcd55f92a4",
+        "title": "On the Turing Completeness of Modern Neural Network Architectures"
+      },
+      {
+        "paper_id": "068f9070-c433-5662-922d-f3126a91d260",
+        "title": "Big Bird: Transformers for Longer Sequences"
+      },
+      {
+        "paper_id": "79d362fb-0115-5d4e-accb-7cd785ed4bc5",
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+      },
+      {
+        "paper_id": "27486595-0da2-5ba3-92a9-ca4b28796f98",
+        "title": "Invariant and Equivariant Graph Networks"
+      },
+      {
+        "paper_id": "cf342589-09f9-5069-8981-e2892c140950",
+        "title": "Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples"
+      },
+      {
+        "paper_id": "b4601e00-1b8d-5570-89cd-7e0b1408d0e6",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+      },
+      {
+        "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+        "title": "Language Models are Few-Shot Learners"
+      },
+      {
+        "paper_id": "23985d7a-8809-581e-acfc-e5c4570653a1",
+        "title": "A Formal Hierarchy ofRNNArchitectures"
+      },
+      {
+        "paper_id": "3d437f44-2eab-56a6-b668-70dd08f42d15",
+        "title": "The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation"
+      },
+      {
+        "paper_id": "554a4051-77cb-53d7-9cd8-68e669dc691f",
+        "title": "Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks"
+      },
+      {
+        "paper_id": "6a1b3555-c1e9-543c-96be-1837b205a434",
+        "title": "Are Transformers universal approximators of sequence-to-sequence functions?"
+      },
+      {
+        "paper_id": "23833fc9-4da1-5663-ae86-9353662185e3",
+        "title": "How Powerful are Graph Neural Networks?"
+      },
+      {
+        "paper_id": "e9d94c45-fec8-5c86-82d1-91964493fae5",
+        "title": "Universal Invariant and Equivariant Graph Neural Networks"
+      },
+      {
+        "paper_id": "02a0464e-746d-520f-bc16-8d0e5b7ee20c",
+        "title": "CAT-probing: A Metric-based Approach to Interpret How Pre-trained Models for Programming Language Attend Code Structure"
+      },
+      {
+        "paper_id": "bcd1fba8-030b-54e5-b883-f3b142b3c7f7",
+        "title": "ETC: Encoding Long and Structured Inputs in Transformers"
+      },
+      {
+        "paper_id": "8d7a7947-1f99-5431-b75b-6b386b179780",
+        "title": "On the Practical Computational Power of Finite PrecisionRNNs for Language Recognition"
+      },
+      {
+        "paper_id": "564387a7-8b83-55e0-a95b-5897035575b5",
+        "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library"
+      },
+      {
+        "paper_id": "24d7482a-91e1-59ad-857d-c5af78257803",
+        "title": "Attention is Turing-Complete"
+      },
+      {
+        "paper_id": "25fea28a-4a5b-54c4-9884-68078e6f4df3",
+        "title": "Saccader: Improving Accuracy of Hard Attention Models for Vision"
+      }
+    ]
+  }
+}

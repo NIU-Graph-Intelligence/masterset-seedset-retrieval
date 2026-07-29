@@ -20,6 +20,7 @@ from ppr_retrieval import load_graph, ppr_retrieve
 load_dotenv()
 DATA_DIR = Path(os.getenv("DATA_DIR", "data"))
 OUTPUT_DIR = Path("output")
+RESULTS_DIR = OUTPUT_DIR / "fusion_results"
 TRAIN_PARQUET = DATA_DIR / "train_v1.2.parquet"
 TOP_K = 50
 
@@ -27,16 +28,13 @@ TOP_K = 50
 def reciprocal_rank_fusion(semantic_results, graph_results, k=60):
     semantic_ranks = {pid: rank for rank, (pid, _) in enumerate(semantic_results, 1)}
     graph_ranks = {pid: rank for rank, (pid, _) in enumerate(graph_results, 1)}
-
     all_papers = set(semantic_ranks.keys()) | set(graph_ranks.keys())
     default_rank = 1000
-
     fused = {}
     for pid in all_papers:
         sem_rank = semantic_ranks.get(pid, default_rank)
         graph_rank = graph_ranks.get(pid, default_rank)
         fused[pid] = 1.0 / (k + sem_rank) + 1.0 / (k + graph_rank)
-
     return sorted(fused.items(), key=lambda x: -x[1])
 
 
@@ -50,6 +48,39 @@ def print_results(results, pid_to_title, top_n=10):
     for rank, (pid, score) in enumerate(results[:top_n], 1):
         title = pid_to_title.get(pid, "[unknown]")
         print(f"  {rank:2d}. [{score:.6f}] {title[:70]}")
+
+
+def save_json(query_name, semantic, graph, fused, pid_to_title):
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    filename = query_name.lower().replace(" ", "_").replace(":", "").replace("/", "") + "_fusion.json"
+
+    def to_list(results):
+        return [{"rank": i+1, "paper_id": pid, "title": pid_to_title.get(pid, "[unknown]"), "score": score}
+                for i, (pid, score) in enumerate(results)]
+
+    sem_set = set(pid for pid, _ in semantic)
+    graph_set = set(pid for pid, _ in graph)
+    fused_set = set(pid for pid, _ in fused)
+
+    data = {
+        "query": query_name,
+        "semantic_only": to_list(semantic),
+        "graph_only": to_list(graph),
+        "fused_rrf": to_list(fused),
+        "overlap": {
+            "semantic_vs_graph_jaccard": round(jaccard(sem_set, graph_set), 3),
+            "semantic_vs_fused_jaccard": round(jaccard(sem_set, fused_set), 3),
+            "graph_vs_fused_jaccard": round(jaccard(graph_set, fused_set), 3),
+            "graph_only_papers": [
+                {"paper_id": pid, "title": pid_to_title.get(pid, "[unknown]")}
+                for pid in graph_set - sem_set
+            ],
+        }
+    }
+
+    with open(RESULTS_DIR / filename, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"  Saved to {RESULTS_DIR / filename}")
 
 
 SEED_SETS = {
@@ -99,7 +130,6 @@ SEED_SETS = {
     ],
 }
 
-# seed IDs for PPR (from dataset)
 SEED_IDS = {
     "Query 1: Neural Algorithmic Reasoning": [
         "0133e9c0-f893-5504-b8c1-b7b05d869d95",
@@ -140,18 +170,14 @@ if __name__ == "__main__":
         print(f"{query_name}")
         print(f"{'='*70}")
 
-        # semantic retrieval (mean)
         seed_embs = embed_seeds(seed_texts, tokenizer, model)
         semantic_results = retrieve(seed_embs, aggregate_mean, train_embs, train_pids, k=TOP_K)
 
-        # graph retrieval (ppr)
         seed_ids = SEED_IDS[query_name]
         graph_results = ppr_retrieve(G, seed_ids, top_k=TOP_K)
 
-        # fused
         fused_results = reciprocal_rank_fusion(semantic_results, graph_results)[:TOP_K]
 
-        # compare
         sem_set = set(pid for pid, _ in semantic_results)
         graph_set = set(pid for pid, _ in graph_results)
         fused_set = set(pid for pid, _ in fused_results)
@@ -170,11 +196,12 @@ if __name__ == "__main__":
         print(f"  Semantic vs Fused Jaccard: {jaccard(sem_set, fused_set):.3f}")
         print(f"  Graph vs Fused Jaccard:    {jaccard(graph_set, fused_set):.3f}")
 
-        # papers only graph finds
         graph_only = graph_set - sem_set
         print(f"\n-- Papers PPR finds that semantic misses ({len(graph_only)}) --")
         for pid in list(graph_only)[:5]:
             title = pid_to_title.get(pid, "[unknown]")
             print(f"    - {title[:70]}")
+
+        save_json(query_name, semantic_results, graph_results, fused_results, pid_to_title)
 
     print("\nDone!")
