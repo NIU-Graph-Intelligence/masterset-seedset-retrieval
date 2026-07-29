@@ -61,38 +61,19 @@ if __name__ == "__main__":
     G = load_graph()
     pid_to_title = load_titles()
 
-    # dr zhang's seed sets 
-    # since seeds aren't in our dataset we test with papers we know are in it
-    # using top papers from semantic results as proxy seeds for testing
-    test_seeds = {
-        "Query 1: Neural Algorithmic Reasoning": [
-            "0133e9c0-f893-5504-b8c1-b7b05d869d95",
-            "5bf0c02f-8ed2-5e97-9161-541558feab35",
-            "dfbeee5c-e0e2-5942-9441-280635e57976",
-            "1bc7f6e0-b0ae-5038-8787-5c119e4af13f",
-            "b72c39fd-bd6f-5725-95df-9a2039c6c3a3",
-        ],
-        "Query 2: LLM Memory": [
-            "a8527971-b28a-5210-85b1-19f74e267a2a",
-            "2d32d8d5-9dfc-50d5-b580-ed0f8f1e5a86",
-            "5dac5135-0eae-5666-a7de-33b5e8fbaf3c",
-            "af017fa8-28d5-5bfb-b237-696b2f85cde9",
-            "2004913a-d0b3-592e-8e33-ded71e6c16af",
-        ],
-        "Query 3: Transformer Theory": [
-            "be37ea0d-a72f-5e0f-9faf-cf49e6bdfa6a",
-            "1c06ca82-15a9-57f7-a022-152aec8d56eb",
-            "625418d7-8628-5405-9b15-65a996001fa1",
-            "0c1590eb-b25c-59a0-bb7a-ef483498a5b6",
-        ],
-    }
+    # test different alpha values on query 3 (most seeds in graph)
+    seed_ids = [
+        "be37ea0d-a72f-5e0f-9faf-cf49e6bdfa6a",
+        "1c06ca82-15a9-57f7-a022-152aec8d56eb",
+        "625418d7-8628-5405-9b15-65a996001fa1",
+        "0c1590eb-b25c-59a0-bb7a-ef483498a5b6",
+    ]
 
-    for query_name, seed_ids in test_seeds.items():
+    for alpha in [0.10, 0.15, 0.20]:
         print(f"\n{'='*60}")
-        print(f"{query_name}")
+        print(f"Query 3: Transformer Theory — alpha={alpha}")
         print(f"{'='*60}")
-        results = ppr_retrieve(G, seed_ids)
-        print(f"  Top 10 results:")
-        for rank, (pid, score) in enumerate(results[:10], 1):
+        results = ppr_retrieve(G, seed_ids, alpha=alpha, top_k=10)
+        for rank, (pid, score) in enumerate(results, 1):
             title = pid_to_title.get(pid, "[unknown]")
             print(f"  {rank:2d}. [{score:.6f}] {title[:70]}")

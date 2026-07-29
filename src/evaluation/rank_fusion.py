@@ -128,6 +128,18 @@ SEED_SETS = {
         ("Tighter Bounds on the Expressivity of Transformer Encoders",
          "A variant of first-order logic with counting quantifiers bounds transformer encoders."),
     ],
+    "Mixed Set: RL + Formal Language + Efficient Transformers": [
+    ("Expected Policy Gradients",
+     "We derive expected policy gradients extending REINFORCE by marginalizing over actions."),
+    ("Distributed Distributional Deterministic Policy Gradients",
+     "A distributed distributional approach to continuous control with deep reinforcement learning."),
+    ("Representing Formal Languages: A Comparison Between Finite Automata and Recurrent Neural Networks",
+     "We compare finite automata and recurrent neural networks for representing formal languages."),
+    ("On the Ability and Limitations of Transformers to Recognize Formal Languages",
+     "We study which formal languages transformers can recognize."),
+    ("Reformer: The Efficient Transformer",
+     "We introduce the Reformer using locality-sensitive hashing attention for long sequences."),
+],
 }
 
 SEED_IDS = {
@@ -156,6 +168,13 @@ SEED_IDS = {
         "625418d7-8628-5405-9b15-65a996001fa1",
         "0c1590eb-b25c-59a0-bb7a-ef483498a5b6",
     ],
+    "Mixed Set: RL + Formal Language + Efficient Transformers": [
+    "0d9b1c91-dd00-5928-9c41-ac03dcd95cf4",
+    "763e7295-61b4-568c-ba33-737a4bcda32d",
+    "2ea01820-9d4b-5ee7-9cb8-b0652eb83ddd",
+    "108e0de2-3efb-5823-a203-eae1d32489e9",
+    "8debaa68-78cf-5326-b61d-fb730f3919f6",
+],
 }
 
 
