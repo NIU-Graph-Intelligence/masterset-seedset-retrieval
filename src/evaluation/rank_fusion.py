@@ -13,7 +13,7 @@ sys.path.append(str(Path(__file__).parent.parent / "graph"))
 
 from set_query import (
     load_embeddings, load_titles, load_specter2, embed_seeds,
-    aggregate_mean, retrieve
+    aggregate_mean, aggregate_soft_and, aggregate_max, retrieve
 )
 from ppr_retrieval import load_graph, ppr_retrieve
 
@@ -129,16 +129,28 @@ SEED_SETS = {
          "A variant of first-order logic with counting quantifiers bounds transformer encoders."),
     ],
     "Mixed Set: RL + Formal Language + Efficient Transformers": [
-    ("Expected Policy Gradients",
-     "We derive expected policy gradients extending REINFORCE by marginalizing over actions."),
-    ("Distributed Distributional Deterministic Policy Gradients",
-     "A distributed distributional approach to continuous control with deep reinforcement learning."),
-    ("Representing Formal Languages: A Comparison Between Finite Automata and Recurrent Neural Networks",
-     "We compare finite automata and recurrent neural networks for representing formal languages."),
-    ("On the Ability and Limitations of Transformers to Recognize Formal Languages",
-     "We study which formal languages transformers can recognize."),
-    ("Reformer: The Efficient Transformer",
-     "We introduce the Reformer using locality-sensitive hashing attention for long sequences."),
+        ("Expected Policy Gradients",
+         "We derive expected policy gradients extending REINFORCE by marginalizing over actions."),
+        ("Distributed Distributional Deterministic Policy Gradients",
+         "A distributed distributional approach to continuous control with deep reinforcement learning."),
+        ("Representing Formal Languages: A Comparison Between Finite Automata and Recurrent Neural Networks",
+         "We compare finite automata and recurrent neural networks for representing formal languages."),
+        ("On the Ability and Limitations of Transformers to Recognize Formal Languages",
+         "We study which formal languages transformers can recognize."),
+        ("Reformer: The Efficient Transformer",
+         "We introduce the Reformer using locality-sensitive hashing attention for long sequences."),
+    ],
+    "Mixed Set 2 (Graph-Compatible)": [
+    ("Global Convergence of Two-Timescale Actor-Critic for Solving Linear Quadratic Regulator",
+     "We study the global convergence of two-timescale actor-critic algorithms for solving linear quadratic regulator problems."),
+    ("Policy Gradient in Robust MDPs with Global Convergence Guarantee",
+     "We propose a policy gradient method for robust MDPs with guaranteed global convergence."),
+    ("Twins: Revisiting the Design of Spatial Attention in Vision Transformers",
+     "We revisit the design of spatial attention in vision transformers and propose Twins, a new architecture."),
+    ("Teaching Semi-Supervised Classifier via Generalized Distillation",
+     "We propose a generalized distillation framework for semi-supervised classification."),
+    ("AMRFact: Enhancing Summarization Factuality Evaluation with AMR-Driven Negative Samples",
+     "We enhance factuality evaluation of summarization using AMR-driven negative sample generation."),
 ],
 }
 
@@ -169,11 +181,18 @@ SEED_IDS = {
         "0c1590eb-b25c-59a0-bb7a-ef483498a5b6",
     ],
     "Mixed Set: RL + Formal Language + Efficient Transformers": [
-    "0d9b1c91-dd00-5928-9c41-ac03dcd95cf4",
-    "763e7295-61b4-568c-ba33-737a4bcda32d",
-    "2ea01820-9d4b-5ee7-9cb8-b0652eb83ddd",
-    "108e0de2-3efb-5823-a203-eae1d32489e9",
-    "8debaa68-78cf-5326-b61d-fb730f3919f6",
+        "0d9b1c91-dd00-5928-9c41-ac03dcd95cf4",
+        "763e7295-61b4-568c-ba33-737a4bcda32d",
+        "2ea01820-9d4b-5ee7-9cb8-b0652eb83ddd",
+        "108e0de2-3efb-5823-a203-eae1d32489e9",
+        "8debaa68-78cf-5326-b61d-fb730f3919f6",
+    ],
+    "Mixed Set 2 (Graph-Compatible)": [
+    "aa57623e-39e6-53d0-a173-5b9971aabec1",
+    "6c981e85-a9eb-52f6-a5d3-309d3f0b83e7",
+    "5f42feb8-cb1b-57aa-bf28-e4c237e77b2c",
+    "bc2e7938-a748-51a7-8c2d-611307604176",
+    "aab76fc3-3dc1-5895-8e75-fe5de66a40f0",
 ],
 }
 
@@ -222,5 +241,66 @@ if __name__ == "__main__":
             print(f"    - {title[:70]}")
 
         save_json(query_name, semantic_results, graph_results, fused_results, pid_to_title)
+
+    # ── Follow-up 3: Alpha on Q1 and Q2 ──────────────────────────────────────
+    print("\n\n" + "="*70)
+    print("FOLLOW-UP: Alpha sensitivity on Q1 and Q2")
+    print("="*70)
+
+    alpha_seeds = {
+        "Q1 Alpha Test": SEED_IDS["Query 1: Neural Algorithmic Reasoning"],
+        "Q2 Alpha Test": SEED_IDS["Query 2: LLM Memory"],
+    }
+
+    for qname, sids in alpha_seeds.items():
+        print(f"\n-- {qname} --")
+        prev_set = None
+        for alpha in [0.10, 0.15, 0.20]:
+            results = ppr_retrieve(G, sids, alpha=alpha, top_k=10)
+            curr_set = set(pid for pid, _ in results)
+            if prev_set:
+                jac = jaccard(prev_set, curr_set)
+                print(f"  alpha={alpha}: Jaccard vs previous = {jac:.3f}")
+            else:
+                print(f"  alpha={alpha}: (baseline)")
+            prev_set = curr_set
+
+    # ── Follow-up 4: RRF k values on Q3 ─────────────────────────────────────
+    print("\n\n" + "="*70)
+    print("FOLLOW-UP: RRF k values on Q3 (20, 60, 100)")
+    print("="*70)
+
+    q3_seed_embs = embed_seeds(SEED_SETS["Query 3: Transformer Theory"], tokenizer, model)
+    q3_semantic = retrieve(q3_seed_embs, aggregate_mean, train_embs, train_pids, k=TOP_K)
+    q3_graph = ppr_retrieve(G, SEED_IDS["Query 3: Transformer Theory"], top_k=TOP_K)
+
+    prev_fused_set = None
+    for k_val in [20, 60, 100]:
+        fused = reciprocal_rank_fusion(q3_semantic, q3_graph, k=k_val)[:TOP_K]
+        fused_set = set(pid for pid, _ in fused)
+        print(f"\n  k={k_val} top 5:")
+        for rank, (pid, score) in enumerate(fused[:5], 1):
+            title = pid_to_title.get(pid, "[unknown]")
+            print(f"    {rank}. {title[:65]}")
+        if prev_fused_set:
+            jac = jaccard(prev_fused_set, fused_set)
+            print(f"  Jaccard vs previous k: {jac:.3f}")
+        prev_fused_set = fused_set
+
+    # ── Follow-up 2: Other aggregation strategies in fusion ──────────────────
+    print("\n\n" + "="*70)
+    print("FOLLOW-UP: Fusion with different aggregation strategies on Q1")
+    print("="*70)
+
+    q1_seed_embs = embed_seeds(SEED_SETS["Query 1: Neural Algorithmic Reasoning"], tokenizer, model)
+    q1_graph = ppr_retrieve(G, SEED_IDS["Query 1: Neural Algorithmic Reasoning"], top_k=TOP_K)
+
+    for strat_name, strat_fn in [("Mean", aggregate_mean), ("Soft-AND", aggregate_soft_and), ("Max", aggregate_max)]:
+        sem_results = retrieve(q1_seed_embs, strat_fn, train_embs, train_pids, k=TOP_K)
+        fused = reciprocal_rank_fusion(sem_results, q1_graph)[:TOP_K]
+        print(f"\n  {strat_name} + PPR fusion top 5:")
+        for rank, (pid, score) in enumerate(fused[:5], 1):
+            title = pid_to_title.get(pid, "[unknown]")
+            print(f"    {rank}. {title[:65]}")
 
     print("\nDone!")

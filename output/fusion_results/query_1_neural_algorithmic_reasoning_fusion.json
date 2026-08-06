@@ -793,38 +793,38 @@
     },
     {
       "rank": 32,
-      "paper_id": "1c237b72-aac4-5a02-9789-80a769f61359",
-      "title": "Transformers, parallel computation, and logarithmic depth",
-      "score": 0.013763909046927914
-    },
-    {
-      "rank": 33,
       "paper_id": "2884ef20-add8-54ef-ae99-36b17cf25395",
       "title": "Self-Attention Between Datapoints: Going Beyond Individual Input-Output Pairs in Deep Learning",
       "score": 0.013763909046927914
     },
     {
-      "rank": 34,
-      "paper_id": "b083863d-1e25-50a3-90f9-44cc5de6ab1e",
-      "title": "Few-Shot Non-Parametric Learning with Deep Latent Variable Model",
-      "score": 0.01360162407451636
+      "rank": 33,
+      "paper_id": "1c237b72-aac4-5a02-9789-80a769f61359",
+      "title": "Transformers, parallel computation, and logarithmic depth",
+      "score": 0.013763909046927914
     },
     {
-      "rank": 35,
+      "rank": 34,
       "paper_id": "3a2284d0-e873-5cba-bc4c-1d9023c9fe3c",
       "title": "DNCs Require More Planning Steps",
       "score": 0.01360162407451636
     },
     {
+      "rank": 35,
+      "paper_id": "b083863d-1e25-50a3-90f9-44cc5de6ab1e",
+      "title": "Few-Shot Non-Parametric Learning with Deep Latent Variable Model",
+      "score": 0.01360162407451636
+    },
+    {
       "rank": 36,
-      "paper_id": "bd9783a4-da8c-5d4b-98a0-61a884289234",
-      "title": "Rethinking Deep Thinking: Stable Learning of Algorithms using Lipschitz Constraints",
+      "paper_id": "cec1ee7a-7ca8-5163-a370-3a037c30f929",
+      "title": "Bridging Machine Learning and Logical Reasoning by Abductive Learning",
       "score": 0.013443396226415095
     },
     {
       "rank": 37,
-      "paper_id": "cec1ee7a-7ca8-5163-a370-3a037c30f929",
-      "title": "Bridging Machine Learning and Logical Reasoning by Abductive Learning",
+      "paper_id": "bd9783a4-da8c-5d4b-98a0-61a884289234",
+      "title": "Rethinking Deep Thinking: Stable Learning of Algorithms using Lipschitz Constraints",
       "score": 0.013443396226415095
     },
     {
@@ -841,14 +841,14 @@
     },
     {
       "rank": 40,
-      "paper_id": "d7f0b471-f8bb-5491-98f8-d664840905e0",
-      "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+      "paper_id": "c704c010-20a7-5083-8384-7374ad793b21",
+      "title": "SATNet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver",
       "score": 0.013138518177634607
     },
     {
       "rank": 41,
-      "paper_id": "c704c010-20a7-5083-8384-7374ad793b21",
-      "title": "SATNet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver",
+      "paper_id": "d7f0b471-f8bb-5491-98f8-d664840905e0",
+      "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
       "score": 0.013138518177634607
     },
     {
@@ -889,14 +889,14 @@
     },
     {
       "rank": 48,
-      "paper_id": "fc5b577c-80d3-517a-8952-91d2978591c3",
-      "title": "LIME: Learning Inductive Bias for Primitives of Mathematical Reasoning",
+      "paper_id": "88c93611-8561-5dae-8315-b5b802ee134c",
+      "title": "Stable-Baselines3: Reliable Reinforcement Learning Implementations",
       "score": 0.012437649099978312
     },
     {
       "rank": 49,
-      "paper_id": "88c93611-8561-5dae-8315-b5b802ee134c",
-      "title": "Stable-Baselines3: Reliable Reinforcement Learning Implementations",
+      "paper_id": "fc5b577c-80d3-517a-8952-91d2978591c3",
+      "title": "LIME: Learning Inductive Bias for Primitives of Mathematical Reasoning",
       "score": 0.012437649099978312
     },
     {
@@ -912,84 +912,12 @@
     "graph_vs_fused_jaccard": 0.408,
     "graph_only_papers": [
       {
-        "paper_id": "19092f07-064c-51aa-9632-aa963f6603e8",
-        "title": "On the Bottleneck of Graph Neural Networks and its Practical Implications"
+        "paper_id": "22e7eab9-8c33-511f-8adc-3c07e0622ead",
+        "title": "AlphaHoldem: High-Performance Artificial Intelligence for Heads-Up No-Limit Poker via End-to-End Reinforcement Learning"
       },
       {
-        "paper_id": "e24566d5-1059-57e7-932d-4c9755a61f4e",
-        "title": "Teaching Arithmetic to Small Transformers"
-      },
-      {
-        "paper_id": "b497343b-d566-5bb9-9891-3c3670660a07",
-        "title": "What Algorithms can Transformers Learn? A Study in Length Generalization"
-      },
-      {
-        "paper_id": "94e03e7f-3048-5416-aa67-812805787628",
-        "title": "Distributional Reinforcement Learning With Quantile Regression"
-      },
-      {
-        "paper_id": "db484ad3-9246-5eed-9fee-1933b7d5eeb4",
-        "title": "Addressing Function Approximation Error in Actor-Critic Methods"
-      },
-      {
-        "paper_id": "e072f335-aff6-5e4b-abfe-c13ed1d04053",
-        "title": "Decoupled Weight Decay Regularization"
-      },
-      {
-        "paper_id": "89943796-7c5e-56a2-a7f8-681a39c8f894",
-        "title": "How to transfer algorithmic reasoning knowledge to learn new algorithms?"
-      },
-      {
-        "paper_id": "6a1b3555-c1e9-543c-96be-1837b205a434",
-        "title": "Are Transformers universal approximators of sequence-to-sequence functions?"
-      },
-      {
-        "paper_id": "1b5bd218-eb4f-5886-b967-1b5c7c407025",
-        "title": "Scalable and Effective Implicit Graph Neural Networks on Large Graphs"
-      },
-      {
-        "paper_id": "adb3abfc-2d11-5282-ba6e-b0f7aa49481f",
-        "title": "Reward is enough for convex MDPs"
-      },
-      {
-        "paper_id": "c48bcd7f-9f54-541e-b3b7-fbd2f2c2204b",
-        "title": "Learning to Configure Computer Networks with Neural Algorithmic Reasoning"
-      },
-      {
-        "paper_id": "88c93611-8561-5dae-8315-b5b802ee134c",
-        "title": "Stable-Baselines3: Reliable Reinforcement Learning Implementations"
-      },
-      {
-        "paper_id": "564387a7-8b83-55e0-a95b-5897035575b5",
-        "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library"
-      },
-      {
-        "paper_id": "1c49873d-58c0-5583-b24c-75b2ac386f6c",
-        "title": "Pointer Graph Networks"
-      },
-      {
-        "paper_id": "c3ae80b3-6839-5a87-97d0-a021a6209bf9",
-        "title": "Scaling Vision Transformers to 22 Billion Parameters"
-      },
-      {
-        "paper_id": "b083863d-1e25-50a3-90f9-44cc5de6ab1e",
-        "title": "Few-Shot Non-Parametric Learning with Deep Latent Variable Model"
-      },
-      {
-        "paper_id": "c17261d3-2d5e-5d1c-b4cc-8285f21a12eb",
-        "title": "Locality-Aware Graph Rewiring in GNNs"
-      },
-      {
-        "paper_id": "d8ff2ab1-3747-5527-b9d7-67a62a0c3d0a",
-        "title": "Deep Equilibrium Models"
-      },
-      {
-        "paper_id": "9c3cd153-8077-5d54-a1f0-612d1a9d8438",
-        "title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice"
-      },
-      {
-        "paper_id": "d7f0b471-f8bb-5491-98f8-d664840905e0",
-        "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor"
+        "paper_id": "271e07a0-3293-5ca8-ba0b-5378224087f9",
+        "title": "Provably Good Solutions to the Knapsack Problem via Neural Networks of Bounded Size"
       },
       {
         "paper_id": "bb256381-1257-58cc-8230-8487564418de",
@@ -1000,80 +928,152 @@
         "title": "FoSR: First-order spectral rewiring for addressing oversquashing in GNNs"
       },
       {
-        "paper_id": "93ed632f-a138-501f-954c-9b335142dd1f",
-        "title": "Representation Learning on Graphs with Jumping Knowledge Networks"
+        "paper_id": "c3ae80b3-6839-5a87-97d0-a021a6209bf9",
+        "title": "Scaling Vision Transformers to 22 Billion Parameters"
+      },
+      {
+        "paper_id": "1c49873d-58c0-5583-b24c-75b2ac386f6c",
+        "title": "Pointer Graph Networks"
+      },
+      {
+        "paper_id": "c48bcd7f-9f54-541e-b3b7-fbd2f2c2204b",
+        "title": "Learning to Configure Computer Networks with Neural Algorithmic Reasoning"
       },
       {
         "paper_id": "14f04c7b-289f-5b70-8385-f966306b24e5",
         "title": "Neural Algorithmic Reasoners are Implicit Planners"
       },
       {
-        "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
-        "title": "Language Models are Few-Shot Learners"
-      },
-      {
-        "paper_id": "5126718a-e3de-55e9-93bf-5ca740a2e54b",
-        "title": "Agent57: Outperforming the Atari Human Benchmark"
-      },
-      {
-        "paper_id": "9b0d052d-686c-5fe6-a11b-8af8740d2a84",
-        "title": "Understanding Deep Neural Networks with Rectified Linear Units"
-      },
-      {
-        "paper_id": "2070ff9a-9d56-5346-ae49-ff626b505e20",
-        "title": "Towards Scale-Invariant Graph-related Problem Solving by Iterative Homogeneous GNNs"
-      },
-      {
-        "paper_id": "22e7eab9-8c33-511f-8adc-3c07e0622ead",
-        "title": "AlphaHoldem: High-Performance Artificial Intelligence for Heads-Up No-Limit Poker via End-to-End Reinforcement Learning"
-      },
-      {
-        "paper_id": "271e07a0-3293-5ca8-ba0b-5378224087f9",
-        "title": "Provably Good Solutions to the Knapsack Problem via Neural Networks of Bounded Size"
-      },
-      {
-        "paper_id": "9b97335d-94d5-59c4-9f76-10b1e369ebc0",
-        "title": "Exphormer: Sparse Transformers for Graphs"
-      },
-      {
-        "paper_id": "2558be9b-3cef-5691-a2dd-84c6c8dc6708",
-        "title": "Understanding over-squashing and bottlenecks on graphs via curvature"
-      },
-      {
-        "paper_id": "cec1ee7a-7ca8-5163-a370-3a037c30f929",
-        "title": "Bridging Machine Learning and Logical Reasoning by Abductive Learning"
+        "paper_id": "93ed632f-a138-501f-954c-9b335142dd1f",
+        "title": "Representation Learning on Graphs with Jumping Knowledge Networks"
       },
       {
         "paper_id": "74e4d601-4f9c-59f2-86e5-d26b75159145",
         "title": "On the Connection Between MPNN and Graph Transformer"
       },
       {
+        "paper_id": "191cd3ed-4092-5494-9172-eca08f787e59",
+        "title": "Neural Logic Reinforcement Learning"
+      },
+      {
+        "paper_id": "5126718a-e3de-55e9-93bf-5ca740a2e54b",
+        "title": "Agent57: Outperforming the Atari Human Benchmark"
+      },
+      {
+        "paper_id": "564387a7-8b83-55e0-a95b-5897035575b5",
+        "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library"
+      },
+      {
+        "paper_id": "6a1b3555-c1e9-543c-96be-1837b205a434",
+        "title": "Are Transformers universal approximators of sequence-to-sequence functions?"
+      },
+      {
         "paper_id": "2884ef20-add8-54ef-ae99-36b17cf25395",
         "title": "Self-Attention Between Datapoints: Going Beyond Individual Input-Output Pairs in Deep Learning"
       },
       {
-        "paper_id": "e56bfe78-fbd6-579f-bd4a-d98391bea526",
-        "title": "Open Graph Benchmark: Datasets for Machine Learning on Graphs"
-      },
-      {
-        "paper_id": "c32e09a2-2643-57a2-aae8-a8ad1a753d89",
-        "title": "GRANOLA: Adaptive Normalization for Graph Neural Networks"
+        "paper_id": "94e03e7f-3048-5416-aa67-812805787628",
+        "title": "Distributional Reinforcement Learning With Quantile Regression"
       },
       {
         "paper_id": "748628ab-8c60-5571-a7d9-7bf59751b56e",
         "title": "Combinatorial Optimization and Reasoning with Graph Neural Networks"
       },
       {
+        "paper_id": "e072f335-aff6-5e4b-abfe-c13ed1d04053",
+        "title": "Decoupled Weight Decay Regularization"
+      },
+      {
+        "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+        "title": "Language Models are Few-Shot Learners"
+      },
+      {
+        "paper_id": "89943796-7c5e-56a2-a7f8-681a39c8f894",
+        "title": "How to transfer algorithmic reasoning knowledge to learn new algorithms?"
+      },
+      {
         "paper_id": "bf71a548-1903-5e26-ab69-da2e10676658",
         "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"
+      },
+      {
+        "paper_id": "2070ff9a-9d56-5346-ae49-ff626b505e20",
+        "title": "Towards Scale-Invariant Graph-related Problem Solving by Iterative Homogeneous GNNs"
+      },
+      {
+        "paper_id": "c32e09a2-2643-57a2-aae8-a8ad1a753d89",
+        "title": "GRANOLA: Adaptive Normalization for Graph Neural Networks"
+      },
+      {
+        "paper_id": "d7f0b471-f8bb-5491-98f8-d664840905e0",
+        "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor"
+      },
+      {
+        "paper_id": "e56bfe78-fbd6-579f-bd4a-d98391bea526",
+        "title": "Open Graph Benchmark: Datasets for Machine Learning on Graphs"
+      },
+      {
+        "paper_id": "cec1ee7a-7ca8-5163-a370-3a037c30f929",
+        "title": "Bridging Machine Learning and Logical Reasoning by Abductive Learning"
+      },
+      {
+        "paper_id": "db484ad3-9246-5eed-9fee-1933b7d5eeb4",
+        "title": "Addressing Function Approximation Error in Actor-Critic Methods"
+      },
+      {
+        "paper_id": "9b97335d-94d5-59c4-9f76-10b1e369ebc0",
+        "title": "Exphormer: Sparse Transformers for Graphs"
+      },
+      {
+        "paper_id": "9b0d052d-686c-5fe6-a11b-8af8740d2a84",
+        "title": "Understanding Deep Neural Networks with Rectified Linear Units"
+      },
+      {
+        "paper_id": "19092f07-064c-51aa-9632-aa963f6603e8",
+        "title": "On the Bottleneck of Graph Neural Networks and its Practical Implications"
+      },
+      {
+        "paper_id": "c17261d3-2d5e-5d1c-b4cc-8285f21a12eb",
+        "title": "Locality-Aware Graph Rewiring in GNNs"
+      },
+      {
+        "paper_id": "e24566d5-1059-57e7-932d-4c9755a61f4e",
+        "title": "Teaching Arithmetic to Small Transformers"
+      },
+      {
+        "paper_id": "1b5bd218-eb4f-5886-b967-1b5c7c407025",
+        "title": "Scalable and Effective Implicit Graph Neural Networks on Large Graphs"
+      },
+      {
+        "paper_id": "9c3cd153-8077-5d54-a1f0-612d1a9d8438",
+        "title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice"
+      },
+      {
+        "paper_id": "b497343b-d566-5bb9-9891-3c3670660a07",
+        "title": "What Algorithms can Transformers Learn? A Study in Length Generalization"
       },
       {
         "paper_id": "0193c857-b81b-565d-95a2-3563b50df0f2",
         "title": "Stabilizing Equilibrium Models by Jacobian Regularization"
       },
       {
-        "paper_id": "191cd3ed-4092-5494-9172-eca08f787e59",
-        "title": "Neural Logic Reinforcement Learning"
+        "paper_id": "2558be9b-3cef-5691-a2dd-84c6c8dc6708",
+        "title": "Understanding over-squashing and bottlenecks on graphs via curvature"
+      },
+      {
+        "paper_id": "b083863d-1e25-50a3-90f9-44cc5de6ab1e",
+        "title": "Few-Shot Non-Parametric Learning with Deep Latent Variable Model"
+      },
+      {
+        "paper_id": "88c93611-8561-5dae-8315-b5b802ee134c",
+        "title": "Stable-Baselines3: Reliable Reinforcement Learning Implementations"
+      },
+      {
+        "paper_id": "adb3abfc-2d11-5282-ba6e-b0f7aa49481f",
+        "title": "Reward is enough for convex MDPs"
+      },
+      {
+        "paper_id": "d8ff2ab1-3747-5527-b9d7-67a62a0c3d0a",
+        "title": "Deep Equilibrium Models"
       }
     ]
   }
