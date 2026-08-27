@@ -11,7 +11,7 @@ sys.path.append(str(Path(__file__).parent.parent / "graph"))
 
 from set_query import (
     load_embeddings, load_titles, load_specter2, embed_seeds,
-    aggregate_mean, retrieve
+    aggregate_mean, aggregate_soft_and, aggregate_max, retrieve
 )
 from ppr_retrieval import load_graph, ppr_retrieve
 from rank_fusion import reciprocal_rank_fusion
@@ -100,40 +100,11 @@ QUERIES = {
 def judge_all(method_name, paper_ids, topic_name, seed_titles, paper_map, delay=13):
     print(f"\n  Judging {method_name} ({len(paper_ids)} papers)...")
     results = []
-
     for i, pid in enumerate(paper_ids):
         info = paper_map.get(pid, {})
         title = info.get("title", "[unknown]")
         abstract = info.get("abstract", "")
-
-        # Retry temporary Gemini errors
-        max_retries = 4
-        for attempt in range(max_retries):
-            try:
-                score, justification = judge_paper(
-                    topic_name,
-                    seed_titles,
-                    title,
-                    abstract
-                )
-                break
-
-            except Exception as e:
-                if attempt < max_retries - 1:
-                    wait_time = 20 * (2 ** attempt)
-                    print(
-                      f"    Gemini error on [{i+1}/{len(paper_ids)}]: "
-                      f"{type(e).__name__}: {e}"
-                    )
-                    print(f"    Retrying in {wait_time} seconds...")
-                    time.sleep(wait_time)
-                else:
-                    print(
-                        f"    Failed after {max_retries} attempts: {title[:50]}"
-                    )
-                    score = 0
-                    justification = f"Judge failed: {type(e).__name__}"
-
+        score, justification = judge_paper(topic_name, seed_titles, title, abstract)
         results.append({
             "rank": i + 1,
             "paper_id": pid,
@@ -141,15 +112,11 @@ def judge_all(method_name, paper_ids, topic_name, seed_titles, paper_map, delay=
             "relevance_score": score,
             "justification": justification,
         })
-
-        print(
-            f"    [{i+1:2d}/{len(paper_ids)}] "
-            f"Score={score} | {title[:50]}"
-        )
-
+        print(f"    [{i+1:2d}/{len(paper_ids)}] Score={score} | {title[:50]}")
         time.sleep(delay)
-
     return results
+
+
 if __name__ == "__main__":
     train_embs, train_pids = load_embeddings()
     pid_to_title = load_titles()
@@ -169,22 +136,31 @@ if __name__ == "__main__":
         seed_ids = config["seed_ids"]
         seed_titles = [t for t, _ in seed_texts]
 
-        # get ranked lists
+        # get embeddings and ranked lists
         seed_embs = embed_seeds(seed_texts, tokenizer, model)
-        semantic = retrieve(seed_embs, aggregate_mean, train_embs, train_pids, k=TOP_K)
+        semantic_mean = retrieve(seed_embs, aggregate_mean, train_embs, train_pids, k=TOP_K)
+        semantic_softand = retrieve(seed_embs, aggregate_soft_and, train_embs, train_pids, k=TOP_K)
+        semantic_max = retrieve(seed_embs, aggregate_max, train_embs, train_pids, k=TOP_K)
         graph = ppr_retrieve(G, seed_ids, top_k=TOP_K)
-        fused = reciprocal_rank_fusion(semantic, graph)[:TOP_K]
 
-        sem_ids = [pid for pid, _ in semantic]
+        fused_mean = reciprocal_rank_fusion(semantic_mean, graph)[:TOP_K]
+        fused_softand = reciprocal_rank_fusion(semantic_softand, graph)[:TOP_K]
+        fused_max = reciprocal_rank_fusion(semantic_max, graph)[:TOP_K]
+
+        sem_ids = [pid for pid, _ in semantic_mean]
         graph_ids = [pid for pid, _ in graph]
-        fused_ids = [pid for pid, _ in fused]
+        fused_mean_ids = [pid for pid, _ in fused_mean]
+        fused_softand_ids = [pid for pid, _ in fused_softand]
+        fused_max_ids = [pid for pid, _ in fused_max]
 
-        # judge all three
-        sem_judged = judge_all("Semantic (Mean)", sem_ids, topic_name, seed_titles, paper_map, delay=0)
-        graph_judged = judge_all("Graph (PPR)", graph_ids, topic_name, seed_titles, paper_map, delay=0)
-        fused_judged = judge_all("Fused (RRF)", fused_ids, topic_name, seed_titles, paper_map, delay=0)
-        # compute metrics
-        def metrics(judged, top_k=None):
+        # judge all methods
+        sem_judged = judge_all("Semantic (Mean)", sem_ids, topic_name, seed_titles, paper_map)
+        graph_judged = judge_all("Graph (PPR)", graph_ids, topic_name, seed_titles, paper_map)
+        fused_mean_judged = judge_all("Fused Mean+PPR", fused_mean_ids, topic_name, seed_titles, paper_map)
+        fused_softand_judged = judge_all("Fused Soft-AND+PPR", fused_softand_ids, topic_name, seed_titles, paper_map)
+        fused_max_judged = judge_all("Fused Max+PPR", fused_max_ids, topic_name, seed_titles, paper_map)
+
+        def metrics(judged):
             return {
                 "avg_relevance_top10": average_relevance(judged, 10),
                 "avg_relevance_top50": average_relevance(judged, 50),
@@ -196,22 +172,30 @@ if __name__ == "__main__":
         results = {
             "query": query_name,
             "topic": topic_name,
-            "semantic": {"papers": sem_judged, "metrics": metrics(sem_judged)},
+            "semantic_mean": {"papers": sem_judged, "metrics": metrics(sem_judged)},
             "graph": {"papers": graph_judged, "metrics": metrics(graph_judged)},
-            "fused": {"papers": fused_judged, "metrics": metrics(fused_judged)},
+            "fused_mean": {"papers": fused_mean_judged, "metrics": metrics(fused_mean_judged)},
+            "fused_softand": {"papers": fused_softand_judged, "metrics": metrics(fused_softand_judged)},
+            "fused_max": {"papers": fused_max_judged, "metrics": metrics(fused_max_judged)},
         }
         all_results[query_name] = results
 
         # print summary
         print(f"\n-- Summary --")
-        for method, key in [("Semantic", "semantic"), ("Graph", "graph"), ("Fused", "fused")]:
+        for method, key in [
+            ("Semantic Mean", "semantic_mean"),
+            ("Graph PPR", "graph"),
+            ("Fused Mean+PPR", "fused_mean"),
+            ("Fused Soft-AND+PPR", "fused_softand"),
+            ("Fused Max+PPR", "fused_max"),
+        ]:
             m = results[key]["metrics"]
-            print(f"  {method}: avg@10={m['avg_relevance_top10']} avg@50={m['avg_relevance_top50']} P@10={m['precision_at_10']}")
+            print(f"  {method}: avg@10={m['avg_relevance_top10']} P@10={m['precision_at_10']}")
 
         # save
-        filename = query_name.lower().replace(" ", "_").replace(":", "").replace("/", "") + "_judged.json"
+        filename = query_name.lower().replace(" ", "_").replace(":", "").replace("/", "") + "_judged_v2.json"
         with open(RESULTS_DIR / filename, "w") as f:
             json.dump(results, f, indent=2)
         print(f"  Saved to {RESULTS_DIR / filename}")
 
-    print("\nDone!") 
+    print("\nDone!")
