@@ -44,7 +44,7 @@ def get_strategy(name):
     return strategies.get(name, aggregate_mean)
 
 
-def print_table(results, pid_to_title, paper_map, top_n=20, show_scores=True):
+def print_table(results, pid_to_title, top_n=20, show_scores=True):
     print(f"\n{'='*80}")
     print(f"{'Rank':<5} {'Title':<55} {'Ret.':<8} {'Rel.':<5}")
     print(f"{'='*80}")
@@ -58,7 +58,7 @@ def print_table(results, pid_to_title, paper_map, top_n=20, show_scores=True):
     print(f"{'='*80}")
 
 
-def run_demo(seed_file, strategy="mean", use_graph=True, use_judge=True, top_k=20):
+def run_demo(seed_file, strategy="mean", use_graph=True, use_judge=True, top_k=20, rerank=False):
     print("\n" + "="*60)
     print("MasterSet Citation Retrieval Pipeline")
     print("="*60)
@@ -87,7 +87,6 @@ def run_demo(seed_file, strategy="mean", use_graph=True, use_judge=True, top_k=2
     graph_results = []
     if use_graph and G is not None:
         print(f"\nRunning graph retrieval (PPR)...")
-        # try to find seed IDs in graph by title matching
         seed_ids_in_graph = []
         for title, _ in seed_texts:
             for pid in train_pids:
@@ -95,12 +94,16 @@ def run_demo(seed_file, strategy="mean", use_graph=True, use_judge=True, top_k=2
                 if t and title.lower()[:30] in t.lower():
                     seed_ids_in_graph.append(pid)
                     break
-        if seed_ids_in_graph:
+        if not seed_ids_in_graph:
+            print(f"  No seeds found in graph — falling back to semantic only")
+            use_graph = False
+        elif len(seed_ids_in_graph) < len(seed_texts):
+            print(f"  Found {len(seed_ids_in_graph)}/{len(seed_texts)} seeds in graph")
+            graph_results = ppr_retrieve(G, seed_ids_in_graph, top_k=max(top_k * 3, 100))
+            print(f"  Retrieved {len(graph_results)} graph candidates")
+        else:
             graph_results = ppr_retrieve(G, seed_ids_in_graph, top_k=max(top_k * 3, 100))
             print(f"  Found {len(seed_ids_in_graph)} seeds in graph, retrieved {len(graph_results)} candidates")
-        else:
-            print(f"  No seeds found in graph — skipping graph retrieval")
-            use_graph = False
 
     # fusion
     if use_graph and graph_results:
@@ -128,8 +131,15 @@ def run_demo(seed_file, strategy="mean", use_graph=True, use_judge=True, top_k=2
             print(f"  [{i+1:2d}/{len(final_results)}] Score={score} | {title[:50]}")
             time.sleep(13)
 
+        # rerank by relevance score if requested
+        if rerank:
+            print("\nReranking by relevance score...")
+            final_results = sorted(final_results, key=lambda x: x.get("relevance_score", 0), reverse=True)
+            for i, r in enumerate(final_results):
+                r["rank"] = i + 1
+
     # print results
-    print_table(final_results, pid_to_title, paper_map, top_n=top_k, show_scores=use_judge)
+    print_table(final_results, pid_to_title, top_n=top_k, show_scores=use_judge)
 
     # save
     output_path = OUTPUT_DIR / f"demo_results_{Path(seed_file).stem}.json"
@@ -138,6 +148,7 @@ def run_demo(seed_file, strategy="mean", use_graph=True, use_judge=True, top_k=2
         "strategy": strategy,
         "use_graph": use_graph,
         "use_judge": use_judge,
+        "rerank": rerank,
         "top_k": top_k,
         "results": final_results,
     }
@@ -155,6 +166,7 @@ if __name__ == "__main__":
     parser.add_argument("--no-graph", action="store_true", help="Skip graph retrieval")
     parser.add_argument("--no-judge", action="store_true", help="Skip LLM relevance scoring")
     parser.add_argument("--top-k", type=int, default=20, help="Number of results to return")
+    parser.add_argument("--rerank", action="store_true", help="Rerank results by LLM relevance score")
     args = parser.parse_args()
 
     run_demo(
@@ -162,5 +174,6 @@ if __name__ == "__main__":
         strategy=args.strategy,
         use_graph=not args.no_graph,
         use_judge=not args.no_judge,
-        top_k=args.top_k
+        top_k=args.top_k,
+        rerank=args.rerank
     )
