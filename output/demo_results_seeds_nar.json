@@ -1,0 +1,89 @@
+{
+  "topic": "Neural Algorithmic Reasoning",
+  "strategy": "mean",
+  "use_graph": true,
+  "use_judge": true,
+  "top_k": 10,
+  "results": [
+    {
+      "rank": 1,
+      "paper_id": "37e3bb67-ff5f-5a5e-8a4b-bf184146567b",
+      "retrieval_score": 0.029857397504456328,
+      "relevance_score": 4,
+      "justification": "This paper directly addresses neural algorithmic reasoning and its performance on out-of-distribution data, which aligns closely with the topics covered in the seed papers.",
+      "title": "Neural Algorithmic Reasoning with Causal Regularisation"
+    },
+    {
+      "rank": 2,
+      "paper_id": "3e79c349-2722-5bd1-b9ca-6cd4edd48434",
+      "retrieval_score": 0.029850746268656716,
+      "relevance_score": 4,
+      "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks.",
+      "title": "Neural Algorithmic Reasoning Without Intermediate Supervision"
+    },
+    {
+      "rank": 3,
+      "paper_id": "3d06d8dc-5f23-5edc-a262-eea17885db90",
+      "retrieval_score": 0.029513888888888888,
+      "relevance_score": 4,
+      "justification": "This paper directly addresses neural algorithmic reasoning using various network structures, which is closely related to the methods and research questions in the seed papers.",
+      "title": "What Can Neural Networks Reason About?"
+    },
+    {
+      "rank": 4,
+      "paper_id": "8a9fa653-e17e-5dfd-9fae-f34e48bd9436",
+      "retrieval_score": 0.029083245521601686,
+      "relevance_score": 4,
+      "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks, which is closely related to the methods and concepts discussed in the seed papers.",
+      "title": "Graph Neural Networks are Dynamic Programmers"
+    },
+    {
+      "rank": 5,
+      "paper_id": "e4a1e68e-5e3c-5df0-a599-778780b9cba1",
+      "retrieval_score": 0.028612012987012988,
+      "relevance_score": 4,
+      "justification": "This paper directly addresses neural algorithmic reasoning by discussing the benchmarking of algorithms with neural networks, which is closely related to the topics of the seed papers.",
+      "title": "The CLRS Algorithmic Reasoning Benchmark"
+    },
+    {
+      "rank": 6,
+      "paper_id": "c3c5d0dc-4769-5c63-9814-15b83ff02576",
+      "retrieval_score": 0.02639344262295082,
+      "relevance_score": 4,
+      "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks.",
+      "title": "Neural Execution of Graph Algorithms"
+    },
+    {
+      "rank": 7,
+      "paper_id": "8a7ccafe-8c36-5c4a-b729-470a5c679190",
+      "retrieval_score": 0.017336838849365915,
+      "relevance_score": 5,
+      "justification": "This paper directly addresses neural algorithmic reasoning and could be considered a seed paper itself.",
+      "title": "Open-Book Neural Algorithmic Reasoning"
+    },
+    {
+      "rank": 8,
+      "paper_id": "c48bcd7f-9f54-541e-b3b7-fbd2f2c2204b",
+      "retrieval_score": 0.01707242848447961,
+      "relevance_score": 4,
+      "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks.",
+      "title": "Learning to Configure Computer Networks with Neural Algorithmic Reasoning"
+    },
+    {
+      "rank": 9,
+      "paper_id": "7674ac80-e5b5-556e-9e88-7b14f62ecaf6",
+      "retrieval_score": 0.01707242848447961,
+      "relevance_score": 4,
+      "justification": "This paper directly addresses neural algorithmic reasoning using iterative reasoning and energy minimization, which aligns closely with the methods and goals of the seed papers.",
+      "title": "Learning Iterative Reasoning through Energy Minimization"
+    },
+    {
+      "rank": 10,
+      "paper_id": "1c49873d-58c0-5583-b24c-75b2ac386f6c",
+      "retrieval_score": 0.016816412099430966,
+      "relevance_score": 2,
+      "justification": "This paper addresses a different aspect of graph neural networks and does not directly focus on algorithmic reasoning as defined by the seed papers.",
+      "title": "Pointer Graph Networks"
+    }
+  ]
+}
