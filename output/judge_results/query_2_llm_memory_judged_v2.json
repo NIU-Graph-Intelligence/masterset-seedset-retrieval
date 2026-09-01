@@ -1,0 +1,1839 @@
+{
+  "query": "Query 2: LLM Memory",
+  "topic": "LLM Memory and Knowledge Injection",
+  "semantic_mean": {
+    "papers": [
+      {
+        "rank": 1,
+        "paper_id": "ab27a1e5-ce52-534f-acb2-95785bc59e1e",
+        "title": "When Context Leads but Parametric Memory Follows in Large Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the allocation of knowledge between local context and parametric memory in LLMs, which is closely related to the research topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 2,
+        "paper_id": "cae5422a-9da3-5394-b4f2-e6bc3c10b765",
+        "title": "Dissecting Fine-Tuning Unlearning in Large Language Models",
+        "relevance_score": 2,
+        "justification": "This paper is tangentially related as it discusses fine-tuning methods, which are mentioned in one of the seed papers, but focuses on unlearning rather than memory and knowledge injection."
+      },
+      {
+        "rank": 3,
+        "paper_id": "e9935901-7761-518d-a45b-88ffc10f4065",
+        "title": "Delving into the Reversal Curse: How Far Can Large Language Models Generalize?",
+        "relevance_score": 2,
+        "justification": "This paper explores generalization limitations in LLMs, which tangentially relates to the broader topic of memory and knowledge injection but does not directly address the methods or focus of the seed papers."
+      },
+      {
+        "rank": 4,
+        "paper_id": "359f23d8-123f-5c9c-9858-8bd300fa70c0",
+        "title": "Unveiling Factual Recall Behaviors of Large Language Models through Knowledge Neurons",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the internal mechanisms of LLMs in recalling factual knowledge, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 5,
+        "paper_id": "2c53afdf-e3cf-5059-b442-544cd5b31d0e",
+        "title": "Knowledge Circuits in Pretrained Transformers",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge injection into LLMs but does not specifically address memory or the interplay of parametric and non-parametric memory as in the seed papers."
+      },
+      {
+        "rank": 6,
+        "paper_id": "4a7541b1-cba7-5f3d-9aff-57b3cc7a9e1a",
+        "title": "On the Robustness of Editing Large Language Models",
+        "relevance_score": 3,
+        "justification": "This paper shares the methodological domain of LLMs and editing, but the focus on robustness does not directly address the memory and knowledge injection aspect central to the research topic."
+      },
+      {
+        "rank": 7,
+        "paper_id": "622f1889-5823-52bc-b4b6-4938a68e633b",
+        "title": "Linking In-context Learning in Transformers to Human Episodic Memory",
+        "relevance_score": 3,
+        "justification": "This paper explores connections between human episodic memory and in-context learning in Transformers, which shares the problem domain of memory and learning in LLMs but does not directly address knowledge injection methods or hallucinations."
+      },
+      {
+        "rank": 8,
+        "paper_id": "079680fa-fdf8-5814-9237-9ed833c4a534",
+        "title": "Knowledge Neurons in Pretrained Transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks, which is closely related to the topic of memory and knowledge injection in LLMs as it explores how factual knowledge is stored and retrieved in pretrained Transformers."
+      },
+      {
+        "rank": 9,
+        "paper_id": "596a64cb-e5a1-59cc-8a98-6d4b131121dc",
+        "title": "MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of knowledge editing in LLMs, which is closely related to the memory and knowledge injection in LLMs as discussed in the seed papers."
+      },
+      {
+        "rank": 10,
+        "paper_id": "e46d50c9-b028-55b3-956d-a9a4504c48f6",
+        "title": "Do LLMs dream of elephants (when told not to)? Latent concept association and associative memory in transformers",
+        "relevance_score": 3,
+        "justification": "This paper explores associative memory in transformers, which is related to the broader topic of memory and knowledge injection in LLMs, but does not directly focus on fine-tuning, retrieval, or hallucinations."
+      },
+      {
+        "rank": 11,
+        "paper_id": "160d5efc-023f-50ee-8c46-5b29fed9954a",
+        "title": "Implicit meta-learning may lead language models to trust more reliable sources",
+        "relevance_score": 3,
+        "justification": "This paper explores how LLMs learn to trust more reliable sources, which relates to the broader topic of knowledge injection but focuses more on a specific aspect of trust rather than memory mechanisms or explicit memory injection methods."
+      },
+      {
+        "rank": 12,
+        "paper_id": "edffab87-cec2-5e00-aa30-51505147a2b2",
+        "title": "Adaptive Chameleon  or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the behavior of LLMs when encountering knowledge conflicts, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 13,
+        "paper_id": "5a6a0635-8500-5235-a7c1-931e6487d370",
+        "title": "Memory-Based Model Editing at Scale",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the concept of model editing to inject new knowledge, which is closely related to the research topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 14,
+        "paper_id": "3814363a-df8c-58f0-aba8-acef639706f9",
+        "title": "Interactive Continual Learning: Fast and Slow Thinking",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses interactive continual learning and does not directly address memory and knowledge injection in LLMs as defined by the seed papers."
+      },
+      {
+        "rank": 15,
+        "paper_id": "887d8eb9-5db1-5edb-8a4a-8d1e78389a57",
+        "title": "Unveiling the Pitfalls of Knowledge Editing for Large Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the potential risks associated with knowledge editing in LLMs, which is closely related to the memory and knowledge injection in LLMs as discussed in the seed papers."
+      },
+      {
+        "rank": 16,
+        "paper_id": "2d32d8d5-9dfc-50d5-b580-ed0f8f1e5a86",
+        "title": "Does Fine-TuningLLMs on New Knowledge Encourage Hallucinations?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the impact of fine-tuning LLMs on new knowledge, which is a core aspect of the research topic on LLM memory and knowledge injection."
+      },
+      {
+        "rank": 17,
+        "paper_id": "dfeb2dc1-1349-5c28-83ef-9926c9102139",
+        "title": "The Cost of Scaling Down Large Language Models: Reducing Model Size Affects Memory before In-context Learning",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the effects of reducing model size on LLM capabilities, which is tangentially related to the memory and knowledge injection aspects of LLMs."
+      },
+      {
+        "rank": 18,
+        "paper_id": "a7c37853-5a10-5e55-8ed2-6ec1a82ae57a",
+        "title": "How Do Large Language Models Acquire Factual Knowledge During Pretraining?",
+        "relevance_score": 2,
+        "justification": "This paper tangentially addresses knowledge acquisition, which is related to the topic but does not specifically focus on memory or knowledge injection in LLMs."
+      },
+      {
+        "rank": 19,
+        "paper_id": "8222d350-587a-5a22-a7e0-5797cc2bc65e",
+        "title": "Encapsulating Knowledge in One Prompt",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge transfer but does not focus specifically on memory or fine-tuning LLMs."
+      },
+      {
+        "rank": 20,
+        "paper_id": "1f7480c0-5e80-5d81-b3ad-8470cf2994fb",
+        "title": "Characterizing Mechanisms for Factual Recall in Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the mechanisms of factual recall in language models, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 21,
+        "paper_id": "abc4300e-15e4-5e80-8fbc-929ac88bf5bf",
+        "title": "Knowledge Conflicts forLLMs: A Survey",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the challenges related to knowledge conflicts in LLMs, which is closely related to the memory and knowledge injection topic."
+      },
+      {
+        "rank": 22,
+        "paper_id": "40098332-58c6-555d-9b31-6212d7390429",
+        "title": "Knowledge Verification to Nip Hallucination in the Bud",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses mitigating hallucinations in LLMs, which is relevant to the seed papers that discuss knowledge injection and its potential for encouraging hallucinations."
+      },
+      {
+        "rank": 23,
+        "paper_id": "2004913a-d0b3-592e-8e33-ded71e6c16af",
+        "title": "Transformer Memory as a Differentiable Search Index",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the use of Transformer Memory as a Differentiable Search Index, which is discussed in the seed paper \"Transformer Memory as a Differentiable Search Index\"."
+      },
+      {
+        "rank": 24,
+        "paper_id": "0e4737b6-f0d8-52b5-9cf8-f67c471115cc",
+        "title": "Instruction-tuned Language Models are Better Knowledge Learners",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge injection into LLMs but focuses on a different method (instruction-tuning) compared to the seed papers that discuss fine-tuning and retrieval."
+      },
+      {
+        "rank": 25,
+        "paper_id": "c4a66a3f-4114-5707-8ebb-2031b9cdbd65",
+        "title": "R-Tuning: Instructing Large Language Models to Say \u2018IDon\u2019t Know\u2019",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses instructing LLMs to acknowledge uncertainty, which is tangentially related to the broader topic of memory and knowledge injection but does not directly address the mechanisms or methods of injecting or utilizing memory and knowledge."
+      },
+      {
+        "rank": 26,
+        "paper_id": "73bb83fd-a297-5811-b41d-fb6dfc57b61d",
+        "title": "RECKONING: Reasoning through Dynamic Knowledge Encoding",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses in-context reasoning, which is closely related to the methods of knowledge injection in LLMs discussed in the seed papers."
+      },
+      {
+        "rank": 27,
+        "paper_id": "2c038f0b-9831-52f3-a586-75c4fb8984ac",
+        "title": "Been There, Done That: Meta-Learning with Episodic Recall",
+        "relevance_score": 2,
+        "justification": "This paper focuses on meta-learning and episodic recall, which are not directly related to the specific topic of LLM memory and knowledge injection as defined by the seed papers."
+      },
+      {
+        "rank": 28,
+        "paper_id": "7d6c00ea-79bf-514f-8c6a-2b285c8c3c22",
+        "title": "Don\u2019t Hallucinate, Abstain: IdentifyingLLMKnowledge Gaps via Multi-LLMCollaboration",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of knowledge gaps in LLMs, which is closely related to the topic of injecting and managing knowledge in LLMs as discussed in the seed papers."
+      },
+      {
+        "rank": 29,
+        "paper_id": "09dcfb40-b797-5898-a716-83d11aa6b4b7",
+        "title": "Can Knowledge Graphs Reduce Hallucinations inLLMs? : A Survey",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of hallucinations in LLMs by exploring the use of knowledge graphs, which is closely related to the memory and knowledge injection methods discussed in the seed papers."
+      },
+      {
+        "rank": 30,
+        "paper_id": "70286e2c-55d4-5ce0-a1f1-70136cfd4c65",
+        "title": "Breaking through the learning plateaus of in-context learning in Transformer",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the learning plateaus in in-context learning, which is tangentially related to memory and knowledge injection in LLMs but does not directly address the topic."
+      },
+      {
+        "rank": 31,
+        "paper_id": "7fc8a858-db80-5d27-84ae-8925af64f04b",
+        "title": "PertEval: Unveiling Real Knowledge Capacity of LLMs with Knowledge-Invariant Perturbations",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the assessment of knowledge capacity in LLMs through knowledge-invariant perturbations, which is closely related to the research question of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 32,
+        "paper_id": "a8527971-b28a-5210-85b1-19f74e267a2a",
+        "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection inLLMs",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the comparison between fine-tuning and retrieval for knowledge injection in LLMs, which is central to the research topic."
+      },
+      {
+        "rank": 33,
+        "paper_id": "5f7e9de3-6f25-575f-906f-4c1cfa2d4843",
+        "title": "Rehearsal-Free Modular and Compositional Continual Learning for Language Models",
+        "relevance_score": 2,
+        "justification": "This paper focuses on continual learning and does not directly address memory and knowledge injection mechanisms in LLMs as the seed papers suggest."
+      },
+      {
+        "rank": 34,
+        "paper_id": "aecce076-b6cb-5bcb-b7b8-1dd08a96c537",
+        "title": "Adaptable and Interpretable NeuralMemoryOver Symbolic Knowledge",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks, which is closely related to the methods and problem domain of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 35,
+        "paper_id": "25ad99f4-578a-50f4-86ea-4389d26e8d4f",
+        "title": "Learning to Deceive Knowledge Graph Augmented Models via Targeted Perturbation",
+        "relevance_score": 2,
+        "justification": "This paper discusses targeted perturbation of knowledge graph augmented models, which tangentially relates to knowledge injection but does not directly address memory mechanisms or their interactions in LLMs."
+      },
+      {
+        "rank": 36,
+        "paper_id": "a6cf9604-081f-528d-8912-0a01efda5aaf",
+        "title": "Hierarchical Deconstruction ofLLMReasoning: A Graph-Based Framework for Analyzing Knowledge Utilization",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge utilization in LLMs but focuses on a different method and does not directly address memory or fine-tuning."
+      },
+      {
+        "rank": 37,
+        "paper_id": "ec2b5f61-7869-5e0c-9ff3-0443eeadf8d0",
+        "title": "The Factorization Curse: Which Tokens You Predict Underlie the Reversal Curse and More",
+        "relevance_score": 2,
+        "justification": "This paper addresses the issue of \"hallucinations\" and the \"reversal curse,\" which are related to the broader topic of LLM memory and knowledge injection but focuses more on specific issues rather than memory and knowledge injection methods."
+      },
+      {
+        "rank": 38,
+        "paper_id": "9fdd0e1e-7fe9-5b37-b8db-d3b812c87b65",
+        "title": "Self-Alignment for Factuality: Mitigating Hallucinations inLLMs via Self-Evaluation",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses mitigating hallucinations in LLMs, which is relevant to the topic of knowledge injection and memory in LLMs, especially considering the seed papers discuss knowledge injection and its potential for hallucinations."
+      },
+      {
+        "rank": 39,
+        "paper_id": "fd7de6d3-4f2e-581e-b985-2575645c2bf9",
+        "title": "Neighboring Perturbations of Knowledge Editing on Large Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of knowledge editing in LLMs, which is closely related to the memory and knowledge injection in LLMs as discussed in the seed papers."
+      },
+      {
+        "rank": 40,
+        "paper_id": "b107751e-8d3a-5d55-9fb2-da1a96b1bb98",
+        "title": "Neuro-Symbolic Continual Learning: Knowledge, Reasoning Shortcuts and Concept Rehearsal",
+        "relevance_score": 2,
+        "justification": "This paper focuses on neuro-symbolic continual learning, which is tangentially related to the memory and knowledge injection in large language models as discussed in the seed papers."
+      },
+      {
+        "rank": 41,
+        "paper_id": "732b3b5b-f040-5ac1-81f8-dcbce4538297",
+        "title": "Towards Unified Multimodal Editing with Enhanced Knowledge Collaboration",
+        "relevance_score": 2,
+        "justification": "This paper focuses on multimodal editing with knowledge collaboration, which is tangentially related to the broader topic of memory and knowledge injection in LLMs but does not directly address the specific research questions or methods outlined in the seed papers."
+      },
+      {
+        "rank": 42,
+        "paper_id": "4f27da35-9714-5532-b9c9-cc890113e6fe",
+        "title": "Navigating the Dual Facets: A Comprehensive Evaluation of Sequential Memory Editing in Large Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the methods of memory editing in LLMs, which is closely related to the topic of injecting knowledge into LLMs."
+      },
+      {
+        "rank": 43,
+        "paper_id": "2fd900a7-a946-5c3f-a3bd-d423f6f70d99",
+        "title": "KoLA: Carefully Benchmarking World Knowledge of Large Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the evaluation of world knowledge in large language models, which is relevant to the injection and memory of knowledge in LLMs as discussed in the seed papers."
+      },
+      {
+        "rank": 44,
+        "paper_id": "a55b5b3f-fd30-5e52-8b33-4bb21bff1f55",
+        "title": "Journey to the Center of the Knowledge Neurons: Discoveries of Language-Independent Knowledge Neurons and Degenerate Knowledge Neurons",
+        "relevance_score": 2,
+        "justification": "This paper focuses on understanding the storage of knowledge in pre-trained language models and does not directly address memory and knowledge injection in LLMs as defined by the seed papers."
+      },
+      {
+        "rank": 45,
+        "paper_id": "3f2da95f-1e59-5e27-819f-0178be0430d5",
+        "title": "Physics of Language Models: Part 3.1, Knowledge Storage and Extraction",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of how LLMs store and extract knowledge, which is closely related to the memory and knowledge injection aspects of the research topic."
+      },
+      {
+        "rank": 46,
+        "paper_id": "e9a7f9e3-6975-5e48-a881-834af9afc15f",
+        "title": "ClashEval: Quantifying the tug-of-war between an LLM\u2019s internal prior and external evidence",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the interaction between the LLM's internal prior and external evidence, which is closely related to the memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 47,
+        "paper_id": "95bb9921-29e6-5a34-a31a-4119f54450c3",
+        "title": "A Glitch in the Matrix? Locating and Detecting Language Model Grounding with Fakepedia",
+        "relevance_score": 2,
+        "justification": "This paper focuses on locating and detecting language model grounding with Fakepedia, which is tangentially related to the mechanisms of contextual grounding and memory in LLMs, but does not directly address memory or knowledge injection strategies."
+      },
+      {
+        "rank": 48,
+        "paper_id": "023dca49-dc54-5e56-8db3-9e2314810469",
+        "title": "Lifelong Learning of Compositional Structures",
+        "relevance_score": 2,
+        "justification": "This paper focuses on compositional learning and lifelong learning, which are tangentially related to the memory and knowledge injection in LLMs discussed in the seed papers."
+      },
+      {
+        "rank": 49,
+        "paper_id": "9d4b4169-58ee-5c32-bb5e-fbb96743a5c6",
+        "title": "Contextual Memory Trees",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the concept of memory in LLMs, specifically through the design of a Contextual Memory Tree, which aligns closely with the research on memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 50,
+        "paper_id": "16a2b1ae-14ed-5924-9b18-b1d791ebe0ec",
+        "title": "DSI++: Updating Transformer Memory with New Documents",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the problem of updating transformer memory with new documents, which is closely related to the knowledge injection and memory aspects discussed in the seed papers."
+      }
+    ],
+    "metrics": {
+      "avg_relevance_top10": 3.2,
+      "avg_relevance_top50": 3.24,
+      "precision_at_10": 0.4,
+      "precision_at_20": 0.45,
+      "distribution": {
+        "1": 0,
+        "2": 16,
+        "3": 8,
+        "4": 24,
+        "5": 2
+      }
+    }
+  },
+  "graph": {
+    "papers": [
+      {
+        "rank": 1,
+        "paper_id": "f318d26d-c6e6-5f26-83c9-370e42a19e22",
+        "title": "Language Models as Knowledge Bases?",
+        "relevance_score": 2,
+        "justification": "This paper tangentially discusses the ability of language models to store and retrieve knowledge, which is somewhat related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 2,
+        "paper_id": "39efb7f7-3bf1-59fb-b933-82dd519403a3",
+        "title": "How Much Knowledge Can You Pack Into the Parameters of a Language Model?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the scalability and utility of packing knowledge into the parameters of a language model, which is closely related to the methods discussed in the seed papers on memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 3,
+        "paper_id": "4d833d01-35c2-56b5-8c1c-6c6399f58f70",
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of knowledge injection in large language models through retrieval-augmented generation, which is closely related to the research questions posed in the seed papers."
+      },
+      {
+        "rank": 4,
+        "paper_id": "68b319a2-ff22-5cf5-ab01-0289b5d2d69c",
+        "title": "Large Language Models Struggle to Learn Long-Tail Knowledge",
+        "relevance_score": 2,
+        "justification": "This paper discusses the challenges LLMs face with long-tail knowledge, which is tangentially related to memory and knowledge injection but does not focus on the methods or mechanisms explored in the seed papers."
+      },
+      {
+        "rank": 5,
+        "paper_id": "a3dc43f3-cdfe-5302-82fd-97416009aea2",
+        "title": "Simple Entity-Centric Questions Challenge Dense Retrievers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the performance of dense retrievers on specific question types and does not directly address memory or knowledge injection methods in LLMs."
+      },
+      {
+        "rank": 6,
+        "paper_id": "d1d6f76d-33fe-5bd2-b7be-0710321bada7",
+        "title": "Locating and Editing Factual Associations in GPT",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the storage and recall of factual information in transformers, which is closely related to the memory and knowledge injection aspects discussed in the seed papers."
+      },
+      {
+        "rank": 7,
+        "paper_id": "40131455-2779-529c-8e67-3c2e3eb44fc0",
+        "title": "Training language models to follow instructions with human feedback",
+        "relevance_score": 2,
+        "justification": "This paper focuses on aligning language models with user intent through fine-tuning with human feedback, which is tangentially related to the broader topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 8,
+        "paper_id": "b4601e00-1b8d-5570-89cd-7e0b1408d0e6",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "relevance_score": 2,
+        "justification": "This candidate paper introduces BERT, which is not focused on memory or knowledge injection in LLMs, and does not address the topics outlined in the seed papers."
+      },
+      {
+        "rank": 9,
+        "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+        "title": "Language Models are Few-Shot Learners",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the scalability and few-shot learning capabilities of language models and does not address memory or knowledge injection mechanisms."
+      },
+      {
+        "rank": 10,
+        "paper_id": "47e3d597-ee0c-5654-aa6a-b2f760f12e3e",
+        "title": "Cross-Task Generalization via Natural Language Crowdsourcing Instructions",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on cross-task generalization through natural language instructions and does not directly address memory or knowledge injection mechanisms in LLMs."
+      },
+      {
+        "rank": 11,
+        "paper_id": "1f6965ca-40d0-5702-9be9-12f80b966696",
+        "title": "LIMA: Less Is More for Alignment",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the alignment of large language models through fine-tuning with a small number of prompts, which tangentially relates to the broader topic of LLM memory and knowledge injection but does not directly address the methods or questions raised in the seed papers."
+      },
+      {
+        "rank": 12,
+        "paper_id": "955a5b6b-be3d-5d7a-944f-ce3a8762f5e7",
+        "title": "When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the interplay of parametric and non-parametric memories, which is closely related to the research topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 13,
+        "paper_id": "de3563cf-c4e1-51f7-9da9-d3265b19e855",
+        "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+        "relevance_score": 2,
+        "justification": "This paper discusses methods for controlling language model behavior through direct preference optimization, which is tangentially related to knowledge injection in LLMs but does not directly address memory or the interplay between parametric and non-parametric memory as the seed papers do."
+      },
+      {
+        "rank": 14,
+        "paper_id": "1dc24202-12d7-5915-a883-e8460a49dd8c",
+        "title": "Entity-Based Knowledge Conflicts in Question Answering",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of knowledge conflicts in models, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 15,
+        "paper_id": "ffe721c3-a16b-540c-b7b0-5f0e2632e469",
+        "title": "Editing Factual Knowledge in Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the editing and correction of knowledge in language models, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 16,
+        "paper_id": "9fdabb63-951f-5723-a994-7287da2f48c4",
+        "title": "Investigating Gender Bias in Language Models Using Causal Mediation Analysis",
+        "relevance_score": 1,
+        "justification": "The candidate paper focuses on a different aspect of language models, specifically gender bias, and does not address the topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 17,
+        "paper_id": "0e7ebbb7-0a29-52b4-a8ed-327f13c71ec0",
+        "title": "Autoregressive Entity Retrieval",
+        "relevance_score": 3,
+        "justification": "This paper focuses on entity retrieval, which is related to knowledge injection, but it does not explicitly discuss LLM memory or the interplay between parametric and non-parametric memory as the seed papers suggest."
+      },
+      {
+        "rank": 18,
+        "paper_id": "f9a6680c-993a-5f82-9ba4-982d6abfa28f",
+        "title": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the use of retrieval-augmented language models, which is closely related to knowledge injection methods discussed in the seed papers."
+      },
+      {
+        "rank": 19,
+        "paper_id": "a8ee2bc8-3b06-54dc-b55b-a3ee44dd4eee",
+        "title": "Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses knowledge conflicts and how models handle conflicting evidence, which is closely related to the interplay of parametric and non-parametric memory as discussed in the seed papers."
+      },
+      {
+        "rank": 20,
+        "paper_id": "e9a7f9e3-6975-5e48-a881-834af9afc15f",
+        "title": "ClashEval: Quantifying the tug-of-war between an LLM\u2019s internal prior and external evidence",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the interaction between an LLM's internal prior and external evidence, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 21,
+        "paper_id": "147e606d-790e-52dc-8fbc-82611b24dea5",
+        "title": "Accelerating Large-Scale Inference with Anisotropic Vector Quantization",
+        "relevance_score": 2,
+        "justification": "This paper focuses on quantization techniques for accelerating large-scale inference and does not directly address memory or knowledge injection mechanisms in LLMs."
+      },
+      {
+        "rank": 22,
+        "paper_id": "6e308e58-d6fa-5ff7-af75-b7a655dd6664",
+        "title": "GLaM: Efficient Scaling of Language Models with Mixture-of-Experts",
+        "relevance_score": 2,
+        "justification": "This paper discusses the scaling of language models through a different architectural approach, which is tangential to the focus on memory and knowledge injection in LLMs as discussed in the seed papers."
+      },
+      {
+        "rank": 23,
+        "paper_id": "bf71a548-1903-5e26-ab69-da2e10676658",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses transfer learning and its unified text-to-text framework, which is tangentially related to memory and knowledge injection in LLMs, but does not directly focus on these aspects."
+      },
+      {
+        "rank": 24,
+        "paper_id": "328865dd-d83d-53d3-ae2e-7bb0f148a441",
+        "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+        "relevance_score": 2,
+        "justification": "This paper focuses on dense passage retrieval for open-domain question answering, which is tangentially related to the memory and knowledge injection in LLMs, as it involves retrieval but does not delve into fine-tuning or memory mechanisms in LLMs."
+      },
+      {
+        "rank": 25,
+        "paper_id": "26708bbf-cf69-504f-b7f5-442799bc78c3",
+        "title": "Measuring Catastrophic Forgetting in Neural Networks",
+        "relevance_score": 1,
+        "justification": "The candidate paper focuses on measuring catastrophic forgetting in neural networks, which is not directly related to the injection of memory and knowledge into LLMs as defined by the seed papers."
+      },
+      {
+        "rank": 26,
+        "paper_id": "ffd14cf1-3987-51c1-9d9f-8e1dded349c9",
+        "title": "Retrieval Augmented Language Model Pre-Training",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the concept of retrieval in the context of language model pre-training, which is closely related to knowledge injection methods discussed in the seed papers."
+      },
+      {
+        "rank": 27,
+        "paper_id": "89fade79-39aa-504d-a32a-d232ae5ca837",
+        "title": "Transformer Feed-Forward Layers Are Key-Value Memories",
+        "relevance_score": 3,
+        "justification": "This paper explores the role of feed-forward layers in transformers, which could have implications for memory mechanisms, but the focus is more on the architectural insight rather than explicitly addressing memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 28,
+        "paper_id": "5eec1f71-b085-5de0-a2b7-2e9e90045fab",
+        "title": "Improving Language Models by Retrieving from Trillions of Tokens",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the concept of knowledge injection in LLMs through retrieval mechanisms, which is closely related to the research topic."
+      },
+      {
+        "rank": 29,
+        "paper_id": "c924f7c5-cfa3-5d11-a9e0-92114fce85db",
+        "title": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+        "relevance_score": 2,
+        "justification": "This paper discusses sparsity and computational efficiency in models, which tangentially relates to the memory and knowledge injection in LLMs but does not directly address the topic."
+      },
+      {
+        "rank": 30,
+        "paper_id": "2954cf82-9951-5385-b1e7-51ad63680735",
+        "title": "Scaling Instruction-Finetuned Language Models",
+        "relevance_score": 2,
+        "justification": "This paper focuses on scaling instruction-finetuning language models, which is tangentially related to memory and knowledge injection but does not directly address the interplay of parametric and non-parametric memory or the comparison between fine-tuning and retrieval methods as the seed papers do."
+      },
+      {
+        "rank": 31,
+        "paper_id": "5fd52207-fbd2-5635-997d-1f3063a0a50c",
+        "title": "GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on scaling neural models through conditional computation and automatic sharding, which is tangentially related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 32,
+        "paper_id": "a2ae61b3-fc8e-537e-95f6-c06ed47f7404",
+        "title": "DROP: A Reading Comprehension Benchmark Requiring Discrete Reasoning Over Paragraphs",
+        "relevance_score": 2,
+        "justification": "This paper focuses on a new benchmark for reading comprehension and discrete reasoning, which is tangentially related to the broader topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 33,
+        "paper_id": "d7b3bf60-c2a3-5d86-b2ab-ebf1adef49f7",
+        "title": "Scale Efficiently: Insights from Pretraining and Finetuning Transformers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on scaling behavior of Transformers, which is tangentially related to the memory and knowledge injection in LLMs but does not directly address the research topic."
+      },
+      {
+        "rank": 34,
+        "paper_id": "322bee19-b44e-5e71-8c4f-2e784da2e907",
+        "title": "Hopfield Networks is All You Need",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses Hopfield networks and does not directly address the topic of LLM memory and knowledge injection as defined by the seed papers."
+      },
+      {
+        "rank": 35,
+        "paper_id": "417d1772-4dbd-5f3d-9d97-ea6ae3878aee",
+        "title": "SimCSE: Simple Contrastive Learning of Sentence Embeddings",
+        "relevance_score": 1,
+        "justification": "This candidate paper focuses on sentence embeddings using contrastive learning, which is not directly related to LLM memory and knowledge injection."
+      },
+      {
+        "rank": 36,
+        "paper_id": "817fe57b-b878-5a9e-83a4-f6c92d7a76a7",
+        "title": "Test-Time Training with Self-Supervision for Generalization under Distribution Shifts",
+        "relevance_score": 2,
+        "justification": "This paper focuses on improving model generalization under distribution shifts through test-time training and self-supervision, which is tangentially related to memory and knowledge injection in LLMs but does not directly address the topic."
+      },
+      {
+        "rank": 37,
+        "paper_id": "7196e483-1b36-5a17-b769-07478b57ecbb",
+        "title": "Exploring the Limits of Large Scale Pre-training",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the scaling effects of large-scale pre-training and does not specifically address memory or knowledge injection in LLMs."
+      },
+      {
+        "rank": 38,
+        "paper_id": "4317beae-1f19-5bb2-9587-d95442c7f75d",
+        "title": "GenIE: Generative Information Extraction",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on information extraction and does not directly address memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 39,
+        "paper_id": "cfbe24c4-cbdf-527c-a0ad-34bc3deff2cd",
+        "title": "WinoGrande: An Adversarial Winograd Schema Challenge at Scale",
+        "relevance_score": 2,
+        "justification": "This paper is tangentially related as it discusses neural language models and their capabilities in a specific task, but it does not focus on LLM memory or knowledge injection."
+      },
+      {
+        "rank": 40,
+        "paper_id": "2945022a-a17b-5b35-9e43-98a5d1637654",
+        "title": "Measuring Massive Multitask Language Understanding",
+        "relevance_score": 2,
+        "justification": "This paper focuses on measuring multitask language understanding across various domains, which tangentially relates to the broader topic of LLM memory and knowledge injection but does not specifically address memory or knowledge injection mechanisms."
+      },
+      {
+        "rank": 41,
+        "paper_id": "a506fe92-4837-5119-bb77-936b8375ab7d",
+        "title": "Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+NLPTasks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on task generalization through instructions, which is tangentially related to memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 42,
+        "paper_id": "b413ba25-6881-5eea-a373-42e05ac98d2a",
+        "title": "MetaICL: Learning to Learn In Context",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on meta-learning for few-shot learning and in-context learning, which is tangentially related to the topic of LLM memory and knowledge injection, but does not directly address the methods or problem domain of memory or knowledge injection in LLMs."
+      },
+      {
+        "rank": 43,
+        "paper_id": "8510f074-872f-5746-bb47-4fdf41815c28",
+        "title": "Can language models learn from explanations in context?",
+        "relevance_score": 3,
+        "justification": "This paper explores the use of explanations in improving the performance of LMs on few-shot tasks, which shares the problem domain with the research topic but does not directly address memory or knowledge injection mechanisms."
+      },
+      {
+        "rank": 44,
+        "paper_id": "5c1791f0-19de-5b37-89f8-64fab160f789",
+        "title": "Recall and Learn: Fine-tuning Deep Pretrained Language Models with Less Forgetting",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of fine-tuning LLMs but does not directly address memory or knowledge injection as described in the seed papers."
+      },
+      {
+        "rank": 45,
+        "paper_id": "51d15cd8-8c87-5ed5-9a07-491f7a8c9c9e",
+        "title": "Memorization Without Overfitting:  Analyzing the Training Dynamics of Large Language Models",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of large language models but does not directly address memory or knowledge injection methods."
+      },
+      {
+        "rank": 46,
+        "paper_id": "6775971f-dd7a-5abe-8233-9c1fcfe9b5f9",
+        "title": "The Reversal Curse: LLMs trained on \u201cA is B\u201d fail to learn \u201cB is A\u201d",
+        "relevance_score": 2,
+        "justification": "This paper discusses generalization issues in LLMs, which tangentially relates to memory and knowledge injection but does not directly address the topic."
+      },
+      {
+        "rank": 47,
+        "paper_id": "9c26363c-f3ac-50e7-b92a-42e38547c7c3",
+        "title": "Teaching Small Language Models to Reason",
+        "relevance_score": 2,
+        "justification": "This paper focuses on transferring reasoning capabilities to smaller models through knowledge distillation, which is tangentially related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 48,
+        "paper_id": "ed469445-c3e3-5fc4-a243-95089e693f6f",
+        "title": "Meta-learning via Language Model In-context Tuning",
+        "relevance_score": 2,
+        "justification": "This paper focuses on in-context tuning for meta-learning, which is tangentially related to knowledge injection in LLMs but does not directly address memory mechanisms or the interplay of parametric and non-parametric memory as in the seed papers."
+      },
+      {
+        "rank": 49,
+        "paper_id": "64b2e775-492a-5237-bb6d-8dea7381393f",
+        "title": "K-BERT: Enabling Language Representation with Knowledge Graph",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of injecting domain-specific knowledge into language models, which is closely related to the research topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 50,
+        "paper_id": "d884696e-ea73-513e-9b14-17186f4f4c7f",
+        "title": "Finetuned Language Models are Zero-Shot Learners",
+        "relevance_score": 2,
+        "justification": "This paper focuses on improving zero-shot learning abilities through instruction tuning, which is tangentially related to the broader topic of memory and knowledge injection in LLMs but does not directly address the specific methods or questions posed in the seed papers."
+      }
+    ],
+    "metrics": {
+      "avg_relevance_top10": 2.6,
+      "avg_relevance_top50": 2.52,
+      "precision_at_10": 0.3,
+      "precision_at_20": 0.45,
+      "distribution": {
+        "1": 3,
+        "2": 30,
+        "3": 5,
+        "4": 12,
+        "5": 0
+      }
+    }
+  },
+  "fused_mean": {
+    "papers": [
+      {
+        "rank": 1,
+        "paper_id": "e9a7f9e3-6975-5e48-a881-834af9afc15f",
+        "title": "ClashEval: Quantifying the tug-of-war between an LLM\u2019s internal prior and external evidence",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the interaction between an LLM's internal knowledge and external information, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 2,
+        "paper_id": "f318d26d-c6e6-5f26-83c9-370e42a19e22",
+        "title": "Language Models as Knowledge Bases?",
+        "relevance_score": 3,
+        "justification": "This paper discusses the storage of relational knowledge in language models, which is tangentially related to the memory and knowledge injection aspects in LLMs, but does not focus specifically on the interplay between fine-tuning and retrieval methods or memory mechanisms as described in the seed papers."
+      },
+      {
+        "rank": 3,
+        "paper_id": "ab27a1e5-ce52-534f-acb2-95785bc59e1e",
+        "title": "When Context Leads but Parametric Memory Follows in Large Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the interplay between local context and parametric memory in LLMs, which is closely related to the research topic on LLM memory and knowledge injection."
+      },
+      {
+        "rank": 4,
+        "paper_id": "39efb7f7-3bf1-59fb-b933-82dd519403a3",
+        "title": "How Much Knowledge Can You Pack Into the Parameters of a Language Model?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the capacity of language models to store knowledge in their parameters, which is relevant to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 5,
+        "paper_id": "cae5422a-9da3-5394-b4f2-e6bc3c10b765",
+        "title": "Dissecting Fine-Tuning Unlearning in Large Language Models",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses fine-tuning-based unlearning methods, which are not directly related to memory and knowledge injection in LLMs as the seed papers suggest."
+      },
+      {
+        "rank": 6,
+        "paper_id": "4d833d01-35c2-56b5-8c1c-6c6399f58f70",
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the use of retrieval mechanisms to augment language models for knowledge-intensive tasks, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 7,
+        "paper_id": "e9935901-7761-518d-a45b-88ffc10f4065",
+        "title": "Delving into the Reversal Curse: How Far Can Large Language Models Generalize?",
+        "relevance_score": 2,
+        "justification": "This paper discusses generalization limitations of LLMs, which is tangentially related to memory and knowledge injection, but does not directly address the topic."
+      },
+      {
+        "rank": 8,
+        "paper_id": "68b319a2-ff22-5cf5-ab01-0289b5d2d69c",
+        "title": "Large Language Models Struggle to Learn Long-Tail Knowledge",
+        "relevance_score": 3,
+        "justification": "This paper explores the knowledge memorization capabilities of large language models, which shares a problem domain with the seed papers but does not directly address memory and knowledge injection methods."
+      },
+      {
+        "rank": 9,
+        "paper_id": "359f23d8-123f-5c9c-9858-8bd300fa70c0",
+        "title": "Unveiling Factual Recall Behaviors of Large Language Models through Knowledge Neurons",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the mechanisms of knowledge recall in LLMs, which is closely related to the research topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 10,
+        "paper_id": "a3dc43f3-cdfe-5302-82fd-97416009aea2",
+        "title": "Simple Entity-Centric Questions Challenge Dense Retrievers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the performance of dense retrievers on specific types of questions and does not directly address memory or knowledge injection in LLMs."
+      },
+      {
+        "rank": 11,
+        "paper_id": "2c53afdf-e3cf-5059-b442-544cd5b31d0e",
+        "title": "Knowledge Circuits in Pretrained Transformers",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge injection in LLMs but focuses on a different aspect (knowledge circuits in pretrained transformers) rather than directly addressing memory or retrieval methods."
+      },
+      {
+        "rank": 12,
+        "paper_id": "d1d6f76d-33fe-5bd2-b7be-0710321bada7",
+        "title": "Locating and Editing Factual Associations in GPT",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the storage and recall of factual associations, which is closely related to the memory aspects discussed in the seed papers."
+      },
+      {
+        "rank": 13,
+        "paper_id": "4a7541b1-cba7-5f3d-9aff-57b3cc7a9e1a",
+        "title": "On the Robustness of Editing Large Language Models",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on the robustness of editing large language models, which is tangentially related to memory and knowledge injection in LLMs but does not directly address the interplay or mechanisms discussed in the seed papers."
+      },
+      {
+        "rank": 14,
+        "paper_id": "622f1889-5823-52bc-b4b6-4938a68e633b",
+        "title": "Linking In-context Learning in Transformers to Human Episodic Memory",
+        "relevance_score": 3,
+        "justification": "This paper explores connections between Transformer models and human episodic memory, which is somewhat related to the topic of memory and knowledge injection in LLMs, but does not directly address knowledge injection methods or their effects."
+      },
+      {
+        "rank": 15,
+        "paper_id": "40131455-2779-529c-8e67-3c2e3eb44fc0",
+        "title": "Training language models to follow instructions with human feedback",
+        "relevance_score": 2,
+        "justification": "This paper focuses on aligning language models with user intent through fine-tuning with human feedback, which is tangentially related to the broader topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 16,
+        "paper_id": "b4601e00-1b8d-5570-89cd-7e0b1408d0e6",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "relevance_score": 2,
+        "justification": "This candidate paper introduces BERT, which is foundational in the field of language understanding but does not directly address memory and knowledge injection mechanisms in LLMs."
+      },
+      {
+        "rank": 17,
+        "paper_id": "079680fa-fdf8-5814-9237-9ed833c4a534",
+        "title": "Knowledge Neurons in Pretrained Transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the storage and retrieval of knowledge in pretrained transformers, which is closely related to the research topic on LLM memory and knowledge injection."
+      },
+      {
+        "rank": 18,
+        "paper_id": "596a64cb-e5a1-59cc-8a98-6d4b131121dc",
+        "title": "MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of updating knowledge in LLMs, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 19,
+        "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+        "title": "Language Models are Few-Shot Learners",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the scaling and few-shot learning capabilities of large language models, which tangentially relates to memory and knowledge injection but does not directly address the topic."
+      },
+      {
+        "rank": 20,
+        "paper_id": "47e3d597-ee0c-5654-aa6a-b2f760f12e3e",
+        "title": "Cross-Task Generalization via Natural Language Crowdsourcing Instructions",
+        "relevance_score": 2,
+        "justification": "This paper focuses on cross-task generalization through natural language instructions, which is tangentially related to the memory and knowledge injection in LLMs but does not directly address the topic."
+      },
+      {
+        "rank": 21,
+        "paper_id": "e46d50c9-b028-55b3-956d-a9a4504c48f6",
+        "title": "Do LLMs dream of elephants (when told not to)? Latent concept association and associative memory in transformers",
+        "relevance_score": 3,
+        "justification": "This paper explores the concept of associative memory in transformers, which is tangentially related to the topic of LLM memory and knowledge injection, but does not directly address knowledge injection methods or their effects."
+      },
+      {
+        "rank": 22,
+        "paper_id": "160d5efc-023f-50ee-8c46-5b29fed9954a",
+        "title": "Implicit meta-learning may lead language models to trust more reliable sources",
+        "relevance_score": 2,
+        "justification": "The candidate paper discusses implicit meta-learning and its effects on language models' trust in sources, which is tangentially related to the broader topic of LLM memory and knowledge injection, but does not directly address the memory mechanisms or knowledge injection methods explored in the seed papers."
+      },
+      {
+        "rank": 23,
+        "paper_id": "1f6965ca-40d0-5702-9be9-12f80b966696",
+        "title": "LIMA: Less Is More for Alignment",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the alignment of large language models through fine-tuning with a small dataset, which tangentially relates to the broader topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 24,
+        "paper_id": "955a5b6b-be3d-5d7a-944f-ce3a8762f5e7",
+        "title": "When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the interplay of parametric and non-parametric memories, which is a core aspect of the research topic."
+      },
+      {
+        "rank": 25,
+        "paper_id": "edffab87-cec2-5e00-aa30-51505147a2b2",
+        "title": "Adaptive Chameleon  or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the behavior of LLMs when encountering knowledge conflicts, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 26,
+        "paper_id": "5a6a0635-8500-5235-a7c1-931e6487d370",
+        "title": "Memory-Based Model Editing at Scale",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the concept of updating or editing pre-trained models to inject new knowledge, which is closely related to the topics of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 27,
+        "paper_id": "de3563cf-c4e1-51f7-9da9-d3265b19e855",
+        "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses methods for optimizing language model behavior through preference optimization, which is tangentially related to the memory and knowledge injection in LLMs but does not directly address the topic."
+      },
+      {
+        "rank": 28,
+        "paper_id": "3814363a-df8c-58f0-aba8-acef639706f9",
+        "title": "Interactive Continual Learning: Fast and Slow Thinking",
+        "relevance_score": 2,
+        "justification": "This paper focuses on interactive continual learning and does not directly address the memory and knowledge injection aspects of LLMs as the seed papers suggest."
+      },
+      {
+        "rank": 29,
+        "paper_id": "1dc24202-12d7-5915-a883-e8460a49dd8c",
+        "title": "Entity-Based Knowledge Conflicts in Question Answering",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of knowledge conflicts, which is related to the use and integration of different sources of knowledge in LLMs, a key aspect of the research topic."
+      },
+      {
+        "rank": 30,
+        "paper_id": "ffe721c3-a16b-540c-b7b0-5f0e2632e469",
+        "title": "Editing Factual Knowledge in Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of editing factual knowledge in language models, which is closely related to the methods and questions discussed in the seed papers regarding memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 31,
+        "paper_id": "887d8eb9-5db1-5edb-8a4a-8d1e78389a57",
+        "title": "Unveiling the Pitfalls of Knowledge Editing for Large Language Models",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge injection in LLMs but focuses on the potential risks and pitfalls of knowledge editing rather than directly addressing memory or retrieval methods."
+      },
+      {
+        "rank": 32,
+        "paper_id": "2d32d8d5-9dfc-50d5-b580-ed0f8f1e5a86",
+        "title": "Does Fine-TuningLLMs on New Knowledge Encourage Hallucinations?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the impact of fine-tuning on the hallucination behavior of LLMs, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 33,
+        "paper_id": "9fdabb63-951f-5723-a994-7287da2f48c4",
+        "title": "Investigating Gender Bias in Language Models Using Causal Mediation Analysis",
+        "relevance_score": 1,
+        "justification": "The candidate paper focuses on investigating gender bias in language models using causal mediation analysis, which does not directly relate to the topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 34,
+        "paper_id": "dfeb2dc1-1349-5c28-83ef-9926c9102139",
+        "title": "The Cost of Scaling Down Large Language Models: Reducing Model Size Affects Memory before In-context Learning",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the downsizing of LLMs and its impact on memory and in-context learning, which tangentially relates to the research topic on memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 35,
+        "paper_id": "0e7ebbb7-0a29-52b4-a8ed-327f13c71ec0",
+        "title": "Autoregressive Entity Retrieval",
+        "relevance_score": 3,
+        "justification": "This paper focuses on entity retrieval, which is related to knowledge injection in LLMs, but it does not directly address memory mechanisms or the interplay between parametric and non-parametric memory as seen in the seed papers."
+      },
+      {
+        "rank": 36,
+        "paper_id": "a7c37853-5a10-5e55-8ed2-6ec1a82ae57a",
+        "title": "How Do Large Language Models Acquire Factual Knowledge During Pretraining?",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge acquisition in large language models but does not directly address memory or knowledge injection mechanisms."
+      },
+      {
+        "rank": 37,
+        "paper_id": "f9a6680c-993a-5f82-9ba4-982d6abfa28f",
+        "title": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the use of retrieval-augmented models in few-shot learning, which is closely related to the knowledge injection methods discussed in the seed papers."
+      },
+      {
+        "rank": 38,
+        "paper_id": "a8ee2bc8-3b06-54dc-b55b-a3ee44dd4eee",
+        "title": "Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of knowledge conflicts when integrating parametric and non-parametric memory in LLMs, which is closely related to the research topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 39,
+        "paper_id": "8222d350-587a-5a22-a7e0-5797cc2bc65e",
+        "title": "Encapsulating Knowledge in One Prompt",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge transfer and injection but focuses on a different method (Knowledge in One Prompt) rather than memory and retrieval mechanisms discussed in the seed papers."
+      },
+      {
+        "rank": 40,
+        "paper_id": "1f7480c0-5e80-5d81-b3ad-8470cf2994fb",
+        "title": "Characterizing Mechanisms for Factual Recall in Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the mechanisms of factual recall in LLMs, which is closely related to the research on memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 41,
+        "paper_id": "abc4300e-15e4-5e80-8fbc-929ac88bf5bf",
+        "title": "Knowledge Conflicts forLLMs: A Survey",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the challenges of knowledge conflicts in LLMs, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 42,
+        "paper_id": "147e606d-790e-52dc-8fbc-82611b24dea5",
+        "title": "Accelerating Large-Scale Inference with Anisotropic Vector Quantization",
+        "relevance_score": 2,
+        "justification": "This paper focuses on quantization techniques for accelerating large-scale inference and does not directly address memory or knowledge injection mechanisms in LLMs."
+      },
+      {
+        "rank": 43,
+        "paper_id": "6e308e58-d6fa-5ff7-af75-b7a655dd6664",
+        "title": "GLaM: Efficient Scaling of Language Models with Mixture-of-Experts",
+        "relevance_score": 2,
+        "justification": "This paper focuses on a different approach to scaling language models (mixture-of-experts) rather than memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 44,
+        "paper_id": "40098332-58c6-555d-9b31-6212d7390429",
+        "title": "Knowledge Verification to Nip Hallucination in the Bud",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses mitigating hallucinations in LLMs, which is closely related to the research questions posed in the seed papers regarding knowledge injection and its effects on LLMs."
+      },
+      {
+        "rank": 45,
+        "paper_id": "bf71a548-1903-5e26-ab69-da2e10676658",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "relevance_score": 2,
+        "justification": "This paper focuses on transfer learning and unified text-to-text transformers, which, while related to NLP, does not directly address memory and knowledge injection in LLMs as specified in the seed papers."
+      },
+      {
+        "rank": 46,
+        "paper_id": "2004913a-d0b3-592e-8e33-ded71e6c16af",
+        "title": "Transformer Memory as a Differentiable Search Index",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the concept of Transformer Memory as a Differentiable Search Index, which is directly related to the memory and knowledge injection in LLMs discussed in the seed papers."
+      },
+      {
+        "rank": 47,
+        "paper_id": "0e4737b6-f0d8-52b5-9cf8-f67c471115cc",
+        "title": "Instruction-tuned Language Models are Better Knowledge Learners",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge injection into LLMs but focuses on a different aspect (instruction-tuning) rather than memory or retrieval methods."
+      },
+      {
+        "rank": 48,
+        "paper_id": "328865dd-d83d-53d3-ae2e-7bb0f148a441",
+        "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+        "relevance_score": 2,
+        "justification": "This paper focuses on dense passage retrieval for open-domain question answering, which is tangentially related to the broader topic of LLM memory and knowledge injection, as it does involve retrieval mechanisms, but it does not directly address memory or knowledge injection in LLMs."
+      },
+      {
+        "rank": 49,
+        "paper_id": "c4a66a3f-4114-5707-8ebb-2031b9cdbd65",
+        "title": "R-Tuning: Instructing Large Language Models to Say \u2018IDon\u2019t Know\u2019",
+        "relevance_score": 2,
+        "justification": "The candidate paper discusses instructing LLMs to admit ignorance, which is tangentially related to the topic of memory and knowledge injection, but does not directly address methods or systems for memory injection or the interplay between parametric and non-parametric memory as described in the seed papers."
+      },
+      {
+        "rank": 50,
+        "paper_id": "26708bbf-cf69-504f-b7f5-442799bc78c3",
+        "title": "Measuring Catastrophic Forgetting in Neural Networks",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses catastrophic forgetting in neural networks, which is tangential to the topic of memory and knowledge injection in LLMs."
+      }
+    ],
+    "metrics": {
+      "avg_relevance_top10": 3.2,
+      "avg_relevance_top50": 3.0,
+      "precision_at_10": 0.5,
+      "precision_at_20": 0.4,
+      "distribution": {
+        "1": 1,
+        "2": 19,
+        "3": 10,
+        "4": 19,
+        "5": 1
+      }
+    }
+  },
+  "fused_softand": {
+    "papers": [
+      {
+        "rank": 1,
+        "paper_id": "e9a7f9e3-6975-5e48-a881-834af9afc15f",
+        "title": "ClashEval: Quantifying the tug-of-war between an LLM\u2019s internal prior and external evidence",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the interaction between an LLM's internal prior and external evidence, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 2,
+        "paper_id": "1dc24202-12d7-5915-a883-e8460a49dd8c",
+        "title": "Entity-Based Knowledge Conflicts in Question Answering",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the interplay between parametric and non-parametric knowledge, which is closely related to the research topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 3,
+        "paper_id": "ffe721c3-a16b-540c-b7b0-5f0e2632e469",
+        "title": "Editing Factual Knowledge in Language Models",
+        "relevance_score": 4,
+        "justification": "This candidate paper directly addresses the issue of editing knowledge in LLMs, which is closely related to the research on memory and knowledge injection in the seed papers."
+      },
+      {
+        "rank": 4,
+        "paper_id": "f318d26d-c6e6-5f26-83c9-370e42a19e22",
+        "title": "Language Models as Knowledge Bases?",
+        "relevance_score": 3,
+        "justification": "This paper discusses the potential of language models storing and querying relational knowledge, which is tangentially related to the topic of memory and knowledge injection in LLMs, but does not directly address the methods or research questions raised in the seed papers."
+      },
+      {
+        "rank": 5,
+        "paper_id": "e46d50c9-b028-55b3-956d-a9a4504c48f6",
+        "title": "Do LLMs dream of elephants (when told not to)? Latent concept association and associative memory in transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the ability of LLMs to retrieve facts based on context, which is closely related to the memory and knowledge injection mechanisms discussed in the seed papers."
+      },
+      {
+        "rank": 6,
+        "paper_id": "abc4300e-15e4-5e80-8fbc-929ac88bf5bf",
+        "title": "Knowledge Conflicts forLLMs: A Survey",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the challenges of knowledge conflicts in LLMs, which is closely related to the memory and knowledge injection in LLMs as discussed in the seed papers."
+      },
+      {
+        "rank": 7,
+        "paper_id": "39efb7f7-3bf1-59fb-b933-82dd519403a3",
+        "title": "How Much Knowledge Can You Pack Into the Parameters of a Language Model?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the capacity of language models to store knowledge in their parameters, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 8,
+        "paper_id": "2c53afdf-e3cf-5059-b442-544cd5b31d0e",
+        "title": "Knowledge Circuits in Pretrained Transformers",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge injection in large language models but focuses on a different aspect (knowledge circuits) rather than memory or retrieval methods."
+      },
+      {
+        "rank": 9,
+        "paper_id": "4d833d01-35c2-56b5-8c1c-6c6399f58f70",
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of knowledge injection in LLMs through retrieval-augmented generation, which is closely related to the research questions and methods discussed in the seed papers."
+      },
+      {
+        "rank": 10,
+        "paper_id": "68b319a2-ff22-5cf5-ab01-0289b5d2d69c",
+        "title": "Large Language Models Struggle to Learn Long-Tail Knowledge",
+        "relevance_score": 2,
+        "justification": "This paper discusses the limitations of knowledge memorization in large language models, which is tangentially related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 11,
+        "paper_id": "4a7541b1-cba7-5f3d-9aff-57b3cc7a9e1a",
+        "title": "On the Robustness of Editing Large Language Models",
+        "relevance_score": 2,
+        "justification": "This paper discusses model editing for LLMs, which tangentially relates to knowledge injection but focuses more on robustness and practical applications rather than the interplay of memory and knowledge injection mechanisms."
+      },
+      {
+        "rank": 12,
+        "paper_id": "73bb83fd-a297-5811-b41d-fb6dfc57b61d",
+        "title": "RECKONING: Reasoning through Dynamic Knowledge Encoding",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the reasoning aspect of knowledge injection in LLMs, which is relevant to the research topic."
+      },
+      {
+        "rank": 13,
+        "paper_id": "a3dc43f3-cdfe-5302-82fd-97416009aea2",
+        "title": "Simple Entity-Centric Questions Challenge Dense Retrievers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the performance of dense retrievers on specific question types and does not directly address memory or knowledge injection mechanisms in LLMs."
+      },
+      {
+        "rank": 14,
+        "paper_id": "d1d6f76d-33fe-5bd2-b7be-0710321bada7",
+        "title": "Locating and Editing Factual Associations in GPT",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the storage and recall of factual associations, which is closely related to the memory and knowledge injection aspects in LLMs discussed in the seed papers."
+      },
+      {
+        "rank": 15,
+        "paper_id": "5a6a0635-8500-5235-a7c1-931e6487d370",
+        "title": "Memory-Based Model Editing at Scale",
+        "relevance_score": 3,
+        "justification": "This paper shares the same problem domain of model updates and knowledge injection, but the focus on scale and expressiveness is broader and does not directly address memory mechanisms in LLMs."
+      },
+      {
+        "rank": 16,
+        "paper_id": "40131455-2779-529c-8e67-3c2e3eb44fc0",
+        "title": "Training language models to follow instructions with human feedback",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on aligning language models with user intent through fine-tuning with human feedback, which is tangentially related to the memory and knowledge injection aspects of LLMs but does not directly address those topics."
+      },
+      {
+        "rank": 17,
+        "paper_id": "596a64cb-e5a1-59cc-8a98-6d4b131121dc",
+        "title": "MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the evaluation of knowledge editing in LLMs, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 18,
+        "paper_id": "b4601e00-1b8d-5570-89cd-7e0b1408d0e6",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "relevance_score": 2,
+        "justification": "This paper introduces BERT, which focuses on pre-training techniques and does not directly address memory or knowledge injection in LLMs."
+      },
+      {
+        "rank": 19,
+        "paper_id": "ab27a1e5-ce52-534f-acb2-95785bc59e1e",
+        "title": "When Context Leads but Parametric Memory Follows in Large Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the interplay between local context and parametric memory in LLMs, which is closely related to the research topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 20,
+        "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+        "title": "Language Models are Few-Shot Learners",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the scaling and few-shot learning capabilities of large language models, which is tangentially related to memory and knowledge injection but does not directly address the topic."
+      },
+      {
+        "rank": 21,
+        "paper_id": "cae5422a-9da3-5394-b4f2-e6bc3c10b765",
+        "title": "Dissecting Fine-Tuning Unlearning in Large Language Models",
+        "relevance_score": 2,
+        "justification": "This paper focuses on fine-tuning unlearning methods, which is tangentially related to knowledge injection in LLMs but does not directly address memory or knowledge injection mechanisms."
+      },
+      {
+        "rank": 22,
+        "paper_id": "47e3d597-ee0c-5654-aa6a-b2f760f12e3e",
+        "title": "Cross-Task Generalization via Natural Language Crowdsourcing Instructions",
+        "relevance_score": 2,
+        "justification": "This paper focuses on cross-task generalization through natural language instructions, which is tangentially related to the memory and knowledge injection in LLMs but does not directly address the topic."
+      },
+      {
+        "rank": 23,
+        "paper_id": "edffab87-cec2-5e00-aa30-51505147a2b2",
+        "title": "Adaptive Chameleon  or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the behavior of LLMs when encountering knowledge conflicts, which is closely related to the memory and knowledge injection in LLMs as discussed in the seed papers."
+      },
+      {
+        "rank": 24,
+        "paper_id": "1f6965ca-40d0-5702-9be9-12f80b966696",
+        "title": "LIMA: Less Is More for Alignment",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the alignment of language models through fine-tuning with a small number of prompts, which is tangentially related to the broader topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 25,
+        "paper_id": "e9935901-7761-518d-a45b-88ffc10f4065",
+        "title": "Delving into the Reversal Curse: How Far Can Large Language Models Generalize?",
+        "relevance_score": 2,
+        "justification": "This paper discusses generalization limitations of LLMs, which is tangentially related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 26,
+        "paper_id": "3f2da95f-1e59-5e27-819f-0178be0430d5",
+        "title": "Physics of Language Models: Part 3.1, Knowledge Storage and Extraction",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the mechanisms by which LLMs store and extract knowledge, which is closely related to the research topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 27,
+        "paper_id": "955a5b6b-be3d-5d7a-944f-ce3a8762f5e7",
+        "title": "When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the strengths and limitations of LMs in memorizing factual knowledge, which is closely related to the research question of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 28,
+        "paper_id": "ec2b5f61-7869-5e0c-9ff3-0443eeadf8d0",
+        "title": "The Factorization Curse: Which Tokens You Predict Underlie the Reversal Curse and More",
+        "relevance_score": 2,
+        "justification": "This paper discusses limitations in information recall in language models, which tangentially relates to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 29,
+        "paper_id": "de3563cf-c4e1-51f7-9da9-d3265b19e855",
+        "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+        "relevance_score": 2,
+        "justification": "This paper discusses methods for gaining steerability in large-scale unsupervised LMs through human feedback, which is tangentially related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 30,
+        "paper_id": "aecce076-b6cb-5bcb-b7b8-1dd08a96c537",
+        "title": "Adaptable and Interpretable NeuralMemoryOver Symbolic Knowledge",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks, which is closely related to the topic of injecting knowledge into LLMs."
+      },
+      {
+        "rank": 31,
+        "paper_id": "4f27da35-9714-5532-b9c9-cc890113e6fe",
+        "title": "Navigating the Dual Facets: A Comprehensive Evaluation of Sequential Memory Editing in Large Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the method of memory editing in LLMs, which is closely related to the topic of knowledge injection and memory in LLMs."
+      },
+      {
+        "rank": 32,
+        "paper_id": "9fdabb63-951f-5723-a994-7287da2f48c4",
+        "title": "Investigating Gender Bias in Language Models Using Causal Mediation Analysis",
+        "relevance_score": 1,
+        "justification": "The candidate paper focuses on investigating gender bias in language models, which is not directly related to the topics of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 33,
+        "paper_id": "9d4b4169-58ee-5c32-bb5e-fbb96743a5c6",
+        "title": "Contextual Memory Trees",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the development of memory structures for LLMs, which is closely related to the research topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 34,
+        "paper_id": "887d8eb9-5db1-5edb-8a4a-8d1e78389a57",
+        "title": "Unveiling the Pitfalls of Knowledge Editing for Large Language Models",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge injection into LLMs but focuses on the potential risks and pitfalls of knowledge editing, rather than exploring memory and knowledge injection methods."
+      },
+      {
+        "rank": 35,
+        "paper_id": "0e7ebbb7-0a29-52b4-a8ed-327f13c71ec0",
+        "title": "Autoregressive Entity Retrieval",
+        "relevance_score": 3,
+        "justification": "This paper focuses on entity retrieval, which is relevant to knowledge injection but does not directly address memory mechanisms or the interplay between parametric and non-parametric memory as in the seed papers."
+      },
+      {
+        "rank": 36,
+        "paper_id": "079680fa-fdf8-5814-9237-9ed833c4a534",
+        "title": "Knowledge Neurons in Pretrained Transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks, which is closely related to the methods used in memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 37,
+        "paper_id": "f9a6680c-993a-5f82-9ba4-982d6abfa28f",
+        "title": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge-intensive tasks and retrieval-augmented language models but does not explicitly focus on memory and knowledge injection in LLMs as defined by the seed papers."
+      },
+      {
+        "rank": 38,
+        "paper_id": "a8ee2bc8-3b06-54dc-b55b-a3ee44dd4eee",
+        "title": "Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of knowledge conflicts when integrating parametric and non-parametric memory in LLMs, which is closely related to the research topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 39,
+        "paper_id": "a4fd5464-3b7f-5ff1-a603-e28108e540ac",
+        "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the integration of long-term memory in LLMs, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 40,
+        "paper_id": "1f7480c0-5e80-5d81-b3ad-8470cf2994fb",
+        "title": "Characterizing Mechanisms for Factual Recall in Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the mechanisms by which language models resolve conflicts between pre-trained knowledge and new information, which is closely related to the injection and management of knowledge in LLMs."
+      },
+      {
+        "rank": 41,
+        "paper_id": "359f23d8-123f-5c9c-9858-8bd300fa70c0",
+        "title": "Unveiling Factual Recall Behaviors of Large Language Models through Knowledge Neurons",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the behavior of LLMs in recalling or retrieving factual knowledge, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 42,
+        "paper_id": "147e606d-790e-52dc-8fbc-82611b24dea5",
+        "title": "Accelerating Large-Scale Inference with Anisotropic Vector Quantization",
+        "relevance_score": 1,
+        "justification": "This paper focuses on quantization techniques for accelerating large-scale inference and does not address memory or knowledge injection in LLMs."
+      },
+      {
+        "rank": 43,
+        "paper_id": "6e308e58-d6fa-5ff7-af75-b7a655dd6664",
+        "title": "GLaM: Efficient Scaling of Language Models with Mixture-of-Experts",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses the scaling of language models through a mixture-of-experts approach, which is tangentially related to the topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 44,
+        "paper_id": "0e4737b6-f0d8-52b5-9cf8-f67c471115cc",
+        "title": "Instruction-tuned Language Models are Better Knowledge Learners",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of updating factual knowledge in LLMs but does not specifically address memory or non-parametric memory as seen in the seed papers."
+      },
+      {
+        "rank": 45,
+        "paper_id": "bf71a548-1903-5e26-ab69-da2e10676658",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "relevance_score": 2,
+        "justification": "This paper focuses on transfer learning and unified text-to-text transformers, which, while related to LLMs, does not specifically address memory or knowledge injection mechanisms."
+      },
+      {
+        "rank": 46,
+        "paper_id": "8222d350-587a-5a22-a7e0-5797cc2bc65e",
+        "title": "Encapsulating Knowledge in One Prompt",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge injection but focuses on a different method of knowledge transfer, specifically through a single prompt rather than memory or fine-tuning."
+      },
+      {
+        "rank": 47,
+        "paper_id": "40098332-58c6-555d-9b31-6212d7390429",
+        "title": "Knowledge Verification to Nip Hallucination in the Bud",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of hallucination in LLMs, which is a concern raised in the seed papers, and proposes a method to mitigate it through knowledge verification."
+      },
+      {
+        "rank": 48,
+        "paper_id": "328865dd-d83d-53d3-ae2e-7bb0f148a441",
+        "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+        "relevance_score": 2,
+        "justification": "This paper focuses on dense passage retrieval for open-domain question answering, which is tangentially related to the memory and knowledge injection in LLMs as discussed in the seed papers."
+      },
+      {
+        "rank": 49,
+        "paper_id": "26708bbf-cf69-504f-b7f5-442799bc78c3",
+        "title": "Measuring Catastrophic Forgetting in Neural Networks",
+        "relevance_score": 1,
+        "justification": "The candidate paper focuses on catastrophic forgetting in neural networks, which is not directly related to the topics of LLM memory and knowledge injection addressed in the seed papers."
+      },
+      {
+        "rank": 50,
+        "paper_id": "ffd14cf1-3987-51c1-9d9f-8e1dded349c9",
+        "title": "Retrieval Augmented Language Model Pre-Training",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the use of retrieval in augmenting language models, which is closely related to the topic of memory and knowledge injection in LLMs."
+      }
+    ],
+    "metrics": {
+      "avg_relevance_top10": 3.6,
+      "avg_relevance_top50": 3.06,
+      "precision_at_10": 0.7,
+      "precision_at_20": 0.55,
+      "distribution": {
+        "1": 3,
+        "2": 15,
+        "3": 8,
+        "4": 24,
+        "5": 0
+      }
+    }
+  },
+  "fused_max": {
+    "papers": [
+      {
+        "rank": 1,
+        "paper_id": "39efb7f7-3bf1-59fb-b933-82dd519403a3",
+        "title": "How Much Knowledge Can You Pack Into the Parameters of a Language Model?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks, which is closely related to the topic of injecting knowledge into LLMs through fine-tuning."
+      },
+      {
+        "rank": 2,
+        "paper_id": "955a5b6b-be3d-5d7a-944f-ce3a8762f5e7",
+        "title": "When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the strengths and limitations of LMs in memorizing factual knowledge, which is closely related to the interplay of parametric and non-parametric memory discussed in the seed papers."
+      },
+      {
+        "rank": 3,
+        "paper_id": "ffe721c3-a16b-540c-b7b0-5f0e2632e469",
+        "title": "Editing Factual Knowledge in Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of editing factual knowledge in language models, which is closely related to the methods and questions explored in the seed papers on memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 4,
+        "paper_id": "1dc24202-12d7-5915-a883-e8460a49dd8c",
+        "title": "Entity-Based Knowledge Conflicts in Question Answering",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of knowledge conflicts in LLMs, which is closely related to the topic of memory and knowledge injection."
+      },
+      {
+        "rank": 5,
+        "paper_id": "f318d26d-c6e6-5f26-83c9-370e42a19e22",
+        "title": "Language Models as Knowledge Bases?",
+        "relevance_score": 3,
+        "justification": "This paper discusses the ability of language models to store and retrieve relational knowledge, which is tangentially related to the methods and concepts of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 6,
+        "paper_id": "2004913a-d0b3-592e-8e33-ded71e6c16af",
+        "title": "Transformer Memory as a Differentiable Search Index",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the use of Transformer memory as a differentiable search index, which is a key aspect of memory and knowledge injection in LLMs discussed in the seed papers."
+      },
+      {
+        "rank": 7,
+        "paper_id": "a8527971-b28a-5210-85b1-19f74e267a2a",
+        "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection inLLMs",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the comparison between fine-tuning and retrieval methods for knowledge injection in LLMs, which is central to the research topic."
+      },
+      {
+        "rank": 8,
+        "paper_id": "4d833d01-35c2-56b5-8c1c-6c6399f58f70",
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the use of retrieval mechanisms to enhance large language models, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 9,
+        "paper_id": "c1c2dd30-60c1-58d9-9bdd-69b4efa03898",
+        "title": "Synthetic Knowledge Ingestion: Towards Knowledge Refinement and Injection for Enhancing Large Language Models",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses knowledge injection into LLMs through synthetic knowledge ingestion, which is closely related to the topics of fine-tuning, retrieval, and memory mechanisms discussed in the seed papers."
+      },
+      {
+        "rank": 10,
+        "paper_id": "68b319a2-ff22-5cf5-ab01-0289b5d2d69c",
+        "title": "Large Language Models Struggle to Learn Long-Tail Knowledge",
+        "relevance_score": 2,
+        "justification": "This paper explores the limitations of large language models in learning rare knowledge, which tangentially relates to the broader topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 11,
+        "paper_id": "7d6c00ea-79bf-514f-8c6a-2b285c8c3c22",
+        "title": "Don\u2019t Hallucinate, Abstain: IdentifyingLLMKnowledge Gaps via Multi-LLMCollaboration",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses identifying knowledge gaps in LLMs, which is closely related to the topic of memory and knowledge injection in LLMs, particularly in terms of avoiding hallucinations."
+      },
+      {
+        "rank": 12,
+        "paper_id": "a3dc43f3-cdfe-5302-82fd-97416009aea2",
+        "title": "Simple Entity-Centric Questions Challenge Dense Retrievers",
+        "relevance_score": 2,
+        "justification": "This paper tangentially discusses the limitations of dense retrievers, which are relevant to the broader topic of memory and knowledge injection in LLMs, but does not directly address the topic."
+      },
+      {
+        "rank": 13,
+        "paper_id": "0e4737b6-f0d8-52b5-9cf8-f67c471115cc",
+        "title": "Instruction-tuned Language Models are Better Knowledge Learners",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge injection in LLMs but focuses on instruction-tuning rather than memory or retrieval methods discussed in the seed papers."
+      },
+      {
+        "rank": 14,
+        "paper_id": "d1d6f76d-33fe-5bd2-b7be-0710321bada7",
+        "title": "Locating and Editing Factual Associations in GPT",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the storage and recall of factual associations in autoregressive transformers, which is relevant to the methods and questions explored in the seed papers on LLM memory and knowledge injection."
+      },
+      {
+        "rank": 15,
+        "paper_id": "ea4c5ee8-5735-55a5-9211-4756b4bc6ef7",
+        "title": "Time Sensitive Knowledge Editing through Efficient Finetuning",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the challenge of updating knowledge in LLMs, which is a core aspect of the research topic on LLM memory and knowledge injection."
+      },
+      {
+        "rank": 16,
+        "paper_id": "40131455-2779-529c-8e67-3c2e3eb44fc0",
+        "title": "Training language models to follow instructions with human feedback",
+        "relevance_score": 2,
+        "justification": "This paper discusses fine-tuning language models with human feedback for task alignment, which is tangentially related to knowledge injection but does not directly address memory or non-parametric memory as defined in the seed papers."
+      },
+      {
+        "rank": 17,
+        "paper_id": "2d32d8d5-9dfc-50d5-b580-ed0f8f1e5a86",
+        "title": "Does Fine-TuningLLMs on New Knowledge Encourage Hallucinations?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the impact of fine-tuning on LLMs, which is a key aspect of knowledge injection in LLMs as discussed in the seed papers."
+      },
+      {
+        "rank": 18,
+        "paper_id": "b4601e00-1b8d-5570-89cd-7e0b1408d0e6",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "relevance_score": 2,
+        "justification": "This candidate paper introduces BERT, which is a pre-training method for language understanding, and does not directly address memory and knowledge injection in LLMs as the seed papers suggest."
+      },
+      {
+        "rank": 19,
+        "paper_id": "040fd015-0c86-50e5-b295-ad6f618ebab6",
+        "title": "Knowledge-Augmented Reasoning Distillation for Small Language Models in Knowledge-Intensive Tasks",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses knowledge augmentation in language models, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 20,
+        "paper_id": "b18e9ca4-808a-5b50-b8b0-46649af4c31e",
+        "title": "Thrust: Adaptively Propels Large Language Models with External Knowledge",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of integrating external knowledge into LLMs, which is central to the research topic."
+      },
+      {
+        "rank": 21,
+        "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+        "title": "Language Models are Few-Shot Learners",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on the scalability and few-shot learning capabilities of large language models, which is tangentially related to the memory and knowledge injection topic but does not directly address the methods or questions posed in the seed papers."
+      },
+      {
+        "rank": 22,
+        "paper_id": "47e3d597-ee0c-5654-aa6a-b2f760f12e3e",
+        "title": "Cross-Task Generalization via Natural Language Crowdsourcing Instructions",
+        "relevance_score": 2,
+        "justification": "This paper focuses on cross-task generalization through natural language instructions, which is tangentially related to the use of memory and knowledge injection in LLMs, but the primary focus is not on the research topic defined by the seed papers."
+      },
+      {
+        "rank": 23,
+        "paper_id": "8f2f6b15-c50e-589f-aefc-ae07f8087616",
+        "title": "KnowTuning: Knowledge-aware Fine-tuning for Large Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 24,
+        "paper_id": "1f6965ca-40d0-5702-9be9-12f80b966696",
+        "title": "LIMA: Less Is More for Alignment",
+        "relevance_score": 2,
+        "justification": "This paper focuses on instruction tuning and reinforcement learning, which are not directly related to memory and knowledge injection in LLMs as discussed in the seed papers."
+      },
+      {
+        "rank": 25,
+        "paper_id": "160d5efc-023f-50ee-8c46-5b29fed9954a",
+        "title": "Implicit meta-learning may lead language models to trust more reliable sources",
+        "relevance_score": 2,
+        "justification": "This paper tangentially discusses aspects of fine-tuning LLMs but does not focus on memory or knowledge injection mechanisms."
+      },
+      {
+        "rank": 26,
+        "paper_id": "de3563cf-c4e1-51f7-9da9-d3265b19e855",
+        "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses methods for gaining control over the behavior of language models through preference optimization and is not directly focused on memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 27,
+        "paper_id": "25ad99f4-578a-50f4-86ea-4389d26e8d4f",
+        "title": "Learning to Deceive Knowledge Graph Augmented Models via Targeted Perturbation",
+        "relevance_score": 2,
+        "justification": "The candidate paper discusses targeted perturbation in KG-augmented models, which is tangentially related to the topic of LLM memory and knowledge injection, but does not directly address the methods or questions raised in the seed papers."
+      },
+      {
+        "rank": 28,
+        "paper_id": "d42feb3d-b168-55b6-8740-a3f13cf795be",
+        "title": "GrowOVER: How CanLLMs Adapt to Growing Real-World Knowledge?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the need for continuous updates to knowledge in LLMs, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 29,
+        "paper_id": "887d8eb9-5db1-5edb-8a4a-8d1e78389a57",
+        "title": "Unveiling the Pitfalls of Knowledge Editing for Large Language Models",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge injection in LLMs but focuses on the potential risks of knowledge editing rather than memory or retrieval methods."
+      },
+      {
+        "rank": 30,
+        "paper_id": "9fdabb63-951f-5723-a994-7287da2f48c4",
+        "title": "Investigating Gender Bias in Language Models Using Causal Mediation Analysis",
+        "relevance_score": 1,
+        "justification": "This paper does not address the research topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 31,
+        "paper_id": "596a64cb-e5a1-59cc-8a98-6d4b131121dc",
+        "title": "MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of knowledge editing in LLMs, which is closely related to the research topic of memory and knowledge injection in large language models."
+      },
+      {
+        "rank": 32,
+        "paper_id": "0e7ebbb7-0a29-52b4-a8ed-327f13c71ec0",
+        "title": "Autoregressive Entity Retrieval",
+        "relevance_score": 3,
+        "justification": "This paper discusses entity retrieval, which is related to knowledge injection in LLMs, but it does not directly address memory mechanisms or the interplay between parametric and non-parametric memory as the seed papers do."
+      },
+      {
+        "rank": 33,
+        "paper_id": "f9a6680c-993a-5f82-9ba4-982d6abfa28f",
+        "title": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the use of retrieval-augmented language models in few-shot learning, which is closely related to the topic of injecting knowledge into LLMs, as discussed in the seed papers."
+      },
+      {
+        "rank": 34,
+        "paper_id": "cae5422a-9da3-5394-b4f2-e6bc3c10b765",
+        "title": "Dissecting Fine-Tuning Unlearning in Large Language Models",
+        "relevance_score": 2,
+        "justification": "This paper focuses on fine-tuning-based unlearning methods, which is tangentially related to knowledge injection but does not directly address the memory and knowledge injection in LLMs as defined by the seed papers."
+      },
+      {
+        "rank": 35,
+        "paper_id": "a8ee2bc8-3b06-54dc-b55b-a3ee44dd4eee",
+        "title": "Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the handling of conflicting knowledge, which is closely related to the memory and knowledge injection in LLMs, as discussed in the seed papers."
+      },
+      {
+        "rank": 36,
+        "paper_id": "e74f83b8-fca9-5569-969f-180061bc1b9c",
+        "title": "Can We Edit Factual Knowledge by In-Context Learning?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of editing factual knowledge in LLMs, which is closely related to the research question of how to inject or manage knowledge in these models."
+      },
+      {
+        "rank": 37,
+        "paper_id": "4a7541b1-cba7-5f3d-9aff-57b3cc7a9e1a",
+        "title": "On the Robustness of Editing Large Language Models",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses model editing for LLMs, which is tangentially related to the topic of memory and knowledge injection but does not directly address the interplay between parametric and non-parametric memory or knowledge injection methods as seen in the seed papers."
+      },
+      {
+        "rank": 38,
+        "paper_id": "e9a7f9e3-6975-5e48-a881-834af9afc15f",
+        "title": "ClashEval: Quantifying the tug-of-war between an LLM\u2019s internal prior and external evidence",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the interaction between an LLM's internal prior and external evidence, which is closely related to the methods and questions raised in the seed papers about memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 39,
+        "paper_id": "5a6a0635-8500-5235-a7c1-931e6487d370",
+        "title": "Memory-Based Model Editing at Scale",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of updating knowledge in pre-trained models, which is closely related to the methods of memory and knowledge injection discussed in the seed papers."
+      },
+      {
+        "rank": 40,
+        "paper_id": "147e606d-790e-52dc-8fbc-82611b24dea5",
+        "title": "Accelerating Large-Scale Inference with Anisotropic Vector Quantization",
+        "relevance_score": 2,
+        "justification": "This paper focuses on quantization techniques for accelerating large-scale inference, which is not directly related to the memory and knowledge injection in LLMs as defined by the seed papers."
+      },
+      {
+        "rank": 41,
+        "paper_id": "6e308e58-d6fa-5ff7-af75-b7a655dd6664",
+        "title": "GLaM: Efficient Scaling of Language Models with Mixture-of-Experts",
+        "relevance_score": 2,
+        "justification": "This paper discusses scaling language models through a mixture-of-experts approach, which is tangentially related to memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 42,
+        "paper_id": "fd7de6d3-4f2e-581e-b985-2575645c2bf9",
+        "title": "Neighboring Perturbations of Knowledge Editing on Large Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses knowledge editing in LLMs, which is closely related to the topic of memory and knowledge injection."
+      },
+      {
+        "rank": 43,
+        "paper_id": "bf71a548-1903-5e26-ab69-da2e10676658",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "relevance_score": 2,
+        "justification": "This paper focuses on transfer learning and unified text-to-text transformers, which, while related to NLP, does not specifically address memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 44,
+        "paper_id": "16a2b1ae-14ed-5924-9b18-b1d791ebe0ec",
+        "title": "DSI++: Updating Transformer Memory with New Documents",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the issue of updating transformer memory with new documents, which is closely related to the topic of memory and knowledge injection in LLMs."
+      },
+      {
+        "rank": 45,
+        "paper_id": "8222d350-587a-5a22-a7e0-5797cc2bc65e",
+        "title": "Encapsulating Knowledge in One Prompt",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of knowledge injection but focuses on a different method of encapsulating knowledge in a single prompt rather than memory or retrieval mechanisms discussed in the seed papers."
+      },
+      {
+        "rank": 46,
+        "paper_id": "328865dd-d83d-53d3-ae2e-7bb0f148a441",
+        "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+        "relevance_score": 2,
+        "justification": "This paper focuses on dense passage retrieval for open-domain question answering, which is tangentially related to the broader topic of LLM memory and knowledge injection."
+      },
+      {
+        "rank": 47,
+        "paper_id": "add6b4cc-b2be-5374-a7c8-509f1465869c",
+        "title": "BlendFilter: Advancing Retrieval-Augmented Large Language Models via Query Generation Blending and Knowledge Filtering",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses retrieval-augmented LLMs, which is closely related to the memory and knowledge injection aspects discussed in the seed papers."
+      },
+      {
+        "rank": 48,
+        "paper_id": "26708bbf-cf69-504f-b7f5-442799bc78c3",
+        "title": "Measuring Catastrophic Forgetting in Neural Networks",
+        "relevance_score": 1,
+        "justification": "The candidate paper focuses on catastrophic forgetting in neural networks, which does not directly address the topic of LLM memory and knowledge injection as defined by the seed papers."
+      },
+      {
+        "rank": 49,
+        "paper_id": "ffd14cf1-3987-51c1-9d9f-8e1dded349c9",
+        "title": "Retrieval Augmented Language Model Pre-Training",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the method of knowledge injection through retrieval mechanisms, which is a key aspect of the research topic."
+      },
+      {
+        "rank": 50,
+        "paper_id": "2fd900a7-a946-5c3f-a3bd-d423f6f70d99",
+        "title": "KoLA: Carefully Benchmarking World Knowledge of Large Language Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the evaluation of LLMs' knowledge, which is closely related to the topic of memory and knowledge injection in LLMs."
+      }
+    ],
+    "metrics": {
+      "avg_relevance_top10": 4.0,
+      "avg_relevance_top50": 3.2,
+      "precision_at_10": 0.8,
+      "precision_at_20": 0.7,
+      "distribution": {
+        "1": 2,
+        "2": 16,
+        "3": 5,
+        "4": 24,
+        "5": 3
+      }
+    }
+  }
+}

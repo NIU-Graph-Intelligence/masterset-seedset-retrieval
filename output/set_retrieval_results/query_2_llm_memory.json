@@ -1,0 +1,1575 @@
+{
+  "query": "Query 2: LLM Memory",
+  "top_50_results": {
+    "Mean": [
+      {
+        "rank": 1,
+        "paper_id": "89d0dad5-1059-5d21-ad54-45c65f6ffbe9",
+        "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs",
+        "score": 0.9553015828132629
+      },
+      {
+        "rank": 2,
+        "paper_id": "26659f65-08ab-5108-ae36-91691d4b910e",
+        "title": "Transformer Memory as a Differentiable Search Index",
+        "score": 0.9550195932388306
+      },
+      {
+        "rank": 3,
+        "paper_id": "ae777fef-d7ab-5402-a455-d1f7637cc9ac",
+        "title": "ClashEval: Quantifying the tug-of-war between an LLM\u2019s internal prior and external evidence",
+        "score": 0.9548265337944031
+      },
+      {
+        "rank": 4,
+        "paper_id": "fd2131eb-2c09-5f4e-b17e-038e0f955609",
+        "title": "Zoology: Measuring and Improving Recall in Efficient Language Models",
+        "score": 0.9540519118309021
+      },
+      {
+        "rank": 5,
+        "paper_id": "60205158-0b41-5756-a69a-8bbdb0f4a9a6",
+        "title": "Dissecting Fine-Tuning Unlearning in Large Language Models",
+        "score": 0.9534425735473633
+      },
+      {
+        "rank": 6,
+        "paper_id": "d221d000-96b3-5d64-90da-d47ebcdd9ead",
+        "title": "RA-ISF: Learning to Answer and Understand from Retrieval Augmentation via Iterative Self-Feedback",
+        "score": 0.9528787136077881
+      },
+      {
+        "rank": 7,
+        "paper_id": "b522df76-6433-5f18-8689-4d1da7808646",
+        "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+        "score": 0.9521937370300293
+      },
+      {
+        "rank": 8,
+        "paper_id": "bece632f-0a97-5198-8ddf-42632e47689e",
+        "title": "Memory-Based Model Editing at Scale",
+        "score": 0.9521747827529907
+      },
+      {
+        "rank": 9,
+        "paper_id": "d4ba141a-72b0-5575-9ea1-4d028709c0a1",
+        "title": "Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation",
+        "score": 0.9521105289459229
+      },
+      {
+        "rank": 10,
+        "paper_id": "6db36be7-cd9c-5f84-96df-edf7822863b8",
+        "title": "Mass-Editing Memory in a Transformer",
+        "score": 0.9520382881164551
+      },
+      {
+        "rank": 11,
+        "paper_id": "a6a2dfc3-5333-5c99-8722-cd4e0792c9cc",
+        "title": "Implicit meta-learning may lead language models to trust more reliable sources",
+        "score": 0.9519325494766235
+      },
+      {
+        "rank": 12,
+        "paper_id": "3a3a0f00-b518-5892-a9c5-592f04db437e",
+        "title": "Beyond Memorization: The Challenge of Random Memory Access in Language Models",
+        "score": 0.9514284729957581
+      },
+      {
+        "rank": 13,
+        "paper_id": "510631ff-d429-53e5-a30e-1fe60a409ecf",
+        "title": "On the Robustness of Editing Large Language Models",
+        "score": 0.950904369354248
+      },
+      {
+        "rank": 14,
+        "paper_id": "7b98e965-e43d-5f25-9356-fa7229820400",
+        "title": "Re2G: Retrieve, Rerank, Generate",
+        "score": 0.9499610662460327
+      },
+      {
+        "rank": 15,
+        "paper_id": "8a9ade69-c198-5341-9f6e-d2be0c6b4ce2",
+        "title": "Knowledge Circuits in Pretrained Transformers",
+        "score": 0.9498308897018433
+      },
+      {
+        "rank": 16,
+        "paper_id": "c23b9be1-c550-5e36-a32f-c0e2abce0a53",
+        "title": "WAGLE: Strategic Weight Attribution for Effective and Modular Unlearning in Large Language Models",
+        "score": 0.9496955275535583
+      },
+      {
+        "rank": 17,
+        "paper_id": "925150ea-433f-5289-aaf4-36d1a9b294b8",
+        "title": "Do LLMs dream of elephants (when told not to)? Latent concept association and associative memory in transformers",
+        "score": 0.9494271874427795
+      },
+      {
+        "rank": 18,
+        "paper_id": "f509c0db-3b78-576c-bfa9-ae9e95e5b3b2",
+        "title": "The Factorization Curse: Which Tokens You Predict Underlie the Reversal Curse and More",
+        "score": 0.949011504650116
+      },
+      {
+        "rank": 19,
+        "paper_id": "e1b9879f-267a-5578-8451-935fd97ca1e7",
+        "title": "DSI++: Updating Transformer Memory with New Documents",
+        "score": 0.9488016366958618
+      },
+      {
+        "rank": 20,
+        "paper_id": "5c114409-0711-5879-8069-8e37719ff97c",
+        "title": "When Do LLMs Need Retrieval Augmentation? Mitigating LLMs\u2019 Overconfidence Helps Retrieval Augmentation",
+        "score": 0.948424220085144
+      },
+      {
+        "rank": 21,
+        "paper_id": "7ae88ca7-8a65-53d8-9654-52087e00b1d9",
+        "title": "Retrieval is Accurate Generation",
+        "score": 0.9483951926231384
+      },
+      {
+        "rank": 22,
+        "paper_id": "60829a11-6283-5edd-a35b-8139b5891dc6",
+        "title": "Mass-Editing Memory with Attention in Transformers: A cross-lingual exploration of knowledge",
+        "score": 0.9482985734939575
+      },
+      {
+        "rank": 23,
+        "paper_id": "f801a668-51a9-5036-8f0c-28a6166f1c19",
+        "title": "Characterizing Mechanisms for Factual Recall in Language Models",
+        "score": 0.9479833245277405
+      },
+      {
+        "rank": 24,
+        "paper_id": "685847cc-acab-52b5-a120-c45bf5f640dd",
+        "title": "Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?",
+        "score": 0.9478939175605774
+      },
+      {
+        "rank": 25,
+        "paper_id": "7c368833-bcd5-5960-811f-df0dbc49f722",
+        "title": "TAXI: Evaluating Categorical Knowledge Editing for Language Models",
+        "score": 0.9478369951248169
+      },
+      {
+        "rank": 26,
+        "paper_id": "15c38765-3dff-523b-a373-f5b809dad7cd",
+        "title": "Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents",
+        "score": 0.9477378726005554
+      },
+      {
+        "rank": 27,
+        "paper_id": "293ea9f1-a3bc-59b4-9daf-9c647973add2",
+        "title": "Contextual Memory Trees",
+        "score": 0.947650671005249
+      },
+      {
+        "rank": 28,
+        "paper_id": "0b521602-75b2-58b6-a59f-c2fc9013f1a7",
+        "title": "Fine-tuned Language Models are Continual Learners",
+        "score": 0.9475867748260498
+      },
+      {
+        "rank": 29,
+        "paper_id": "3f2c8fc6-6fca-5745-9840-deb8ae9fcb8f",
+        "title": "The Representation Landscape of Few-Shot Learning and Fine-Tuning in Large Language Models",
+        "score": 0.9475764036178589
+      },
+      {
+        "rank": 30,
+        "paper_id": "8e22435a-b6f2-5879-bbe8-097772010087",
+        "title": "Towards Verifiable Text Generation with Evolving Memory and Self-Reflection",
+        "score": 0.9474990963935852
+      },
+      {
+        "rank": 31,
+        "paper_id": "4786683e-97cd-5cd3-94b1-82765e3d547c",
+        "title": "Don\u2019t Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration",
+        "score": 0.9472879767417908
+      },
+      {
+        "rank": 32,
+        "paper_id": "e315b5e9-3442-518a-ab51-7746bbea756a",
+        "title": "Improving LLM Generations via Fine-Grained Self-Endorsement",
+        "score": 0.9472713470458984
+      },
+      {
+        "rank": 33,
+        "paper_id": "d3674def-7499-54ef-8498-0eadfe68dfab",
+        "title": "Unveiling the Pitfalls of Knowledge Editing for Large Language Models",
+        "score": 0.947063684463501
+      },
+      {
+        "rank": 34,
+        "paper_id": "f00423d3-dce4-5c61-950d-6e13a997af72",
+        "title": "Thrust: Adaptively Propels Large Language Models with External Knowledge",
+        "score": 0.9469826221466064
+      },
+      {
+        "rank": 35,
+        "paper_id": "10138d6a-742e-5acc-b759-e251e57097b2",
+        "title": "\u221e-former: Infinite Memory Transformer",
+        "score": 0.9467679262161255
+      },
+      {
+        "rank": 36,
+        "paper_id": "c951c687-c716-5320-835d-a50d848012fb",
+        "title": "Knowledge Neurons in Pretrained Transformers",
+        "score": 0.9467480778694153
+      },
+      {
+        "rank": 37,
+        "paper_id": "a935d851-a382-5b36-9d58-8fa821636274",
+        "title": "Context-Aware Meta-Learning",
+        "score": 0.9465460181236267
+      },
+      {
+        "rank": 38,
+        "paper_id": "c6c4eba0-724b-555e-935a-aec6e12e3dc6",
+        "title": "MEMORYLLM: Towards Self-Updatable Large Language Models",
+        "score": 0.9464200139045715
+      },
+      {
+        "rank": 39,
+        "paper_id": "1fdc7354-62ec-5305-a1ed-fcd0d1ff72c0",
+        "title": "Focused Transformer: Contrastive Training for Context Scaling",
+        "score": 0.9463019967079163
+      },
+      {
+        "rank": 40,
+        "paper_id": "d3f96685-97c6-5f36-8a8d-2e7cfa20874e",
+        "title": "Delving into the Reversal Curse: How Far Can Large Language Models Generalize?",
+        "score": 0.9462975859642029
+      },
+      {
+        "rank": 41,
+        "paper_id": "3d52e7fa-fa6f-5838-9528-c7502c829b63",
+        "title": "Reference Trustable Decoding: A Training-Free Augmentation Paradigm for Large Language Models",
+        "score": 0.9462602138519287
+      },
+      {
+        "rank": 42,
+        "paper_id": "a0d4ce78-3c2a-59d0-b9a5-baaf62ad6179",
+        "title": "Rehearsal-Free Modular and Compositional Continual Learning for Language Models",
+        "score": 0.9461913108825684
+      },
+      {
+        "rank": 43,
+        "paper_id": "cf4fad57-8e2c-52d3-a721-bd237ac1a813",
+        "title": "Meta-Learning Online Adaptation of Language Models",
+        "score": 0.9460283517837524
+      },
+      {
+        "rank": 44,
+        "paper_id": "0acce51d-9822-53b2-83bb-9d5fbe2eba78",
+        "title": "Instruction-tuned Language Models are Better Knowledge Learners",
+        "score": 0.9459977149963379
+      },
+      {
+        "rank": 45,
+        "paper_id": "a185607d-96e5-5838-92e6-19d3366c11e4",
+        "title": "IRCAN: Mitigating Knowledge Conflicts in LLM Generation via Identifying and Reweighting Context-Aware Neurons",
+        "score": 0.9457252621650696
+      },
+      {
+        "rank": 46,
+        "paper_id": "3d3cd9df-be17-5d62-bad9-35248ff59200",
+        "title": "Peering into the Mind of Language Models: An Approach for Attribution in Contextual Question Answering",
+        "score": 0.9454555511474609
+      },
+      {
+        "rank": 47,
+        "paper_id": "2b3fc325-1967-53c5-83ed-1c1370d19510",
+        "title": "Interactive Continual Learning: Fast and Slow Thinking",
+        "score": 0.9452671408653259
+      },
+      {
+        "rank": 48,
+        "paper_id": "83fed144-90cb-5ae9-9b29-6ac873995a0a",
+        "title": "Dwell in the Beginning: How Language Models Embed Long Documents for Dense Retrieval",
+        "score": 0.9452283978462219
+      },
+      {
+        "rank": 49,
+        "paper_id": "a6f43d08-de7b-5ac8-abb9-1cf8c91c7751",
+        "title": "Knowledge Infused Decoding",
+        "score": 0.9450521469116211
+      },
+      {
+        "rank": 50,
+        "paper_id": "b52336ce-8102-52b4-ba48-1e6adecfc868",
+        "title": "Physics of Language Models: Part 3.1, Knowledge Storage and Extraction",
+        "score": 0.9449369311332703
+      }
+    ],
+    "Max": [
+      {
+        "rank": 1,
+        "paper_id": "98627838-b6a9-5cbc-b15e-87eaa52969ba",
+        "title": "IRGen: Generative Modeling for Image Retrieval",
+        "score": 0.9820388555526733
+      },
+      {
+        "rank": 2,
+        "paper_id": "89d0dad5-1059-5d21-ad54-45c65f6ffbe9",
+        "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs",
+        "score": 0.966274619102478
+      },
+      {
+        "rank": 3,
+        "paper_id": "26659f65-08ab-5108-ae36-91691d4b910e",
+        "title": "Transformer Memory as a Differentiable Search Index",
+        "score": 0.9600728154182434
+      },
+      {
+        "rank": 4,
+        "paper_id": "86574c84-8bb7-5f0b-b198-16117da8a6aa",
+        "title": "Intriguing Properties of Generative Classifiers",
+        "score": 0.9501560926437378
+      },
+      {
+        "rank": 5,
+        "paper_id": "40c92929-129d-5d37-99e5-c2e151e20dfd",
+        "title": "Generative Cross-Modal Retrieval: Memorizing Images in Multimodal Language Models for Retrieval and Beyond",
+        "score": 0.9496936798095703
+      },
+      {
+        "rank": 6,
+        "paper_id": "ed4668b6-252e-5314-a017-9ab2a7aa93af",
+        "title": "Unified Generative and Discriminative Training for Multi-modal Large Language Models",
+        "score": 0.9461548924446106
+      },
+      {
+        "rank": 7,
+        "paper_id": "02d99566-391e-5b29-91d3-169514e56484",
+        "title": "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation",
+        "score": 0.9461174011230469
+      },
+      {
+        "rank": 8,
+        "paper_id": "0738aad5-b7cd-5796-8b91-e9e228dfecfe",
+        "title": "IG Captioner: Information Gain Captioners are Strong Zero-shot Classifiers",
+        "score": 0.9460152983665466
+      },
+      {
+        "rank": 9,
+        "paper_id": "7ae88ca7-8a65-53d8-9654-52087e00b1d9",
+        "title": "Retrieval is Accurate Generation",
+        "score": 0.9452211260795593
+      },
+      {
+        "rank": 10,
+        "paper_id": "7b98e965-e43d-5f25-9356-fa7229820400",
+        "title": "Re2G: Retrieve, Rerank, Generate",
+        "score": 0.9449979066848755
+      },
+      {
+        "rank": 11,
+        "paper_id": "782b6ce2-e875-5fa0-9ccc-36f26e5e1409",
+        "title": "Generative Retrieval Meets Multi-Graded Relevance",
+        "score": 0.9445598125457764
+      },
+      {
+        "rank": 12,
+        "paper_id": "ddd05ced-e0eb-5cfe-8f88-d6df9db1e704",
+        "title": "Unsupervised Compositional Concepts Discovery with Text-to-Image Generative Models",
+        "score": 0.9432406425476074
+      },
+      {
+        "rank": 13,
+        "paper_id": "059f485f-f251-5c93-8f84-83f0e40760a4",
+        "title": "Circumventing Concept Erasure Methods For Text-To-Image Generative Models",
+        "score": 0.9423943758010864
+      },
+      {
+        "rank": 14,
+        "paper_id": "96ce3982-1c2d-5bac-9619-fdac686ec983",
+        "title": "RAIN: Your Language Models Can Align Themselves without Finetuning",
+        "score": 0.942366361618042
+      },
+      {
+        "rank": 15,
+        "paper_id": "7fc85abe-5f56-5143-9d1d-66d6a5934ea7",
+        "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+        "score": 0.9423582553863525
+      },
+      {
+        "rank": 16,
+        "paper_id": "4625034d-733a-5286-8aff-8567f8fa18e3",
+        "title": "FlashEval: Towards Fast and Accurate Evaluation of Text-to-image Diffusion Generative Models",
+        "score": 0.9423538446426392
+      },
+      {
+        "rank": 17,
+        "paper_id": "310bb64a-1b34-5c14-904d-445004587733",
+        "title": "MAGVLT: Masked Generative Vision-and-Language Transformer",
+        "score": 0.9416114687919617
+      },
+      {
+        "rank": 18,
+        "paper_id": "0cb9aaf0-5301-563c-ba58-0405e51e02ee",
+        "title": "Time Sensitive Knowledge Editing through Efficient Finetuning",
+        "score": 0.9415022730827332
+      },
+      {
+        "rank": 19,
+        "paper_id": "0856e524-4465-5268-ba47-4795c6a9c42e",
+        "title": "Self-Consuming Generative Models with Curated Data Provably Optimize Human Preferences",
+        "score": 0.9409854412078857
+      },
+      {
+        "rank": 20,
+        "paper_id": "d52d28d7-4127-5670-afba-08be8e5df03a",
+        "title": "ReFACT: Updating Text-to-Image Models by Editing the Text Encoder",
+        "score": 0.9405437707901001
+      },
+      {
+        "rank": 21,
+        "paper_id": "5f72ddde-ef7f-54a1-bca7-fec8b223c5f1",
+        "title": "How Does Generative Retrieval Scale to Millions of Passages?",
+        "score": 0.9404376149177551
+      },
+      {
+        "rank": 22,
+        "paper_id": "bece632f-0a97-5198-8ddf-42632e47689e",
+        "title": "Memory-Based Model Editing at Scale",
+        "score": 0.9403858184814453
+      },
+      {
+        "rank": 23,
+        "paper_id": "efd1c041-afab-5ce6-8f6b-29ca45f46238",
+        "title": "Generative Models as a Data Source for Multiview Representation Learning",
+        "score": 0.9403574466705322
+      },
+      {
+        "rank": 24,
+        "paper_id": "2f9862ac-fcb8-52c2-b8db-82d491e74e6d",
+        "title": "Boosting Alignment for Post-Unlearning Text-to-Image Generative Models",
+        "score": 0.9400908946990967
+      },
+      {
+        "rank": 25,
+        "paper_id": "d221d000-96b3-5d64-90da-d47ebcdd9ead",
+        "title": "RA-ISF: Learning to Answer and Understand from Retrieval Augmentation via Iterative Self-Feedback",
+        "score": 0.9400829076766968
+      },
+      {
+        "rank": 26,
+        "paper_id": "de635fbe-5976-5e2b-890d-89c3e6542058",
+        "title": "Learning to Tokenize for Generative Retrieval",
+        "score": 0.9399358034133911
+      },
+      {
+        "rank": 27,
+        "paper_id": "a6f43d08-de7b-5ac8-abb9-1cf8c91c7751",
+        "title": "Knowledge Infused Decoding",
+        "score": 0.9398830533027649
+      },
+      {
+        "rank": 28,
+        "paper_id": "685847cc-acab-52b5-a120-c45bf5f640dd",
+        "title": "Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?",
+        "score": 0.9395898580551147
+      },
+      {
+        "rank": 29,
+        "paper_id": "9462a472-17b4-5d01-9f8c-8dab18ee52ea",
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "score": 0.93924880027771
+      },
+      {
+        "rank": 30,
+        "paper_id": "e59c1d03-9f9c-55ca-a626-d521723d1622",
+        "title": "OpenBias: Open-set Bias Detection in Text-to-Image Generative Models",
+        "score": 0.9391882419586182
+      },
+      {
+        "rank": 31,
+        "paper_id": "fa29d3b2-fbb0-575d-b22f-1aa548bfba4c",
+        "title": "Revisiting the Role of Language Priors in Vision-Language Models",
+        "score": 0.9389970898628235
+      },
+      {
+        "rank": 32,
+        "paper_id": "e25e3349-d5b8-575a-a915-d6ecc964070d",
+        "title": "IS SYNTHETIC DATA FROM GENERATIVE MODELS READY FOR IMAGE RECOGNITION?",
+        "score": 0.9388498067855835
+      },
+      {
+        "rank": 33,
+        "paper_id": "e9358019-da0f-5a58-85e6-b84865f7427a",
+        "title": "Will Large-scale Generative Models Corrupt Future Datasets?",
+        "score": 0.9387123584747314
+      },
+      {
+        "rank": 34,
+        "paper_id": "51110f0d-c34d-5ef8-9c8f-af6cdfc20c6c",
+        "title": "ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems",
+        "score": 0.9386189579963684
+      },
+      {
+        "rank": 35,
+        "paper_id": "301c3fee-9cd0-515b-8a23-16ce3ef874e6",
+        "title": "UniFashion: A Unified Vision-Language Model for Multimodal Fashion Retrieval and Generation",
+        "score": 0.9385885000228882
+      },
+      {
+        "rank": 36,
+        "paper_id": "1998c430-2ddc-57f7-9926-de18dc05d6f7",
+        "title": "GenEval: An object-focused framework for evaluating text-to-image alignment",
+        "score": 0.9383446574211121
+      },
+      {
+        "rank": 37,
+        "paper_id": "92f0e0dc-4794-50ba-a3ab-a3deb0fbb9ce",
+        "title": "Generating Images with Multimodal Language Models",
+        "score": 0.9380784630775452
+      },
+      {
+        "rank": 38,
+        "paper_id": "ea7c42e3-7c6c-5bd1-83dd-37fd9c6a3a13",
+        "title": "Compositional Sculpting of Iterative Generative Processes",
+        "score": 0.9379115700721741
+      },
+      {
+        "rank": 39,
+        "paper_id": "76534633-bf2a-5f22-9be1-e2a61eb08240",
+        "title": "Your Diffusion Model is Secretly a Zero-Shot Classifier",
+        "score": 0.9378407597541809
+      },
+      {
+        "rank": 40,
+        "paper_id": "2d9ed4e9-fe44-593e-91e9-1eccd39e910d",
+        "title": "More room for language: Investigating the effect of retrieval on language models",
+        "score": 0.9374211430549622
+      },
+      {
+        "rank": 41,
+        "paper_id": "7bbd0aec-2916-587b-8c48-88b51f7cc6d6",
+        "title": "Kaleido Diffusion: Improving Conditional Diffusion Models with Autoregressive Latent Modeling",
+        "score": 0.9373412132263184
+      },
+      {
+        "rank": 42,
+        "paper_id": "100ec509-6e75-5880-bc6f-b641be70ed4d",
+        "title": "Do DALL-E and Flamingo Understand Each Other?",
+        "score": 0.9372925758361816
+      },
+      {
+        "rank": 43,
+        "paper_id": "42d1c378-af74-507a-957c-d2cadb6f40dd",
+        "title": "Teaching Language Models to Self-Improve through Interactive Demonstrations",
+        "score": 0.9371258616447449
+      },
+      {
+        "rank": 44,
+        "paper_id": "5f4b1332-1c05-5a9c-9679-ad50924da649",
+        "title": "MAUVE Scores for Generative Models: Theory and Practice",
+        "score": 0.9370303153991699
+      },
+      {
+        "rank": 45,
+        "paper_id": "751f5d77-4705-5743-9064-7870ea5045e4",
+        "title": "Hindsight: Posterior-guided training of retrievers for improved open-ended generation",
+        "score": 0.9368340969085693
+      },
+      {
+        "rank": 46,
+        "paper_id": "46b46f0a-6e7e-57ac-ba7a-3efb07c1fff7",
+        "title": "PointGPT: Auto-regressively Generative Pre-training from Point Clouds",
+        "score": 0.9367960691452026
+      },
+      {
+        "rank": 47,
+        "paper_id": "ada93c81-0f17-535b-a948-b7d6a1862949",
+        "title": "SlotDiffusion: Object-Centric Generative Modeling with Diffusion Models",
+        "score": 0.9366724491119385
+      },
+      {
+        "rank": 48,
+        "paper_id": "4b1350e6-c532-5de3-a4b9-2eacd52578c7",
+        "title": "Learning to Rank in Generative Retrieval",
+        "score": 0.9366529583930969
+      },
+      {
+        "rank": 49,
+        "paper_id": "f801a668-51a9-5036-8f0c-28a6166f1c19",
+        "title": "Characterizing Mechanisms for Factual Recall in Language Models",
+        "score": 0.9366168975830078
+      },
+      {
+        "rank": 50,
+        "paper_id": "f960082e-0582-51e7-92b0-660ce8df0a22",
+        "title": "UniGen: A Unified Generative Framework for Retrieval and Question Answering with Large Language Models",
+        "score": 0.9366095662117004
+      }
+    ],
+    "Soft-AND": [
+      {
+        "rank": 1,
+        "paper_id": "fd2131eb-2c09-5f4e-b17e-038e0f955609",
+        "title": "Zoology: Measuring and Improving Recall in Efficient Language Models",
+        "score": 0.8986833691596985
+      },
+      {
+        "rank": 2,
+        "paper_id": "b522df76-6433-5f18-8689-4d1da7808646",
+        "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+        "score": 0.8981485366821289
+      },
+      {
+        "rank": 3,
+        "paper_id": "bece632f-0a97-5198-8ddf-42632e47689e",
+        "title": "Memory-Based Model Editing at Scale",
+        "score": 0.8961090445518494
+      },
+      {
+        "rank": 4,
+        "paper_id": "c23b9be1-c550-5e36-a32f-c0e2abce0a53",
+        "title": "WAGLE: Strategic Weight Attribution for Effective and Modular Unlearning in Large Language Models",
+        "score": 0.8953517079353333
+      },
+      {
+        "rank": 5,
+        "paper_id": "8e22435a-b6f2-5879-bbe8-097772010087",
+        "title": "Towards Verifiable Text Generation with Evolving Memory and Self-Reflection",
+        "score": 0.8953344821929932
+      },
+      {
+        "rank": 6,
+        "paper_id": "cf4fad57-8e2c-52d3-a721-bd237ac1a813",
+        "title": "Meta-Learning Online Adaptation of Language Models",
+        "score": 0.8952267169952393
+      },
+      {
+        "rank": 7,
+        "paper_id": "6db36be7-cd9c-5f84-96df-edf7822863b8",
+        "title": "Mass-Editing Memory in a Transformer",
+        "score": 0.8951857089996338
+      },
+      {
+        "rank": 8,
+        "paper_id": "ae777fef-d7ab-5402-a455-d1f7637cc9ac",
+        "title": "ClashEval: Quantifying the tug-of-war between an LLM\u2019s internal prior and external evidence",
+        "score": 0.8951246738433838
+      },
+      {
+        "rank": 9,
+        "paper_id": "e1b9879f-267a-5578-8451-935fd97ca1e7",
+        "title": "DSI++: Updating Transformer Memory with New Documents",
+        "score": 0.8948884010314941
+      },
+      {
+        "rank": 10,
+        "paper_id": "293ea9f1-a3bc-59b4-9daf-9c647973add2",
+        "title": "Contextual Memory Trees",
+        "score": 0.8946079015731812
+      },
+      {
+        "rank": 11,
+        "paper_id": "f00423d3-dce4-5c61-950d-6e13a997af72",
+        "title": "Thrust: Adaptively Propels Large Language Models with External Knowledge",
+        "score": 0.8944154977798462
+      },
+      {
+        "rank": 12,
+        "paper_id": "f509c0db-3b78-576c-bfa9-ae9e95e5b3b2",
+        "title": "The Factorization Curse: Which Tokens You Predict Underlie the Reversal Curse and More",
+        "score": 0.8938183188438416
+      },
+      {
+        "rank": 13,
+        "paper_id": "925150ea-433f-5289-aaf4-36d1a9b294b8",
+        "title": "Do LLMs dream of elephants (when told not to)? Latent concept association and associative memory in transformers",
+        "score": 0.8937743902206421
+      },
+      {
+        "rank": 14,
+        "paper_id": "510631ff-d429-53e5-a30e-1fe60a409ecf",
+        "title": "On the Robustness of Editing Large Language Models",
+        "score": 0.8937287926673889
+      },
+      {
+        "rank": 15,
+        "paper_id": "3a3a0f00-b518-5892-a9c5-592f04db437e",
+        "title": "Beyond Memorization: The Challenge of Random Memory Access in Language Models",
+        "score": 0.8936384320259094
+      },
+      {
+        "rank": 16,
+        "paper_id": "a935d851-a382-5b36-9d58-8fa821636274",
+        "title": "Context-Aware Meta-Learning",
+        "score": 0.8930715322494507
+      },
+      {
+        "rank": 17,
+        "paper_id": "83fed144-90cb-5ae9-9b29-6ac873995a0a",
+        "title": "Dwell in the Beginning: How Language Models Embed Long Documents for Dense Retrieval",
+        "score": 0.8929284811019897
+      },
+      {
+        "rank": 18,
+        "paper_id": "10138d6a-742e-5acc-b759-e251e57097b2",
+        "title": "\u221e-former: Infinite Memory Transformer",
+        "score": 0.892513632774353
+      },
+      {
+        "rank": 19,
+        "paper_id": "7b98e965-e43d-5f25-9356-fa7229820400",
+        "title": "Re2G: Retrieve, Rerank, Generate",
+        "score": 0.892487645149231
+      },
+      {
+        "rank": 20,
+        "paper_id": "89d0dad5-1059-5d21-ad54-45c65f6ffbe9",
+        "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs",
+        "score": 0.8924816846847534
+      },
+      {
+        "rank": 21,
+        "paper_id": "60205158-0b41-5756-a69a-8bbdb0f4a9a6",
+        "title": "Dissecting Fine-Tuning Unlearning in Large Language Models",
+        "score": 0.8922043442726135
+      },
+      {
+        "rank": 22,
+        "paper_id": "c444e14e-68af-5139-8251-34e0fda74e03",
+        "title": "Would I Lie To You? Inference Time Alignment of Language Models using Direct Preference Heads",
+        "score": 0.8919864892959595
+      },
+      {
+        "rank": 23,
+        "paper_id": "46ae4e75-4678-57ea-8339-bbbb2108b8ec",
+        "title": "ThinkSum: Probabilistic reasoning over sets using large language models",
+        "score": 0.8917165994644165
+      },
+      {
+        "rank": 24,
+        "paper_id": "00ae6b7c-04a2-5f7f-ac0a-5dde329770fa",
+        "title": "Stealth edits to large language models",
+        "score": 0.8916666507720947
+      },
+      {
+        "rank": 25,
+        "paper_id": "3465a765-fa6c-5c2d-bd04-11dd6b4528cd",
+        "title": "Fine-Tuning Language Models for Factuality",
+        "score": 0.8913593292236328
+      },
+      {
+        "rank": 26,
+        "paper_id": "8d51ad1e-afab-5c12-a3ce-c086894c7553",
+        "title": "Entity-Based Knowledge Conflicts in Question Answering",
+        "score": 0.8908934593200684
+      },
+      {
+        "rank": 27,
+        "paper_id": "d4ba141a-72b0-5575-9ea1-4d028709c0a1",
+        "title": "Self-Alignment for Factuality: Mitigating Hallucinations in LLMs via Self-Evaluation",
+        "score": 0.890527069568634
+      },
+      {
+        "rank": 28,
+        "paper_id": "7c368833-bcd5-5960-811f-df0dbc49f722",
+        "title": "TAXI: Evaluating Categorical Knowledge Editing for Language Models",
+        "score": 0.8905041813850403
+      },
+      {
+        "rank": 29,
+        "paper_id": "4786683e-97cd-5cd3-94b1-82765e3d547c",
+        "title": "Don\u2019t Hallucinate, Abstain: Identifying LLM Knowledge Gaps via Multi-LLM Collaboration",
+        "score": 0.8904739022254944
+      },
+      {
+        "rank": 30,
+        "paper_id": "a6a2dfc3-5333-5c99-8722-cd4e0792c9cc",
+        "title": "Implicit meta-learning may lead language models to trust more reliable sources",
+        "score": 0.8904410600662231
+      },
+      {
+        "rank": 31,
+        "paper_id": "d3f96685-97c6-5f36-8a8d-2e7cfa20874e",
+        "title": "Delving into the Reversal Curse: How Far Can Large Language Models Generalize?",
+        "score": 0.8900225758552551
+      },
+      {
+        "rank": 32,
+        "paper_id": "6e580d3c-313f-57f1-8f8c-3f0a411c8f9b",
+        "title": "SPARO: Selective Attention for Robust and Compositional Transformer Encodings for Vision",
+        "score": 0.8899438381195068
+      },
+      {
+        "rank": 33,
+        "paper_id": "c6c4eba0-724b-555e-935a-aec6e12e3dc6",
+        "title": "MEMORYLLM: Towards Self-Updatable Large Language Models",
+        "score": 0.8899338245391846
+      },
+      {
+        "rank": 34,
+        "paper_id": "f801a668-51a9-5036-8f0c-28a6166f1c19",
+        "title": "Characterizing Mechanisms for Factual Recall in Language Models",
+        "score": 0.8899306058883667
+      },
+      {
+        "rank": 35,
+        "paper_id": "26659f65-08ab-5108-ae36-91691d4b910e",
+        "title": "Transformer Memory as a Differentiable Search Index",
+        "score": 0.889843225479126
+      },
+      {
+        "rank": 36,
+        "paper_id": "ecf9df28-bd91-5e50-96af-51e3c0d93522",
+        "title": "Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models",
+        "score": 0.8897985219955444
+      },
+      {
+        "rank": 37,
+        "paper_id": "bade7373-14c6-5d4b-8279-aa23d112cdf6",
+        "title": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+        "score": 0.8897384405136108
+      },
+      {
+        "rank": 38,
+        "paper_id": "15f39061-490c-5d63-b716-60ab6c9c56c2",
+        "title": "Enhancing LLM\u2019s Cognition via Structurization",
+        "score": 0.8897022008895874
+      },
+      {
+        "rank": 39,
+        "paper_id": "b52336ce-8102-52b4-ba48-1e6adecfc868",
+        "title": "Physics of Language Models: Part 3.1, Knowledge Storage and Extraction",
+        "score": 0.8895993232727051
+      },
+      {
+        "rank": 40,
+        "paper_id": "d221d000-96b3-5d64-90da-d47ebcdd9ead",
+        "title": "RA-ISF: Learning to Answer and Understand from Retrieval Augmentation via Iterative Self-Feedback",
+        "score": 0.8895511627197266
+      },
+      {
+        "rank": 41,
+        "paper_id": "65f66802-7eca-5b1c-9c90-b00b5fc5d0e7",
+        "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+        "score": 0.8895041942596436
+      },
+      {
+        "rank": 42,
+        "paper_id": "15c38765-3dff-523b-a373-f5b809dad7cd",
+        "title": "Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents",
+        "score": 0.889327883720398
+      },
+      {
+        "rank": 43,
+        "paper_id": "8a9ade69-c198-5341-9f6e-d2be0c6b4ce2",
+        "title": "Knowledge Circuits in Pretrained Transformers",
+        "score": 0.8892661929130554
+      },
+      {
+        "rank": 44,
+        "paper_id": "63ed9fc9-be22-5859-98f3-94cccd11f71f",
+        "title": "Position: Why Tabular Foundation Models Should Be a Research Priority",
+        "score": 0.8892238140106201
+      },
+      {
+        "rank": 45,
+        "paper_id": "b0edd911-c98a-54d7-b397-deb90ee99a38",
+        "title": "Model Editing by Standard Fine-Tuning",
+        "score": 0.8890491127967834
+      },
+      {
+        "rank": 46,
+        "paper_id": "5c114409-0711-5879-8069-8e37719ff97c",
+        "title": "When Do LLMs Need Retrieval Augmentation? Mitigating LLMs\u2019 Overconfidence Helps Retrieval Augmentation",
+        "score": 0.8890084028244019
+      },
+      {
+        "rank": 47,
+        "paper_id": "eabce86c-6469-55ec-be30-7138298dbba1",
+        "title": "Transformer Feed-Forward Layers Are Key-Value Memories",
+        "score": 0.8885332942008972
+      },
+      {
+        "rank": 48,
+        "paper_id": "20ee3c3e-b341-510e-aab1-1508c8d07fa8",
+        "title": "FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation",
+        "score": 0.8882114887237549
+      },
+      {
+        "rank": 49,
+        "paper_id": "a55f4a6d-cb33-5704-8868-b45428e51739",
+        "title": "Encapsulating Knowledge in One Prompt",
+        "score": 0.8882097005844116
+      },
+      {
+        "rank": 50,
+        "paper_id": "7a7ca7f2-3f4f-56d3-9eda-ecd3e9b443e6",
+        "title": "Overcoming a Theoretical Limitation of Self-Attention",
+        "score": 0.8881567716598511
+      }
+    ],
+    "Cluster": [
+      {
+        "rank": 1,
+        "paper_id": "26659f65-08ab-5108-ae36-91691d4b910e",
+        "title": "Transformer Memory as a Differentiable Search Index",
+        "score": 0.9239991307258606
+      },
+      {
+        "rank": 2,
+        "paper_id": "de635fbe-5976-5e2b-890d-89c3e6542058",
+        "title": "Learning to Tokenize for Generative Retrieval",
+        "score": 0.9180905222892761
+      },
+      {
+        "rank": 3,
+        "paper_id": "7ae88ca7-8a65-53d8-9654-52087e00b1d9",
+        "title": "Retrieval is Accurate Generation",
+        "score": 0.9175605773925781
+      },
+      {
+        "rank": 4,
+        "paper_id": "fd2131eb-2c09-5f4e-b17e-038e0f955609",
+        "title": "Zoology: Measuring and Improving Recall in Efficient Language Models",
+        "score": 0.9163952469825745
+      },
+      {
+        "rank": 5,
+        "paper_id": "5f72ddde-ef7f-54a1-bca7-fec8b223c5f1",
+        "title": "How Does Generative Retrieval Scale to Millions of Passages?",
+        "score": 0.9151224493980408
+      },
+      {
+        "rank": 6,
+        "paper_id": "7b98e965-e43d-5f25-9356-fa7229820400",
+        "title": "Re2G: Retrieve, Rerank, Generate",
+        "score": 0.9141837954521179
+      },
+      {
+        "rank": 7,
+        "paper_id": "bb429c64-2ae9-5109-8281-22a2e3cfbdf7",
+        "title": "Enhancing Generative Retrieval with Reinforcement Learning from Relevance Feedback",
+        "score": 0.9141783118247986
+      },
+      {
+        "rank": 8,
+        "paper_id": "98627838-b6a9-5cbc-b15e-87eaa52969ba",
+        "title": "IRGen: Generative Modeling for Image Retrieval",
+        "score": 0.9136081337928772
+      },
+      {
+        "rank": 9,
+        "paper_id": "15c38765-3dff-523b-a373-f5b809dad7cd",
+        "title": "Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents",
+        "score": 0.9120616912841797
+      },
+      {
+        "rank": 10,
+        "paper_id": "782b6ce2-e875-5fa0-9ccc-36f26e5e1409",
+        "title": "Generative Retrieval Meets Multi-Graded Relevance",
+        "score": 0.9119427800178528
+      },
+      {
+        "rank": 11,
+        "paper_id": "89d0dad5-1059-5d21-ad54-45c65f6ffbe9",
+        "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs",
+        "score": 0.9102168083190918
+      },
+      {
+        "rank": 12,
+        "paper_id": "e1b9879f-267a-5578-8451-935fd97ca1e7",
+        "title": "DSI++: Updating Transformer Memory with New Documents",
+        "score": 0.9100046157836914
+      },
+      {
+        "rank": 13,
+        "paper_id": "1fdc7354-62ec-5305-a1ed-fcd0d1ff72c0",
+        "title": "Focused Transformer: Contrastive Training for Context Scaling",
+        "score": 0.9099302291870117
+      },
+      {
+        "rank": 14,
+        "paper_id": "2270783c-2ce4-5384-8697-3046a0d259d7",
+        "title": "Bottleneck-Minimal Indexing for Generative Document Retrieval",
+        "score": 0.9087762236595154
+      },
+      {
+        "rank": 15,
+        "paper_id": "3d3cd9df-be17-5d62-bad9-35248ff59200",
+        "title": "Peering into the Mind of Language Models: An Approach for Attribution in Contextual Question Answering",
+        "score": 0.9078574180603027
+      },
+      {
+        "rank": 16,
+        "paper_id": "550f4c97-b1a8-5ce8-88cb-f1c11d02238b",
+        "title": "CompAct: Compressing Retrieved Documents Actively for Question Answering",
+        "score": 0.9076250195503235
+      },
+      {
+        "rank": 17,
+        "paper_id": "d2274af9-e374-5402-a696-419d304b23d9",
+        "title": "Controllable Semantic Parsing via Retrieval Augmentation",
+        "score": 0.9074835777282715
+      },
+      {
+        "rank": 18,
+        "paper_id": "83fed144-90cb-5ae9-9b29-6ac873995a0a",
+        "title": "Dwell in the Beginning: How Language Models Embed Long Documents for Dense Retrieval",
+        "score": 0.9073206782341003
+      },
+      {
+        "rank": 19,
+        "paper_id": "4fa44b62-2230-55eb-9c96-e3f845e210ae",
+        "title": "xRAG: Extreme Context Compression for Retrieval-augmented Generation with One Token",
+        "score": 0.9072566032409668
+      },
+      {
+        "rank": 20,
+        "paper_id": "ae777fef-d7ab-5402-a455-d1f7637cc9ac",
+        "title": "ClashEval: Quantifying the tug-of-war between an LLM\u2019s internal prior and external evidence",
+        "score": 0.9070793986320496
+      },
+      {
+        "rank": 21,
+        "paper_id": "4b1350e6-c532-5de3-a4b9-2eacd52578c7",
+        "title": "Learning to Rank in Generative Retrieval",
+        "score": 0.9070380330085754
+      },
+      {
+        "rank": 22,
+        "paper_id": "f960082e-0582-51e7-92b0-660ce8df0a22",
+        "title": "UniGen: A Unified Generative Framework for Retrieval and Question Answering with Large Language Models",
+        "score": 0.906960666179657
+      },
+      {
+        "rank": 23,
+        "paper_id": "dd9d3568-59af-50fa-b3ee-06c8d690968c",
+        "title": "Unveiling the Magic: Investigating Attention Distillation in Retrieval-Augmented Generation",
+        "score": 0.9069049954414368
+      },
+      {
+        "rank": 24,
+        "paper_id": "e08dd22e-18cc-5534-9a06-5b113770dccf",
+        "title": "C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models",
+        "score": 0.9065794944763184
+      },
+      {
+        "rank": 25,
+        "paper_id": "8e22435a-b6f2-5879-bbe8-097772010087",
+        "title": "Towards Verifiable Text Generation with Evolving Memory and Self-Reflection",
+        "score": 0.9063258767127991
+      },
+      {
+        "rank": 26,
+        "paper_id": "02d99566-391e-5b29-91d3-169514e56484",
+        "title": "RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation",
+        "score": 0.9062349200248718
+      },
+      {
+        "rank": 27,
+        "paper_id": "b522df76-6433-5f18-8689-4d1da7808646",
+        "title": "HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models",
+        "score": 0.9061978459358215
+      },
+      {
+        "rank": 28,
+        "paper_id": "7d2330be-c030-5218-9875-98bc90265c18",
+        "title": "Bridging the Preference Gap between Retrievers and LLMs",
+        "score": 0.9061770439147949
+      },
+      {
+        "rank": 29,
+        "paper_id": "3d52e7fa-fa6f-5838-9528-c7502c829b63",
+        "title": "Reference Trustable Decoding: A Training-Free Augmentation Paradigm for Large Language Models",
+        "score": 0.9060239791870117
+      },
+      {
+        "rank": 30,
+        "paper_id": "59183136-29b0-51a3-94a1-e7095fcd83bb",
+        "title": "Aging with GRACE: Lifelong Model Editing with Discrete Key-Value Adaptors",
+        "score": 0.906019389629364
+      },
+      {
+        "rank": 31,
+        "paper_id": "a5953b43-1ca8-5882-936b-ef6c8e5b38b2",
+        "title": "Copy is All You Need",
+        "score": 0.9056981205940247
+      },
+      {
+        "rank": 32,
+        "paper_id": "765507ee-407f-5ed0-b566-1a0703fc8984",
+        "title": "Beyond [CLS] through Ranking by Generation",
+        "score": 0.9056769013404846
+      },
+      {
+        "rank": 33,
+        "paper_id": "6db36be7-cd9c-5f84-96df-edf7822863b8",
+        "title": "Mass-Editing Memory in a Transformer",
+        "score": 0.9054407477378845
+      },
+      {
+        "rank": 34,
+        "paper_id": "d221d000-96b3-5d64-90da-d47ebcdd9ead",
+        "title": "RA-ISF: Learning to Answer and Understand from Retrieval Augmentation via Iterative Self-Feedback",
+        "score": 0.905378520488739
+      },
+      {
+        "rank": 35,
+        "paper_id": "1e7df8e8-7336-5498-abac-b2fc63beaee4",
+        "title": "Referral Augmentation for Zero-Shot Information Retrieval",
+        "score": 0.9053521752357483
+      },
+      {
+        "rank": 36,
+        "paper_id": "7eb4867a-474a-5de7-bd14-17127ea32b3b",
+        "title": "ConvGQR: Generative Query Reformulation for Conversational Search",
+        "score": 0.905109703540802
+      },
+      {
+        "rank": 37,
+        "paper_id": "dc4d7c07-543a-58f9-bc41-4c9855284d16",
+        "title": "Language Models as Semantic Indexers",
+        "score": 0.9048978686332703
+      },
+      {
+        "rank": 38,
+        "paper_id": "10138d6a-742e-5acc-b759-e251e57097b2",
+        "title": "\u221e-former: Infinite Memory Transformer",
+        "score": 0.9048145413398743
+      },
+      {
+        "rank": 39,
+        "paper_id": "921f77dc-9b15-5c40-bb2a-6a63b9a0137d",
+        "title": "Found in the middle: Calibrating Positional Attention Bias Improves Long Context Utilization",
+        "score": 0.9043900966644287
+      },
+      {
+        "rank": 40,
+        "paper_id": "3a3a0f00-b518-5892-a9c5-592f04db437e",
+        "title": "Beyond Memorization: The Challenge of Random Memory Access in Language Models",
+        "score": 0.9043887257575989
+      },
+      {
+        "rank": 41,
+        "paper_id": "a572367d-0537-5608-b7f4-365a99ddd8fc",
+        "title": "Unsupervised Information Refinement Training of Large Language Models for Retrieval-Augmented Generation",
+        "score": 0.904298722743988
+      },
+      {
+        "rank": 42,
+        "paper_id": "bece632f-0a97-5198-8ddf-42632e47689e",
+        "title": "Memory-Based Model Editing at Scale",
+        "score": 0.9042894244194031
+      },
+      {
+        "rank": 43,
+        "paper_id": "c23b9be1-c550-5e36-a32f-c0e2abce0a53",
+        "title": "WAGLE: Strategic Weight Attribution for Effective and Modular Unlearning in Large Language Models",
+        "score": 0.9041761755943298
+      },
+      {
+        "rank": 44,
+        "paper_id": "1099e261-e705-598c-9aba-de837e075182",
+        "title": "BlendFilter: Advancing Retrieval-Augmented Large Language Models via Query Generation Blending and Knowledge Filtering",
+        "score": 0.9041361808776855
+      },
+      {
+        "rank": 45,
+        "paper_id": "6c05b742-c128-5d54-9084-43f268054543",
+        "title": "Improving Language Models by Retrieving from Trillions of Tokens",
+        "score": 0.9041298031806946
+      },
+      {
+        "rank": 46,
+        "paper_id": "925150ea-433f-5289-aaf4-36d1a9b294b8",
+        "title": "Do LLMs dream of elephants (when told not to)? Latent concept association and associative memory in transformers",
+        "score": 0.9040682315826416
+      },
+      {
+        "rank": 47,
+        "paper_id": "c370838b-d551-595b-b02f-c43b71d2e949",
+        "title": "LaMP: When Large Language Models Meet Personalization",
+        "score": 0.9039633274078369
+      },
+      {
+        "rank": 48,
+        "paper_id": "fcd57ee0-ebc3-50ef-b853-270cfa04c13a",
+        "title": "Reducing hallucination in structured outputs via Retrieval-Augmented Generation",
+        "score": 0.903918981552124
+      },
+      {
+        "rank": 49,
+        "paper_id": "d6b5e0fe-9674-5166-b4e0-3b5e685ef19e",
+        "title": "Generative Multi-Modal Knowledge Retrieval with Large Language Models",
+        "score": 0.9038895964622498
+      },
+      {
+        "rank": 50,
+        "paper_id": "f67f544e-e971-5035-abc4-7d2307595a8b",
+        "title": "ChatQA: Surpassing GPT-4 on Conversational QA and RAG",
+        "score": 0.9038613438606262
+      }
+    ]
+  },
+  "overlap_analysis": {
+    "papers_in_all_strategies": [
+      {
+        "paper_id": "bece632f-0a97-5198-8ddf-42632e47689e",
+        "title": "Memory-Based Model Editing at Scale"
+      },
+      {
+        "paper_id": "d221d000-96b3-5d64-90da-d47ebcdd9ead",
+        "title": "RA-ISF: Learning to Answer and Understand from Retrieval Augmentation via Iterative Self-Feedback"
+      },
+      {
+        "paper_id": "89d0dad5-1059-5d21-ad54-45c65f6ffbe9",
+        "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs"
+      },
+      {
+        "paper_id": "26659f65-08ab-5108-ae36-91691d4b910e",
+        "title": "Transformer Memory as a Differentiable Search Index"
+      },
+      {
+        "paper_id": "7b98e965-e43d-5f25-9356-fa7229820400",
+        "title": "Re2G: Retrieve, Rerank, Generate"
+      }
+    ],
+    "unique_per_strategy": {
+      "Mean": [
+        {
+          "paper_id": "c951c687-c716-5320-835d-a50d848012fb",
+          "title": "Knowledge Neurons in Pretrained Transformers"
+        },
+        {
+          "paper_id": "2b3fc325-1967-53c5-83ed-1c1370d19510",
+          "title": "Interactive Continual Learning: Fast and Slow Thinking"
+        },
+        {
+          "paper_id": "a0d4ce78-3c2a-59d0-b9a5-baaf62ad6179",
+          "title": "Rehearsal-Free Modular and Compositional Continual Learning for Language Models"
+        },
+        {
+          "paper_id": "a185607d-96e5-5838-92e6-19d3366c11e4",
+          "title": "IRCAN: Mitigating Knowledge Conflicts in LLM Generation via Identifying and Reweighting Context-Aware Neurons"
+        },
+        {
+          "paper_id": "e315b5e9-3442-518a-ab51-7746bbea756a",
+          "title": "Improving LLM Generations via Fine-Grained Self-Endorsement"
+        },
+        {
+          "paper_id": "3f2c8fc6-6fca-5745-9840-deb8ae9fcb8f",
+          "title": "The Representation Landscape of Few-Shot Learning and Fine-Tuning in Large Language Models"
+        },
+        {
+          "paper_id": "0acce51d-9822-53b2-83bb-9d5fbe2eba78",
+          "title": "Instruction-tuned Language Models are Better Knowledge Learners"
+        },
+        {
+          "paper_id": "d3674def-7499-54ef-8498-0eadfe68dfab",
+          "title": "Unveiling the Pitfalls of Knowledge Editing for Large Language Models"
+        },
+        {
+          "paper_id": "0b521602-75b2-58b6-a59f-c2fc9013f1a7",
+          "title": "Fine-tuned Language Models are Continual Learners"
+        },
+        {
+          "paper_id": "60829a11-6283-5edd-a35b-8139b5891dc6",
+          "title": "Mass-Editing Memory with Attention in Transformers: A cross-lingual exploration of knowledge"
+        }
+      ],
+      "Max": [
+        {
+          "paper_id": "86574c84-8bb7-5f0b-b198-16117da8a6aa",
+          "title": "Intriguing Properties of Generative Classifiers"
+        },
+        {
+          "paper_id": "ddd05ced-e0eb-5cfe-8f88-d6df9db1e704",
+          "title": "Unsupervised Compositional Concepts Discovery with Text-to-Image Generative Models"
+        },
+        {
+          "paper_id": "1998c430-2ddc-57f7-9926-de18dc05d6f7",
+          "title": "GenEval: An object-focused framework for evaluating text-to-image alignment"
+        },
+        {
+          "paper_id": "e25e3349-d5b8-575a-a915-d6ecc964070d",
+          "title": "IS SYNTHETIC DATA FROM GENERATIVE MODELS READY FOR IMAGE RECOGNITION?"
+        },
+        {
+          "paper_id": "5f4b1332-1c05-5a9c-9679-ad50924da649",
+          "title": "MAUVE Scores for Generative Models: Theory and Practice"
+        },
+        {
+          "paper_id": "0cb9aaf0-5301-563c-ba58-0405e51e02ee",
+          "title": "Time Sensitive Knowledge Editing through Efficient Finetuning"
+        },
+        {
+          "paper_id": "76534633-bf2a-5f22-9be1-e2a61eb08240",
+          "title": "Your Diffusion Model is Secretly a Zero-Shot Classifier"
+        },
+        {
+          "paper_id": "ada93c81-0f17-535b-a948-b7d6a1862949",
+          "title": "SlotDiffusion: Object-Centric Generative Modeling with Diffusion Models"
+        },
+        {
+          "paper_id": "4625034d-733a-5286-8aff-8567f8fa18e3",
+          "title": "FlashEval: Towards Fast and Accurate Evaluation of Text-to-image Diffusion Generative Models"
+        },
+        {
+          "paper_id": "301c3fee-9cd0-515b-8a23-16ce3ef874e6",
+          "title": "UniFashion: A Unified Vision-Language Model for Multimodal Fashion Retrieval and Generation"
+        },
+        {
+          "paper_id": "0738aad5-b7cd-5796-8b91-e9e228dfecfe",
+          "title": "IG Captioner: Information Gain Captioners are Strong Zero-shot Classifiers"
+        },
+        {
+          "paper_id": "e9358019-da0f-5a58-85e6-b84865f7427a",
+          "title": "Will Large-scale Generative Models Corrupt Future Datasets?"
+        },
+        {
+          "paper_id": "51110f0d-c34d-5ef8-9c8f-af6cdfc20c6c",
+          "title": "ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems"
+        },
+        {
+          "paper_id": "2d9ed4e9-fe44-593e-91e9-1eccd39e910d",
+          "title": "More room for language: Investigating the effect of retrieval on language models"
+        },
+        {
+          "paper_id": "efd1c041-afab-5ce6-8f6b-29ca45f46238",
+          "title": "Generative Models as a Data Source for Multiview Representation Learning"
+        },
+        {
+          "paper_id": "751f5d77-4705-5743-9064-7870ea5045e4",
+          "title": "Hindsight: Posterior-guided training of retrievers for improved open-ended generation"
+        },
+        {
+          "paper_id": "ed4668b6-252e-5314-a017-9ab2a7aa93af",
+          "title": "Unified Generative and Discriminative Training for Multi-modal Large Language Models"
+        },
+        {
+          "paper_id": "2f9862ac-fcb8-52c2-b8db-82d491e74e6d",
+          "title": "Boosting Alignment for Post-Unlearning Text-to-Image Generative Models"
+        },
+        {
+          "paper_id": "310bb64a-1b34-5c14-904d-445004587733",
+          "title": "MAGVLT: Masked Generative Vision-and-Language Transformer"
+        },
+        {
+          "paper_id": "fa29d3b2-fbb0-575d-b22f-1aa548bfba4c",
+          "title": "Revisiting the Role of Language Priors in Vision-Language Models"
+        },
+        {
+          "paper_id": "9462a472-17b4-5d01-9f8c-8dab18ee52ea",
+          "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+        },
+        {
+          "paper_id": "96ce3982-1c2d-5bac-9619-fdac686ec983",
+          "title": "RAIN: Your Language Models Can Align Themselves without Finetuning"
+        },
+        {
+          "paper_id": "ea7c42e3-7c6c-5bd1-83dd-37fd9c6a3a13",
+          "title": "Compositional Sculpting of Iterative Generative Processes"
+        },
+        {
+          "paper_id": "059f485f-f251-5c93-8f84-83f0e40760a4",
+          "title": "Circumventing Concept Erasure Methods For Text-To-Image Generative Models"
+        },
+        {
+          "paper_id": "100ec509-6e75-5880-bc6f-b641be70ed4d",
+          "title": "Do DALL-E and Flamingo Understand Each Other?"
+        },
+        {
+          "paper_id": "7fc85abe-5f56-5143-9d1d-66d6a5934ea7",
+          "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection"
+        },
+        {
+          "paper_id": "40c92929-129d-5d37-99e5-c2e151e20dfd",
+          "title": "Generative Cross-Modal Retrieval: Memorizing Images in Multimodal Language Models for Retrieval and Beyond"
+        },
+        {
+          "paper_id": "0856e524-4465-5268-ba47-4795c6a9c42e",
+          "title": "Self-Consuming Generative Models with Curated Data Provably Optimize Human Preferences"
+        },
+        {
+          "paper_id": "42d1c378-af74-507a-957c-d2cadb6f40dd",
+          "title": "Teaching Language Models to Self-Improve through Interactive Demonstrations"
+        },
+        {
+          "paper_id": "92f0e0dc-4794-50ba-a3ab-a3deb0fbb9ce",
+          "title": "Generating Images with Multimodal Language Models"
+        },
+        {
+          "paper_id": "e59c1d03-9f9c-55ca-a626-d521723d1622",
+          "title": "OpenBias: Open-set Bias Detection in Text-to-Image Generative Models"
+        },
+        {
+          "paper_id": "7bbd0aec-2916-587b-8c48-88b51f7cc6d6",
+          "title": "Kaleido Diffusion: Improving Conditional Diffusion Models with Autoregressive Latent Modeling"
+        },
+        {
+          "paper_id": "d52d28d7-4127-5670-afba-08be8e5df03a",
+          "title": "ReFACT: Updating Text-to-Image Models by Editing the Text Encoder"
+        },
+        {
+          "paper_id": "46b46f0a-6e7e-57ac-ba7a-3efb07c1fff7",
+          "title": "PointGPT: Auto-regressively Generative Pre-training from Point Clouds"
+        }
+      ],
+      "Soft-AND": [
+        {
+          "paper_id": "eabce86c-6469-55ec-be30-7138298dbba1",
+          "title": "Transformer Feed-Forward Layers Are Key-Value Memories"
+        },
+        {
+          "paper_id": "46ae4e75-4678-57ea-8339-bbbb2108b8ec",
+          "title": "ThinkSum: Probabilistic reasoning over sets using large language models"
+        },
+        {
+          "paper_id": "6e580d3c-313f-57f1-8f8c-3f0a411c8f9b",
+          "title": "SPARO: Selective Attention for Robust and Compositional Transformer Encodings for Vision"
+        },
+        {
+          "paper_id": "c444e14e-68af-5139-8251-34e0fda74e03",
+          "title": "Would I Lie To You? Inference Time Alignment of Language Models using Direct Preference Heads"
+        },
+        {
+          "paper_id": "20ee3c3e-b341-510e-aab1-1508c8d07fa8",
+          "title": "FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation"
+        },
+        {
+          "paper_id": "a55f4a6d-cb33-5704-8868-b45428e51739",
+          "title": "Encapsulating Knowledge in One Prompt"
+        },
+        {
+          "paper_id": "8d51ad1e-afab-5c12-a3ce-c086894c7553",
+          "title": "Entity-Based Knowledge Conflicts in Question Answering"
+        },
+        {
+          "paper_id": "bade7373-14c6-5d4b-8279-aa23d112cdf6",
+          "title": "Atlas: Few-shot Learning with Retrieval Augmented Language Models"
+        },
+        {
+          "paper_id": "7a7ca7f2-3f4f-56d3-9eda-ecd3e9b443e6",
+          "title": "Overcoming a Theoretical Limitation of Self-Attention"
+        },
+        {
+          "paper_id": "00ae6b7c-04a2-5f7f-ac0a-5dde329770fa",
+          "title": "Stealth edits to large language models"
+        },
+        {
+          "paper_id": "3465a765-fa6c-5c2d-bd04-11dd6b4528cd",
+          "title": "Fine-Tuning Language Models for Factuality"
+        },
+        {
+          "paper_id": "15f39061-490c-5d63-b716-60ab6c9c56c2",
+          "title": "Enhancing LLM\u2019s Cognition via Structurization"
+        },
+        {
+          "paper_id": "65f66802-7eca-5b1c-9c90-b00b5fc5d0e7",
+          "title": "Chain-of-Verification Reduces Hallucination in Large Language Models"
+        },
+        {
+          "paper_id": "63ed9fc9-be22-5859-98f3-94cccd11f71f",
+          "title": "Position: Why Tabular Foundation Models Should Be a Research Priority"
+        },
+        {
+          "paper_id": "ecf9df28-bd91-5e50-96af-51e3c0d93522",
+          "title": "Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models"
+        },
+        {
+          "paper_id": "b0edd911-c98a-54d7-b397-deb90ee99a38",
+          "title": "Model Editing by Standard Fine-Tuning"
+        }
+      ],
+      "Cluster": [
+        {
+          "paper_id": "7d2330be-c030-5218-9875-98bc90265c18",
+          "title": "Bridging the Preference Gap between Retrievers and LLMs"
+        },
+        {
+          "paper_id": "dc4d7c07-543a-58f9-bc41-4c9855284d16",
+          "title": "Language Models as Semantic Indexers"
+        },
+        {
+          "paper_id": "59183136-29b0-51a3-94a1-e7095fcd83bb",
+          "title": "Aging with GRACE: Lifelong Model Editing with Discrete Key-Value Adaptors"
+        },
+        {
+          "paper_id": "c370838b-d551-595b-b02f-c43b71d2e949",
+          "title": "LaMP: When Large Language Models Meet Personalization"
+        },
+        {
+          "paper_id": "1e7df8e8-7336-5498-abac-b2fc63beaee4",
+          "title": "Referral Augmentation for Zero-Shot Information Retrieval"
+        },
+        {
+          "paper_id": "4fa44b62-2230-55eb-9c96-e3f845e210ae",
+          "title": "xRAG: Extreme Context Compression for Retrieval-augmented Generation with One Token"
+        },
+        {
+          "paper_id": "765507ee-407f-5ed0-b566-1a0703fc8984",
+          "title": "Beyond [CLS] through Ranking by Generation"
+        },
+        {
+          "paper_id": "a572367d-0537-5608-b7f4-365a99ddd8fc",
+          "title": "Unsupervised Information Refinement Training of Large Language Models for Retrieval-Augmented Generation"
+        },
+        {
+          "paper_id": "bb429c64-2ae9-5109-8281-22a2e3cfbdf7",
+          "title": "Enhancing Generative Retrieval with Reinforcement Learning from Relevance Feedback"
+        },
+        {
+          "paper_id": "f67f544e-e971-5035-abc4-7d2307595a8b",
+          "title": "ChatQA: Surpassing GPT-4 on Conversational QA and RAG"
+        },
+        {
+          "paper_id": "1099e261-e705-598c-9aba-de837e075182",
+          "title": "BlendFilter: Advancing Retrieval-Augmented Large Language Models via Query Generation Blending and Knowledge Filtering"
+        },
+        {
+          "paper_id": "2270783c-2ce4-5384-8697-3046a0d259d7",
+          "title": "Bottleneck-Minimal Indexing for Generative Document Retrieval"
+        },
+        {
+          "paper_id": "fcd57ee0-ebc3-50ef-b853-270cfa04c13a",
+          "title": "Reducing hallucination in structured outputs via Retrieval-Augmented Generation"
+        },
+        {
+          "paper_id": "d2274af9-e374-5402-a696-419d304b23d9",
+          "title": "Controllable Semantic Parsing via Retrieval Augmentation"
+        },
+        {
+          "paper_id": "a5953b43-1ca8-5882-936b-ef6c8e5b38b2",
+          "title": "Copy is All You Need"
+        },
+        {
+          "paper_id": "dd9d3568-59af-50fa-b3ee-06c8d690968c",
+          "title": "Unveiling the Magic: Investigating Attention Distillation in Retrieval-Augmented Generation"
+        },
+        {
+          "paper_id": "6c05b742-c128-5d54-9084-43f268054543",
+          "title": "Improving Language Models by Retrieving from Trillions of Tokens"
+        },
+        {
+          "paper_id": "d6b5e0fe-9674-5166-b4e0-3b5e685ef19e",
+          "title": "Generative Multi-Modal Knowledge Retrieval with Large Language Models"
+        },
+        {
+          "paper_id": "550f4c97-b1a8-5ce8-88cb-f1c11d02238b",
+          "title": "CompAct: Compressing Retrieved Documents Actively for Question Answering"
+        },
+        {
+          "paper_id": "e08dd22e-18cc-5534-9a06-5b113770dccf",
+          "title": "C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models"
+        },
+        {
+          "paper_id": "7eb4867a-474a-5de7-bd14-17127ea32b3b",
+          "title": "ConvGQR: Generative Query Reformulation for Conversational Search"
+        },
+        {
+          "paper_id": "921f77dc-9b15-5c40-bb2a-6a63b9a0137d",
+          "title": "Found in the middle: Calibrating Positional Attention Bias Improves Long Context Utilization"
+        }
+      ]
+    }
+  }
+}

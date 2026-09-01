@@ -1,0 +1,14 @@
+{
+  "query": "Query 3: Transformer Theory",
+  "union_count": 130,
+  "intersection_count": 1,
+  "set_mean_count": 50,
+  "discovery_count": 2,
+  "intersection_papers": [
+    "631cd2e2-3182-5305-817b-3d28e181eb0a"
+  ],
+  "discovery_papers": [
+    "a2df7e94-9076-5811-821e-d4a41f798339",
+    "d3747938-3bd2-53f3-93e0-43b05b4600d0"
+  ]
+}

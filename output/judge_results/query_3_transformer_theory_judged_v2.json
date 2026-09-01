@@ -1,0 +1,1839 @@
+{
+  "query": "Query 3: Transformer Theory",
+  "topic": "Theoretical Expressivity of Transformers",
+  "semantic_mean": {
+    "papers": [
+      {
+        "rank": 1,
+        "paper_id": "0c1590eb-b25c-59a0-bb7a-ef483498a5b6",
+        "title": "Tighter Bounds on the Expressivity of Transformer Encoders",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the expressivity of transformer encoders, which is a central theme in the given seed papers."
+      },
+      {
+        "rank": 2,
+        "paper_id": "1c06ca82-15a9-57f7-a022-152aec8d56eb",
+        "title": "Logical Languages Accepted by Transformer Encoders with Hard Attention",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the theoretical expressivity of transformers, specifically focusing on the languages that transformer encoders with hard attention can recognize."
+      },
+      {
+        "rank": 3,
+        "paper_id": "b78af4e4-3db6-59b3-828e-e87422542b49",
+        "title": "Masked Hard-Attention Transformers Recognize Exactly the Star-Free Languages",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the theoretical expressivity of transformers by characterizing their ability to recognize specific classes of formal languages, which aligns closely with the topics covered in the seed papers."
+      },
+      {
+        "rank": 4,
+        "paper_id": "a19c1196-43fe-53b0-bbc6-98b11eb5d644",
+        "title": "The Power of Hard Attention Transformers on Data Sequences: A formal language theoretic perspective",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the power of hard attention transformers from a formal language theory perspective, which is closely related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 5,
+        "paper_id": "45ce4638-df3c-5acb-a58a-37f10262a185",
+        "title": "A Logic for Expressing Log-Precision Transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the reasoning power of transformer-based models through logic, which is relevant to the expressivity of transformers as explored in the seed papers."
+      },
+      {
+        "rank": 6,
+        "paper_id": "5bb37383-023a-5808-b2e4-2c3d19710841",
+        "title": "How Far Can Transformers Reason? The Globality Barrier and Inductive Scratchpad",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of algorithmic reasoning and transformers, but the specific focus on the 'globality degree' and learnability is more aligned with learnability and limitations rather than the expressivity of transformers."
+      },
+      {
+        "rank": 7,
+        "paper_id": "078f3b42-0d95-5c81-8435-5ae961df6330",
+        "title": "Stack Attention: Improving the Ability of Transformers to Model Hierarchical Patterns",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the limitations of standard attention mechanisms in handling hierarchical patterns, which is a key aspect of the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 8,
+        "paper_id": "1ce833f3-fe31-531e-b22b-b3c0a329d375",
+        "title": "Overcoming a Theoretical Limitation of Self-Attention",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressivity limitations of transformers, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 9,
+        "paper_id": "625418d7-8628-5405-9b15-65a996001fa1",
+        "title": "Representational Strengths and Limitations of Transformers",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the representational strengths and limitations of transformers, which is a core aspect of the theoretical expressivity of transformers, as highlighted in the seed papers."
+      },
+      {
+        "rank": 10,
+        "paper_id": "63d1b584-a00e-559c-b8f1-ac0bf887d020",
+        "title": "When can transformers reason with abstract symbols?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the capabilities of transformers in learning and generalizing abstract relations, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 11,
+        "paper_id": "5df5470f-d1ab-5390-b37e-269ccc7e9ada",
+        "title": "Attention Meets Post-hoc Interpretability: A Mathematical Perspective",
+        "relevance_score": 2,
+        "justification": "This paper explores the interpretability of attention mechanisms, which tangentially relates to the expressivity of transformers, but does not focus on the theoretical expressivity as defined by the seed papers."
+      },
+      {
+        "rank": 12,
+        "paper_id": "a8d62b8c-05ad-5719-93ec-989c3c357ada",
+        "title": "Why are Sensitive Functions Hard for Transformers?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressiveness of transformers in learning complex functions, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 13,
+        "paper_id": "8a9f0d1d-8ace-5f1f-a7d5-2fb08e8cca1a",
+        "title": "Systematic Generalization with Edge Transformers",
+        "relevance_score": 2,
+        "justification": "This paper discusses Edge Transformers, which introduces a new model combining elements of Transformers and rule-based systems, but it does not focus on the theoretical expressivity of Transformers as the seed papers do."
+      },
+      {
+        "rank": 14,
+        "paper_id": "ccc417e6-cced-5903-816c-6cd7262534dd",
+        "title": "Simplicity Bias in Transformers and their Ability to Learn SparseBoolean Functions",
+        "relevance_score": 3,
+        "justification": "This paper explores the generalization capabilities of Transformers, which shares the problem domain with the expressivity of Transformers but does not directly address the theoretical expressivity as the seed papers focus on."
+      },
+      {
+        "rank": 15,
+        "paper_id": "84b0c08d-753c-5ae2-82a6-e9c2cdd07cc2",
+        "title": "Thinking Like Transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the computational model of transformers, which is closely related to understanding their expressivity."
+      },
+      {
+        "rank": 16,
+        "paper_id": "bbc91939-309b-510a-9451-15083c36b252",
+        "title": "On Identifiability in Transformers",
+        "relevance_score": 3,
+        "justification": "This paper explores aspects of attention and embeddings within transformers, which relates to the expressivity of transformers, but focuses more on identifiability issues rather than the expressivity itself."
+      },
+      {
+        "rank": 17,
+        "paper_id": "569d04f2-2c43-5d67-b7a9-bee23a2c7b33",
+        "title": "Looped Transformers as Programmable Computers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using transformers, which is closely related to the expressivity and representational strengths of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 18,
+        "paper_id": "ded38392-2824-5663-a7cc-9535977461c3",
+        "title": "The Expressive Power of Transformers with Chain of Thought",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressivity of transformers in reasoning tasks, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 19,
+        "paper_id": "20325f6c-47d9-5286-a1dc-4408cb3d2a89",
+        "title": "Towards a Theoretical Understanding of the 'Reversal Curse' via Training Dynamics",
+        "relevance_score": 2,
+        "justification": "This paper addresses a specific issue (the reversal curse) in auto-regressive LLMs, which is tangentially related to the expressivity of transformers, particularly in the context of logical reasoning."
+      },
+      {
+        "rank": 20,
+        "paper_id": "6d0791e8-c9c7-520a-b406-e6d174f14229",
+        "title": "Transformers are uninterpretable with myopic methods: a case study with bounded Dyck grammars",
+        "relevance_score": 2,
+        "justification": "This paper discusses interpretability of transformers, which is tangentially related to the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 21,
+        "paper_id": "21e90331-121d-5888-ba37-1b333a59cb62",
+        "title": "Prompting a Pretrained Transformer Can Be a Universal Approximator",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the theoretical expressivity of transformers by investigating the capability of prompting to approximate sequence-to-sequence functions, which is closely related to the expressivity of transformer models."
+      },
+      {
+        "rank": 22,
+        "paper_id": "d1c04141-cbdd-5627-81c3-b8b34a2bd328",
+        "title": "Practical Computational Power of Linear Transformers and Their Recurrent and Self-Referential Extensions",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the computational power of a specific type of Transformer (linear Transformers), which is closely related to the expressivity of Transformers."
+      },
+      {
+        "rank": 23,
+        "paper_id": "1c237b72-aac4-5a02-9789-80a769f61359",
+        "title": "Transformers, parallel computation, and logarithmic depth",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the computational depth of transformers and their ability to solve tasks, which is closely related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 24,
+        "paper_id": "b0be176b-bee2-5060-8cfc-df4bb0f1b8e6",
+        "title": "Influence Patterns for Explaining Information Flow in BERT",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks, which is closely related to the expressivity of transformers as it involves understanding the flow of information in attention-based models."
+      },
+      {
+        "rank": 25,
+        "paper_id": "fe184618-82b7-5ad2-9afd-3eb8e0d548f0",
+        "title": "Simulating weighted automata over sequences and trees with transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using transformers, which is closely related to understanding the computational capabilities and expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 26,
+        "paper_id": "cc854fc2-32da-5e3c-bda6-be443f13e4a6",
+        "title": "Inductive Biases and Variable Creation in Self-Attention Mechanisms",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the inductive biases of self-attention modules, which is closely related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 27,
+        "paper_id": "b3432c6c-bcc3-5b42-8016-bd9327641882",
+        "title": "Chain of Thought Empowers Transformers to Solve Inherently Serial Problems",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of reasoning and computation but does not directly address the expressivity of transformers."
+      },
+      {
+        "rank": 28,
+        "paper_id": "fe25bda7-463e-560d-a0b7-e21534f91c7a",
+        "title": "Recurrent Graph Neural Networks and Their Connections to Bisimulation and Logic",
+        "relevance_score": 2,
+        "justification": "This paper focuses on Recurrent Graph Neural Networks and their connections to bisimulation and logic, which, while related to theoretical aspects of neural networks, does not directly address the expressivity of transformers as specified in the seed papers."
+      },
+      {
+        "rank": 29,
+        "paper_id": "20b1189d-b4c3-5151-91e9-1e4dc98d6283",
+        "title": "Do Efficient Transformers Really Save Computation?",
+        "relevance_score": 2,
+        "justification": "This paper focuses on computational efficiency of transformers rather than their theoretical expressivity, making the connection tangential to the research topic."
+      },
+      {
+        "rank": 30,
+        "paper_id": "a1e7600c-1767-53ba-a1ff-2fda488d4561",
+        "title": "The Expressive Capacity of State Space Models: A Formal Language Perspective",
+        "relevance_score": 2,
+        "justification": "This paper discusses state space models and their comparison to transformers, which is tangentially related to the expressivity of transformers but does not directly focus on transformers themselves."
+      },
+      {
+        "rank": 31,
+        "paper_id": "d4f9852a-7fd3-50ba-a7e1-9ac56575a13f",
+        "title": "Separations in the Representational Capabilities of Transformers and Recurrent Architectures",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of neural network architectures but focuses on comparing Transformers with RNNs rather than the theoretical expressivity of Transformers alone."
+      },
+      {
+        "rank": 32,
+        "paper_id": "e22d106e-b061-534d-b8a8-e5b23f1a6b22",
+        "title": "Algebraic Positional Encodings",
+        "relevance_score": 2,
+        "justification": "This paper introduces a new positional encoding strategy, which, while related to Transformers, does not directly address the theoretical expressivity of Transformers as the seed papers do."
+      },
+      {
+        "rank": 33,
+        "paper_id": "6c4588cf-e3bb-511b-8d1a-a19fa629baa6",
+        "title": "Learning to Solve Constraint Satisfaction Problems with Recurrent Transformer",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of solving complex problems with transformers but does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 34,
+        "paper_id": "23018022-6229-57da-94dd-31fafe9b9876",
+        "title": "Learning Higher-Order Logic Programs From Failures",
+        "relevance_score": 2,
+        "justification": "This paper focuses on inductive logic programming and learning complex programs, which is tangentially related to the expressivity of transformers in handling logical languages and representations."
+      },
+      {
+        "rank": 35,
+        "paper_id": "ab9144a7-4450-5ed3-8655-369e35cb90b6",
+        "title": "Sparse Universal Transformer",
+        "relevance_score": 2,
+        "justification": "This paper discusses parameter-sharing in Transformers, which is tangentially related to the expressivity of Transformers but does not directly address the theoretical expressivity as the seed papers do."
+      },
+      {
+        "rank": 36,
+        "paper_id": "377033b3-007b-585b-8c10-37cf8274ed75",
+        "title": "Tracr: Compiled Transformers as a Laboratory for Interpretability",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the interpretability of transformers, which is tangentially related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 37,
+        "paper_id": "f476ad08-5049-5c35-8276-66189b9ec134",
+        "title": "Teaching Temporal Logics to Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on training neural networks to understand and solve problems in temporal logics, which is tangentially related to the expressivity of transformers in handling logical languages, but does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 38,
+        "paper_id": "47fd646a-84bd-5ea5-808d-3b7ad1bff686",
+        "title": "Teaching LTLf Satisfiability Checking to Neural Networks",
+        "relevance_score": 2,
+        "justification": "The candidate paper focuses on teaching neural networks to check LTLf satisfiability, which is not directly related to the expressivity of transformers as defined by the seed papers."
+      },
+      {
+        "rank": 39,
+        "paper_id": "2690e91a-04f3-5e90-a77d-0d6d0ecc4112",
+        "title": "Measuring Systematic Generalization in Neural Proof Generation with Transformers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on systematic generalization in neural proof generation, which is tangentially related to the expressivity of transformers in handling logical reasoning tasks."
+      },
+      {
+        "rank": 40,
+        "paper_id": "1d512b27-6444-5d01-91c3-11b5bb623677",
+        "title": "Logic and the 2-Simplicial Transformer",
+        "relevance_score": 2,
+        "justification": "This paper introduces a new architecture that generalizes attention mechanisms but does not directly focus on the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 41,
+        "paper_id": "11b7fb26-b5b0-561d-9259-2e801bf78a87",
+        "title": "O(n) Connections are Expressive Enough: Universal Approximability of Sparse Transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 42,
+        "paper_id": "53553a03-02b8-5878-8f5c-50aa2d8ac83c",
+        "title": "More Identifiable yet Equally Performant Transformers for Text Classification",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of transformers and attention mechanisms but focuses on interpretability rather than the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 43,
+        "paper_id": "25375e46-99c6-5dee-b332-16c2783d85a6",
+        "title": "Self-Attention Networks Can Process Bounded Hierarchical Languages",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using self-attention networks, which is relevant to the expressivity of transformers in handling hierarchical structures."
+      },
+      {
+        "rank": 44,
+        "paper_id": "43cd85a0-f701-5b3c-bfe4-8afdb9d7a67b",
+        "title": "Recurrent Neural Networks as Weighted Language Recognizers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on RNNs and their computational complexity, which is tangentially related to the theoretical expressivity of transformers but does not directly address the topic."
+      },
+      {
+        "rank": 45,
+        "paper_id": "73b4915d-818b-5d4c-9f57-6ff692cc939c",
+        "title": "Transformers as Soft Reasoners over Language",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of reasoning and representation in transformers, but it does not directly focus on the expressivity or theoretical capabilities of transformers as stated in the seed papers."
+      },
+      {
+        "rank": 46,
+        "paper_id": "c285db1b-70c6-524a-b84f-b3f148bd96cf",
+        "title": "A Pseudo-Semantic Loss for Autoregressive Models with Logical Constraints",
+        "relevance_score": 2,
+        "justification": "This paper focuses on a specific loss function for autoregressive models with logical constraints and does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 47,
+        "paper_id": "e8a22078-e24c-524d-9863-a6b8213e2bb3",
+        "title": "The Architectural Bottleneck Principle",
+        "relevance_score": 2,
+        "justification": "This candidate paper introduces a new principle for probing components in neural networks but does not directly address the expressivity or limitations of transformers as defined by the seed papers."
+      },
+      {
+        "rank": 48,
+        "paper_id": "32fd5f4a-5691-5339-a5a6-f2daf47ede77",
+        "title": "Position: LLMs Can\u2019t Plan, But Can Help Planning in LLM-Modulo Frameworks",
+        "relevance_score": 2,
+        "justification": "This paper discusses the capabilities and limitations of LLMs in planning tasks, which is tangentially related to the expressivity of transformers in handling complex logical and sequential tasks."
+      },
+      {
+        "rank": 49,
+        "paper_id": "560b52eb-d4ab-5413-9ecd-2ac6ce203bcd",
+        "title": "Learning Language Representations with Logical Inductive Bias",
+        "relevance_score": 2,
+        "justification": "This paper introduces a new neural architecture with a logical inductive bias, which is tangentially related to the expressivity of transformers but does not directly address the theoretical expressivity of transformers as defined by the seed papers."
+      },
+      {
+        "rank": 50,
+        "paper_id": "6a1b3555-c1e9-543c-96be-1837b205a434",
+        "title": "Are Transformers universal approximators of sequence-to-sequence functions?",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the expressivity of Transformer models, which is a core aspect of the research topic defined by the seed papers."
+      }
+    ],
+    "metrics": {
+      "avg_relevance_top10": 4.3,
+      "avg_relevance_top50": 3.18,
+      "precision_at_10": 0.9,
+      "precision_at_20": 0.65,
+      "distribution": {
+        "1": 0,
+        "2": 19,
+        "3": 8,
+        "4": 18,
+        "5": 5
+      }
+    }
+  },
+  "graph": {
+    "papers": [
+      {
+        "rank": 1,
+        "paper_id": "24d7482a-91e1-59ad-857d-c5af78257803",
+        "title": "Attention is Turing-Complete",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the computational power and expressivity of transformers, which is central to the research topic."
+      },
+      {
+        "rank": 2,
+        "paper_id": "84b0c08d-753c-5ae2-82a6-e9c2cdd07cc2",
+        "title": "Thinking Like Transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the computational model of transformers, which is relevant to understanding their expressivity as discussed in the seed papers."
+      },
+      {
+        "rank": 3,
+        "paper_id": "1ce833f3-fe31-531e-b22b-b3c0a329d375",
+        "title": "Overcoming a Theoretical Limitation of Self-Attention",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses a theoretical limitation of self-attention, which is relevant to understanding the expressivity of transformers, as it provides insights into the limitations and potentially the expressivity of these models."
+      },
+      {
+        "rank": 4,
+        "paper_id": "25375e46-99c6-5dee-b332-16c2783d85a6",
+        "title": "Self-Attention Networks Can Process Bounded Hierarchical Languages",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressivity of self-attention networks in processing hierarchical languages, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 5,
+        "paper_id": "b78af4e4-3db6-59b3-828e-e87422542b49",
+        "title": "Masked Hard-Attention Transformers Recognize Exactly the Star-Free Languages",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressive power of transformers through their ability to recognize classes of formal languages, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 6,
+        "paper_id": "43cd85a0-f701-5b3c-bfe4-8afdb9d7a67b",
+        "title": "Recurrent Neural Networks as Weighted Language Recognizers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on RNNs and their computational complexity, which is tangentially related to the expressivity of Transformers but does not directly address the theoretical expressivity of Transformers."
+      },
+      {
+        "rank": 7,
+        "paper_id": "6a1b3555-c1e9-543c-96be-1837b205a434",
+        "title": "Are Transformers universal approximators of sequence-to-sequence functions?",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the expressivity of Transformer models, which is central to the research topic."
+      },
+      {
+        "rank": 8,
+        "paper_id": "a28c6d44-eab8-5437-bc76-6e0afda75e32",
+        "title": "Learning Deep Transformer Models for Machine Translation",
+        "relevance_score": 2,
+        "justification": "This paper discusses the practical application of Transformers in machine translation and does not directly address the theoretical expressivity of Transformers as the seed papers do."
+      },
+      {
+        "rank": 9,
+        "paper_id": "f69adf6e-9f2b-5a9f-a5e1-abd852370d4d",
+        "title": "The Logical Expressiveness of Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on graph neural networks and their logical expressiveness, which is tangentially related to the expressivity of transformers but does not directly address the topic."
+      },
+      {
+        "rank": 10,
+        "paper_id": "19827d5b-0dd4-5a39-be98-335f25943a85",
+        "title": "Large Language Models are Zero-Shot Reasoners",
+        "relevance_score": 2,
+        "justification": "This paper discusses the reasoning abilities of large language models, which is tangentially related to the theoretical expressivity of transformers, as it involves reasoning but does not focus on the expressivity of transformer architectures."
+      },
+      {
+        "rank": 11,
+        "paper_id": "a1ea9096-f4df-5d0f-be6c-c90f4fd87c3b",
+        "title": "BridgingCNNs,RNNs, and Weighted Finite-State Machines",
+        "relevance_score": 2,
+        "justification": "This paper focuses on bridging CNNs and RNNs and does not address the expressivity of transformers, which is the main topic of the seed papers."
+      },
+      {
+        "rank": 12,
+        "paper_id": "4f8f040a-d935-52f3-a2a5-12dcd55f92a4",
+        "title": "On the Turing Completeness of Modern Neural Network Architectures",
+        "relevance_score": 3,
+        "justification": "This paper explores the computational power of Transformer and Neural GPU, which is related to the expressivity of Transformers, but it focuses on Turing completeness rather than the theoretical expressivity in the context of the given seed papers."
+      },
+      {
+        "rank": 13,
+        "paper_id": "554a4051-77cb-53d7-9cd8-68e669dc691f",
+        "title": "Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses graph neural networks and their expressiveness, which is tangentially related to the theoretical expressivity of transformers, as both are neural network architectures, but the focus is on graphs rather than sequence data processed by transformers."
+      },
+      {
+        "rank": 14,
+        "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+        "title": "Language Models are Few-Shot Learners",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the few-shot learning capabilities of large language models and does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 15,
+        "paper_id": "bf98125a-d432-5f0e-aad1-7d6c94e704f8",
+        "title": "On the Universality of Invariant Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on invariant networks and symmetry transformations, which are not directly related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 16,
+        "paper_id": "e2b4968b-4da4-5730-b032-7fd25e9be170",
+        "title": "AStructural Probe for Finding Syntax in Word Representations",
+        "relevance_score": 2,
+        "justification": "This paper focuses on detecting syntactic knowledge in word representations, which is tangentially related to the theoretical expressivity of transformers but does not directly address the expressivity of the model itself."
+      },
+      {
+        "rank": 17,
+        "paper_id": "f6a1f348-ead8-52c7-9cf3-673ec08e0d5c",
+        "title": "On the equivalence between graph isomorphism testing and function approximation with GNNs",
+        "relevance_score": 2,
+        "justification": "This paper focuses on graph neural networks and graph isomorphism tests, which, while related to neural networks, do not directly address the expressivity of transformers."
+      },
+      {
+        "rank": 18,
+        "paper_id": "e9d94c45-fec8-5c86-82d1-91964493fae5",
+        "title": "Universal Invariant and Equivariant Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on invariant and equivariant graph neural networks, which is tangentially related to the expressivity of transformers, particularly in a different domain."
+      },
+      {
+        "rank": 19,
+        "paper_id": "33220205-d9e6-5b74-842a-049f9113aa3f",
+        "title": "What graph neural networks cannot learn: depth vs width",
+        "relevance_score": 2,
+        "justification": "This paper focuses on graph neural networks, which, while related to neural networks, does not directly address the expressivity of transformers as defined by the seed papers."
+      },
+      {
+        "rank": 20,
+        "paper_id": "cc854fc2-32da-5e3c-bda6-be443f13e4a6",
+        "title": "Inductive Biases and Variable Creation in Self-Attention Mechanisms",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the inductive biases of self-attention mechanisms, which is closely related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 21,
+        "paper_id": "79d362fb-0115-5d4e-accb-7cd785ed4bc5",
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the application of transformers in computer vision and does not directly address the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 22,
+        "paper_id": "8cece362-ac2e-543f-b38e-56c1ad3772f7",
+        "title": "Size and Depth Separation in Approximating Benign Functions with Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the size and depth of neural networks in approximating benign functions, which is tangentially related to the expressivity of transformers but does not directly address the specific topic of transformers' theoretical expressivity."
+      },
+      {
+        "rank": 23,
+        "paper_id": "ccc417e6-cced-5903-816c-6cd7262534dd",
+        "title": "Simplicity Bias in Transformers and their Ability to Learn SparseBoolean Functions",
+        "relevance_score": 3,
+        "justification": "This paper explores the learning capabilities of Transformers on Boolean functions, which is somewhat related to the expressivity of Transformers, but does not directly address the theoretical expressivity as defined by the seed papers."
+      },
+      {
+        "rank": 24,
+        "paper_id": "86e03a03-3d2c-5bcf-b45f-7f186b5eb158",
+        "title": "Exponentially Improving the Complexity of Simulating the Weisfeiler-Lehman Test with Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the simulation of the Weisfeiler-Lehman test with graph neural networks and does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 25,
+        "paper_id": "02a0464e-746d-520f-bc16-8d0e5b7ee20c",
+        "title": "CAT-probing: A Metric-based Approach to Interpret How Pre-trained Models for Programming Language Attend Code Structure",
+        "relevance_score": 2,
+        "justification": "This paper focuses on interpreting pre-trained models for programming language tasks, which is tangentially related to the expressivity of transformers in a specific application domain."
+      },
+      {
+        "rank": 26,
+        "paper_id": "b4601e00-1b8d-5570-89cd-7e0b1408d0e6",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "relevance_score": 4,
+        "justification": "This paper introduces BERT, which is a transformer-based model that significantly advances the field of transformers, directly addressing the research topic of theoretical expressivity of transformers."
+      },
+      {
+        "rank": 27,
+        "paper_id": "cf7f2c6e-79a5-5c79-9e05-a2f4463b724f",
+        "title": "Universal Transformers",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on RNNs and their efficiency compared to feed-forward and convolutional architectures, which is tangentially related to the expressivity of transformers but does not directly address the theoretical expressivity of transformers as defined by the seed papers."
+      },
+      {
+        "rank": 28,
+        "paper_id": "8d7a7947-1f99-5431-b75b-6b386b179780",
+        "title": "On the Practical Computational Power of Finite PrecisionRNNs for Language Recognition",
+        "relevance_score": 2,
+        "justification": "This paper focuses on RNNs with finite precision and their computational power, which is tangentially related to the theoretical expressivity of transformers, as both are models for sequence processing, but the specific focus is different."
+      },
+      {
+        "rank": 29,
+        "paper_id": "957b7f6c-3f6a-5943-b7e5-b40836a659f7",
+        "title": "Self-Attention with Relative Position Representations",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the attention mechanism, which is central to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 30,
+        "paper_id": "f80f23a6-39e9-59a5-a498-e3cbe08c4ea2",
+        "title": "Effects of Parameter Norm Growth During Transformer Training: Inductive Bias from Gradient Descent",
+        "relevance_score": 2,
+        "justification": "This paper focuses on parameter norm growth during training, which is tangential to the expressivity of transformers as defined by the seed papers."
+      },
+      {
+        "rank": 31,
+        "paper_id": "23833fc9-4da1-5663-ae86-9353662185e3",
+        "title": "How Powerful are Graph Neural Networks?",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses Graph Neural Networks (GNNs) and does not focus on the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 32,
+        "paper_id": "564387a7-8b83-55e0-a95b-5897035575b5",
+        "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+        "relevance_score": 1,
+        "justification": "This paper is not relevant to the research topic of the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 33,
+        "paper_id": "cf342589-09f9-5069-8981-e2892c140950",
+        "title": "Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples",
+        "relevance_score": 2,
+        "justification": "This paper focuses on extracting automata from RNNs, which is tangentially related to the expressivity of transformers, as both are neural network architectures, but the methods and specific focus differ."
+      },
+      {
+        "rank": 34,
+        "paper_id": "23985d7a-8809-581e-acfc-e5c4570653a1",
+        "title": "A Formal Hierarchy ofRNNArchitectures",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on RNN architectures, which, while related to sequential processing, does not directly address the expressivity of transformers as defined by the seed papers."
+      },
+      {
+        "rank": 35,
+        "paper_id": "95cdf65c-7a8d-585f-b339-10bd88af8eff",
+        "title": "RNNs can generate bounded hierarchical languages with optimal memory",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on RNNs and their ability to generate hierarchical languages, which is tangentially related to the expressivity of transformers, but does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 36,
+        "paper_id": "2b8b6ab0-1c98-5850-99c5-cda44f87d0f7",
+        "title": "How Can Self-Attention Networks RecognizeDyck-n Languages?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressivity of self-attention networks in recognizing complex languages, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 37,
+        "paper_id": "71d79b8e-e6a0-59b6-a4ce-9bf50874c53a",
+        "title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the complexity and efficiency of transformers, which is related to their expressivity, by proposing a linear attention mechanism to reduce computational complexity."
+      },
+      {
+        "rank": 38,
+        "paper_id": "cf79a687-0753-5f26-84ad-e0c8be837109",
+        "title": "A Tensorized Transformer for Language Modeling",
+        "relevance_score": 3,
+        "justification": "This paper shares the method domain of neural network architectures, specifically transformers, but focuses on tensor decomposition and parameters sharing, which may not directly address the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 39,
+        "paper_id": "d59cddda-ff18-5371-b940-29ea041486cb",
+        "title": "Neural Execution Engines: Learning to Execute Subroutines",
+        "relevance_score": 2,
+        "justification": "This paper focuses on neural networks for algorithmic reasoning, which is tangentially related to the expressivity of transformers but does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 40,
+        "paper_id": "25fea28a-4a5b-54c4-9884-68078e6f4df3",
+        "title": "Saccader: Improving Accuracy of Hard Attention Models for Vision",
+        "relevance_score": 2,
+        "justification": "This paper focuses on improving accuracy of hard attention models for vision, which is tangentially related to the expressivity of transformers but does not directly address theoretical aspects."
+      },
+      {
+        "rank": 41,
+        "paper_id": "7d89e644-7656-5751-8eda-ed6a90f9e13c",
+        "title": "Approximation Ratios of Graph Neural Networks for Combinatorial Problems",
+        "relevance_score": 2,
+        "justification": "This paper focuses on graph neural networks and combinatorial problems, which is tangentially related to the expressivity of transformers, especially considering that both are types of neural networks, but the specific focus does not align closely with the research on transformers."
+      },
+      {
+        "rank": 42,
+        "paper_id": "0ea739ed-db1d-56e2-99d4-534fcfc66f34",
+        "title": "On the Generalization of Equivariance and Convolution in Neural Networks to the Action of Compact Groups",
+        "relevance_score": 2,
+        "justification": "This paper focuses on equivariance and convolution in neural networks, which, while related to neural network architectures, does not directly address the theoretical expressivity of transformers as defined by the seed papers."
+      },
+      {
+        "rank": 43,
+        "paper_id": "9e2f8712-6a88-5f0f-b01c-0acb2054af83",
+        "title": "Deep Models of Interactions Across Sets",
+        "relevance_score": 2,
+        "justification": "This paper discusses permutation equivariance in models for interactions across sets, which is tangentially related to the expressivity of transformers, but does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 44,
+        "paper_id": "27486595-0da2-5ba3-92a9-ca4b28796f98",
+        "title": "Invariant and Equivariant Graph Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on invariant and equivariant networks for graphs, which is tangential to the expressivity of transformers discussed in the seed papers."
+      },
+      {
+        "rank": 45,
+        "paper_id": "068f9070-c433-5662-922d-f3126a91d260",
+        "title": "Big Bird: Transformers for Longer Sequences",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressivity of transformers by proposing a sparse attention mechanism that improves their ability to handle longer sequences, thus contributing to the theoretical understanding of transformer models' expressivity."
+      },
+      {
+        "rank": 46,
+        "paper_id": "bcd1fba8-030b-54e5-b883-f3b142b3c7f7",
+        "title": "ETC: Encoding Long and Structured Inputs in Transformers",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of transformer architectures but does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 47,
+        "paper_id": "73b4915d-818b-5d4c-9f57-6ff692cc939c",
+        "title": "Transformers as Soft Reasoners over Language",
+        "relevance_score": 2,
+        "justification": "This paper focuses on transformers as soft reasoners over natural language, which is tangentially related to the expressivity of transformers in processing and understanding language. However, it does not directly address the expressivity in terms of logical languages or tight bounds, which are key aspects of the research topic."
+      },
+      {
+        "rank": 48,
+        "paper_id": "44925cdd-e91c-5e61-8ce4-1b62c139f371",
+        "title": "Improving Transformer Models by Reordering their Sublayers",
+        "relevance_score": 3,
+        "justification": "This paper explores the arrangement of sublayers within transformer models and does share the problem domain of transformer architecture, but it does not directly address the theoretical expressivity of transformers as the seed papers do."
+      },
+      {
+        "rank": 49,
+        "paper_id": "6f22d4e3-50fd-56b1-8da9-bb7aa0e9453c",
+        "title": "Connecting Weighted Automata and Recurrent Neural Networks through Spectral Learning",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the connection between weighted automata and recurrent neural networks, which is tangentially related to the expressivity of transformers but does not directly address the topic."
+      },
+      {
+        "rank": 50,
+        "paper_id": "3d437f44-2eab-56a6-b668-70dd08f42d15",
+        "title": "The Best of Both Worlds: Combining Recent Advances in Neural Machine Translation",
+        "relevance_score": 2,
+        "justification": "This paper discusses recent advances in seq2seq models for neural machine translation, which is tangentially related to the expressivity of transformers but does not specifically address the theoretical expressivity of transformers."
+      }
+    ],
+    "metrics": {
+      "avg_relevance_top10": 3.4,
+      "avg_relevance_top50": 2.6,
+      "precision_at_10": 0.6,
+      "precision_at_20": 0.35,
+      "distribution": {
+        "1": 1,
+        "2": 32,
+        "3": 5,
+        "4": 10,
+        "5": 2
+      }
+    }
+  },
+  "fused_mean": {
+    "papers": [
+      {
+        "rank": 1,
+        "paper_id": "b78af4e4-3db6-59b3-828e-e87422542b49",
+        "title": "Masked Hard-Attention Transformers Recognize Exactly the Star-Free Languages",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressive power of transformers through their ability to recognize formal languages, which is closely related to the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 2,
+        "paper_id": "1ce833f3-fe31-531e-b22b-b3c0a329d375",
+        "title": "Overcoming a Theoretical Limitation of Self-Attention",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses a theoretical limitation of self-attention, which is closely related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 3,
+        "paper_id": "84b0c08d-753c-5ae2-82a6-e9c2cdd07cc2",
+        "title": "Thinking Like Transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the computational model behind Transformers, which is closely related to the theoretical expressivity of Transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 4,
+        "paper_id": "ccc417e6-cced-5903-816c-6cd7262534dd",
+        "title": "Simplicity Bias in Transformers and their Ability to Learn SparseBoolean Functions",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of formal languages and neural networks but does not directly address the expressivity of transformers."
+      },
+      {
+        "rank": 5,
+        "paper_id": "25375e46-99c6-5dee-b332-16c2783d85a6",
+        "title": "Self-Attention Networks Can Process Bounded Hierarchical Languages",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using self-attention, which is closely related to the expressivity of transformers."
+      },
+      {
+        "rank": 6,
+        "paper_id": "43cd85a0-f701-5b3c-bfe4-8afdb9d7a67b",
+        "title": "Recurrent Neural Networks as Weighted Language Recognizers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on RNNs and weighted language recognition, which is tangentially related to the expressivity of transformers, but does not directly address their theoretical expressivity."
+      },
+      {
+        "rank": 7,
+        "paper_id": "cc854fc2-32da-5e3c-bda6-be443f13e4a6",
+        "title": "Inductive Biases and Variable Creation in Self-Attention Mechanisms",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the inductive biases of self-attention mechanisms, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 8,
+        "paper_id": "6a1b3555-c1e9-543c-96be-1837b205a434",
+        "title": "Are Transformers universal approximators of sequence-to-sequence functions?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressive power of Transformers, which is central to the research topic of theoretical expressivity of Transformers."
+      },
+      {
+        "rank": 9,
+        "paper_id": "73b4915d-818b-5d4c-9f57-6ff692cc939c",
+        "title": "Transformers as Soft Reasoners over Language",
+        "relevance_score": 2,
+        "justification": "This paper explores a different approach to reasoning in transformers, focusing on natural language representation rather than the expressivity of transformers in terms of logical languages or tight bounds on expressivity."
+      },
+      {
+        "rank": 10,
+        "paper_id": "0c1590eb-b25c-59a0-bb7a-ef483498a5b6",
+        "title": "Tighter Bounds on the Expressivity of Transformer Encoders",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the expressivity of transformer encoders, which is the central theme of the research topic."
+      },
+      {
+        "rank": 11,
+        "paper_id": "24d7482a-91e1-59ad-857d-c5af78257803",
+        "title": "Attention is Turing-Complete",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the computational power of the Transformer, which is a core aspect of the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 12,
+        "paper_id": "1c06ca82-15a9-57f7-a022-152aec8d56eb",
+        "title": "Logical Languages Accepted by Transformer Encoders with Hard Attention",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the expressivity of transformer encoders, which is central to the research topic."
+      },
+      {
+        "rank": 13,
+        "paper_id": "a19c1196-43fe-53b0-bbc6-98b11eb5d644",
+        "title": "The Power of Hard Attention Transformers on Data Sequences: A formal language theoretic perspective",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the expressivity of transformers from a formal language theoretic perspective, aligning closely with the research questions in the seed papers."
+      },
+      {
+        "rank": 14,
+        "paper_id": "45ce4638-df3c-5acb-a58a-37f10262a185",
+        "title": "A Logic for Expressing Log-Precision Transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using transformers, which is closely related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 15,
+        "paper_id": "5bb37383-023a-5808-b2e4-2c3d19710841",
+        "title": "How Far Can Transformers Reason? The Globality Barrier and Inductive Scratchpad",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the learnability of certain targets by Transformers, which is closely related to the expressivity and representational strengths of Transformers, as discussed in the seed papers."
+      },
+      {
+        "rank": 16,
+        "paper_id": "078f3b42-0d95-5c81-8435-5ae961df6330",
+        "title": "Stack Attention: Improving the Ability of Transformers to Model Hierarchical Patterns",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the ability of transformers to model hierarchical patterns, which is closely related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 17,
+        "paper_id": "a28c6d44-eab8-5437-bc76-6e0afda75e32",
+        "title": "Learning Deep Transformer Models for Machine Translation",
+        "relevance_score": 2,
+        "justification": "This paper discusses the practical implementation and challenges of deep Transformer models in machine translation, which is tangential to the theoretical expressivity of Transformers addressed in the seed papers."
+      },
+      {
+        "rank": 18,
+        "paper_id": "f69adf6e-9f2b-5a9f-a5e1-abd852370d4d",
+        "title": "The Logical Expressiveness of Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the logical expressiveness of graph neural networks, which is tangentially related to the theoretical expressivity of transformers, as both deal with the expressive capabilities of neural network architectures, but in different domains."
+      },
+      {
+        "rank": 19,
+        "paper_id": "625418d7-8628-5405-9b15-65a996001fa1",
+        "title": "Representational Strengths and Limitations of Transformers",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the representational strengths and limitations of transformers, which is a core aspect of the theoretical expressivity of transformers, as highlighted in the seed papers."
+      },
+      {
+        "rank": 20,
+        "paper_id": "63d1b584-a00e-559c-b8f1-ac0bf887d020",
+        "title": "When can transformers reason with abstract symbols?",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of reasoning tasks but focuses on relational reasoning rather than the expressivity of transformers."
+      },
+      {
+        "rank": 21,
+        "paper_id": "19827d5b-0dd4-5a39-be98-335f25943a85",
+        "title": "Large Language Models are Zero-Shot Reasoners",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the reasoning capabilities of large language models, which while related to transformer architectures, does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 22,
+        "paper_id": "a1ea9096-f4df-5d0f-be6c-c90f4fd87c3b",
+        "title": "BridgingCNNs,RNNs, and Weighted Finite-State Machines",
+        "relevance_score": 2,
+        "justification": "This paper focuses on bridging CNNs and RNNs with weighted finite-state machines and does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 23,
+        "paper_id": "5df5470f-d1ab-5390-b37e-269ccc7e9ada",
+        "title": "Attention Meets Post-hoc Interpretability: A Mathematical Perspective",
+        "relevance_score": 2,
+        "justification": "This paper focuses on post-hoc interpretability of attention mechanisms, which, while related to transformers, does not directly address the theoretical expressivity of transformers as defined by the seed papers."
+      },
+      {
+        "rank": 24,
+        "paper_id": "a8d62b8c-05ad-5719-93ec-989c3c357ada",
+        "title": "Why are Sensitive Functions Hard for Transformers?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the learnability and limitations of transformers, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 25,
+        "paper_id": "4f8f040a-d935-52f3-a2a5-12dcd55f92a4",
+        "title": "On the Turing Completeness of Modern Neural Network Architectures",
+        "relevance_score": 2,
+        "justification": "This paper tangentially discusses computational power of transformers, which is related but does not focus specifically on theoretical expressivity."
+      },
+      {
+        "rank": 26,
+        "paper_id": "8a9f0d1d-8ace-5f1f-a7d5-2fb08e8cca1a",
+        "title": "Systematic Generalization with Edge Transformers",
+        "relevance_score": 2,
+        "justification": "This candidate paper introduces a new model, Edge Transformers, which while sharing the same problem domain of natural language understanding, does not directly address the theoretical expressivity of Transformers as the seed papers focus on."
+      },
+      {
+        "rank": 27,
+        "paper_id": "554a4051-77cb-53d7-9cd8-68e669dc691f",
+        "title": "Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses graph neural networks and their expressiveness, which is tangentially related to the theoretical expressivity of transformers, focusing on a different data structure and methodology."
+      },
+      {
+        "rank": 28,
+        "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+        "title": "Language Models are Few-Shot Learners",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the performance of large language models in few-shot learning scenarios, which is tangentially related to the expressivity of transformers but does not directly address their theoretical expressivity."
+      },
+      {
+        "rank": 29,
+        "paper_id": "bf98125a-d432-5f0e-aad1-7d6c94e704f8",
+        "title": "On the Universality of Invariant Networks",
+        "relevance_score": 2,
+        "justification": "This paper discusses invariant networks and symmetry transformations, which are not directly focused on the expressivity of transformers as defined by the seed papers."
+      },
+      {
+        "rank": 30,
+        "paper_id": "bbc91939-309b-510a-9451-15083c36b252",
+        "title": "On Identifiability in Transformers",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of transformers but focuses on identifiability of attention weights and embeddings rather than the theoretical expressivity of the model."
+      },
+      {
+        "rank": 31,
+        "paper_id": "e2b4968b-4da4-5730-b032-7fd25e9be170",
+        "title": "AStructural Probe for Finding Syntax in Word Representations",
+        "relevance_score": 2,
+        "justification": "This paper focuses on detecting syntactic knowledge in word representations, which is tangentially related to the expressivity of transformers but does not directly address the theoretical expressivity of transformers as defined by the seed papers."
+      },
+      {
+        "rank": 32,
+        "paper_id": "f6a1f348-ead8-52c7-9cf3-673ec08e0d5c",
+        "title": "On the equivalence between graph isomorphism testing and function approximation with GNNs",
+        "relevance_score": 2,
+        "justification": "This paper focuses on graph neural networks and graph isomorphism testing, which are tangentially related to the theoretical expressivity of transformers, as transformers can also process graph-structured data, but the direct connection to transformer expressivity is not strong."
+      },
+      {
+        "rank": 33,
+        "paper_id": "569d04f2-2c43-5d67-b7a9-bee23a2c7b33",
+        "title": "Looped Transformers as Programmable Computers",
+        "relevance_score": 4,
+        "justification": "This paper closely addresses the expressivity of transformers by demonstrating their ability to emulate basic computing blocks, which is relevant to understanding their representational strengths and limitations."
+      },
+      {
+        "rank": 34,
+        "paper_id": "ded38392-2824-5663-a7cc-9535977461c3",
+        "title": "The Expressive Power of Transformers with Chain of Thought",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the theoretical limits of transformers in reasoning tasks, which is closely related to the expressivity of transformers as explored in the seed papers."
+      },
+      {
+        "rank": 35,
+        "paper_id": "e9d94c45-fec8-5c86-82d1-91964493fae5",
+        "title": "Universal Invariant and Equivariant Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper discusses invariant and equivariant graph neural networks, which is tangentially related to the expressivity of transformers, particularly in a different domain."
+      },
+      {
+        "rank": 36,
+        "paper_id": "20325f6c-47d9-5286-a1dc-4408cb3d2a89",
+        "title": "Towards a Theoretical Understanding of the 'Reversal Curse' via Training Dynamics",
+        "relevance_score": 2,
+        "justification": "This paper discusses the 'reversal curse' in auto-regressive LLMs, which is tangentially related to the expressivity of transformers in handling logical and inverse reasoning tasks."
+      },
+      {
+        "rank": 37,
+        "paper_id": "33220205-d9e6-5b74-842a-049f9113aa3f",
+        "title": "What graph neural networks cannot learn: depth vs width",
+        "relevance_score": 2,
+        "justification": "This paper focuses on graph neural networks and their depth vs width, which is tangential to the expressivity of transformers."
+      },
+      {
+        "rank": 38,
+        "paper_id": "6d0791e8-c9c7-520a-b406-e6d174f14229",
+        "title": "Transformers are uninterpretable with myopic methods: a case study with bounded Dyck grammars",
+        "relevance_score": 2,
+        "justification": "This paper focuses on interpretability of transformers, which is tangentially related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 39,
+        "paper_id": "79d362fb-0115-5d4e-accb-7cd785ed4bc5",
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        "relevance_score": 2,
+        "justification": "This paper explores the application of transformers in computer vision, which is tangentially related to the theoretical expressivity of transformers in natural language processing as discussed in the seed papers."
+      },
+      {
+        "rank": 40,
+        "paper_id": "21e90331-121d-5888-ba37-1b333a59cb62",
+        "title": "Prompting a Pretrained Transformer Can Be a Universal Approximator",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the theoretical capabilities of transformers in approximating functions, which is closely related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 41,
+        "paper_id": "8cece362-ac2e-543f-b38e-56c1ad3772f7",
+        "title": "Size and Depth Separation in Approximating Benign Functions with Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the size and depth separation in approximating benign functions with neural networks, which is tangentially related to the expressivity of transformers, but does not directly address the specific topic of transformers."
+      },
+      {
+        "rank": 42,
+        "paper_id": "d1c04141-cbdd-5627-81c3-b8b34a2bd328",
+        "title": "Practical Computational Power of Linear Transformers and Their Recurrent and Self-Referential Extensions",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of neural network expressivity but focuses on linear transformers and their extensions rather than the expressivity of general transformers as addressed in the seed papers."
+      },
+      {
+        "rank": 43,
+        "paper_id": "1c237b72-aac4-5a02-9789-80a769f61359",
+        "title": "Transformers, parallel computation, and logarithmic depth",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the computational depth and parallelism of transformers, which is closely related to their expressivity."
+      },
+      {
+        "rank": 44,
+        "paper_id": "86e03a03-3d2c-5bcf-b45f-7f186b5eb158",
+        "title": "Exponentially Improving the Complexity of Simulating the Weisfeiler-Lehman Test with Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on Graph Neural Networks and the Weisfeiler-Lehman test, which are not directly related to the expressivity of Transformers as defined by the seed papers."
+      },
+      {
+        "rank": 45,
+        "paper_id": "b0be176b-bee2-5060-8cfc-df4bb0f1b8e6",
+        "title": "Influence Patterns for Explaining Information Flow in BERT",
+        "relevance_score": 4,
+        "justification": "This paper introduces influence patterns to explain information flow in BERT, which is closely related to the expressivity of transformers, as it attempts to clarify how information propagates through the model architecture."
+      },
+      {
+        "rank": 46,
+        "paper_id": "02a0464e-746d-520f-bc16-8d0e5b7ee20c",
+        "title": "CAT-probing: A Metric-based Approach to Interpret How Pre-trained Models for Programming Language Attend Code Structure",
+        "relevance_score": 2,
+        "justification": "This paper focuses on interpreting pre-trained models for code, which is tangentially related to the expressivity of transformers in handling logical languages and code structures."
+      },
+      {
+        "rank": 47,
+        "paper_id": "fe184618-82b7-5ad2-9afd-3eb8e0d548f0",
+        "title": "Simulating weighted automata over sequences and trees with transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using transformers, which is closely related to understanding the computational capabilities and expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 48,
+        "paper_id": "b4601e00-1b8d-5570-89cd-7e0b1408d0e6",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "relevance_score": 3,
+        "justification": "This paper introduces BERT, a transformer-based model, but focuses on its pre-training process and performance improvements rather than the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 49,
+        "paper_id": "cf7f2c6e-79a5-5c79-9e05-a2f4463b724f",
+        "title": "Universal Transformers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on RNNs and their limitations, which is tangentially related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 50,
+        "paper_id": "b3432c6c-bcc3-5b42-8016-bd9327641882",
+        "title": "Chain of Thought Empowers Transformers to Solve Inherently Serial Problems",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of reasoning tasks and touches on the expressiveness of transformers, but the focus on chain of thought as a method for solving inherently serial problems is more specific and does not directly address the expressivity of transformers in the context of hard attention or logical languages."
+      }
+    ],
+    "metrics": {
+      "avg_relevance_top10": 3.6,
+      "avg_relevance_top50": 3.06,
+      "precision_at_10": 0.7,
+      "precision_at_20": 0.7,
+      "distribution": {
+        "1": 0,
+        "2": 23,
+        "3": 6,
+        "4": 16,
+        "5": 5
+      }
+    }
+  },
+  "fused_softand": {
+    "papers": [
+      {
+        "rank": 1,
+        "paper_id": "b78af4e4-3db6-59b3-828e-e87422542b49",
+        "title": "Masked Hard-Attention Transformers Recognize Exactly the Star-Free Languages",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressivity of transformers in recognizing formal languages, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 2,
+        "paper_id": "1ce833f3-fe31-531e-b22b-b3c0a329d375",
+        "title": "Overcoming a Theoretical Limitation of Self-Attention",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses a theoretical limitation of self-attention, which is relevant to understanding the expressivity of transformers, as it provides insights into what transformers can and cannot express."
+      },
+      {
+        "rank": 3,
+        "paper_id": "84b0c08d-753c-5ae2-82a6-e9c2cdd07cc2",
+        "title": "Thinking Like Transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the computational model behind transformers, which is relevant to understanding their expressivity as discussed in the seed papers."
+      },
+      {
+        "rank": 4,
+        "paper_id": "ccc417e6-cced-5903-816c-6cd7262534dd",
+        "title": "Simplicity Bias in Transformers and their Ability to Learn SparseBoolean Functions",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of neural networks and Boolean functions, which are related to the expressivity of Transformers, but the focus on simplicity bias and sparse functions is more specific and not directly addressing the theoretical expressivity of Transformers."
+      },
+      {
+        "rank": 5,
+        "paper_id": "43cd85a0-f701-5b3c-bfe4-8afdb9d7a67b",
+        "title": "Recurrent Neural Networks as Weighted Language Recognizers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on RNNs and their computational complexity, which is tangentially related to the expressivity of transformers, particularly in the context of language processing."
+      },
+      {
+        "rank": 6,
+        "paper_id": "6a1b3555-c1e9-543c-96be-1837b205a434",
+        "title": "Are Transformers universal approximators of sequence-to-sequence functions?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressive power of Transformers in approximating sequence-to-sequence functions, which is closely related to the theoretical expressivity of Transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 7,
+        "paper_id": "73b4915d-818b-5d4c-9f57-6ff692cc939c",
+        "title": "Transformers as Soft Reasoners over Language",
+        "relevance_score": 2,
+        "justification": "This paper focuses on reasoning capabilities of transformers over natural language, which is tangentially related to the expressivity of transformers but does not directly address theoretical expressivity as defined by the seed papers."
+      },
+      {
+        "rank": 8,
+        "paper_id": "24d7482a-91e1-59ad-857d-c5af78257803",
+        "title": "Attention is Turing-Complete",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the computational power of the Transformer, which is a central theme in the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 9,
+        "paper_id": "1c06ca82-15a9-57f7-a022-152aec8d56eb",
+        "title": "Logical Languages Accepted by Transformer Encoders with Hard Attention",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the expressivity of transformer encoders with hard attention, which is a core aspect of the research topic."
+      },
+      {
+        "rank": 10,
+        "paper_id": "a19c1196-43fe-53b0-bbc6-98b11eb5d644",
+        "title": "The Power of Hard Attention Transformers on Data Sequences: A formal language theoretic perspective",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the power of hard attention transformers from a formal language theoretical perspective, which aligns closely with the research question posed in the seed papers."
+      },
+      {
+        "rank": 11,
+        "paper_id": "0c1590eb-b25c-59a0-bb7a-ef483498a5b6",
+        "title": "Tighter Bounds on the Expressivity of Transformer Encoders",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the expressivity of transformer encoders, which is the core of the research topic."
+      },
+      {
+        "rank": 12,
+        "paper_id": "25375e46-99c6-5dee-b332-16c2783d85a6",
+        "title": "Self-Attention Networks Can Process Bounded Hierarchical Languages",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the theoretical limits of self-attention networks in processing formal languages, which is closely related to the expressivity of transformers."
+      },
+      {
+        "rank": 13,
+        "paper_id": "45ce4638-df3c-5acb-a58a-37f10262a185",
+        "title": "A Logic for Expressing Log-Precision Transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using a logic framework, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 14,
+        "paper_id": "5bb37383-023a-5808-b2e4-2c3d19710841",
+        "title": "How Far Can Transformers Reason? The Globality Barrier and Inductive Scratchpad",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the learnability and limitations of Transformers, which is closely related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 15,
+        "paper_id": "a8d62b8c-05ad-5719-93ec-989c3c357ada",
+        "title": "Why are Sensitive Functions Hard for Transformers?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the learnability biases of transformers, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 16,
+        "paper_id": "a28c6d44-eab8-5437-bc76-6e0afda75e32",
+        "title": "Learning Deep Transformer Models for Machine Translation",
+        "relevance_score": 2,
+        "justification": "This paper discusses the development of deeper Transformer models for machine translation, which tangentially relates to the theoretical expressivity of Transformers but does not directly address the expressivity from a theoretical standpoint."
+      },
+      {
+        "rank": 17,
+        "paper_id": "63d1b584-a00e-559c-b8f1-ac0bf887d020",
+        "title": "When can transformers reason with abstract symbols?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using transformers, which is related to the theoretical expressivity of transformers in handling abstract reasoning tasks."
+      },
+      {
+        "rank": 18,
+        "paper_id": "f69adf6e-9f2b-5a9f-a5e1-abd852370d4d",
+        "title": "The Logical Expressiveness of Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the logical expressiveness of graph neural networks, which is tangentially related to the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 19,
+        "paper_id": "078f3b42-0d95-5c81-8435-5ae961df6330",
+        "title": "Stack Attention: Improving the Ability of Transformers to Model Hierarchical Patterns",
+        "relevance_score": 3,
+        "justification": "This paper explores a method to improve transformers' ability to model hierarchical patterns, which is tangentially related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 20,
+        "paper_id": "fe25bda7-463e-560d-a0b7-e21534f91c7a",
+        "title": "Recurrent Graph Neural Networks and Their Connections to Bisimulation and Logic",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on Recurrent Graph Neural Networks and their connections to bisimulation and logic, which is tangentially related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 21,
+        "paper_id": "19827d5b-0dd4-5a39-be98-335f25943a85",
+        "title": "Large Language Models are Zero-Shot Reasoners",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the reasoning capabilities of large language models rather than the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 22,
+        "paper_id": "a1ea9096-f4df-5d0f-be6c-c90f4fd87c3b",
+        "title": "BridgingCNNs,RNNs, and Weighted Finite-State Machines",
+        "relevance_score": 2,
+        "justification": "This paper focuses on bridging CNNs and RNNs, which is not directly related to the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 23,
+        "paper_id": "ded38392-2824-5663-a7cc-9535977461c3",
+        "title": "The Expressive Power of Transformers with Chain of Thought",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the theoretical expressivity of transformers by exploring their ability to perform reasoning tasks, which is closely related to the research question posed in the seed papers."
+      },
+      {
+        "rank": 24,
+        "paper_id": "6d0791e8-c9c7-520a-b406-e6d174f14229",
+        "title": "Transformers are uninterpretable with myopic methods: a case study with bounded Dyck grammars",
+        "relevance_score": 2,
+        "justification": "This paper focuses on interpretability of transformers, which is tangentially related to the expressivity of transformers."
+      },
+      {
+        "rank": 25,
+        "paper_id": "4f8f040a-d935-52f3-a2a5-12dcd55f92a4",
+        "title": "On the Turing Completeness of Modern Neural Network Architectures",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of neural network architectures and their computational properties but does not specifically focus on the expressivity of transformers as the seed papers do."
+      },
+      {
+        "rank": 26,
+        "paper_id": "554a4051-77cb-53d7-9cd8-68e669dc691f",
+        "title": "Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper discusses graph neural networks and their expressiveness, which is tangentially related to the expressivity of transformers in processing sequential data."
+      },
+      {
+        "rank": 27,
+        "paper_id": "a1e7600c-1767-53ba-a1ff-2fda488d4561",
+        "title": "The Expressive Capacity of State Space Models: A Formal Language Perspective",
+        "relevance_score": 2,
+        "justification": "This paper discusses state space models and their expressive capacity, which is tangentially related to the expressivity of transformers but does not directly address the topic."
+      },
+      {
+        "rank": 28,
+        "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+        "title": "Language Models are Few-Shot Learners",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the performance of large language models in few-shot learning scenarios, which is tangentially related to the expressivity of transformers but does not delve into the theoretical aspects."
+      },
+      {
+        "rank": 29,
+        "paper_id": "bf98125a-d432-5f0e-aad1-7d6c94e704f8",
+        "title": "On the Universality of Invariant Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on invariant networks and their ability to approximate invariant functions, which is not directly related to the expressivity of transformers."
+      },
+      {
+        "rank": 30,
+        "paper_id": "47fd646a-84bd-5ea5-808d-3b7ad1bff686",
+        "title": "Teaching LTLf Satisfiability Checking to Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on teaching neural networks to solve LTLf satisfiability checking, which is not directly related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 31,
+        "paper_id": "e2b4968b-4da4-5730-b032-7fd25e9be170",
+        "title": "AStructural Probe for Finding Syntax in Word Representations",
+        "relevance_score": 2,
+        "justification": "This paper tangentially relates to the expressivity of transformers by exploring syntactic knowledge in word representations, but does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 32,
+        "paper_id": "fe184618-82b7-5ad2-9afd-3eb8e0d548f0",
+        "title": "Simulating weighted automata over sequences and trees with transformers",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of computational capabilities and reasoning abilities of transformers but focuses on a different aspect (weighted automata) and does not directly address the expressivity of transformers as explicitly as the seed papers do."
+      },
+      {
+        "rank": 33,
+        "paper_id": "f476ad08-5049-5c35-8276-66189b9ec134",
+        "title": "Teaching Temporal Logics to Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on training Transformers for solving temporal logics, which is tangentially related to the expressivity of Transformers but does not directly address the theoretical expressivity as defined by the seed papers."
+      },
+      {
+        "rank": 34,
+        "paper_id": "f6a1f348-ead8-52c7-9cf3-673ec08e0d5c",
+        "title": "On the equivalence between graph isomorphism testing and function approximation with GNNs",
+        "relevance_score": 2,
+        "justification": "This paper focuses on graph neural networks and graph isomorphism, which are tangentially related to the expressivity of transformers, primarily dealing with permutation-invariant functions."
+      },
+      {
+        "rank": 35,
+        "paper_id": "e9d94c45-fec8-5c86-82d1-91964493fae5",
+        "title": "Universal Invariant and Equivariant Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on invariant and equivariant properties of graph neural networks, which is tangentially related to the expressivity of transformers in processing sequential data."
+      },
+      {
+        "rank": 36,
+        "paper_id": "33220205-d9e6-5b74-842a-049f9113aa3f",
+        "title": "What graph neural networks cannot learn: depth vs width",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on graph neural networks and their expressive power, which is tangentially related to the expressivity of transformers but does not directly address the topic."
+      },
+      {
+        "rank": 37,
+        "paper_id": "20b1189d-b4c3-5151-91e9-1e4dc98d6283",
+        "title": "Do Efficient Transformers Really Save Computation?",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the efficiency of transformer models rather than their theoretical expressivity, making the connection to the research topic tangential."
+      },
+      {
+        "rank": 38,
+        "paper_id": "cc854fc2-32da-5e3c-bda6-be443f13e4a6",
+        "title": "Inductive Biases and Variable Creation in Self-Attention Mechanisms",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the inductive biases of self-attention mechanisms, which is closely related to the theoretical expressivity of transformers as explored in the seed papers."
+      },
+      {
+        "rank": 39,
+        "paper_id": "ca92039b-07eb-52bc-b357-e09298d53489",
+        "title": "Faith and Fate: Limits of Transformers on Compositionality",
+        "relevance_score": 2,
+        "justification": "This paper explores limitations of transformers on compositional tasks, which tangentially relates to the expressivity of transformers but does not directly address theoretical expressivity."
+      },
+      {
+        "rank": 40,
+        "paper_id": "79d362fb-0115-5d4e-accb-7cd785ed4bc5",
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the application of transformers in computer vision, which is tangentially related to the theoretical expressivity of transformers in natural language processing discussed in the seed papers."
+      },
+      {
+        "rank": 41,
+        "paper_id": "e22d106e-b061-534d-b8a8-e5b23f1a6b22",
+        "title": "Algebraic Positional Encodings",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of positional encodings in Transformers but does not directly address the theoretical expressivity of Transformers as the seed papers do."
+      },
+      {
+        "rank": 42,
+        "paper_id": "33a8277c-dc46-519d-87fd-abd6fae64793",
+        "title": "Towards Revealing the Mystery behind Chain of Thought: A Theoretical Perspective",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses Chain-of-Thought prompting mechanisms, which are not directly related to the expressivity of Transformers as defined by the seed papers."
+      },
+      {
+        "rank": 43,
+        "paper_id": "8cece362-ac2e-543f-b38e-56c1ad3772f7",
+        "title": "Size and Depth Separation in Approximating Benign Functions with Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on neural networks and their ability to approximate benign functions, which is tangentially related to the expressivity of transformers but does not directly address the theoretical expressivity of transformers as defined by the seed papers."
+      },
+      {
+        "rank": 44,
+        "paper_id": "8a9f0d1d-8ace-5f1f-a7d5-2fb08e8cca1a",
+        "title": "Systematic Generalization with Edge Transformers",
+        "relevance_score": 2,
+        "justification": "This paper introduces a new model, Edge Transformers, which is tangentially related to transformers and might have some implications on their expressivity, but does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 45,
+        "paper_id": "86e03a03-3d2c-5bcf-b45f-7f186b5eb158",
+        "title": "Exponentially Improving the Complexity of Simulating the Weisfeiler-Lehman Test with Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on simulating the Weisfeiler-Lehman test with Graph Neural Networks and does not directly address the expressivity of Transformers."
+      },
+      {
+        "rank": 46,
+        "paper_id": "569d04f2-2c43-5d67-b7a9-bee23a2c7b33",
+        "title": "Looped Transformers as Programmable Computers",
+        "relevance_score": 3,
+        "justification": "This paper shares a methodological connection with transformers, as it explores the computational capabilities of transformer networks, but the focus is more on using transformers as universal computing devices rather than on their expressivity in terms of representational strengths or logical languages."
+      },
+      {
+        "rank": 47,
+        "paper_id": "02a0464e-746d-520f-bc16-8d0e5b7ee20c",
+        "title": "CAT-probing: A Metric-based Approach to Interpret How Pre-trained Models for Programming Language Attend Code Structure",
+        "relevance_score": 2,
+        "justification": "This paper tangentially relates to the topic by discussing how pre-trained models attend to code structure, which could have implications for understanding transformer expressivity in a specific domain."
+      },
+      {
+        "rank": 48,
+        "paper_id": "625418d7-8628-5405-9b15-65a996001fa1",
+        "title": "Representational Strengths and Limitations of Transformers",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the representational strengths and limitations of transformers, which is a core aspect of the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 49,
+        "paper_id": "b4601e00-1b8d-5570-89cd-7e0b1408d0e6",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "relevance_score": 3,
+        "justification": "This paper introduces BERT, which is a transformer-based model, and discusses its pre-training process and fine-tuning capabilities, which are relevant to the expressivity of transformers but does not directly address the theoretical expressivity as the seed papers do."
+      },
+      {
+        "rank": 50,
+        "paper_id": "b3432c6c-bcc3-5b42-8016-bd9327641882",
+        "title": "Chain of Thought Empowers Transformers to Solve Inherently Serial Problems",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressiveness of transformers through the lens of chain of thought, which is closely related to the theoretical expressivity of transformers."
+      }
+    ],
+    "metrics": {
+      "avg_relevance_top10": 3.7,
+      "avg_relevance_top50": 2.9,
+      "precision_at_10": 0.7,
+      "precision_at_20": 0.65,
+      "distribution": {
+        "1": 0,
+        "2": 26,
+        "3": 7,
+        "4": 13,
+        "5": 4
+      }
+    }
+  },
+  "fused_max": {
+    "papers": [
+      {
+        "rank": 1,
+        "paper_id": "84b0c08d-753c-5ae2-82a6-e9c2cdd07cc2",
+        "title": "Thinking Like Transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the computational model of Transformers, which is closely related to understanding their theoretical expressivity as discussed in the seed papers."
+      },
+      {
+        "rank": 2,
+        "paper_id": "24d7482a-91e1-59ad-857d-c5af78257803",
+        "title": "Attention is Turing-Complete",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the computational power and expressivity of the Transformer, which is central to the research topic."
+      },
+      {
+        "rank": 3,
+        "paper_id": "b78af4e4-3db6-59b3-828e-e87422542b49",
+        "title": "Masked Hard-Attention Transformers Recognize Exactly the Star-Free Languages",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the expressivity of transformers, specifically focusing on hard attention and attention masking, which aligns closely with the research topic."
+      },
+      {
+        "rank": 4,
+        "paper_id": "1ce833f3-fe31-531e-b22b-b3c0a329d375",
+        "title": "Overcoming a Theoretical Limitation of Self-Attention",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the theoretical limitations of transformers, specifically in the context of languages that transformers struggle with, which is closely related to the expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 5,
+        "paper_id": "6a1b3555-c1e9-543c-96be-1837b205a434",
+        "title": "Are Transformers universal approximators of sequence-to-sequence functions?",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the expressivity of Transformer models, which is central to the research topic defined by the seed papers."
+      },
+      {
+        "rank": 6,
+        "paper_id": "ccc417e6-cced-5903-816c-6cd7262534dd",
+        "title": "Simplicity Bias in Transformers and their Ability to Learn SparseBoolean Functions",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of neural networks and Boolean functions, but the focus on simplicity bias and sparse Boolean functions does not directly address the expressivity of transformers as explicitly as the seed papers do."
+      },
+      {
+        "rank": 7,
+        "paper_id": "bcd1fba8-030b-54e5-b883-f3b142b3c7f7",
+        "title": "ETC: Encoding Long and Structured Inputs in Transformers",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of transformer architectures but does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 8,
+        "paper_id": "0c1590eb-b25c-59a0-bb7a-ef483498a5b6",
+        "title": "Tighter Bounds on the Expressivity of Transformer Encoders",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the expressivity of transformer encoders, which is central to the research topic."
+      },
+      {
+        "rank": 9,
+        "paper_id": "625418d7-8628-5405-9b15-65a996001fa1",
+        "title": "Representational Strengths and Limitations of Transformers",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the representational strengths and limitations of transformers, which is a core aspect of the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 10,
+        "paper_id": "1c06ca82-15a9-57f7-a022-152aec8d56eb",
+        "title": "Logical Languages Accepted by Transformer Encoders with Hard Attention",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressivity of transformer encoders, which is a core aspect of the research topic defined by the seed papers."
+      },
+      {
+        "rank": 11,
+        "paper_id": "25375e46-99c6-5dee-b332-16c2783d85a6",
+        "title": "Self-Attention Networks Can Process Bounded Hierarchical Languages",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the expressivity of transformers in handling hierarchical structures, which is a core aspect of the theoretical expressivity of transformers discussed in the seed papers."
+      },
+      {
+        "rank": 12,
+        "paper_id": "5df5470f-d1ab-5390-b37e-269ccc7e9ada",
+        "title": "Attention Meets Post-hoc Interpretability: A Mathematical Perspective",
+        "relevance_score": 2,
+        "justification": "This paper focuses on post-hoc interpretability of attention mechanisms and does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 13,
+        "paper_id": "a19c1196-43fe-53b0-bbc6-98b11eb5d644",
+        "title": "The Power of Hard Attention Transformers on Data Sequences: A formal language theoretic perspective",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses the expressivity of transformers from a formal language theory perspective, which aligns closely with the seed papers' focus on the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 14,
+        "paper_id": "e8a22078-e24c-524d-9863-a6b8213e2bb3",
+        "title": "The Architectural Bottleneck Principle",
+        "relevance_score": 2,
+        "justification": "This paper focuses on measuring information extraction capabilities of neural network components, which is tangentially related to the expressivity of transformers but does not directly address the expressivity of transformers themselves."
+      },
+      {
+        "rank": 15,
+        "paper_id": "43cd85a0-f701-5b3c-bfe4-8afdb9d7a67b",
+        "title": "Recurrent Neural Networks as Weighted Language Recognizers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on recurrent neural networks (RNNs) and their computational capabilities, which are somewhat tangentially related to the expressivity of transformers, especially given the current interest in comparing different neural architectures."
+      },
+      {
+        "rank": 16,
+        "paper_id": "1c237b72-aac4-5a02-9789-80a769f61359",
+        "title": "Transformers, parallel computation, and logarithmic depth",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the computational depth and parallelism of transformers, which is closely related to their expressivity."
+      },
+      {
+        "rank": 17,
+        "paper_id": "a28c6d44-eab8-5437-bc76-6e0afda75e32",
+        "title": "Learning Deep Transformer Models for Machine Translation",
+        "relevance_score": 2,
+        "justification": "This paper focuses on practical improvements and challenges in deep Transformer models for machine translation, which is tangential to the theoretical expressivity of Transformers explored in the seed papers."
+      },
+      {
+        "rank": 18,
+        "paper_id": "1fadf005-0fab-5d58-95ae-a67daa5eae87",
+        "title": "Memorization Capacity of Multi-Head Attention in Transformers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the memorization capacity of multi-head attention, which is tangentially related to the expressivity of transformers but does not directly address the theoretical expressivity as defined by the seed papers."
+      },
+      {
+        "rank": 19,
+        "paper_id": "f69adf6e-9f2b-5a9f-a5e1-abd852370d4d",
+        "title": "The Logical Expressiveness of Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses the logical expressiveness of graph neural networks, which is tangentially related to the expressivity of transformers, but does not directly address the topic."
+      },
+      {
+        "rank": 20,
+        "paper_id": "19827d5b-0dd4-5a39-be98-335f25943a85",
+        "title": "Large Language Models are Zero-Shot Reasoners",
+        "relevance_score": 2,
+        "justification": "This paper focuses on large language models and chain of thought prompting, which are tangentially related to the expressivity of transformers, particularly in reasoning tasks."
+      },
+      {
+        "rank": 21,
+        "paper_id": "a1ea9096-f4df-5d0f-be6c-c90f4fd87c3b",
+        "title": "BridgingCNNs,RNNs, and Weighted Finite-State Machines",
+        "relevance_score": 2,
+        "justification": "This paper focuses on bridging CNNs and RNNs, which is not directly related to the theoretical expressivity of transformers as defined by the seed papers."
+      },
+      {
+        "rank": 22,
+        "paper_id": "45ce4638-df3c-5acb-a58a-37f10262a185",
+        "title": "A Logic for Expressing Log-Precision Transformers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks, which is related to the expressivity of transformers in a logical context as discussed in the seed papers."
+      },
+      {
+        "rank": 23,
+        "paper_id": "4f8f040a-d935-52f3-a2a5-12dcd55f92a4",
+        "title": "On the Turing Completeness of Modern Neural Network Architectures",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of neural network architectures and their computational power, but it does not specifically focus on the expressivity of transformers in a theoretical context as the seed papers do."
+      },
+      {
+        "rank": 24,
+        "paper_id": "569d04f2-2c43-5d67-b7a9-bee23a2c7b33",
+        "title": "Looped Transformers as Programmable Computers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using transformers, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 25,
+        "paper_id": "456bb556-8f71-5bd0-9996-3ead2f80fdd8",
+        "title": "Do Transformers Need Deep Long-Range Memory?",
+        "relevance_score": 3,
+        "justification": "This paper explores the necessity of deep long-range memory in Transformers but does not directly address the expressivity or representational capabilities of Transformers as the seed papers do."
+      },
+      {
+        "rank": 26,
+        "paper_id": "554a4051-77cb-53d7-9cd8-68e669dc691f",
+        "title": "Weisfeiler and Leman Go Neural: Higher-Order Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses the expressiveness of graph neural networks and does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 27,
+        "paper_id": "63d1b584-a00e-559c-b8f1-ac0bf887d020",
+        "title": "When can transformers reason with abstract symbols?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the capabilities of transformers on relational reasoning tasks, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 28,
+        "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+        "title": "Language Models are Few-Shot Learners",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the few-shot learning capabilities of large language models and does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 29,
+        "paper_id": "bf98125a-d432-5f0e-aad1-7d6c94e704f8",
+        "title": "On the Universality of Invariant Networks",
+        "relevance_score": 2,
+        "justification": "This paper discusses invariant networks, which are not directly related to the expressivity of transformers as explored in the seed papers."
+      },
+      {
+        "rank": 30,
+        "paper_id": "210439f1-7790-5f91-b6a4-8047edf8f643",
+        "title": "Attention is not all you need: pure attention loses rank doubly exponentially with depth",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of neural networks and attention mechanisms, but its focus on token uniformity and path decomposition is more on a different aspect of attention-based architectures rather than the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 31,
+        "paper_id": "e2b4968b-4da4-5730-b032-7fd25e9be170",
+        "title": "AStructural Probe for Finding Syntax in Word Representations",
+        "relevance_score": 2,
+        "justification": "This paper tangentially connects to the topic by working with neural network representations but does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 32,
+        "paper_id": "f6a1f348-ead8-52c7-9cf3-673ec08e0d5c",
+        "title": "On the equivalence between graph isomorphism testing and function approximation with GNNs",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on the representation power of GNNs, which is tangentially related to the expressivity of transformers, but does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 33,
+        "paper_id": "698a94b6-338d-5f80-aad3-371109222b43",
+        "title": "RIFormer: Keep Your Vision Backbone Effective but Removing Token Mixer",
+        "relevance_score": 2,
+        "justification": "This paper focuses on removing token mixers in vision transformers, which is tangentially related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 34,
+        "paper_id": "e9d94c45-fec8-5c86-82d1-91964493fae5",
+        "title": "Universal Invariant and Equivariant Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on graph neural networks and does not address the expressivity of transformers."
+      },
+      {
+        "rank": 35,
+        "paper_id": "9e709ecc-64ee-5f00-aafc-1c996090c860",
+        "title": "Attention as Implicit Structural Inference",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the underlying intuition of attention mechanisms, which is relevant to the expressivity of transformers, as discussed in the seed papers."
+      },
+      {
+        "rank": 36,
+        "paper_id": "33220205-d9e6-5b74-842a-049f9113aa3f",
+        "title": "What graph neural networks cannot learn: depth vs width",
+        "relevance_score": 2,
+        "justification": "This paper focuses on graph neural networks and their limitations, which is tangentially related to the theoretical expressivity of transformers, as both deal with neural network architectures but in different contexts."
+      },
+      {
+        "rank": 37,
+        "paper_id": "cc854fc2-32da-5e3c-bda6-be443f13e4a6",
+        "title": "Inductive Biases and Variable Creation in Self-Attention Mechanisms",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the inductive biases of self-attention modules, which is relevant to understanding the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 38,
+        "paper_id": "79d362fb-0115-5d4e-accb-7cd785ed4bc5",
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the application of transformers in computer vision, which is tangential to the theoretical expressivity of transformers in natural language processing addressed in the seed papers."
+      },
+      {
+        "rank": 39,
+        "paper_id": "5bb37383-023a-5808-b2e4-2c3d19710841",
+        "title": "How Far Can Transformers Reason? The Globality Barrier and Inductive Scratchpad",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of reasoning with Transformers but focuses on learnability and a new measure called 'globality degree', which is tangentially related to the expressivity of Transformers."
+      },
+      {
+        "rank": 40,
+        "paper_id": "a774d86f-b236-50f3-8887-2874b4f64b77",
+        "title": "InversionView: A General-Purpose Method for Reading Information from Neural Activations",
+        "relevance_score": 2,
+        "justification": "This paper focuses on understanding neural activations through a method called InversionView, which is tangential to the expressivity and representational strengths of transformers."
+      },
+      {
+        "rank": 41,
+        "paper_id": "8cece362-ac2e-543f-b38e-56c1ad3772f7",
+        "title": "Size and Depth Separation in Approximating Benign Functions with Neural Networks",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses the size and depth of neural networks in approximating benign functions, which is tangentially related to the theoretical expressivity of transformers but does not directly address the topic."
+      },
+      {
+        "rank": 42,
+        "paper_id": "be70d663-a659-5ef9-8a00-76eaf737f882",
+        "title": "Analyzing Feed-Forward Blocks in Transformers through the Lens of Attention Maps",
+        "relevance_score": 2,
+        "justification": "This paper focuses on feed-forward blocks within transformers and their input contextualization effects, which, while related to transformer components, does not directly address the theoretical expressivity of transformers as the seed papers do."
+      },
+      {
+        "rank": 43,
+        "paper_id": "c0038227-060b-56f7-b3c7-b14fca76296a",
+        "title": "SPARO: Selective Attention for Robust and Compositional Transformer Encodings for Vision",
+        "relevance_score": 3,
+        "justification": "This paper discusses selective attention in the context of transformer encodings for vision tasks, which shares a problem domain with the seed papers but does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 44,
+        "paper_id": "86e03a03-3d2c-5bcf-b45f-7f186b5eb158",
+        "title": "Exponentially Improving the Complexity of Simulating the Weisfeiler-Lehman Test with Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on simulating the Weisfeiler-Lehman test with graph neural networks and does not directly address the theoretical expressivity of transformers."
+      },
+      {
+        "rank": 45,
+        "paper_id": "02a0464e-746d-520f-bc16-8d0e5b7ee20c",
+        "title": "CAT-probing: A Metric-based Approach to Interpret How Pre-trained Models for Programming Language Attend Code Structure",
+        "relevance_score": 2,
+        "justification": "This paper focuses on interpreting pre-trained models for code, which is tangentially related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 46,
+        "paper_id": "d1c04141-cbdd-5627-81c3-b8b34a2bd328",
+        "title": "Practical Computational Power of Linear Transformers and Their Recurrent and Self-Referential Extensions",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the computational power of a specific type of Transformer (linear Transformers), which is closely related to the expressivity of Transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 47,
+        "paper_id": "560b52eb-d4ab-5413-9ecd-2ac6ce203bcd",
+        "title": "Learning Language Representations with Logical Inductive Bias",
+        "relevance_score": 2,
+        "justification": "This paper introduces a new neural architecture with a logical inductive bias, which is tangentially related to the theoretical expressivity of transformers as explored in the seed papers."
+      },
+      {
+        "rank": 48,
+        "paper_id": "b4601e00-1b8d-5570-89cd-7e0b1408d0e6",
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses the development and application of transformer models, which is closely related to the theoretical expressivity of transformers as discussed in the seed papers."
+      },
+      {
+        "rank": 49,
+        "paper_id": "cf7f2c6e-79a5-5c79-9e05-a2f4463b724f",
+        "title": "Universal Transformers",
+        "relevance_score": 2,
+        "justification": "This paper discusses RNNs and feed-forward architectures, which are not directly focused on the expressivity of transformers as addressed in the seed papers."
+      },
+      {
+        "rank": 50,
+        "paper_id": "35d876f9-ac98-5f78-8e97-e70ffaff5d79",
+        "title": "DeepPSL: End-to-End Perception and Reasoning",
+        "relevance_score": 2,
+        "justification": "This paper focuses on end-to-end trainable systems combining reasoning and perception, which is tangentially related to the expressivity of transformers in handling complex logical and linguistic tasks."
+      }
+    ],
+    "metrics": {
+      "avg_relevance_top10": 4.3,
+      "avg_relevance_top50": 2.98,
+      "precision_at_10": 0.8,
+      "precision_at_20": 0.55,
+      "distribution": {
+        "1": 0,
+        "2": 25,
+        "3": 7,
+        "4": 12,
+        "5": 6
+      }
+    }
+  }
+}

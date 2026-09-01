@@ -1,0 +1,1105 @@
+{
+  "query": "Query 1: Neural Algorithmic Reasoning",
+  "topic": "Neural Algorithmic Reasoning",
+  "semantic": {
+    "papers": [
+      {
+        "rank": 1,
+        "paper_id": "7674ac80-e5b5-556e-9e88-7b14f62ecaf6",
+        "title": "Learning Iterative Reasoning through Energy Minimization",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by proposing a method for iterative reasoning through energy minimization, which aligns with the focus on algorithmic computation in the seed papers."
+      },
+      {
+        "rank": 2,
+        "paper_id": "8a7ccafe-8c36-5c4a-b729-470a5c679190",
+        "title": "Open-Book Neural Algorithmic Reasoning",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses neural algorithmic reasoning and is closely related to the seed papers, particularly \"Open-Book Neural Algorithmic Reasoning.\""
+      },
+      {
+        "rank": 3,
+        "paper_id": "3d06d8dc-5f23-5edc-a262-eea17885db90",
+        "title": "What Can Neural Networks Reason About?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 4,
+        "paper_id": "ec5e5977-5a2d-5327-90bf-aee47916e5d8",
+        "title": "Can You Learn an Algorithm?  Generalizing from Easy to Hard Problems with Recurrent Networks",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by exploring the ability of deep neural networks to generalize reasoning strategies from simpler to more complex problems, which aligns closely with the seed papers' focus on algorithmic reasoning in neural networks."
+      },
+      {
+        "rank": 5,
+        "paper_id": "a161b3e2-3e20-56a8-a30b-a1e2686fd7cb",
+        "title": "Deep Equilibrium Algorithmic Reasoning",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses neural algorithmic reasoning using the concept of deep equilibrium, which is mentioned in the seed papers."
+      },
+      {
+        "rank": 6,
+        "paper_id": "bd9783a4-da8c-5d4b-98a0-61a884289234",
+        "title": "Rethinking Deep Thinking: Stable Learning of Algorithms using Lipschitz Constraints",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using iterative algorithms and DT networks."
+      },
+      {
+        "rank": 7,
+        "paper_id": "3e79c349-2722-5bd1-b9ca-6cd4edd48434",
+        "title": "Neural Algorithmic Reasoning Without Intermediate Supervision",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using step-by-step learning, which aligns with the methods and challenges discussed in the seed papers."
+      },
+      {
+        "rank": 8,
+        "paper_id": "8a9fa653-e17e-5dfd-9fae-f34e48bd9436",
+        "title": "Graph Neural Networks are Dynamic Programmers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks, which is closely related to the methods and research questions explored in the seed papers."
+      },
+      {
+        "rank": 9,
+        "paper_id": "539f6e6b-4fca-55cf-8e0e-3f4b5a9aaca2",
+        "title": "Interpreting Neural Network Judgments via Minimal, Stable, and Symbolic Corrections",
+        "relevance_score": 2,
+        "justification": "This paper focuses on interpreting neural network decisions rather than directly using neural algorithms to solve combinatorial problems or reasoning tasks."
+      },
+      {
+        "rank": 10,
+        "paper_id": "bcdf7448-4396-56e2-8c9c-4b857a9c35e4",
+        "title": "A Neural Network Approach for Efficiently Answering Most Probable Explanation Queries in Probabilistic Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 11,
+        "paper_id": "37e3bb67-ff5f-5a5e-8a4b-bf184146567b",
+        "title": "Neural Algorithmic Reasoning with Causal Regularisation",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning and discusses techniques to improve performance on out-of-distribution data, which is closely related to the methods and questions explored in the seed papers."
+      },
+      {
+        "rank": 12,
+        "paper_id": "0edea6df-880d-50ef-a397-c20e3e09296d",
+        "title": "Position: The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning",
+        "relevance_score": 2,
+        "justification": "This paper discusses the No Free Lunch Theorem and Kolmogorov complexity, which are theoretical concepts that can provide context for understanding neural algorithmic reasoning but do not directly address the methods or applications of neural networks in algorithmic reasoning as the seed papers do."
+      },
+      {
+        "rank": 13,
+        "paper_id": "a68a0305-9127-5de9-b161-7f41df25d694",
+        "title": "On the Hardness of Probabilistic Neurosymbolic Learning",
+        "relevance_score": 2,
+        "justification": "This paper focuses on probabilistic neurosymbolic learning and gradient differentiation, which are tangentially related to the neural algorithmic reasoning techniques discussed in the seed papers."
+      },
+      {
+        "rank": 14,
+        "paper_id": "e4a1e68e-5e3c-5df0-a599-778780b9cba1",
+        "title": "The CLRS Algorithmic Reasoning Benchmark",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by proposing a benchmark for evaluating algorithmic reasoning capabilities of neural networks."
+      },
+      {
+        "rank": 15,
+        "paper_id": "95f26dc0-7e61-5d9b-a870-67eab5cfdba6",
+        "title": "Neural Logic Machines",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by integrating neural networks with logic programming, which aligns closely with the methods and goals of the seed papers."
+      },
+      {
+        "rank": 16,
+        "paper_id": "c110bb19-d8af-5f2c-9460-80efa4ff763a",
+        "title": "Semantic Strengthening of Neuro-Symbolic Learning",
+        "relevance_score": 2,
+        "justification": "This paper discusses neuro-symbolic learning, which is tangentially related to the seed papers that focus on neural algorithmic reasoning for specific combinatorial algorithms and methods."
+      },
+      {
+        "rank": 17,
+        "paper_id": "a4ff0905-8054-5116-8efb-0a58161c2582",
+        "title": "Generating Programmatic Referring Expressions via Program Synthesis",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using program synthesis, which aligns closely with the research questions and methods in the seed papers."
+      },
+      {
+        "rank": 18,
+        "paper_id": "c704c010-20a7-5083-8384-7374ad793b21",
+        "title": "SATNet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using a differentiable satisfiability solver, which is closely related to the methods discussed in the seed papers."
+      },
+      {
+        "rank": 19,
+        "paper_id": "3a2284d0-e873-5cba-bc4c-1d9023c9fe3c",
+        "title": "DNCs Require More Planning Steps",
+        "relevance_score": 2,
+        "justification": "This paper discusses the computational time and memory requirements of implicit algorithmic solvers like DNCs, which is tangentially related to the broader topic of neural algorithmic reasoning."
+      },
+      {
+        "rank": 20,
+        "paper_id": "6cd70b03-c8f7-5278-ae7c-ad636fa8dbee",
+        "title": "Learning Heuristics for Quantified Boolean Formulas through Reinforcement Learning",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using reinforcement learning to improve automated reasoning algorithms for quantified Boolean formulas."
+      },
+      {
+        "rank": 21,
+        "paper_id": "1d2cc124-9fa8-5a19-b0d0-5a331a65f355",
+        "title": "On the Markov Property of Neural Algorithmic Reasoning: Analyses and Methods",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by focusing on the Markov property, which is closely related to the methods and tasks discussed in the seed papers."
+      },
+      {
+        "rank": 22,
+        "paper_id": "62d0235b-f29b-534f-bce0-f4cc9d67e661",
+        "title": "Scalable Coupling of Deep Learning with Logical Reasoning",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 23,
+        "paper_id": "e0549359-113d-5ec4-b2d9-b074fc9364a5",
+        "title": "Recurrent Convolutional Neural Networks Learn Succinct Learning Algorithms",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by demonstrating that neural networks can learn efficient algorithms for certain problems, which aligns closely with the research topic."
+      },
+      {
+        "rank": 24,
+        "paper_id": "a2bd5e74-eb0f-5bb7-8207-92840ecb014b",
+        "title": "Neuro-Symbolic Hierarchical Rule Induction",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by proposing a neuro-symbolic model for rule induction, which is closely related to the seed papers that focus on neural methods for algorithmic tasks."
+      },
+      {
+        "rank": 25,
+        "paper_id": "b46155c0-7631-5b36-bb64-d328bf7f9b43",
+        "title": "Towards the Dynamics of a DNN Learning Symbolic Interactions",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the dynamics of DNNs and symbolic interactions, which is tangentially related to the neural algorithmic reasoning methods discussed in the seed papers."
+      },
+      {
+        "rank": 26,
+        "paper_id": "196587f0-3070-54b3-b2a8-909683a7d6b6",
+        "title": "Injecting Logical Constraints into Neural Networks via Straight-Through Estimators",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of incorporating logical constraints into neural networks but does not explicitly address algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 27,
+        "paper_id": "b46256d4-c657-5627-b329-696a859f66c9",
+        "title": "Relational Programming with Foundational Models",
+        "relevance_score": 2,
+        "justification": "This paper discusses a framework for programming with foundation models and does not directly address neural algorithmic reasoning."
+      },
+      {
+        "rank": 28,
+        "paper_id": "c3c5d0dc-4769-5c63-9814-15b83ff02576",
+        "title": "Neural Execution of Graph Algorithms",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 29,
+        "paper_id": "7f98c536-3b70-5ea4-b5d7-79ad611624e7",
+        "title": "Robust Explanation Constraints for Neural Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on post-hoc explanation methods for neural networks and does not directly address algorithmic reasoning or the topics covered in the seed papers."
+      },
+      {
+        "rank": 30,
+        "paper_id": "bbbb49d8-2746-5f47-8823-49b090bc60cc",
+        "title": "Parametrized Hierarchical Procedures for Neural Programming",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by discussing neural programs and computation mechanisms, which aligns closely with the topics covered in the seed papers."
+      },
+      {
+        "rank": 31,
+        "paper_id": "23687e84-28df-50a2-9330-34761e67e521",
+        "title": "Blossom: an Anytime Algorithm for Computing Optimal Decision Trees",
+        "relevance_score": 2,
+        "justification": "This paper addresses decision tree optimization but does not explicitly use neural networks or focus on algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 32,
+        "paper_id": "ad763b66-5a39-5f5d-9e39-f8c5d4ad2af8",
+        "title": "A Logic-Driven Framework for Consistency of Neural Models",
+        "relevance_score": 2,
+        "justification": "This paper focuses on consistency issues in neural models and does not directly address algorithmic reasoning or combinatorial algorithms, which are the core themes of the seed papers."
+      },
+      {
+        "rank": 33,
+        "paper_id": "d078c35e-3fe6-550b-a14c-9d72ee62cc0c",
+        "title": "Learning Iterative Reasoning through Energy Diffusion",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using iterative and energy-based optimization methods."
+      },
+      {
+        "rank": 34,
+        "paper_id": "c348a334-177a-56e7-895d-39b6f4b31f15",
+        "title": "Learning First-Order Rules with Differentiable Logic Program Semantics",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 35,
+        "paper_id": "c285db1b-70c6-524a-b84f-b3f148bd96cf",
+        "title": "A Pseudo-Semantic Loss for Autoregressive Models with Logical Constraints",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of neuro-symbolic AI and constraints in neural networks, but does not directly focus on algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 36,
+        "paper_id": "d7558eeb-db6d-5589-bc65-8395c8e10402",
+        "title": "Neural Models for Output-Space Invariance in Combinatorial Problems",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks, which is closely related to the methods discussed in the seed papers."
+      },
+      {
+        "rank": 37,
+        "paper_id": "22b3723b-9587-54ce-b97d-37e012bdc76f",
+        "title": "Neuro-Symbolic Learning of Answer Set Programs from Raw Data",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of algorithmic reasoning but focuses on a different approach (neuro-symbolic learning) and does not directly address the neural methods emphasized in the seed papers."
+      },
+      {
+        "rank": 38,
+        "paper_id": "839d33f7-a97c-5380-9e92-e7dd9b3d6f42",
+        "title": "Chaining Simultaneous Thoughts for Numerical Reasoning",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of numerical reasoning but does not explicitly address algorithmic reasoning or the methods used in the seed papers."
+      },
+      {
+        "rank": 39,
+        "paper_id": "50b718d3-551a-5270-b943-9e645005d41c",
+        "title": "End-to-end Algorithm Synthesis with Recurrent Networks: Extrapolation without Overthinking",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning through the use of recurrent systems for algorithmic extrapolation."
+      },
+      {
+        "rank": 40,
+        "paper_id": "09ad8746-d556-548a-83a9-f93481c4946e",
+        "title": "One Model, Any CSP: Graph Neural Networks as Fast Global Search Heuristics for Constraint Satisfaction",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks for solving constraint satisfaction problems, which aligns closely with the research questions and methods in the seed papers."
+      },
+      {
+        "rank": 41,
+        "paper_id": "0d8222e6-f44f-5753-b8fe-3249eb7a959c",
+        "title": "The Clock and the Pizza: Two Stories in Mechanistic Explanation of Neural Networks",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 42,
+        "paper_id": "545c1b30-8ff4-5570-97ac-0a8eac62cb2f",
+        "title": "Neural probabilistic logic programming in discrete-continuous domains",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of symbolic and neural integration but focuses on probabilistic logic programming, which is a different aspect from the algorithmic reasoning methods discussed in the seed papers."
+      },
+      {
+        "rank": 43,
+        "paper_id": "af269a9d-df4a-598a-bc89-33f9aee56d46",
+        "title": "What Game Are We Playing?  End-to-end Learning in Normal and Extensive Form Games",
+        "relevance_score": 2,
+        "justification": "This paper addresses game theory and learning frameworks, which are tangential to the specific focus on algorithmic reasoning in combinatorial problems and methods mentioned in the seed papers."
+      },
+      {
+        "rank": 44,
+        "paper_id": "b7f27b74-2878-5841-92d4-067d2da76e75",
+        "title": "Most Activation Functions Can Win the Lottery Without Excessive Depth",
+        "relevance_score": 2,
+        "justification": "This paper discusses activation functions and their properties in deep neural networks, which has a tangential connection to the broader field of neural algorithmic reasoning but does not directly address the specific methods or problems defined in the seed papers."
+      },
+      {
+        "rank": 45,
+        "paper_id": "15c39a97-89a6-5f93-90b9-efd81c6060f4",
+        "title": "Learning Logistic Circuits",
+        "relevance_score": 2,
+        "justification": "This paper focuses on a new classification model and does not directly address algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 46,
+        "paper_id": "bd0bde2d-09e2-5341-a986-a3a9af635cbd",
+        "title": "DeepStochLog: Neural Stochastic Logic Programming",
+        "relevance_score": 3,
+        "justification": "This paper shares the methodological domain of neural symbolic learning and addresses inference in probabilistic logic programs, which is tangentially related to algorithmic reasoning as seen in the seed papers."
+      },
+      {
+        "rank": 47,
+        "paper_id": "f61ee700-70d3-5fbf-8732-46a7bf8faf84",
+        "title": "Learning Generalized Policy Automata for Relational Stochastic Shortest Path Problems",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of algorithmic reasoning but focuses on learning generalized policies for SSPs, which is a specific application rather than a broad neural algorithmic reasoning approach."
+      },
+      {
+        "rank": 48,
+        "paper_id": "d57feed3-4c8b-5050-9790-65e8eb4261d0",
+        "title": "Learning Reliable Logical Rules with SATNet",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using interpretable logical rules, aligning closely with the seed papers that focus on algorithmic reasoning in neural networks."
+      },
+      {
+        "rank": 49,
+        "paper_id": "b3d4cedb-2c5c-5be2-9682-7c13727ba1cd",
+        "title": "A Semantic Loss Function for Deep Learning with Symbolic Knowledge",
+        "relevance_score": 2,
+        "justification": "This paper focuses on integrating symbolic knowledge into deep learning, which while related to knowledge representation, is more aligned with semantic learning and not directly addressing algorithmic reasoning tasks as defined by the seed papers."
+      },
+      {
+        "rank": 50,
+        "paper_id": "5159c96f-cad1-5727-af50-2f197927df38",
+        "title": "A Survey of Deep Learning for Mathematical Reasoning",
+        "relevance_score": 2,
+        "justification": "This paper provides a survey of deep learning approaches for mathematical reasoning but does not specifically focus on neural algorithmic reasoning as defined by the seed papers."
+      }
+    ],
+    "metrics": {
+      "avg_relevance_top10": 4.0,
+      "avg_relevance_top50": 3.3,
+      "precision_at_10": 0.9,
+      "precision_at_20": 0.75,
+      "distribution": {
+        "1": 0,
+        "2": 15,
+        "3": 7,
+        "4": 26,
+        "5": 2
+      }
+    }
+  },
+  "graph": {
+    "papers": [
+      {
+        "rank": 1,
+        "paper_id": "e4a1e68e-5e3c-5df0-a599-778780b9cba1",
+        "title": "The CLRS Algorithmic Reasoning Benchmark",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 2,
+        "paper_id": "c48bcd7f-9f54-541e-b3b7-fbd2f2c2204b",
+        "title": "Learning to Configure Computer Networks with Neural Algorithmic Reasoning",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 3,
+        "paper_id": "8a9fa653-e17e-5dfd-9fae-f34e48bd9436",
+        "title": "Graph Neural Networks are Dynamic Programmers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks, which aligns closely with the research questions and methods explored in the seed papers."
+      },
+      {
+        "rank": 4,
+        "paper_id": "37e3bb67-ff5f-5a5e-8a4b-bf184146567b",
+        "title": "Neural Algorithmic Reasoning with Causal Regularisation",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning and addresses the issue of out-of-distribution performance, which is relevant to the methods and challenges discussed in the seed papers."
+      },
+      {
+        "rank": 5,
+        "paper_id": "14f04c7b-289f-5b70-8385-f966306b24e5",
+        "title": "Neural Algorithmic Reasoners are Implicit Planners",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of algorithmic reasoning but focuses more on implicit planning and reinforcement learning rather than directly addressing neural algorithmic reasoning as presented in the seed papers."
+      },
+      {
+        "rank": 6,
+        "paper_id": "c3c5d0dc-4769-5c63-9814-15b83ff02576",
+        "title": "Neural Execution of Graph Algorithms",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 7,
+        "paper_id": "748628ab-8c60-5571-a7d9-7bf59751b56e",
+        "title": "Combinatorial Optimization and Reasoning with Graph Neural Networks",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 8,
+        "paper_id": "1c49873d-58c0-5583-b24c-75b2ac386f6c",
+        "title": "Pointer Graph Networks",
+        "relevance_score": 2,
+        "justification": "This paper introduces a method for handling dynamic graph structures, which may have some tangential relevance to the broader topic of neural algorithmic reasoning but does not directly address the specific approaches and algorithms discussed in the seed papers."
+      },
+      {
+        "rank": 9,
+        "paper_id": "569d04f2-2c43-5d67-b7a9-bee23a2c7b33",
+        "title": "Looped Transformers as Programmable Computers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by proposing a framework to use transformer networks as programmable computers, which aligns with the methods and research questions in the seed papers."
+      },
+      {
+        "rank": 10,
+        "paper_id": "3e79c349-2722-5bd1-b9ca-6cd4edd48434",
+        "title": "Neural Algorithmic Reasoning Without Intermediate Supervision",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using step-by-step learning, which aligns with the methods discussed in the seed papers."
+      },
+      {
+        "rank": 11,
+        "paper_id": "6a1b3555-c1e9-543c-96be-1837b205a434",
+        "title": "Are Transformers universal approximators of sequence-to-sequence functions?",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the expressiveness of Transformer models and does not directly address neural algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 12,
+        "paper_id": "9b0d052d-686c-5fe6-a11b-8af8740d2a84",
+        "title": "Understanding Deep Neural Networks with Rectified Linear Units",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on the representational power and training of deep neural networks with ReLU units, which is tangentially related to the broader topic of algorithmic reasoning but does not directly address the specific methodologies and applications of algorithmic reasoning as outlined in the seed papers."
+      },
+      {
+        "rank": 13,
+        "paper_id": "271e07a0-3293-5ca8-ba0b-5378224087f9",
+        "title": "Provably Good Solutions to the Knapsack Problem via Neural Networks of Bounded Size",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using recurrent neural networks to solve the Knapsack Problem, which is a combinatorial algorithm."
+      },
+      {
+        "rank": 14,
+        "paper_id": "bb256381-1257-58cc-8230-8487564418de",
+        "title": "Incorporating Convolution Designs Into Visual Transformers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on incorporating convolution designs into visual transformers and does not directly address neural algorithmic reasoning."
+      },
+      {
+        "rank": 15,
+        "paper_id": "c3ae80b3-6839-5a87-97d0-a021a6209bf9",
+        "title": "Scaling Vision Transformers to 22 Billion Parameters",
+        "relevance_score": 1,
+        "justification": "This paper focuses on scaling Vision Transformers, which is unrelated to neural algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 16,
+        "paper_id": "15117938-ec8f-5178-8b89-3b443edba45a",
+        "title": "Learning Transformer Programs",
+        "relevance_score": 2,
+        "justification": "This paper focuses on making Transformers more interpretable, which is tangential to the specific task of algorithmic reasoning addressed in the seed papers."
+      },
+      {
+        "rank": 17,
+        "paper_id": "89943796-7c5e-56a2-a7f8-681a39c8f894",
+        "title": "How to transfer algorithmic reasoning knowledge to learn new algorithms?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by focusing on the transfer of algorithmic reasoning knowledge to learn new algorithms, which aligns closely with the methods and research questions in the seed papers."
+      },
+      {
+        "rank": 18,
+        "paper_id": "2884ef20-add8-54ef-ae99-36b17cf25395",
+        "title": "Self-Attention Between Datapoints: Going Beyond Individual Input-Output Pairs in Deep Learning",
+        "relevance_score": 2,
+        "justification": "This paper introduces a new approach to deep learning that focuses on relationships between data points, which is tangentially related to neural algorithmic reasoning but does not directly address the methods or problems outlined in the seed papers."
+      },
+      {
+        "rank": 19,
+        "paper_id": "b083863d-1e25-50a3-90f9-44cc5de6ab1e",
+        "title": "Few-Shot Non-Parametric Learning with Deep Latent Variable Model",
+        "relevance_score": 2,
+        "justification": "This paper focuses on non-parametric learning with deep latent variable models, which is tangentially related to the broader topic of neural algorithmic reasoning but does not directly address the specific algorithms or methods mentioned in the seed papers."
+      },
+      {
+        "rank": 20,
+        "paper_id": "cec1ee7a-7ca8-5163-a370-3a037c30f929",
+        "title": "Bridging Machine Learning and Logical Reasoning by Abductive Learning",
+        "relevance_score": 2,
+        "justification": "This paper focuses on integrating machine learning and logical reasoning through abductive learning, which has a tangential connection to the broader topic of neural algorithmic reasoning."
+      },
+      {
+        "rank": 21,
+        "paper_id": "db484ad3-9246-5eed-9fee-1933b7d5eeb4",
+        "title": "Addressing Function Approximation Error in Actor-Critic Methods",
+        "relevance_score": 2,
+        "justification": "This paper addresses function approximation errors in reinforcement learning, which is tangential to the specific focus on algorithmic reasoning in combinatorial problems addressed by the seed papers."
+      },
+      {
+        "rank": 22,
+        "paper_id": "d7f0b471-f8bb-5491-98f8-d664840905e0",
+        "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+        "relevance_score": 1,
+        "justification": "This candidate paper is not relevant to the research topic defined by the seed papers, as it focuses on off-policy maximum entropy deep reinforcement learning, specifically the Soft Actor-Critic algorithm, rather than algorithmic reasoning tasks."
+      },
+      {
+        "rank": 23,
+        "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+        "title": "Language Models are Few-Shot Learners",
+        "relevance_score": 2,
+        "justification": "This paper focuses on language models and few-shot learning, which has tangential connections to the methods discussed in the seed papers but does not directly address neural algorithmic reasoning for combinatorial algorithms or other specific tasks mentioned."
+      },
+      {
+        "rank": 24,
+        "paper_id": "94e03e7f-3048-5416-aa67-812805787628",
+        "title": "Distributional Reinforcement Learning With Quantile Regression",
+        "relevance_score": 2,
+        "justification": "This paper focuses on distributional reinforcement learning, which is not directly related to the neural algorithmic reasoning methods discussed in the seed papers."
+      },
+      {
+        "rank": 25,
+        "paper_id": "5126718a-e3de-55e9-93bf-5ca740a2e54b",
+        "title": "Agent57: Outperforming the Atari Human Benchmark",
+        "relevance_score": 2,
+        "justification": "This paper focuses on reinforcement learning and does not directly address neural algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 26,
+        "paper_id": "e7961d81-3005-595f-80dc-451a54928c5b",
+        "title": "IsarStep: a Benchmark for High-level Mathematical Reasoning",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 27,
+        "paper_id": "88c93611-8561-5dae-8315-b5b802ee134c",
+        "title": "Stable-Baselines3: Reliable Reinforcement Learning Implementations",
+        "relevance_score": 1,
+        "justification": "This paper focuses on reinforcement learning implementations and does not address neural algorithmic reasoning."
+      },
+      {
+        "rank": 28,
+        "paper_id": "9c3cd153-8077-5d54-a1f0-612d1a9d8438",
+        "title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice",
+        "relevance_score": 1,
+        "justification": "This candidate paper focuses on deep reinforcement learning and statistical uncertainty, which is not directly related to neural algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 29,
+        "paper_id": "adb3abfc-2d11-5282-ba6e-b0f7aa49481f",
+        "title": "Reward is enough for convex MDPs",
+        "relevance_score": 2,
+        "justification": "This paper discusses convex MDPs and reward functions, which are tangentially related to neural algorithmic reasoning but does not directly address the topics in the seed papers."
+      },
+      {
+        "rank": 30,
+        "paper_id": "191cd3ed-4092-5494-9172-eca08f787e59",
+        "title": "Neural Logic Reinforcement Learning",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of reinforcement learning and neural networks but does not directly address algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 31,
+        "paper_id": "22e7eab9-8c33-511f-8adc-3c07e0622ead",
+        "title": "AlphaHoldem: High-Performance Artificial Intelligence for Heads-Up No-Limit Poker via End-to-End Reinforcement Learning",
+        "relevance_score": 2,
+        "justification": "This paper focuses on a specific application of reinforcement learning in poker and does not directly address neural algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 32,
+        "paper_id": "bf71a548-1903-5e26-ab69-da2e10676658",
+        "title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+        "relevance_score": 1,
+        "justification": "This paper focuses on transfer learning in NLP and does not address neural algorithmic reasoning."
+      },
+      {
+        "rank": 33,
+        "paper_id": "e24566d5-1059-57e7-932d-4c9755a61f4e",
+        "title": "Teaching Arithmetic to Small Transformers",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of algorithmic reasoning but focuses on arithmetic learning in transformers rather than the broader scope of combinatorial algorithms or open-book reasoning."
+      },
+      {
+        "rank": 34,
+        "paper_id": "e072f335-aff6-5e4b-abfe-c13ed1d04053",
+        "title": "Decoupled Weight Decay Regularization",
+        "relevance_score": 1,
+        "justification": "This candidate paper does not address neural algorithmic reasoning or any of the methods discussed in the seed papers."
+      },
+      {
+        "rank": 35,
+        "paper_id": "3d06d8dc-5f23-5edc-a262-eea17885db90",
+        "title": "What Can Neural Networks Reason About?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks, which is closely related to the topics of the seed papers."
+      },
+      {
+        "rank": 36,
+        "paper_id": "b497343b-d566-5bb9-9891-3c3670660a07",
+        "title": "What Algorithms can Transformers Learn? A Study in Length Generalization",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the generalization properties of transformers and does not directly address neural algorithmic reasoning."
+      },
+      {
+        "rank": 37,
+        "paper_id": "2070ff9a-9d56-5346-ae49-ff626b505e20",
+        "title": "Towards Scale-Invariant Graph-related Problem Solving by Iterative Homogeneous GNNs",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks, which is a specific application within the broader topic of algorithmic reasoning."
+      },
+      {
+        "rank": 38,
+        "paper_id": "564387a7-8b83-55e0-a95b-5897035575b5",
+        "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+        "relevance_score": 2,
+        "justification": "This paper is tangentially related to the research topic as it discusses a deep learning framework, but does not specifically focus on neural algorithmic reasoning."
+      },
+      {
+        "rank": 39,
+        "paper_id": "93ed632f-a138-501f-954c-9b335142dd1f",
+        "title": "Representation Learning on Graphs with Jumping Knowledge Networks",
+        "relevance_score": 2,
+        "justification": "This paper focuses on representation learning on graphs and does not directly address algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 40,
+        "paper_id": "19092f07-064c-51aa-9632-aa963f6603e8",
+        "title": "On the Bottleneck of Graph Neural Networks and its Practical Implications",
+        "relevance_score": 2,
+        "justification": "This paper addresses a specific issue in graph neural networks, which is tangentially related to the broader topic of neural algorithmic reasoning."
+      },
+      {
+        "rank": 41,
+        "paper_id": "d8ff2ab1-3747-5527-b9d7-67a62a0c3d0a",
+        "title": "Deep Equilibrium Models",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using deep equilibrium models."
+      },
+      {
+        "rank": 42,
+        "paper_id": "2558be9b-3cef-5691-a2dd-84c6c8dc6708",
+        "title": "Understanding over-squashing and bottlenecks on graphs via curvature",
+        "relevance_score": 2,
+        "justification": "This paper focuses on graph neural networks and over-squashing, which are tangentially related to neural algorithmic reasoning but do not directly address the algorithmic tasks and reasoning methods emphasized in the seed papers."
+      },
+      {
+        "rank": 43,
+        "paper_id": "e56bfe78-fbd6-579f-bd4a-d98391bea526",
+        "title": "Open Graph Benchmark: Datasets for Machine Learning on Graphs",
+        "relevance_score": 2,
+        "justification": "This paper provides datasets for graph machine learning tasks, which tangentially relates to the broader context of algorithmic reasoning in neural networks."
+      },
+      {
+        "rank": 44,
+        "paper_id": "0193c857-b81b-565d-95a2-3563b50df0f2",
+        "title": "Stabilizing Equilibrium Models by Jacobian Regularization",
+        "relevance_score": 2,
+        "justification": "This paper focuses on stabilizing equilibrium models and does not directly address algorithmic reasoning tasks as defined by the seed papers."
+      },
+      {
+        "rank": 45,
+        "paper_id": "99155c89-2058-537d-b711-875d11aa8210",
+        "title": "FoSR: First-order spectral rewiring for addressing oversquashing in GNNs",
+        "relevance_score": 2,
+        "justification": "This paper addresses a specific issue (oversquashing) in graph neural networks, which is a tangential topic to neural algorithmic reasoning."
+      },
+      {
+        "rank": 46,
+        "paper_id": "74e4d601-4f9c-59f2-86e5-d26b75159145",
+        "title": "On the Connection Between MPNN and Graph Transformer",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the relationship between Message Passing Neural Networks and Graph Transformers, which are related to graph learning but does not directly address neural algorithmic reasoning as explicitly defined by the seed papers."
+      },
+      {
+        "rank": 47,
+        "paper_id": "9b97335d-94d5-59c4-9f76-10b1e369ebc0",
+        "title": "Exphormer: Sparse Transformers for Graphs",
+        "relevance_score": 2,
+        "justification": "This paper focuses on sparse transformers for graphs, which, while related to neural algorithms, does not directly address algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 48,
+        "paper_id": "c17261d3-2d5e-5d1c-b4cc-8285f21a12eb",
+        "title": "Locality-Aware Graph Rewiring in GNNs",
+        "relevance_score": 2,
+        "justification": "This paper focuses on improving graph neural networks, which is tangential to the specific focus on algorithmic reasoning methods in combinatorial and discrete problems addressed in the seed papers."
+      },
+      {
+        "rank": 49,
+        "paper_id": "1b5bd218-eb4f-5886-b967-1b5c7c407025",
+        "title": "Scalable and Effective Implicit Graph Neural Networks on Large Graphs",
+        "relevance_score": 2,
+        "justification": "This paper focuses on implicit GNNs for large graphs, which tangentially relates to the broader topic of neural algorithmic reasoning but does not directly address the methods or problem domains of the seed papers."
+      },
+      {
+        "rank": 50,
+        "paper_id": "c32e09a2-2643-57a2-aae8-a8ad1a753d89",
+        "title": "GRANOLA: Adaptive Normalization for Graph Neural Networks",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on normalization techniques for graph neural networks, which, while related to neural algorithms, does not directly address algorithmic reasoning or the specific methods discussed in the seed papers."
+      }
+    ],
+    "metrics": {
+      "avg_relevance_top10": 3.7,
+      "avg_relevance_top50": 2.5,
+      "precision_at_10": 0.8,
+      "precision_at_20": 0.5,
+      "distribution": {
+        "1": 6,
+        "2": 27,
+        "3": 3,
+        "4": 14,
+        "5": 0
+      }
+    }
+  },
+  "fused": {
+    "papers": [
+      {
+        "rank": 1,
+        "paper_id": "8a9fa653-e17e-5dfd-9fae-f34e48bd9436",
+        "title": "Graph Neural Networks are Dynamic Programmers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 2,
+        "paper_id": "e4a1e68e-5e3c-5df0-a599-778780b9cba1",
+        "title": "The CLRS Algorithmic Reasoning Benchmark",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 3,
+        "paper_id": "37e3bb67-ff5f-5a5e-8a4b-bf184146567b",
+        "title": "Neural Algorithmic Reasoning with Causal Regularisation",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning and its performance on out-of-distribution data, which is closely related to the methods and questions explored in the seed papers."
+      },
+      {
+        "rank": 4,
+        "paper_id": "3e79c349-2722-5bd1-b9ca-6cd4edd48434",
+        "title": "Neural Algorithmic Reasoning Without Intermediate Supervision",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using step-by-step learning, which is a method discussed in some of the seed papers."
+      },
+      {
+        "rank": 5,
+        "paper_id": "c3c5d0dc-4769-5c63-9814-15b83ff02576",
+        "title": "Neural Execution of Graph Algorithms",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 6,
+        "paper_id": "3d06d8dc-5f23-5edc-a262-eea17885db90",
+        "title": "What Can Neural Networks Reason About?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 7,
+        "paper_id": "7674ac80-e5b5-556e-9e88-7b14f62ecaf6",
+        "title": "Learning Iterative Reasoning through Energy Minimization",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using iterative reasoning and energy minimization approaches, which aligns closely with the seed papers that focus on neural algorithmic reasoning for combinatorial algorithms and other forms of algorithmic computation."
+      },
+      {
+        "rank": 8,
+        "paper_id": "8a7ccafe-8c36-5c4a-b729-470a5c679190",
+        "title": "Open-Book Neural Algorithmic Reasoning",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses neural algorithmic reasoning and is a close extension of the concept presented in the seed papers."
+      },
+      {
+        "rank": 9,
+        "paper_id": "c48bcd7f-9f54-541e-b3b7-fbd2f2c2204b",
+        "title": "Learning to Configure Computer Networks with Neural Algorithmic Reasoning",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by learning to configure computer networks, which aligns with the methods and problem domain of the seed papers."
+      },
+      {
+        "rank": 10,
+        "paper_id": "ec5e5977-5a2d-5327-90bf-aee47916e5d8",
+        "title": "Can You Learn an Algorithm?  Generalizing from Easy to Hard Problems with Recurrent Networks",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by exploring the ability of deep neural networks to generalize reasoning strategies from simple to complex problems, which aligns closely with the methods and research questions in the seed papers."
+      },
+      {
+        "rank": 11,
+        "paper_id": "14f04c7b-289f-5b70-8385-f966306b24e5",
+        "title": "Neural Algorithmic Reasoners are Implicit Planners",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of algorithmic reasoning but focuses more on planning techniques rather than directly addressing neural algorithmic reasoning."
+      },
+      {
+        "rank": 12,
+        "paper_id": "a161b3e2-3e20-56a8-a30b-a1e2686fd7cb",
+        "title": "Deep Equilibrium Algorithmic Reasoning",
+        "relevance_score": 5,
+        "justification": "This paper directly addresses neural algorithmic reasoning using deep equilibrium methods, which is closely related to the seed papers focusing on neural algorithmic reasoning."
+      },
+      {
+        "rank": 13,
+        "paper_id": "bd9783a4-da8c-5d4b-98a0-61a884289234",
+        "title": "Rethinking Deep Thinking: Stable Learning of Algorithms using Lipschitz Constraints",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using iterative algorithms and DT networks, which aligns closely with the topics of the seed papers."
+      },
+      {
+        "rank": 14,
+        "paper_id": "748628ab-8c60-5571-a7d9-7bf59751b56e",
+        "title": "Combinatorial Optimization and Reasoning with Graph Neural Networks",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks."
+      },
+      {
+        "rank": 15,
+        "paper_id": "1c49873d-58c0-5583-b24c-75b2ac386f6c",
+        "title": "Pointer Graph Networks",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of neural networks applied to graph-based tasks, which is related to algorithmic reasoning but does not specifically focus on the methodological aspects of algorithmic reasoning as seen in the seed papers."
+      },
+      {
+        "rank": 16,
+        "paper_id": "539f6e6b-4fca-55cf-8e0e-3f4b5a9aaca2",
+        "title": "Interpreting Neural Network Judgments via Minimal, Stable, and Symbolic Corrections",
+        "relevance_score": 2,
+        "justification": "This paper focuses on interpreting neural network decisions rather than directly engaging in algorithmic reasoning tasks, which is the core focus of the seed papers."
+      },
+      {
+        "rank": 17,
+        "paper_id": "569d04f2-2c43-5d67-b7a9-bee23a2c7b33",
+        "title": "Looped Transformers as Programmable Computers",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by demonstrating how transformer networks can be programmed to emulate basic computing blocks."
+      },
+      {
+        "rank": 18,
+        "paper_id": "bcdf7448-4396-56e2-8c9c-4b857a9c35e4",
+        "title": "A Neural Network Approach for Efficiently Answering Most Probable Explanation Queries in Probabilistic Models",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of probabilistic models and reasoning but does not specifically address algorithmic reasoning methods discussed in the seed papers."
+      },
+      {
+        "rank": 19,
+        "paper_id": "6a1b3555-c1e9-543c-96be-1837b205a434",
+        "title": "Are Transformers universal approximators of sequence-to-sequence functions?",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the expressive power of Transformer models and does not directly address algorithmic reasoning methods."
+      },
+      {
+        "rank": 20,
+        "paper_id": "0edea6df-880d-50ef-a397-c20e3e09296d",
+        "title": "Position: The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive Biases in Machine Learning",
+        "relevance_score": 2,
+        "justification": "This paper discusses the No Free Lunch Theorem and Kolmogorov Complexity, which are foundational concepts but do not directly address neural algorithmic reasoning as specified by the seed papers."
+      },
+      {
+        "rank": 21,
+        "paper_id": "9b0d052d-686c-5fe6-a11b-8af8740d2a84",
+        "title": "Understanding Deep Neural Networks with Rectified Linear Units",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on the representational capabilities of deep neural networks with ReLU units, which, while related to neural networks, does not directly address algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 22,
+        "paper_id": "271e07a0-3293-5ca8-ba0b-5378224087f9",
+        "title": "Provably Good Solutions to the Knapsack Problem via Neural Networks of Bounded Size",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using recurrent neural networks to solve a combinatorial optimization problem, which aligns closely with the research questions and methods explored in the seed papers."
+      },
+      {
+        "rank": 23,
+        "paper_id": "a68a0305-9127-5de9-b161-7f41df25d694",
+        "title": "On the Hardness of Probabilistic Neurosymbolic Learning",
+        "relevance_score": 2,
+        "justification": "This paper focuses on probabilistic neurosymbolic learning and gradient differentiation, which are tangentially related to the broader topic of neural algorithmic reasoning but do not directly address the specific methods or problems in the seed papers."
+      },
+      {
+        "rank": 24,
+        "paper_id": "bb256381-1257-58cc-8230-8487564418de",
+        "title": "Incorporating Convolution Designs Into Visual Transformers",
+        "relevance_score": 2,
+        "justification": "This paper focuses on the application of Transformers in vision tasks and does not directly address neural algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 25,
+        "paper_id": "c3ae80b3-6839-5a87-97d0-a021a6209bf9",
+        "title": "Scaling Vision Transformers to 22 Billion Parameters",
+        "relevance_score": 1,
+        "justification": "This paper focuses on scaling Vision Transformers, which is unrelated to the topic of neural algorithmic reasoning."
+      },
+      {
+        "rank": 26,
+        "paper_id": "95f26dc0-7e61-5d9b-a870-67eab5cfdba6",
+        "title": "Neural Logic Machines",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by integrating neural networks with logic programming, which aligns closely with the methods and goals of the seed papers."
+      },
+      {
+        "rank": 27,
+        "paper_id": "c110bb19-d8af-5f2c-9460-80efa4ff763a",
+        "title": "Semantic Strengthening of Neuro-Symbolic Learning",
+        "relevance_score": 2,
+        "justification": "This paper focuses on neuro-symbolic learning and does not directly address algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 28,
+        "paper_id": "15117938-ec8f-5178-8b89-3b443edba45a",
+        "title": "Learning Transformer Programs",
+        "relevance_score": 2,
+        "justification": "This paper introduces a method for training Transformers to be more interpretable but does not directly focus on neural algorithmic reasoning or the specific techniques mentioned in the seed papers."
+      },
+      {
+        "rank": 29,
+        "paper_id": "89943796-7c5e-56a2-a7f8-681a39c8f894",
+        "title": "How to transfer algorithmic reasoning knowledge to learn new algorithms?",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using graph neural networks and highlights the importance of access to intermediate steps, which is a core aspect of the seed papers."
+      },
+      {
+        "rank": 30,
+        "paper_id": "a4ff0905-8054-5116-8efb-0a58161c2582",
+        "title": "Generating Programmatic Referring Expressions via Program Synthesis",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using symbolic and programmatic methods."
+      },
+      {
+        "rank": 31,
+        "paper_id": "2884ef20-add8-54ef-ae99-36b17cf25395",
+        "title": "Self-Attention Between Datapoints: Going Beyond Individual Input-Output Pairs in Deep Learning",
+        "relevance_score": 3,
+        "justification": "This paper introduces a method for reasoning about relationships between datapoints, which is tangentially related to the broader topic of algorithmic reasoning, but does not specifically focus on combinatorial algorithms or the other seed papers' focus areas."
+      },
+      {
+        "rank": 32,
+        "paper_id": "c704c010-20a7-5083-8384-7374ad793b21",
+        "title": "SATNet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by integrating logical reasoning within deep learning architectures, aligning with the seed papers' focus on algorithmic reasoning in neural networks."
+      },
+      {
+        "rank": 33,
+        "paper_id": "3a2284d0-e873-5cba-bc4c-1d9023c9fe3c",
+        "title": "DNCs Require More Planning Steps",
+        "relevance_score": 3,
+        "justification": "This paper shares the problem domain of algorithmic reasoning but focuses on a specific model (DNC) and its planning steps rather than directly addressing neural algorithmic reasoning methods."
+      },
+      {
+        "rank": 34,
+        "paper_id": "b083863d-1e25-50a3-90f9-44cc5de6ab1e",
+        "title": "Few-Shot Non-Parametric Learning with Deep Latent Variable Model",
+        "relevance_score": 2,
+        "justification": "This candidate paper focuses on non-parametric learning and generative models, which are not directly related to the specific methods of algorithmic reasoning discussed in the seed papers."
+      },
+      {
+        "rank": 35,
+        "paper_id": "cec1ee7a-7ca8-5163-a370-3a037c30f929",
+        "title": "Bridging Machine Learning and Logical Reasoning by Abductive Learning",
+        "relevance_score": 2,
+        "justification": "This paper focuses on unifying machine learning and logical reasoning through abductive learning, which has a tangential connection to the neural algorithmic reasoning methods discussed in the seed papers."
+      },
+      {
+        "rank": 36,
+        "paper_id": "6cd70b03-c8f7-5278-ae7c-ad636fa8dbee",
+        "title": "Learning Heuristics for Quantified Boolean Formulas through Reinforcement Learning",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using reinforcement learning for automated reasoning algorithms, which aligns closely with the research question and methods explored in the seed papers."
+      },
+      {
+        "rank": 37,
+        "paper_id": "db484ad3-9246-5eed-9fee-1933b7d5eeb4",
+        "title": "Addressing Function Approximation Error in Actor-Critic Methods",
+        "relevance_score": 2,
+        "justification": "This paper addresses function approximation errors in reinforcement learning, which is tangential to the specific focus on neural algorithmic reasoning for combinatorial and discrete problems."
+      },
+      {
+        "rank": 38,
+        "paper_id": "1d2cc124-9fa8-5a19-b0d0-5a331a65f355",
+        "title": "On the Markov Property of Neural Algorithmic Reasoning: Analyses and Methods",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by focusing on the Markov property, which is relevant to the existing methods mentioned in the seed papers."
+      },
+      {
+        "rank": 39,
+        "paper_id": "62d0235b-f29b-534f-bce0-f4cc9d67e661",
+        "title": "Scalable Coupling of Deep Learning with Logical Reasoning",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using scalable neural architectures for discrete reasoning problems, which aligns closely with the topics of the seed papers."
+      },
+      {
+        "rank": 40,
+        "paper_id": "d7f0b471-f8bb-5491-98f8-d664840905e0",
+        "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor",
+        "relevance_score": 1,
+        "justification": "This paper focuses on a method in reinforcement learning, which is not directly related to the topic of neural algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 41,
+        "paper_id": "2905236a-9d75-529f-b9db-9475b011e280",
+        "title": "Language Models are Few-Shot Learners",
+        "relevance_score": 2,
+        "justification": "This paper focuses on language model performance in few-shot learning and does not directly address algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 42,
+        "paper_id": "e0549359-113d-5ec4-b2d9-b074fc9364a5",
+        "title": "Recurrent Convolutional Neural Networks Learn Succinct Learning Algorithms",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning by exploring how neural networks can learn efficient algorithms for certain problems, aligning closely with the research question of the seed papers."
+      },
+      {
+        "rank": 43,
+        "paper_id": "a2bd5e74-eb0f-5bb7-8207-92840ecb014b",
+        "title": "Neuro-Symbolic Hierarchical Rule Induction",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using hierarchical rule induction and neuro-symbolic models, which aligns closely with the methodologies discussed in the seed papers."
+      },
+      {
+        "rank": 44,
+        "paper_id": "94e03e7f-3048-5416-aa67-812805787628",
+        "title": "Distributional Reinforcement Learning With Quantile Regression",
+        "relevance_score": 2,
+        "justification": "This paper focuses on distributional reinforcement learning, which is tangentially related to neural algorithmic reasoning but does not directly address the topics covered in the seed papers."
+      },
+      {
+        "rank": 45,
+        "paper_id": "5126718a-e3de-55e9-93bf-5ca740a2e54b",
+        "title": "Agent57: Outperforming the Atari Human Benchmark",
+        "relevance_score": 2,
+        "justification": "This paper focuses on reinforcement learning and does not directly address algorithmic reasoning as defined by the seed papers."
+      },
+      {
+        "rank": 46,
+        "paper_id": "b46155c0-7631-5b36-bb64-d328bf7f9b43",
+        "title": "Towards the Dynamics of a DNN Learning Symbolic Interactions",
+        "relevance_score": 2,
+        "justification": "This candidate paper discusses the dynamics of DNN learning symbolic interactions, which is tangentially related to the seed papers that focus on neural algorithmic reasoning for combinatorial and discrete problems."
+      },
+      {
+        "rank": 47,
+        "paper_id": "e7961d81-3005-595f-80dc-451a54928c5b",
+        "title": "IsarStep: a Benchmark for High-level Mathematical Reasoning",
+        "relevance_score": 4,
+        "justification": "This paper directly addresses neural algorithmic reasoning using sequence-to-sequence models for high-level mathematical reasoning."
+      },
+      {
+        "rank": 48,
+        "paper_id": "196587f0-3070-54b3-b2a8-909683a7d6b6",
+        "title": "Injecting Logical Constraints into Neural Networks via Straight-Through Estimators",
+        "relevance_score": 3,
+        "justification": "This paper shares the methodological approach of incorporating discrete constraints into neural networks, which is somewhat related to the broader theme of algorithmic reasoning in neural networks addressed in the seed papers."
+      },
+      {
+        "rank": 49,
+        "paper_id": "88c93611-8561-5dae-8315-b5b802ee134c",
+        "title": "Stable-Baselines3: Reliable Reinforcement Learning Implementations",
+        "relevance_score": 2,
+        "justification": "This paper focuses on reinforcement learning implementations, which is tangentially related to the broader field of neural algorithmic reasoning but does not directly address the specific methods or problems discussed in the seed papers."
+      },
+      {
+        "rank": 50,
+        "paper_id": "b46256d4-c657-5627-b329-696a859f66c9",
+        "title": "Relational Programming with Foundational Models",
+        "relevance_score": 2,
+        "justification": "This paper focuses on programming with foundation models and does not directly address neural algorithmic reasoning as defined by the seed papers."
+      }
+    ],
+    "metrics": {
+      "avg_relevance_top10": 4.1,
+      "avg_relevance_top50": 3.12,
+      "precision_at_10": 1.0,
+      "precision_at_20": 0.7,
+      "distribution": {
+        "1": 2,
+        "2": 17,
+        "3": 6,
+        "4": 23,
+        "5": 2
+      }
+    }
+  }
+}

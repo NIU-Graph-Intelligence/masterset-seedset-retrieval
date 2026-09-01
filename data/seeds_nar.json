@@ -1,0 +1,25 @@
+{
+    "topic": "Neural Algorithmic Reasoning",
+    "papers": [
+        {
+            "title": "Tropical Attention: Neural Algorithmic Reasoning for Combinatorial Algorithms",
+            "abstract": "We introduce Tropical Attention, an attention mechanism grounded in tropical geometry that lifts the attention kernel into tropical projective space, where reasoning is piecewise-linear and 1-Lipschitz."
+        },
+        {
+            "title": "Primal-Dual Neural Algorithmic Reasoning",
+            "abstract": "We introduce a general NAR framework grounded in the primal-dual paradigm, a classical method for designing efficient approximation algorithms."
+        },
+        {
+            "title": "Discrete Neural Algorithmic Reasoning",
+            "abstract": "We propose to force neural reasoners to maintain the execution trajectory as a combination of finite predefined states."
+        },
+        {
+            "title": "Open-Book Neural Algorithmic Reasoning",
+            "abstract": "We propose a novel open-book learning framework where the network can access and utilize all instances in the training dataset when reasoning for a given instance."
+        },
+        {
+            "title": "Deep Equilibrium Algorithmic Reasoning",
+            "abstract": "We study neurally solving algorithms from a different perspective: since the algorithm's solution is often an equilibrium, it is possible to find the solution directly by solving an equilibrium equation."
+        }
+    ]
+}

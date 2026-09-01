@@ -1,0 +1,614 @@
+{
+  "query": "Mixed Set: RL + Formal Language + Efficient Transformers",
+  "semantic_only": [
+    {
+      "rank": 1,
+      "paper_id": "fe184618-82b7-5ad2-9afd-3eb8e0d548f0",
+      "title": "Simulating weighted automata over sequences and trees with transformers",
+      "score": 0.9526227712631226
+    },
+    {
+      "rank": 2,
+      "paper_id": "22b4815b-8ea8-5dd5-bd3a-1585cf1ef6c0",
+      "title": "Efficient PAC Reinforcement Learning in Regular Decision Processes",
+      "score": 0.9521808624267578
+    },
+    {
+      "rank": 3,
+      "paper_id": "c285db1b-70c6-524a-b84f-b3f148bd96cf",
+      "title": "A Pseudo-Semantic Loss for Autoregressive Models with Logical Constraints",
+      "score": 0.9516474008560181
+    },
+    {
+      "rank": 4,
+      "paper_id": "d1c8331d-e200-5823-807e-ea6cc5c3f0f1",
+      "title": "Recurrent Neural Language Models as Probabilistic Finite-state Automata",
+      "score": 0.9515066146850586
+    },
+    {
+      "rank": 5,
+      "paper_id": "d11fd8b7-0342-5cca-a808-623b6c5c21a8",
+      "title": "Re-understanding Finite-State Representations of Recurrent Policy Networks",
+      "score": 0.949298620223999
+    },
+    {
+      "rank": 6,
+      "paper_id": "e36966c8-99c4-5fe0-9ac2-e61ee8af0047",
+      "title": "Automatic Differentiation of Programs with Discrete Randomness",
+      "score": 0.9485958814620972
+    },
+    {
+      "rank": 7,
+      "paper_id": "a19c1196-43fe-53b0-bbc6-98b11eb5d644",
+      "title": "The Power of Hard Attention Transformers on Data Sequences: A formal language theoretic perspective",
+      "score": 0.9479801654815674
+    },
+    {
+      "rank": 8,
+      "paper_id": "a1e7600c-1767-53ba-a1ff-2fda488d4561",
+      "title": "The Expressive Capacity of State Space Models: A Formal Language Perspective",
+      "score": 0.9469180107116699
+    },
+    {
+      "rank": 9,
+      "paper_id": "c164ccdf-ace2-51ae-8274-714e2f07cec3",
+      "title": "Recursive Reinforcement Learning",
+      "score": 0.9467608332633972
+    },
+    {
+      "rank": 10,
+      "paper_id": "d153d5c8-07cb-55cf-8a9f-72e76d633163",
+      "title": "Imitation-Projected Programmatic Reinforcement Learning",
+      "score": 0.9464714527130127
+    },
+    {
+      "rank": 11,
+      "paper_id": "21e90331-121d-5888-ba37-1b333a59cb62",
+      "title": "Prompting a Pretrained Transformer Can Be a Universal Approximator",
+      "score": 0.9464108943939209
+    },
+    {
+      "rank": 12,
+      "paper_id": "84b0c08d-753c-5ae2-82a6-e9c2cdd07cc2",
+      "title": "Thinking Like Transformers",
+      "score": 0.9462182521820068
+    },
+    {
+      "rank": 13,
+      "paper_id": "4a41e1dd-85c3-5bfb-b8df-9eb116968d0a",
+      "title": "Reinforcement Learning with LTL and $\\omega$-Regular Objectives via Optimality-Preserving Translation to Average Rewards",
+      "score": 0.9459230303764343
+    },
+    {
+      "rank": 14,
+      "paper_id": "cd2c3b7e-6892-5d95-b0bf-f26be8182f4d",
+      "title": "Markov Abstractions for PAC Reinforcement Learning in Non-Markov Decision Processes",
+      "score": 0.9457740783691406
+    },
+    {
+      "rank": 15,
+      "paper_id": "42fb6d77-3ae4-5cd1-b98e-ae5700ae95fd",
+      "title": "Distributional Bellman Operators over Mean Embeddings",
+      "score": 0.9456949830055237
+    },
+    {
+      "rank": 16,
+      "paper_id": "bbbb49d8-2746-5f47-8823-49b090bc60cc",
+      "title": "Parametrized Hierarchical Procedures for Neural Programming",
+      "score": 0.9451802968978882
+    },
+    {
+      "rank": 17,
+      "paper_id": "d0f7bad6-d409-5515-8fc5-b923b7c9f457",
+      "title": "Recurrent Reinforcement Learning with Memoroids",
+      "score": 0.9448049068450928
+    },
+    {
+      "rank": 18,
+      "paper_id": "d62ae0c8-5d66-5421-8ba8-505bada008be",
+      "title": "Understanding Robust Generalization in Learning Regular Languages",
+      "score": 0.9445980787277222
+    },
+    {
+      "rank": 19,
+      "paper_id": "32e414d5-8c30-5f07-a7f6-c1ce419e7ff3",
+      "title": "Representing Formal Languages: A Comparison Between Finite Automata and Recurrent Neural Networks ",
+      "score": 0.9439415335655212
+    },
+    {
+      "rank": 20,
+      "paper_id": "9b0d03f6-dcf6-5aa9-a4fa-064f54f4d03b",
+      "title": "On the Expressivity of Objective-Specification Formalisms in Reinforcement Learning",
+      "score": 0.9436998963356018
+    },
+    {
+      "rank": 21,
+      "paper_id": "709334b5-1659-5b92-8e9a-e0b07289adcf",
+      "title": "RLang: A Declarative Language for Describing Partial World Knowledge to Reinforcement Learning Agents",
+      "score": 0.9434053301811218
+    },
+    {
+      "rank": 22,
+      "paper_id": "c140bd6a-9d56-5b24-b03e-880f93f32a69",
+      "title": "Transformers learn to implement preconditioned gradient descent for in-context learning",
+      "score": 0.9431946277618408
+    },
+    {
+      "rank": 23,
+      "paper_id": "8fb7aacb-5b9d-547f-9cbb-bc6f24432b81",
+      "title": "Generation of Policy-Level Explanations for Reinforcement Learning",
+      "score": 0.9431840181350708
+    },
+    {
+      "rank": 24,
+      "paper_id": "43cd85a0-f701-5b3c-bfe4-8afdb9d7a67b",
+      "title": "Recurrent Neural Networks as Weighted Language Recognizers",
+      "score": 0.943021297454834
+    },
+    {
+      "rank": 25,
+      "paper_id": "9590db7f-8fad-5cf9-91e5-1022d81f49bc",
+      "title": "What Languages are Easy to Language-Model? A Perspective from Learning Probabilistic Regular Languages",
+      "score": 0.942449152469635
+    },
+    {
+      "rank": 26,
+      "paper_id": "6aae1a53-8b97-58cd-8641-52eaf445d6c0",
+      "title": "Learning and Solving Regular Decision Processes",
+      "score": 0.9421004056930542
+    },
+    {
+      "rank": 27,
+      "paper_id": "59706565-4b3c-5423-89db-4b4d54e9ce8c",
+      "title": "Rule Extrapolation in Language Modeling: A Study of Compositional Generalization on OOD Prompts",
+      "score": 0.9420607089996338
+    },
+    {
+      "rank": 28,
+      "paper_id": "2baa0e70-8cd1-5081-a77c-51bfdafe7b76",
+      "title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
+      "score": 0.9420431852340698
+    },
+    {
+      "rank": 29,
+      "paper_id": "cc854fc2-32da-5e3c-bda6-be443f13e4a6",
+      "title": "Inductive Biases and Variable Creation in Self-Attention Mechanisms",
+      "score": 0.9416258931159973
+    },
+    {
+      "rank": 30,
+      "paper_id": "6a43342f-5f5d-516c-9cde-2626ddae609a",
+      "title": "A trajectory is worth three sentences: multimodal transformer for offline reinforcement learning",
+      "score": 0.9414960145950317
+    },
+    {
+      "rank": 31,
+      "paper_id": "0b5d1c5e-5d3d-5c73-9876-bab25b4b8a19",
+      "title": "Learning Deterministic Weighted Automata with Queries and Counterexamples",
+      "score": 0.9413880109786987
+    },
+    {
+      "rank": 32,
+      "paper_id": "7ff5322e-3320-5d40-8ad5-7f64a7260127",
+      "title": "Decoupling Gradient-Like Learning Rules from Representations",
+      "score": 0.9413604140281677
+    },
+    {
+      "rank": 33,
+      "paper_id": "345d228a-8043-58b3-a5fc-cc34bedfe614",
+      "title": "Compositional Automata Embeddings for Goal-Conditioned Reinforcement Learning",
+      "score": 0.9412242770195007
+    },
+    {
+      "rank": 34,
+      "paper_id": "8b4138fc-4abc-5644-afc5-e0638ef6876b",
+      "title": "Regular Decision Processes: A Model for Non-Markovian Domains",
+      "score": 0.9409763813018799
+    },
+    {
+      "rank": 35,
+      "paper_id": "cf342589-09f9-5069-8981-e2892c140950",
+      "title": "Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples",
+      "score": 0.9408955574035645
+    },
+    {
+      "rank": 36,
+      "paper_id": "b0a887c8-1699-5839-9294-d1ad365b762d",
+      "title": "Contrastive Difference Predictive Coding",
+      "score": 0.9405968189239502
+    },
+    {
+      "rank": 37,
+      "paper_id": "f2c9b320-5697-559e-8a86-cb9bd16e9592",
+      "title": "Learning proposals for probabilistic programs with inference combinators",
+      "score": 0.9405564069747925
+    },
+    {
+      "rank": 38,
+      "paper_id": "f61ee700-70d3-5fbf-8732-46a7bf8faf84",
+      "title": "Learning Generalized Policy Automata for Relational Stochastic Shortest Path Problems",
+      "score": 0.940334677696228
+    },
+    {
+      "rank": 39,
+      "paper_id": "078f3b42-0d95-5c81-8435-5ae961df6330",
+      "title": "Stack Attention: Improving the Ability of Transformers to Model Hierarchical Patterns",
+      "score": 0.9398458003997803
+    },
+    {
+      "rank": 40,
+      "paper_id": "ac668767-b70c-56ab-b3df-435f9bfc145d",
+      "title": "In-context Learning on Function Classes Unveiled for Transformers",
+      "score": 0.9397815465927124
+    },
+    {
+      "rank": 41,
+      "paper_id": "d12ed079-5f09-5bc5-bf0e-935d26bc8efe",
+      "title": "The Logical Options Framework",
+      "score": 0.9397507905960083
+    },
+    {
+      "rank": 42,
+      "paper_id": "71b0935a-7e9b-59f0-ab9e-06e317b16466",
+      "title": "Can SGD Learn Recurrent Neural Networks with Provable Generalization?",
+      "score": 0.9397456645965576
+    },
+    {
+      "rank": 43,
+      "paper_id": "1ce833f3-fe31-531e-b22b-b3c0a329d375",
+      "title": "Overcoming a Theoretical Limitation of Self-Attention",
+      "score": 0.9395193457603455
+    },
+    {
+      "rank": 44,
+      "paper_id": "1ecd5469-cbdb-5d7c-86f6-5e322d0af13e",
+      "title": "History Compression via Language Models in Reinforcement Learning",
+      "score": 0.9395116567611694
+    },
+    {
+      "rank": 45,
+      "paper_id": "822d5efc-de86-5970-9960-9409eccb343f",
+      "title": "Adaptive Skip Intervals: Temporal Abstraction for Recurrent Dynamical Models",
+      "score": 0.9394874572753906
+    },
+    {
+      "rank": 46,
+      "paper_id": "acc17b92-1c51-5d6b-9ee1-e2bc8ebe9417",
+      "title": "\u221e-former: Infinite Memory Transformer",
+      "score": 0.9394264817237854
+    },
+    {
+      "rank": 47,
+      "paper_id": "ac330a06-ad5b-5516-8c39-a0ba1a3e6203",
+      "title": "Learning Hierarchical Structures with Differentiable Nondeterministic Stacks",
+      "score": 0.9393583536148071
+    },
+    {
+      "rank": 48,
+      "paper_id": "31a249e1-5de8-537b-a349-1805a593f117",
+      "title": "Rethinking Transformers in Solving POMDPs",
+      "score": 0.9392699599266052
+    },
+    {
+      "rank": 49,
+      "paper_id": "2a43ae22-999b-5f72-a247-5560b547eb8a",
+      "title": "Token Turing Machines",
+      "score": 0.9391295313835144
+    },
+    {
+      "rank": 50,
+      "paper_id": "b46256d4-c657-5627-b329-696a859f66c9",
+      "title": "Relational Programming with Foundational Models",
+      "score": 0.9390891790390015
+    }
+  ],
+  "graph_only": [],
+  "fused_rrf": [
+    {
+      "rank": 1,
+      "paper_id": "fe184618-82b7-5ad2-9afd-3eb8e0d548f0",
+      "title": "Simulating weighted automata over sequences and trees with transformers",
+      "score": 0.017336838849365915
+    },
+    {
+      "rank": 2,
+      "paper_id": "22b4815b-8ea8-5dd5-bd3a-1585cf1ef6c0",
+      "title": "Efficient PAC Reinforcement Learning in Regular Decision Processes",
+      "score": 0.01707242848447961
+    },
+    {
+      "rank": 3,
+      "paper_id": "c285db1b-70c6-524a-b84f-b3f148bd96cf",
+      "title": "A Pseudo-Semantic Loss for Autoregressive Models with Logical Constraints",
+      "score": 0.016816412099430966
+    },
+    {
+      "rank": 4,
+      "paper_id": "d1c8331d-e200-5823-807e-ea6cc5c3f0f1",
+      "title": "Recurrent Neural Language Models as Probabilistic Finite-state Automata",
+      "score": 0.016568396226415094
+    },
+    {
+      "rank": 5,
+      "paper_id": "d11fd8b7-0342-5cca-a808-623b6c5c21a8",
+      "title": "Re-understanding Finite-State Representations of Recurrent Policy Networks",
+      "score": 0.01632801161103048
+    },
+    {
+      "rank": 6,
+      "paper_id": "e36966c8-99c4-5fe0-9ac2-e61ee8af0047",
+      "title": "Automatic Differentiation of Programs with Discrete Randomness",
+      "score": 0.016094911377930246
+    },
+    {
+      "rank": 7,
+      "paper_id": "a19c1196-43fe-53b0-bbc6-98b11eb5d644",
+      "title": "The Power of Hard Attention Transformers on Data Sequences: A formal language theoretic perspective",
+      "score": 0.015868769360743454
+    },
+    {
+      "rank": 8,
+      "paper_id": "a1e7600c-1767-53ba-a1ff-2fda488d4561",
+      "title": "The Expressive Capacity of State Space Models: A Formal Language Perspective",
+      "score": 0.01564927857935627
+    },
+    {
+      "rank": 9,
+      "paper_id": "c164ccdf-ace2-51ae-8274-714e2f07cec3",
+      "title": "Recursive Reinforcement Learning",
+      "score": 0.0154361498496035
+    },
+    {
+      "rank": 10,
+      "paper_id": "d153d5c8-07cb-55cf-8a9f-72e76d633163",
+      "title": "Imitation-Projected Programmatic Reinforcement Learning",
+      "score": 0.01522911051212938
+    },
+    {
+      "rank": 11,
+      "paper_id": "21e90331-121d-5888-ba37-1b333a59cb62",
+      "title": "Prompting a Pretrained Transformer Can Be a Universal Approximator",
+      "score": 0.015027903268668616
+    },
+    {
+      "rank": 12,
+      "paper_id": "84b0c08d-753c-5ae2-82a6-e9c2cdd07cc2",
+      "title": "Thinking Like Transformers",
+      "score": 0.014832285115303982
+    },
+    {
+      "rank": 13,
+      "paper_id": "4a41e1dd-85c3-5bfb-b8df-9eb116968d0a",
+      "title": "Reinforcement Learning with LTL and $\\omega$-Regular Objectives via Optimality-Preserving Translation to Average Rewards",
+      "score": 0.014642026363401395
+    },
+    {
+      "rank": 14,
+      "paper_id": "cd2c3b7e-6892-5d95-b0bf-f26be8182f4d",
+      "title": "Markov Abstractions for PAC Reinforcement Learning in Non-Markov Decision Processes",
+      "score": 0.014456909739928608
+    },
+    {
+      "rank": 15,
+      "paper_id": "42fb6d77-3ae4-5cd1-b98e-ae5700ae95fd",
+      "title": "Distributional Bellman Operators over Mean Embeddings",
+      "score": 0.014276729559748428
+    },
+    {
+      "rank": 16,
+      "paper_id": "bbbb49d8-2746-5f47-8823-49b090bc60cc",
+      "title": "Parametrized Hierarchical Procedures for Neural Programming",
+      "score": 0.014101290963257199
+    },
+    {
+      "rank": 17,
+      "paper_id": "d0f7bad6-d409-5515-8fc5-b923b7c9f457",
+      "title": "Recurrent Reinforcement Learning with Memoroids",
+      "score": 0.013930409213428082
+    },
+    {
+      "rank": 18,
+      "paper_id": "d62ae0c8-5d66-5421-8ba8-505bada008be",
+      "title": "Understanding Robust Generalization in Learning Regular Languages",
+      "score": 0.013763909046927914
+    },
+    {
+      "rank": 19,
+      "paper_id": "32e414d5-8c30-5f07-a7f6-c1ce419e7ff3",
+      "title": "Representing Formal Languages: A Comparison Between Finite Automata and Recurrent Neural Networks ",
+      "score": 0.01360162407451636
+    },
+    {
+      "rank": 20,
+      "paper_id": "9b0d03f6-dcf6-5aa9-a4fa-064f54f4d03b",
+      "title": "On the Expressivity of Objective-Specification Formalisms in Reinforcement Learning",
+      "score": 0.013443396226415095
+    },
+    {
+      "rank": 21,
+      "paper_id": "709334b5-1659-5b92-8e9a-e0b07289adcf",
+      "title": "RLang: A Declarative Language for Describing Partial World Knowledge to Reinforcement Learning Agents",
+      "score": 0.013289075238760772
+    },
+    {
+      "rank": 22,
+      "paper_id": "c140bd6a-9d56-5b24-b03e-880f93f32a69",
+      "title": "Transformers learn to implement preconditioned gradient descent for in-context learning",
+      "score": 0.013138518177634607
+    },
+    {
+      "rank": 23,
+      "paper_id": "8fb7aacb-5b9d-547f-9cbb-bc6f24432b81",
+      "title": "Generation of Policy-Level Explanations for Reinforcement Learning",
+      "score": 0.012991588997499432
+    },
+    {
+      "rank": 24,
+      "paper_id": "43cd85a0-f701-5b3c-bfe4-8afdb9d7a67b",
+      "title": "Recurrent Neural Networks as Weighted Language Recognizers",
+      "score": 0.012848158131176998
+    },
+    {
+      "rank": 25,
+      "paper_id": "9590db7f-8fad-5cf9-91e5-1022d81f49bc",
+      "title": "What Languages are Easy to Language-Model? A Perspective from Learning Probabilistic Regular Languages",
+      "score": 0.012708102108768035
+    },
+    {
+      "rank": 26,
+      "paper_id": "6aae1a53-8b97-58cd-8641-52eaf445d6c0",
+      "title": "Learning and Solving Regular Decision Processes",
+      "score": 0.01257130320315928
+    },
+    {
+      "rank": 27,
+      "paper_id": "59706565-4b3c-5423-89db-4b4d54e9ce8c",
+      "title": "Rule Extrapolation in Language Modeling: A Study of Compositional Generalization on OOD Prompts",
+      "score": 0.012437649099978312
+    },
+    {
+      "rank": 28,
+      "paper_id": "2baa0e70-8cd1-5081-a77c-51bfdafe7b76",
+      "title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
+      "score": 0.012307032590051458
+    },
+    {
+      "rank": 29,
+      "paper_id": "cc854fc2-32da-5e3c-bda6-be443f13e4a6",
+      "title": "Inductive Biases and Variable Creation in Self-Attention Mechanisms",
+      "score": 0.012179351282594869
+    },
+    {
+      "rank": 30,
+      "paper_id": "6a43342f-5f5d-516c-9cde-2626ddae609a",
+      "title": "A trajectory is worth three sentences: multimodal transformer for offline reinforcement learning",
+      "score": 0.012054507337526206
+    },
+    {
+      "rank": 31,
+      "paper_id": "0b5d1c5e-5d3d-5c73-9876-bab25b4b8a19",
+      "title": "Learning Deterministic Weighted Automata with Queries and Counterexamples",
+      "score": 0.011932407215426084
+    },
+    {
+      "rank": 32,
+      "paper_id": "7ff5322e-3320-5d40-8ad5-7f64a7260127",
+      "title": "Decoupling Gradient-Like Learning Rules from Representations",
+      "score": 0.011812961443806398
+    },
+    {
+      "rank": 33,
+      "paper_id": "345d228a-8043-58b3-a5fc-cc34bedfe614",
+      "title": "Compositional Automata Embeddings for Goal-Conditioned Reinforcement Learning",
+      "score": 0.011696084398458106
+    },
+    {
+      "rank": 34,
+      "paper_id": "8b4138fc-4abc-5644-afc5-e0638ef6876b",
+      "title": "Regular Decision Processes: A Model for Non-Markovian Domains",
+      "score": 0.01158169409875552
+    },
+    {
+      "rank": 35,
+      "paper_id": "cf342589-09f9-5069-8981-e2892c140950",
+      "title": "Extracting Automata from Recurrent Neural Networks Using Queries and Counterexamples",
+      "score": 0.011469712015888778
+    },
+    {
+      "rank": 36,
+      "paper_id": "b0a887c8-1699-5839-9294-d1ad365b762d",
+      "title": "Contrastive Difference Predictive Coding",
+      "score": 0.01136006289308176
+    },
+    {
+      "rank": 37,
+      "paper_id": "f2c9b320-5697-559e-8a86-cb9bd16e9592",
+      "title": "Learning proposals for probabilistic programs with inference combinators",
+      "score": 0.011252674576930558
+    },
+    {
+      "rank": 38,
+      "paper_id": "f61ee700-70d3-5fbf-8732-46a7bf8faf84",
+      "title": "Learning Generalized Policy Automata for Relational Stochastic Shortest Path Problems",
+      "score": 0.011147477859068155
+    },
+    {
+      "rank": 39,
+      "paper_id": "078f3b42-0d95-5c81-8435-5ae961df6330",
+      "title": "Stack Attention: Improving the Ability of Transformers to Model Hierarchical Patterns",
+      "score": 0.011044406327425196
+    },
+    {
+      "rank": 40,
+      "paper_id": "ac668767-b70c-56ab-b3df-435f9bfc145d",
+      "title": "In-context Learning on Function Classes Unveiled for Transformers",
+      "score": 0.010943396226415094
+    },
+    {
+      "rank": 41,
+      "paper_id": "d12ed079-5f09-5bc5-bf0e-935d26bc8efe",
+      "title": "The Logical Options Framework",
+      "score": 0.010844386325424995
+    },
+    {
+      "rank": 42,
+      "paper_id": "71b0935a-7e9b-59f0-ab9e-06e317b16466",
+      "title": "Can SGD Learn Recurrent Neural Networks with Provable Generalization?",
+      "score": 0.010747317795042545
+    },
+    {
+      "rank": 43,
+      "paper_id": "1ce833f3-fe31-531e-b22b-b3c0a329d375",
+      "title": "Overcoming a Theoretical Limitation of Self-Attention",
+      "score": 0.010652134090492763
+    },
+    {
+      "rank": 44,
+      "paper_id": "1ecd5469-cbdb-5d7c-86f6-5e322d0af13e",
+      "title": "History Compression via Language Models in Reinforcement Learning",
+      "score": 0.01055878084179971
+    },
+    {
+      "rank": 45,
+      "paper_id": "822d5efc-de86-5970-9960-9409eccb343f",
+      "title": "Adaptive Skip Intervals: Temporal Abstraction for Recurrent Dynamical Models",
+      "score": 0.010467205750224619
+    },
+    {
+      "rank": 46,
+      "paper_id": "acc17b92-1c51-5d6b-9ee1-e2bc8ebe9417",
+      "title": "\u221e-former: Infinite Memory Transformer",
+      "score": 0.010377358490566037
+    },
+    {
+      "rank": 47,
+      "paper_id": "ac330a06-ad5b-5516-8c39-a0ba1a3e6203",
+      "title": "Learning Hierarchical Structures with Differentiable Nondeterministic Stacks",
+      "score": 0.010289190618938458
+    },
+    {
+      "rank": 48,
+      "paper_id": "31a249e1-5de8-537b-a349-1805a593f117",
+      "title": "Rethinking Transformers in Solving POMDPs",
+      "score": 0.010202655485674353
+    },
+    {
+      "rank": 49,
+      "paper_id": "2a43ae22-999b-5f72-a247-5560b547eb8a",
+      "title": "Token Turing Machines",
+      "score": 0.0101177081530206
+    },
+    {
+      "rank": 50,
+      "paper_id": "b46256d4-c657-5627-b329-696a859f66c9",
+      "title": "Relational Programming with Foundational Models",
+      "score": 0.010034305317324185
+    }
+  ],
+  "overlap": {
+    "semantic_vs_graph_jaccard": 0.0,
+    "semantic_vs_fused_jaccard": 1.0,
+    "graph_vs_fused_jaccard": 0.0,
+    "graph_only_papers": []
+  }
+}

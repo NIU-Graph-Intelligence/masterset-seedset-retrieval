@@ -1,0 +1,26 @@
+{
+  "query": "Query 2: LLM Memory",
+  "union_count": 240,
+  "intersection_count": 0,
+  "set_mean_count": 50,
+  "discovery_count": 16,
+  "intersection_papers": [],
+  "discovery_papers": [
+    "e315b5e9-3442-518a-ab51-7746bbea756a",
+    "3d3cd9df-be17-5d62-bad9-35248ff59200",
+    "83fed144-90cb-5ae9-9b29-6ac873995a0a",
+    "f509c0db-3b78-576c-bfa9-ae9e95e5b3b2",
+    "60829a11-6283-5edd-a35b-8139b5891dc6",
+    "f00423d3-dce4-5c61-950d-6e13a997af72",
+    "a6a2dfc3-5333-5c99-8722-cd4e0792c9cc",
+    "7c368833-bcd5-5960-811f-df0dbc49f722",
+    "0acce51d-9822-53b2-83bb-9d5fbe2eba78",
+    "15c38765-3dff-523b-a373-f5b809dad7cd",
+    "c6c4eba0-724b-555e-935a-aec6e12e3dc6",
+    "a935d851-a382-5b36-9d58-8fa821636274",
+    "a185607d-96e5-5838-92e6-19d3366c11e4",
+    "cf4fad57-8e2c-52d3-a721-bd237ac1a813",
+    "3d52e7fa-fa6f-5838-9528-c7502c829b63",
+    "3f2c8fc6-6fca-5745-9840-deb8ae9fcb8f"
+  ]
+}

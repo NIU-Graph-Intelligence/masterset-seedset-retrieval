@@ -1,0 +1,13 @@
+{
+  "query": "Query 1: Neural Algorithmic Reasoning",
+  "union_count": 372,
+  "intersection_count": 0,
+  "set_mean_count": 50,
+  "discovery_count": 3,
+  "intersection_papers": [],
+  "discovery_papers": [
+    "2f2bbec9-03ab-5a7f-912c-673245f8be60",
+    "25c406c9-31bb-528d-a286-07537f276344",
+    "576f00b6-a1e9-5ccf-8572-ed4f18369009"
+  ]
+}
