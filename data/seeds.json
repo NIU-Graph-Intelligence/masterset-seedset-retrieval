@@ -1,0 +1,385 @@
+{
+    "SEED_SETS": [
+        {
+            "topic": "Neural Algorithmic Reasoning",
+            "papers": [
+                {
+                    "paper_id": "0133e9c0-f893-5504-b8c1-b7b05d869d95",
+                    "title": "Tropical Attention: Neural Algorithmic Reasoning for Combinatorial Algorithms",
+                    "abstract": "*Can algebraic geometry enhance the sharpness, robustness, and interpretability of modern neural reasoning models  by equipping them with a mathematically grounded inductive bias?* \nTo answer this, we introduce Tropical Attention, an attention mechanism grounded in tropical geometry that lifts the attention kernel into tropical projective space, where reasoning is piecewise-linear and 1-Lipschitz, thus preserving the polyhedral decision structure inherent to combinatorial reasoning. We prove that multi-head Tropical Attention (MHTA) stacks universally approximate tropical circuits and realize tropical transitive closure through composition, achieving polynomial resource bounds without invoking recurrent mechanisms. These guarantees explain why the induced polyhedral decision boundaries remain sharp and scale-invariant, rather than smoothed by Softmax. Empirically, we show that Tropical Attention delivers stronger out-of-distribution generalization in both length and value, with high robustness against perturbative noise, and substantially faster inference with fewer parameters compared to Softmax-based and recurrent attention baselines, respectively. For the first time, we push the domain of neural algorithmic reasoning beyond **PTIME** problems to **NP-hard/complete** problems, paving the way toward  sharper and more expressive Large Reasoning Models (LRMs) capable of tackling complex combinatorial challenges in Phylogenetics, Cryptography, Particle Physics, and Mathematical Discovery. The code is available at https://github.com/Baran-phys/Tropical-Attention/.",
+                    "year": "2025",
+                    "venue": "neurips"
+                },
+                {
+                    "paper_id": "5bf0c02f-8ed2-5e97-9161-541558feab35",
+                    "title": "Primal-Dual Neural Algorithmic Reasoning",
+                    "abstract": "Neural Algorithmic Reasoning (NAR) trains neural networks to simulate classical algorithms, enabling structured and interpretable reasoning over complex data. While prior research has predominantly focused on learning exact algorithms for polynomial-time-solvable problems, extending NAR to harder problems remains an open challenge. In this work, we introduce a general NAR framework grounded in the primal-dual paradigm, a classical method for designing efficient approximation algorithms. By leveraging a bipartite representation between primal and dual variables, we establish an alignment between primal-dual algorithms and Graph Neural Networks. Furthermore, we incorporate optimal solutions from small instances to greatly enhance the model’s reasoning capabilities. Our empirical results demonstrate that our model not only simulates but also outperforms approximation algorithms for multiple tasks, exhibiting robust generalization to larger and out-of-distribution graphs. Moreover, we highlight the framework’s practical utility by integrating it with commercial solvers and applying it to real-world datasets.",
+                    "year": "2025",
+                    "venue": "icml"
+                },
+                {
+                    "paper_id": "dfbeee5c-e0e2-5942-9441-280635e57976",
+                    "title": "Discrete Neural Algorithmic Reasoning",
+                    "abstract": "Neural algorithmic reasoning aims to capture computations with neural networks by training models to imitate the execution of classical algorithms. While common architectures are expressive enough to contain the correct model in the weight space, current neural reasoners struggle to generalize well on out-of-distribution data. On the other hand, classical computations are not affected by distributional shifts as they can be described as transitions between discrete computational states. In this work, we propose to force neural reasoners to maintain the execution trajectory as a combination of finite predefined states. To achieve this, we separate discrete and continuous data flows and describe the interaction between them. Trained with supervision on the algorithm’s state transitions, such models are able to perfectly align with the original algorithm. To show this, we evaluate our approach on multiple algorithmic problems and achieve perfect test scores both in single-task and multitask setups. Moreover, the proposed architectural choice allows us to prove the correctness of the learned algorithms for any test data.",
+                    "year": "2025",
+                    "venue": "icml"
+                },
+                {
+                    "paper_id": "1bc7f6e0-b0ae-5038-8787-5c119e4af13f",
+                    "title": "Understanding Transformer Reasoning Capabilities via Graph Algorithms",
+                    "abstract": "Which transformer scaling regimes are able to perfectly solve different classes of algorithmic problems?   While tremendous empirical advances have been attained by transformer-based neural networks, a theoretical understanding of their algorithmic reasoning capabilities in realistic parameter regimes is lacking.  We investigate this question in terms of the network’s depth, width, and number of extra tokens for algorithm execution.  Our novel representational hierarchy separates 9 algorithmic reasoning problems into classes solvable by transformers in different realistic parameter scaling regimes.  We prove that logarithmic depth is necessary and sufficient for tasks like graph connectivity, while single-layer transformers with small embedding dimensions can solve contextual retrieval tasks. We also support our theoretical analysis with ample empirical evidence using the GraphQA benchmark.  These results show that transformers excel at many graph reasoning tasks, even outperforming specialized graph neural networks.",
+                    "year": "2024",
+                    "venue": "neurips"
+                },
+                {
+                    "paper_id": "b72c39fd-bd6f-5725-95df-9a2039c6c3a3",
+                    "title": "Transformers Can Do Arithmetic with the Right Embeddings",
+                    "abstract": "The poor performance of transformers on arithmetic tasks seems to stem in large part from their inability to keep track of the exact position of each digit inside of a large span of digits. We mend this problem by adding an embedding to each digit that encodes its position relative to the start of the number. In addition to the boost these embeddings provide on their own, we show that this fix enables architectural modifications such as input injection and recurrent layers to improve performance even further.With positions resolved, we can study the logical extrapolation ability of transformers. Can they solve arithmetic problems that are larger and more complex than those in their training data? We find that training on only 20 digit numbers with a single GPU for one day, we can reach state-of-the-art performance, achieving up to 99% accuracy on 100 digit addition problems. Finally, we show that these gains in numeracy also unlock improvements on other multi-step reasoning tasks including sorting and multiplication.",
+                    "year": "2024",
+                    "venue": "neurips"
+                },
+                {
+                    "paper_id": "e5b7c941-e9e9-5906-b170-68c1e3e27ad2",
+                    "title": "PUZZLES: A Benchmark for Neural Algorithmic Reasoning",
+                    "abstract": "Algorithmic reasoning is a fundamental cognitive ability that plays a pivotal role in problem-solving and decision-making processes. Reinforcement Learning (RL) has demonstrated remarkable proficiency in tasks such as motor control, handling perceptual input, and managing stochastic environments. These advancements have been enabled in part by the availability of benchmarks. In this work we introduce PUZZLES, a benchmark based on Simon Tatham's Portable Puzzle Collection, aimed at fostering progress in algorithmic and logical reasoning in RL. PUZZLES contains 40 diverse logic puzzles of adjustable sizes and varying levels of complexity, providing detailed information on the strengths and generalization capabilities of RL agents. Furthermore, we evaluate various RL algorithms on PUZZLES, providing baseline comparisons and demonstrating the potential for future research. All the software, including the environment, is available at this https url.",
+                    "year": "2024",
+                    "venue": "neurips"
+                },
+                {
+                    "paper_id": "8a7ccafe-8c36-5c4a-b729-470a5c679190",
+                    "title": "Open-Book Neural Algorithmic Reasoning",
+                    "abstract": "Neural algorithmic reasoning is an emerging area of machine learning that focuses on building neural networks capable of solving complex algorithmic tasks. Recent advancements predominantly follow the standard supervised learning paradigm -- feeding an individual problem instance into the network each time and training it to approximate the execution steps of a classical algorithm. We challenge this mode and propose a novel open-book learning framework. In this framework, whether during training or testing, the network can access and utilize all instances in the training dataset when reasoning for a given instance.Empirical evaluation is conducted on the challenging CLRS Algorithmic Reasoning Benchmark, which consists of 30 diverse algorithmic tasks. Our open-book learning framework exhibits a significant enhancement in neural reasoning capabilities. Further, we notice that there is recent literature suggesting that multi-task training on CLRS can improve the reasoning accuracy of certain tasks, implying intrinsic connections between different algorithmic tasks. We delve into this direction via the open-book framework. When the network reasons for a specific task, we enable it to aggregate information from training instances of other tasks in an attention-based manner. We show that this open-book attention mechanism offers insights into the inherent relationships among various tasks in the benchmark and provides a robust tool for interpretable multi-task training.",
+                    "year": "2024",
+                    "venue": "neurips"
+                },
+                {
+                    "paper_id": "a161b3e2-3e20-56a8-a30b-a1e2686fd7cb",
+                    "title": "Deep Equilibrium Algorithmic Reasoning",
+                    "abstract": "Neural Algorithmic Reasoning (NAR) research has demonstrated that graph neural networks (GNNs) could learn to execute classical algorithms. However, most previous approaches have always used a recurrent architecture, where each iteration of the GNN matches an iteration of the algorithm. In this paper we study neurally solving algorithms from a different perspective: since the algorithm’s solution is often an equilibrium, it is possible to find the solution directly by solving an equilibrium equation. Our approach requires no information on the ground-truth number of steps of the algorithm, both during train and test time. Furthermore, the proposed method improves the performance of GNNs on executing algorithms and is a step towards speeding up existing NAR models. Our empirical evidence, leveraging algorithms from the CLRS-30 benchmark, validates that one can train a network to solve algorithmic problems by directly finding the equilibrium. We discuss the practical implementation of such models and propose regularisations to improve the performance of these equilibrium reasoners.",
+                    "year": "2024",
+                    "venue": "neurips"
+                },
+                {
+                    "paper_id": "5a59220e-42bf-52b8-b824-ff2dd7004d1f",
+                    "title": "Simulation of Graph Algorithms with Looped Transformers",
+                    "abstract": "The execution of graph algorithms using neural networks has recently attracted significant interest due to promising empirical progress. This motivates further understanding of how neural networks can replicate reasoning steps with relational data. In this work, we study the ability of transformer networks to simulate algorithms on graphs from a theoretical perspective. The architecture we use is a looped transformer with extra attention heads that interact with the graph. We prove by construction that this architecture can simulate individual algorithms such as Dijkstra’s shortest path, Breadth- and Depth-First Search, and Kosaraju’s strongly connected components, as well as multiple algorithms simultaneously. The number of parameters in the networks does not increase with the input graph size, which implies that the networks can simulate the above algorithms for any graph. Despite this property, we show a limit to simulation in our solution due to finite precision. Finally, we show a Turing Completeness result with constant width when the extra attention heads are utilized.",
+                    "year": "2024",
+                    "venue": "icml"
+                },
+                {
+                    "paper_id": "1d2cc124-9fa8-5a19-b0d0-5a331a65f355",
+                    "title": "On the Markov Property of Neural Algorithmic Reasoning: Analyses and Methods",
+                    "abstract": "Neural algorithmic reasoning is an emerging research direction that endows neural networks with the ability to mimic algorithmic executions step-by-step. A common paradigm in existing designs involves the use of historical embeddings in predicting the results of future execution steps. Our observation in this work is that such historical dependence intrinsically contradicts the Markov nature of algorithmic reasoning tasks. Based on this motivation, we present our ForgetNet, which does not use historical embeddings and thus is consistent with the Markov nature of the tasks. To address challenges in training ForgetNet at early stages, we further introduce G-ForgetNet, which uses a gating mechanism to allow for the selective integration of historical embeddings. Such an enhanced capability provides valuable computational pathways during the model's early training phase. Our extensive experiments, based on the CLRS-30 algorithmic reasoning benchmark, demonstrate that both ForgetNet and G-ForgetNet achieve better generalization capability than existing methods. Furthermore, we investigate the behavior of the gating mechanism, highlighting its degree of alignment with our intuitions and its effectiveness for robust performance. Our code is publicly available at https://github.com/divelab/ForgetNet.",
+                    "year": "2024",
+                    "venue": "iclr"
+                }
+            ]
+        },
+        {
+            "topic": "LLM Memory",
+            "papers": [
+                {
+                    "paper_id": "a8527971-b28a-5210-85b1-19f74e267a2a",
+                    "title": "Fine-Tuning or Retrieval? Comparing Knowledge Injection inLLMs",
+                    "abstract": "Large language models (LLMs) encapsulate a vast amount of factual information within their pre-trained weights, as evidenced by their ability to answer diverse questions across different domains. However, this knowledge is inherently limited, relying heavily on the characteristics of the training data. Consequently, using external datasets to incorporate new information or refine the capabilities of LLMs on previously seen information poses a significant challenge. In this study, we compare two common approaches: unsupervised fine-tuning and retrieval-augmented generation (RAG). We evaluate both approaches on a variety of knowledge-intensive tasks across different topics. Our findings reveal that while unsupervised fine-tuning offers some improvement, RAG consistently outperforms it, both for existing knowledge encountered during training and entirely new knowledge. Moreover, we find that LLMs struggle to learn new factual information through unsupervised fine-tuning, and that exposing them to numerous variations of the same fact during training could alleviate this problem.",
+                    "year": "2024",
+                    "venue": "emnlp"
+                },
+                {
+                    "paper_id": "2d32d8d5-9dfc-50d5-b580-ed0f8f1e5a86",
+                    "title": "Does Fine-TuningLLMs on New Knowledge Encourage Hallucinations?",
+                    "abstract": "When large language models are aligned via supervised fine-tuning, they may encounter new factual information that was not acquired through pre-training. It is often conjectured that this can teach the model the behavior of hallucinating factually incorrect responses, as the model is trained to generate facts that are not grounded in its pre-existing knowledge. In this work, we study the impact of such exposure to new knowledge on the capability of the fine-tuned model to utilize its pre-existing knowledge. To this end, we design a controlled setup, focused on closed-book QA, where we vary the proportion of the fine-tuning examples that introduce new knowledge. We demonstrate that large language models struggle to acquire new factual knowledge through fine-tuning, as fine-tuning examples that introduce new knowledge are learned significantly slower than those consistent with the model’s knowledge. However, we also find that as the examples with new knowledge are eventually learned, they linearly increase the model’s tendency to hallucinate. Taken together, our results highlight the risk in introducing new factual knowledge through fine-tuning, and support the view that large language models mostly acquire factual knowledge through pre-training, whereas fine-tuning teaches them to use it more efficiently.",
+                    "year": "2024",
+                    "venue": "emnlp"
+                },
+                {
+                    "paper_id": "5dac5135-0eae-5666-a7de-33b5e8fbaf3c",
+                    "title": "Deciphering the Interplay of Parametric and Non-parametric Memory in Retrieval-augmented Language Models",
+                    "abstract": "Generative language models often struggle with specialized or less-discussed knowledge. A potential solution is found in Retrieval-Augmented Generation (RAG) models which act like retrieving information before generating responses. In this study, we explore how the Atlas approach, a RAG model, decides between what it already knows (parametric) and what it retrieves (non-parametric). We use causal mediation analysis and controlled experiments to examine how internal representations influence information processing. Our findings disentangle the effects of parametric knowledge and the retrieved context. They indicate that in cases where the model can choose between both types of information (parametric and non-parametric), it relies more on the context than the parametric knowledge. Furthermore, the analysis investigates the computations involved inhowthe model uses the information from the context. We find that multiple mechanisms are active within the model and can be detected with mediation analysis: first, the decision ofwhether the context is relevant, and second, how the encoder computes output representations to support copying when relevant.",
+                    "year": "2024",
+                    "venue": "emnlp"
+                },
+                {
+                    "paper_id": "af017fa8-28d5-5bfb-b237-696b2f85cde9",
+                    "title": "IRGen: Generative Modeling for Image Retrieval",
+                    "abstract": "While generative modeling has become prevalent across numerous research fields, its integration into the realm of image retrieval remains largely unexplored and underjustified. In this paper, we present a novel methodology, reframing image retrieval as a variant of generative modeling and employing a sequence-to-sequence model. This approach is harmoniously aligned with the current trend towards unification in research, presenting a cohesive framework that allows for end-to-end differentiable searching. This, in turn, facilitates superior performance via direct optimization techniques. The development of our model, dubbed IRGen, addresses the critical technical challenge of converting an image into a concise sequence of semantic units, which is pivotal for enabling efficient and effective search. Extensive experiments demonstrate that our model achieves state-of-the-art performance on three widely-used image retrieval benchmarks as well as two million-scale datasets, yielding significant improvement compared to prior competitive retrieval methods. In addition, the notable surge in precision scores facilitated by generative modeling presents the potential to bypass the reranking phase, which is traditionally indispensable in practical retrieval workflows. The code is publicly available at https://github.com/yakt00/IRGen.",
+                    "year": "2024",
+                    "venue": "eccv"
+                },
+                {
+                    "paper_id": "2004913a-d0b3-592e-8e33-ded71e6c16af",
+                    "title": "Transformer Memory as a Differentiable Search Index",
+                    "abstract": "In this paper, we demonstrate that information retrieval can be accomplished with a single Transformer, in which all information about the corpus is encoded in the parameters of the model. To this end, we introduce the Differentiable Search Index (DSI), a new paradigm that learns a text-to-text model that maps string queries directly to relevant docids; in other words, a DSI model answers queries directly using only its parameters, dramatically simplifying the whole retrieval process. We study variations in how documents and their identifiers are represented, variations in training procedures, and the interplay between models and corpus sizes. Experiments demonstrate that given appropriate design choices, DSI significantly outperforms strong baselines such as dual encoder models. Moreover, DSI demonstrates strong generalization capabilities, outperforming a BM25 baseline in a zero-shot setup.",
+                    "year": "2022",
+                    "venue": "neurips"
+                }
+            ]
+        },
+        {
+            "topic": "Transformer Theory",
+            "papers": [
+                {
+                    "paper_id": "be37ea0d-a72f-5e0f-9faf-cf49e6bdfa6a",
+                    "title": "Unique Hard Attention: A Tale of Two Sides",
+                    "abstract": "Understanding the expressive power of transformers has recently attracted attention, as it offers insights into their abilities and limitations. Many studies analyze unique hard attention transformers, where attention selects a single position that maximizes the attention scores. When multiple positions achieve the maximum score, either the rightmost or the leftmost of those is chosen. In this paper, we highlight the importance of this seeming triviality. Recently, finite-precision transformers with both leftmost- and rightmost-hard attention were shown to be equivalent to Linear Temporal Logic (LTL). We show that this no longer holds with only leftmost-hard attention—in that case, they correspond to astrictly weakerfragment of LTL. Furthermore, we show that models with leftmost-hard attention are equivalent tosoftattention, suggesting they may better approximate real-world transformers than right-attention models. These findings refine the landscape of transformer expressivity and underscore the role of attention directionality.",
+                    "year": "2025",
+                    "venue": "acl"
+                },
+                {
+                    "paper_id": "1c06ca82-15a9-57f7-a022-152aec8d56eb",
+                    "title": "Logical Languages Accepted by Transformer Encoders with Hard Attention",
+                    "abstract": "We contribute to the study of formal languages that can be recognized by transformer encoders. We focus on two self-attention mechanisms: (1) UHAT (Unique Hard Attention Transformers) and (2) AHAT (Average Hard Attention Transformers). UHAT encoders are known to  recognize only languages inside the circuit complexity class ${\\sf AC}^0$, i.e., accepted by a family of poly-sized and depth-bounded boolean circuits with unbounded fan-ins. On the other hand, AHAT encoders can recognize languages outside ${\\sf AC}^0$), but their expressive power still lies within the bigger circuit complexity class ${\\sf TC}^0$, i.e., ${\\sf AC}^0$-circuits extended by majority gates.\nWe first show a negative result that there is an  ${\\sf AC}^0$-language that cannot be recognized by an UHAT encoder. On the positive side, we show that UHAT encoders can recognize a rich fragment of ${\\sf AC}^0$-languages, namely, all languages definable in first-order logic with arbitrary unary numerical predicates. This logic, includes, for example, all regular languages from  ${\\sf AC}^0$. We then show that AHAT encoders can recognize all languages of our logic even when we enrich it with counting terms. Using these results, we obtain a characterization of which counting properties are expressible by UHAT and AHAT, in relation to regular languages.",
+                    "year": "2024",
+                    "venue": "iclr"
+                },
+                {
+                    "paper_id": "625418d7-8628-5405-9b15-65a996001fa1",
+                    "title": "Representational Strengths and Limitations of Transformers",
+                    "abstract": "Attention layers, as commonly used in transformers, form the backbone of modern deep learning, yet there is no mathematical description of their benefits and deficiencies as compared with other architectures. In this work we establish both positive and negative results on the representation power of attention layers, with a focus on intrinsic complexity parameters such as width, depth, and embedding dimension. On the positive side, we present a sparse averaging task, where recurrent networks and feedforward networks all have complexity scaling polynomially in the input size, whereas transformers scale merely logarithmically in the input size; furthermore, we use the same construction to show the necessity and role of a large embedding dimension in a transformer. On the negative side, we present a triple detection task, where attention layers in turn have complexity scaling linearly in the input size; as this scenario seems rare in practice, we also present natural variants that can be efficiently solved by attention layers. The proof techniques emphasize the value of communication complexity in the analysis of transformers and related models, and the role of sparse averaging as a prototypical attention task, which even finds use in the analysis of triple detection.",
+                    "year": "2023",
+                    "venue": "neurips"
+                },
+                {
+                    "paper_id": "0c1590eb-b25c-59a0-bb7a-ef483498a5b6",
+                    "title": "Tighter Bounds on the Expressivity of Transformer Encoders",
+                    "abstract": "Characterizing neural networks in terms of better-understood formal systems has the potential to yield new insights into the power and limitations of these networks. Doing so for transformers remains an active area of research. Bhattamishra and others have shown that transformer encoders are at least as expressive as a certain kind of counter machine, while Merrill and Sabharwal have shown that fixed-precision transformer encoders recognize only languages in uniform $TC^0$. We connect and strengthen these results by identifying a variant of first-order logic with counting quantifiers that is simultaneously an upper bound for fixed-precision transformer encoders and a lower bound for transformer encoders. This brings us much closer than before to an exact characterization of the languages that transformer encoders recognize.",
+                    "year": "2023",
+                    "venue": "icml"
+                }
+            ]
+        },
+                {
+            "topic": "Contrastive Learning for Vision",
+            "papers": [
+                {
+                    "paper_id": "1de351cb-0576-539c-9fd7-d8b1a61244ee",
+                    "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+                    "abstract": "This paper presents SimCLR: a simple framework for contrastive learning of visual representations. We simplify recently proposed contrastive self-supervised learning algorithms without requiring specialized architectures or a memory bank. In order to understand what enables the contrastive prediction tasks to learn useful representations, we systematically study the major components of our framework. We show that (1) composition of data augmentations plays a critical role in defining effective predictive tasks, (2) introducing a learnable nonlinear transformation between the representation and the contrastive loss substantially improves the quality of the learned representations, and (3) contrastive learning benefits from larger batch sizes and more training steps compared to supervised learning. By combining these findings, we are able to considerably outperform previous methods for self-supervised and semi-supervised learning on ImageNet. A linear classifier trained on self-supervised representations learned by SimCLR achieves 76.5% top-1 accuracy, which is a 7% relative improvement over previous state-of-the-art, matching the performance of a supervised ResNet-50. When fine-tuned on only 1% of the labels, we achieve 85.8% top-5 accuracy, outperforming AlexNet with 100X fewer labels.",
+                    "year": "2020",
+                    "venue": "icml"
+                },
+                {
+                    "paper_id": "512fbfdd-104a-5d9a-9e3b-fe029e1de747",
+                    "title": "Momentum Contrast for Unsupervised Visual Representation Learning",
+                    "abstract": "We present Momentum Contrast (MoCo) for unsupervised visual representation learning. From a perspective on contrastive learning as dictionary look-up, we build a dynamic dictionary with a queue and a moving-averaged encoder. This enables building a large and consistent dictionary on-the-fly that facilitates contrastive unsupervised learning. MoCo provides competitive results under the common linear protocol on ImageNet classification. More importantly, the representations learned by MoCo transfer well to downstream tasks. MoCo can outperform its supervised pre-training counterpart in 7 detection/segmentation tasks on PASCAL VOC, COCO, and other datasets, sometimes surpassing it by large margins. This suggests that the gap between unsupervised and supervised representation learning has been largely closed in many vision tasks.",
+                    "year": "2020",
+                    "venue": "cvpr"
+                },
+                {
+                    "paper_id": "b3731af5-a324-5680-9d7b-efb7f6c5fc7e",
+                    "title": "Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning",
+                    "abstract": "We introduce Bootstrap Your Own Latent (BYOL), a new approach to self-supervised image representation learning. BYOL relies on two neural networks, referred to as online and target networks, that interact and learn from each other. From an augmented view of an image, we train the online network to predict the target network representation of the same image under a different augmented view. At the same time, we update the target network with a slow-moving average of the online network. While state-of-the art methods intrinsically rely on negative pairs, BYOL achieves a new state of the art without them. BYOL reaches 74.3% top-1 classification accuracy on ImageNet using the standard linear evaluation protocol with a standard ResNet-50 architecture and 79.6% with a larger ResNet. We also show that BYOL performs on par or better than the current state of the art on both transfer and semi-supervised benchmarks.",
+                    "year": "2020",
+                    "venue": "neurips"
+                },
+                {
+                    "paper_id": "fc56eb50-f770-50de-aa01-6fbb1b705738",
+                    "title": "Barlow Twins: Self-Supervised Learning via Redundancy Reduction",
+                    "abstract": "Self-supervised learning (SSL) is rapidly closing the gap with supervised methods on large computer vision benchmarks. A successful approach to SSL is to learn embeddings which are invariant to distortions of the input sample. However, a recurring issue with this approach is the existence of trivial constant solutions. Most current methods avoid such solutions by careful implementation details. We propose an objective function that naturally avoids collapse by measuring the cross-correlation matrix between the outputs of two identical networks fed with distorted versions of a sample, and making it as close to the identity matrix as possible. This causes the embedding vectors of distorted versions of a sample to be similar, while minimizing the redundancy between the components of these vectors. The method is called Barlow Twins, owing to neuroscientist H. Barlow’s redundancy-reduction principle applied to a pair of identical networks. Barlow Twins does not require large batches nor asymmetry between the network twins such as a predictor network, gradient stopping, or a moving average on the weight updates. Intriguingly it benefits from very high-dimensional output vectors. Barlow Twins outperforms previous methods on ImageNet for semi-supervised classification in the low-data regime, and is on par with current state of the art for ImageNet classification with a linear classifier head, and for transfer tasks of classification and object detection.",
+                    "year": "2021",
+                    "venue": "icml"
+                }
+            ]
+        },
+        {
+            "topic": "Neural Architecture Search",
+            "papers": [
+                {
+                    "paper_id": "6c6a505c-285a-5766-b7d8-9bc63f8bc37d",
+                    "title": "DARTS: Differentiable Architecture Search",
+                    "abstract": "This paper addresses the scalability challenge of architecture search by formulating the task in a differentiable manner. Unlike conventional approaches of applying evolution or reinforcement learning over a discrete and non-differentiable search space, our method is based on the continuous relaxation of the architecture representation, allowing efficient search of the architecture using gradient descent. Extensive experiments on CIFAR-10, ImageNet, Penn Treebank and WikiText-2 show that our algorithm excels in discovering high-performance convolutional architectures for image classification and recurrent architectures for language modeling, while being orders of magnitude faster than state-of-the-art non-differentiable techniques.",
+                    "year": "2019",
+                    "venue": "iclr"
+                },
+                {
+                    "paper_id": "10b446d8-6757-576b-a183-5417dc7fd1a3",
+                    "title": "Efficient Neural Architecture Search via Parameters Sharing",
+                    "abstract": "We propose Efficient Neural Architecture Search (ENAS), a fast and inexpensive approach for automatic model design. ENAS constructs a large computational graph, where each subgraph represents a neural network architecture, hence forcing all architectures to share their parameters. A controller is trained with policy gradient to search for a subgraph that maximizes the expected reward on a validation set. Meanwhile a model corresponding to the selected subgraph is trained to minimize a canonical cross entropy loss. Sharing parameters among child models allows ENAS to deliver strong empirical performances, whilst using much fewer GPU-hours than existing automatic model design approaches, and notably, 1000x less expensive than standard Neural Architecture Search. On Penn Treebank, ENAS discovers a novel architecture that achieves a test perplexity of 56.3, on par with the existing state-of-the-art among all methods without post-training processing. On CIFAR-10, ENAS finds a novel architecture that achieves 2.89% test error, which is on par with the 2.65% test error of NASNet (Zoph et al., 2018).",
+                    "year": "2018",
+                    "venue": "icml"
+                },
+                {
+                    "paper_id": "a364fdd9-030f-5a98-903d-3e423fec47b7",
+                    "title": "ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware",
+                    "abstract": "Neural architecture search (NAS) has a great impact by automatically designing effective neural network architectures. However, the prohibitive computational demand of conventional NAS algorithms (e.g. 10 4 GPU hours) makes it difficult to directly search the architectures on large-scale tasks (e.g. ImageNet). Differentiable NAS can reduce the cost of GPU hours via a continuous representation of network architecture but suffers from the high GPU memory consumption issue (grow linearly w.r.t. candidate set size). As a result, they need to utilize proxy tasks, such as training on a smaller dataset, or learning with only a few blocks, or training just for a few epochs. These architectures optimized on proxy tasks are not guaranteed to be optimal on the target task. In this paper, we present ProxylessNAS that can directly learn the architectures for large-scale target tasks and target hardware platforms. We address the high memory consumption issue of differentiable NAS and reduce the computational cost (GPU hours and GPU memory) to the same level of regular training while still allowing a large candidate set. Experiments on CIFAR-10 and ImageNet demonstrate the effectiveness of directness and specialization. On CIFAR-10, our model achieves 2.08% test error with only 5.7M parameters, better than the previous state-of-the-art architecture AmoebaNet-B, while using 6× fewer parameters. On ImageNet, our model achieves 3.1% better top-1 accuracy than MobileNetV2, while being 1.2× faster with measured GPU latency. We also apply ProxylessNAS to specialize neural architectures for hardware with direct hardware metrics (e.g. latency) and provide insights for efficient CNN architecture design.",
+                    "year": "2019",
+                    "venue": "iclr"
+                }
+            ]
+        },
+        {
+            "topic": "Graph Neural Network Scalability",
+            "papers": [
+                {
+                    "paper_id": "b50d6d6a-5943-5c0e-96d8-ef16858fda59",
+                    "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+                    "abstract": "We present a scalable approach for semi-supervised learning on graph-structured data that is based on an efficient variant of convolutional neural networks which operate directly on graphs. We motivate the choice of our convolutional architecture via a localized first-order approximation of spectral graph convolutions. Our model scales linearly in the number of graph edges and learns hidden layer representations that encode both local graph structure and features of nodes. In a number of experiments on citation networks and on a knowledge graph dataset we demonstrate that our approach outperforms related methods by a significant margin.",
+                    "year": "2017",
+                    "venue": "iclr"
+                },
+                {
+                    "paper_id": "f8563dd3-4495-5100-8af6-860842484d6f",
+                    "title": "Inductive Representation Learning on Large Graphs",
+                    "abstract": "Low-dimensional embeddings of nodes in large graphs have proved extremely useful in a variety of prediction tasks, from content recommendation to identifying protein functions. However, most existing approaches require that all nodes in the graph are present during training of the embeddings; these previous approaches are inherently transductive and do not naturally generalize to unseen nodes. Here we present GraphSAGE, a general, inductive framework that leverages node feature information (e.g., text attributes) to efficiently generate node embeddings.  Instead of training individual embeddings for each node, we learn a function that generates embeddings by sampling and aggregating features from a node's local neighborhood. Our algorithm outperforms strong baselines on three inductive node-classification benchmarks: we classify the category of unseen nodes in evolving information graphs based on citation and Reddit post data, and we show that our algorithm generalizes to completely unseen graphs using a multi-graph dataset of protein-protein interactions.",
+                    "year": "2017",
+                    "venue": "neurips"
+                },
+                {
+                    "paper_id": "d07de395-74d4-5ada-ab11-6a6a4f3b6e8b",
+                    "title": "Graph Attention Networks",
+                    "abstract": "We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations. By stacking layers in which nodes are able to attend over their neighborhoods' features, we enable (implicitly) specifying different weights to different nodes in a neighborhood, without requiring any kind of computationally intensive matrix operation (such as inversion) or depending on knowing the graph structure upfront. In this way, we address several key challenges of spectral-based graph neural networks simultaneously, and make our model readily applicable to inductive as well as transductive problems. Our GAT models have achieved or matched state-of-the-art results across four established transductive and inductive graph benchmarks: the Cora, Citeseer and Pubmed citation network datasets, as well as a protein-protein interaction dataset (wherein test graphs remain unseen during training).",
+                    "year": "2018",
+                    "venue": "iclr"
+                },
+                {
+                    "paper_id": "8ec45d02-4307-56f6-8e2a-f2ac7cf6b844",
+                    "title": "Simplifying Graph Convolutional Networks",
+                    "abstract": "Graph Convolutional Networks (GCNs) and their variants have experienced significant attention and have become the de facto methods for learning graph representations. GCNs derive inspiration primarily from recent deep learning approaches, and as a result, may inherit unnecessary complexity and redundant computation. In this paper, we reduce this excess complexity through successively removing nonlinearities and collapsing weight matrices between consecutive layers. We theoretically analyze the resulting linear model and show that it corresponds to a fixed low-pass filter followed by a linear classifier. Notably, our experimental evaluation demonstrates that these simplifications do not negatively impact accuracy in many downstream applications. Moreover, the resulting model scales to larger datasets, is naturally interpretable, and yields up to two orders of magnitude speedup over FastGCN.",
+                    "year": "2019",
+                    "venue": "icml"
+                },
+                {
+                    "paper_id": "b03dba7e-4006-5159-9f07-d03695a1dd23",
+                    "title": "GraphSAINT: Graph Sampling Based Inductive Learning Method",
+                    "abstract": "Graph Convolutional Networks (GCNs) are powerful models for learning representations of attributed graphs. To scale GCNs to large graphs, state-of-the-art methods use various layer sampling techniques to alleviate the \"neighbor explosion\" problem during minibatch training. We propose GraphSAINT, a graph sampling based inductive learning method that improves training efficiency and accuracy in a fundamentally different way. By changing perspective, GraphSAINT constructs minibatches by sampling the training graph, rather than the nodes or edges across GCN layers. Each iteration, a complete GCN is built from the properly sampled subgraph. Thus, we ensure fixed number of well-connected nodes in all layers. We further propose normalization technique to eliminate bias, and sampling algorithms for variance reduction. Importantly, we can decouple the sampling from the forward and backward propagation, and extend GraphSAINT with many architecture variants (e.g., graph attention, jumping connection).  GraphSAINT demonstrates superior performance in both accuracy and training time on five large graphs, and achieves new state-of-the-art F1 scores for PPI (0.995) and Reddit (0.970). ",
+                    "year": "2020",
+                    "venue": "iclr"
+                }
+            ]
+        },
+        {
+            "topic": "Diffusion Models",
+            "papers": [
+                {
+                    "paper_id": "c54fe961-c4f0-5013-a968-6ca50f205895",
+                    "title": "Denoising Diffusion Probabilistic Models",
+                    "abstract": "We present high quality image synthesis results using diffusion probabilistic models, a class of latent variable models inspired by considerations from nonequilibrium thermodynamics. Our best results are obtained by training on a weighted variational bound designed according to a novel connection between diffusion probabilistic models and denoising score matching with Langevin dynamics, and our models naturally admit a progressive lossy decompression scheme that can be interpreted as a generalization of autoregressive decoding. On the unconditional CIFAR10 dataset, we obtain an Inception score of 9.46 and a state-of-the-art FID score of 3.17. On 256x256 LSUN, we obtain sample quality similar to ProgressiveGAN.",
+                    "year": "2020",
+                    "venue": "neurips"
+                },
+                {
+                    "paper_id": "0f0d6936-42fb-579c-ab29-46787c9e98f1",
+                    "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+                    "abstract": "Creating noise from data is easy; creating data from noise is generative modeling. We present a stochastic differential equation (SDE) that smoothly transforms a complex data distribution to a known prior distribution by slowly injecting noise, and a corresponding reverse-time SDE that transforms the prior distribution back into the data distribution by slowly removing the noise. \nCrucially, the reverse-time SDE depends only on the time-dependent gradient field (a.k.a., score) of the perturbed data distribution. By leveraging advances in score-based generative modeling, we can accurately estimate these scores with neural networks, and use numerical SDE solvers to generate samples. We show that this framework encapsulates previous approaches in score-based generative modeling and diffusion probabilistic modeling, allowing for new sampling procedures and new modeling capabilities. In particular, we introduce a predictor-corrector framework to correct errors in the evolution of the discretized reverse-time SDE. We also derive an equivalent neural ODE that samples from the same distribution as the SDE, but additionally enables exact likelihood computation, and improved sampling efficiency. In addition, we provide a new way to solve inverse problems with score-based models, as demonstrated with experiments on class-conditional generation, image inpainting, and colorization. Combined with multiple architectural improvements, we achieve record-breaking performance for unconditional image generation on CIFAR-10 with an Inception score of 9.89 and FID of 2.20, a competitive likelihood of 2.99 bits/dim, and demonstrate high fidelity generation of $1024\\times 1024$ images for the first time from a score-based generative model.",
+                    "year": "2021",
+                    "venue": "iclr"
+                },
+                {
+                    "paper_id": "fb3a6f9c-9a09-51ae-b587-ecde88edd450",
+                    "title": "High-Resolution Image Synthesis With Latent Diffusion Models",
+                    "abstract": "By decomposing the image formation process into a sequential application of denoising autoencoders, diffusion models (DMs) achieve state-of-the-art synthesis results on image data and beyond. Additionally, their formulation allows for a guiding mechanism to control the image generation process without retraining. However, since these models typically operate directly in pixel space, optimization of powerful DMs often consumes hundreds of GPU days and inference is expensive due to sequential evaluations. To enable DM training on limited computational resources while retaining their quality and flexibility, we apply them in the latent space of powerful pretrained autoencoders. In contrast to previous work, training diffusion models on such a representation allows for the first time to reach a near-optimal point between complexity reduction and detail preservation, greatly boosting visual fidelity. By introducing cross-attention layers into the model architecture, we turn diffusion models into powerful and flexible generators for general conditioning inputs such as text or bounding boxes and high-resolution synthesis becomes possible in a convolutional manner. Our latent diffusion models (LDMs) achieve new state of the art scores for image inpainting and class-conditional image synthesis and highly competitive performance on various tasks, including unconditional image generation, text-to-image synthesis, and super-resolution, while significantly reducing computational requirements compared to pixel-based DMs.",
+                    "year": "2022",
+                    "venue": "cvpr"
+                },
+                {
+                    "paper_id": "349c08d0-130b-5a41-97f4-c834cc14f7bc",
+                    "title": "Denoising Diffusion Implicit Models",
+                    "abstract": "Denoising diffusion probabilistic models (DDPMs) have achieved high quality image generation without adversarial training, yet they require simulating a Markov chain for many steps in order to produce a sample. To accelerate sampling, we present denoising diffusion implicit models (DDIMs), a more efficient class of iterative implicit probabilistic models with the same training procedure as DDPMs. In DDPMs, the generative process is defined as the reverse of a particular Markovian diffusion process. We generalize DDPMs via a class of non-Markovian diffusion processes that lead to the same training objective. These non-Markovian processes can correspond to generative processes that are deterministic, giving rise to implicit models that produce high quality samples much faster. We empirically demonstrate that DDIMs can produce high quality samples $10 \\times$ to $50 \\times$ faster in terms of wall-clock time compared to DDPMs, allow us to trade off computation for sample quality, perform semantically meaningful image interpolation directly in the latent space, and reconstruct observations with very low error. ",
+                    "year": "2021",
+                    "venue": "iclr"
+                }
+            ]
+        },
+        {
+            "topic": "Retrieval-Augmented Generation",
+            "papers": [
+                {
+                    "paper_id": "4d833d01-35c2-56b5-8c1c-6c6399f58f70",
+                    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+                    "abstract": "Large pre-trained language models have been shown to store factual knowledge in their parameters, and achieve state-of-the-art results when fine-tuned on downstream NLP tasks. However, their ability to access and precisely manipulate knowledge is still limited, and hence on knowledge-intensive tasks, their performance lags behind task-specific architectures. Additionally, providing provenance for their decisions and updating their world knowledge remain open research problems. Pre-trained models with a differentiable access mechanism to explicit non-parametric memory can overcome this issue, but have so far been only investigated for extractive downstream tasks. We explore a general-purpose fine-tuning recipe for retrieval-augmented generation (RAG) -- models which combine pre-trained parametric and non-parametric memory for language generation. We introduce RAG models where the parametric memory is a pre-trained seq2seq model and the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever. We compare two RAG formulations, one which conditions on the same retrieved passages across the whole generated sequence, the other can use different passages per token. We fine-tune and evaluate our models on a wide range of knowledge-intensive NLP tasks and set the state-of-the-art on three open domain QA tasks, outperforming parametric seq2seq models and task-specific retrieve-and-extract architectures. For language generation tasks, we find that RAG models generate more specific, diverse and factual language than a state-of-the-art parametric-only seq2seq baseline.",
+                    "year": "2020",
+                    "venue": "neurips"
+                },
+                {
+                    "paper_id": "ffd14cf1-3987-51c1-9d9f-8e1dded349c9",
+                    "title": "Retrieval Augmented Language Model Pre-Training",
+                    "abstract": "Language model pre-training has been shown to capture a surprising amount of world knowledge, crucial for NLP tasks such as question answering. However, this knowledge is stored implicitly in the parameters of a neural network, requiring ever-larger networks to cover more facts. To capture knowledge in a more modular and interpretable way, we augment language model pre-training with a latent knowledge retriever, which allows the model to retrieve and attend over documents from a large corpus such as Wikipedia, used during pre-training, fine-tuning and inference. For the first time, we show how to pre-train such a knowledge retriever in an unsupervised manner, using masked language modeling as the learning signal and backpropagating through a retrieval step that considers millions of documents. We demonstrate the effectiveness of Retrieval-Augmented Language Model pre-training (REALM) by fine-tuning on the challenging task of Open-domain Question Answering (Open-QA). We compare against state-of-the-art models for both explicit and implicit knowledge storage on three popular Open-QA benchmarks, and find that we outperform all previous methods by a significant margin (4-16% absolute accuracy), while also providing qualitative benefits such as interpretability and modularity.",
+                    "year": "2020",
+                    "venue": "icml"
+                },
+                {
+                    "paper_id": "328865dd-d83d-53d3-ae2e-7bb0f148a441",
+                    "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+                    "abstract": "Open-domain question answering relies on efficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method. In this work, we show that retrieval can be practically implemented using dense representations alone, where embeddings are learned from a small number of questions and passages by a simple dual-encoder framework. When evaluated on a wide range of open-domain QA datasets, our dense retriever outperforms a strong Lucene-BM25 system greatly by 9%-19% absolute in terms of top-20 passage retrieval accuracy, and helps our end-to-end QA system establish new state-of-the-art on multiple open-domain QA benchmarks.",
+                    "year": "2020",
+                    "venue": "emnlp"
+                },
+                {
+                    "paper_id": "5eec1f71-b085-5de0-a2b7-2e9e90045fab",
+                    "title": "Improving Language Models by Retrieving from Trillions of Tokens",
+                    "abstract": "We enhance auto-regressive language models by conditioning on document chunks retrieved from a large corpus, based on local similarity with preceding tokens. With a 2 trillion token database, our Retrieval-Enhanced Transformer (RETRO) obtains comparable performance to GPT-3 and Jurassic-1 on the Pile, despite using 25{\\texttimes} fewer parameters. After fine-tuning, RETRO performance translates to downstream knowledge-intensive tasks such as question answering. RETRO combines a frozen Bert retriever, a differentiable encoder and a chunked cross-attention mechanism to predict tokens based on an order of magnitude more data than what is typically consumed during training. We typically train RETRO from scratch, yet can also rapidly RETROfit pre-trained transformers with retrieval and still achieve good performance. Our work opens up new avenues for improving language models through explicit memory at unprecedented scale.",
+                    "year": "2022",
+                    "venue": "icml"
+                },
+                {
+                    "paper_id": "f9a6680c-993a-5f82-9ba4-982d6abfa28f",
+                    "title": "Atlas: Few-shot Learning with Retrieval Augmented Language Models",
+                    "abstract": "Large language models have shown impressive few-shot results on a wide range of tasks. However, when knowledge is key for such results, as is the case for tasks such as question answering and fact checking, massive parameter counts to store knowledge seem to be needed. Retrieval-augmented models are known to excel at knowledge intensive tasks without the need for as many parameters, but it is unclear whether they work in few-shot settings. In this work we present Atlas, a carefully designed and pre-trained retrieval-augmented language model able to learn knowledge intensive tasks with very few training examples. We perform evaluations on a wide range of tasks, including MMLU, KILT and Natural Questions, and study the impact of the content of the document index, showing that it can easily be updated. Notably, Atlas reaches over 42% accuracy on Natural Questions using only 64 examples, outperforming a 540B parameter model by 3% despite having 50x fewer parameters.",
+                    "year": "2023",
+                    "venue": "jmlr"
+                },
+                {
+                    "paper_id": "dbe749d0-e2db-5337-8290-8201c54c6311",
+                    "title": "Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection",
+                    "abstract": "Despite their remarkable capabilities, large language models (LLMs) often produce responses containing factual inaccuracies due to their sole reliance on the parametric knowledge they encapsulate. Retrieval-Augmented Generation (RAG), an ad hoc approach that augments LMs with retrieval of relevant knowledge, decreases such issues. However, indiscriminately retrieving and incorporating a fixed number of retrieved passages, regardless of whether retrieval is necessary, or passages are relevant, diminishes LM versatility or can lead to unhelpful response generation. We introduce a new framework called **Self-Reflective Retrieval-Augmented Generation (Self-RAG)** that enhances an LM's quality and factuality through retrieval and self-reflection. \nOur framework trains a single arbitrary LM that adaptively retrieves passages on-demand, and generates and reflects on retrieved passages and its generations using special tokens, called {\\it reflection} tokens. Generating reflection tokens makes the LM controllable during the inference phase, enabling it to tailor its behavior to diverse task requirements. \nExperiments show that Self-RAG (7B and 13B parameters) significantly outperforms state-of-the-art LLMs and retrieval-augmented models on a diverse set of tasks. \nSpecifically, Self-RAG outperforms ChatGPT and retrieval-augmented Llama2-chat on Open-domain QA, reasoning, and fact verification tasks, and it shows significant gains in improving factuality and citation accuracy for long-form generations relative to these models. Our code and trained models are available at https://selfrag.github.io/",
+                    "year": "2024",
+                    "venue": "iclr"
+                }
+            ]
+        },
+        {
+            "topic": "Parameter-Efficient Fine-Tuning",
+            "papers": [
+                {
+                    "paper_id": "c4ef5a21-07a0-5cd7-95b5-8af0e3a2bb9f",
+                    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+                    "abstract": "An important paradigm of natural language processing consists of large-scale pre-training on general domain data and adaptation to particular tasks or domains. As we pre-train larger models, full fine-tuning, which retrains all model parameters, becomes less feasible.\nUsing GPT-3 175B as an example -- deploying independent instances of fine-tuned models, each with 175B parameters, is prohibitively expensive. We propose Low-Rank Adaptation, or LoRA, which freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks. Compared to GPT-3 175B fine-tuned with Adam, LoRA can reduce the number of trainable parameters by a factor of 10,000 and the GPU memory requirement by a factor of 3. LoRA performs on-par or better than fine-tuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike adapters, no additional inference latency. We also provide an empirical investigation into rank-deficiency in language model adaptation, which sheds light on the efficacy of LoRA. We release a package that facilitates the integration of LoRA with PyTorch models and provide our implementations and model checkpoints for RoBERTa, DeBERTa, and GPT-2 at https://github.com/microsoft/LoRA.",
+                    "year": "2022",
+                    "venue": "iclr"
+                },
+                {
+                    "paper_id": "5d826952-1175-5911-a06f-5b247d9010f0",
+                    "title": "Parameter-Efficient Transfer Learning for NLP",
+                    "abstract": "Fine-tuning large pretrained models is an effective transfer mechanism in NLP. However, in the presence of many downstream tasks, fine-tuning is parameter inefficient: an entire new model is required for every task. As an alternative, we propose transfer with adapter modules. Adapter modules yield a compact and extensible model; they add only a few trainable parameters per task, and new tasks can be added without revisiting previous ones. The parameters of the original network remain fixed, yielding a high degree of parameter sharing. To demonstrate adapter’s effectiveness, we transfer the recently proposed BERT Transformer model to $26$ diverse text classification tasks, including the GLUE benchmark. Adapters attain near state-of-the-art performance, whilst adding only a few parameters per task. On GLUE, we attain within $0.8%$ of the performance of full fine-tuning, adding only $3.6%$ parameters per task. By contrast, fine-tuning trains $100%$ of the parameters per task.",
+                    "year": "2019",
+                    "venue": "icml"
+                },
+                {
+                    "paper_id": "0a85f464-3182-52b6-874e-c81d33ee9e31",
+                    "title": "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
+                    "abstract": "Fine-tuning is the de facto way of leveraging large pretrained language models for downstream tasks. However, fine-tuning modifies all the language model parameters and therefore necessitates storing a full copy for each task. In this paper, we propose prefix-tuning, a lightweight alternative to fine-tuning for natural language generation tasks, which keeps language model parameters frozen and instead optimizes a sequence of continuous task-specific vectors, which we call the prefix. Prefix-tuning draws inspiration from prompting for language models, allowing subsequent tokens to attend to this prefix as if it were “virtual tokens”. We apply prefix-tuning to GPT-2 for table-to-text generation and to BART for summarization. We show that by learning only 0.1% of the parameters, prefix-tuning obtains comparable performance in the full data setting, outperforms fine-tuning in low-data settings, and extrapolates better to examples with topics that are unseen during training.",
+                    "year": "2021",
+                    "venue": "acl"
+                },
+                {
+                    "paper_id": "d7cb703c-2432-5cad-8c1a-5a4a5d9974f1",
+                    "title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
+                    "abstract": "In this work, we explore “prompt tuning,” a simple yet effective mechanism for learning “soft prompts” to condition frozen language models to perform specific downstream tasks. Unlike the discrete text prompts used by GPT-3, soft prompts are learned through backpropagation and can be tuned to incorporate signals from any number of labeled examples. Our end-to-end learned approach outperforms GPT-3’s few-shot learning by a large margin. More remarkably, through ablations on model size using T5, we show that prompt tuning becomes more competitive with scale: as models exceed billions of parameters, our method “closes the gap” and matches the strong performance of model tuning (where all model weights are tuned). This finding is especially relevant because large models are costly to share and serve and the ability to reuse one frozen model for multiple downstream tasks can ease this burden. Our method can be seen as a simplification of the recently proposed “prefix tuning” of Li and Liang (2021) and we provide a comparison to this and other similar approaches. Finally, we show that conditioning a frozen model with soft prompts confers benefits in robustness to domain transfer and enables efficient “prompt ensembling.” We release code and model checkpoints to reproduce our experiments.",
+                    "year": "2021",
+                    "venue": "emnlp"
+                },
+                {
+                    "paper_id": "7a5f0382-bcd0-51b8-b4e7-51d5c83127c3",
+                    "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+                    "abstract": "We present QLoRA, an efficient finetuning approach that reduces memory usage enough to finetune a 65B parameter model on a single 48GB GPU while preserving full 16-bit finetuning task performance. QLoRA backpropagates gradients through a frozen, 4-bit quantized pretrained language model into Low Rank Adapters~(LoRA). Our best model family, which we name Guanaco, outperforms all previous openly released models on the Vicuna benchmark, reaching 99.3% of the performance level of ChatGPT while only requiring 24 hours of finetuning on a single GPU. QLoRA introduces a number of innovations to save memory without sacrificing performance: (a) 4-bit NormalFloat (NF4), a new data type that is information-theoretically optimal for normally distributed weights (b) Double Quantization to reduce the average memory footprint by quantizing the quantization constants, and (c) Paged Optimziers to manage memory spikes. We use QLoRA to finetune more than 1,000 models, providing a detailed analysis of instruction following and chatbot performance across 8 instruction datasets, multiple model types (LLaMA, T5), and model scales that would be infeasible to run with regular finetuning (e.g. 33B and 65B parameter models). Our results show that QLoRA finetuning on a small, high-quality dataset leads to state-of-the-art results, even when using smaller models than the previous SoTA. We provide a detailed analysis of chatbot performance based on both human and GPT-4 evaluations, showing that GPT-4 evaluations are a cheap and reasonable alternative to human evaluation. Furthermore, we find that current chatbot benchmarks are not trustworthy to accurately evaluate the performance levels of chatbots. A lemon-picked analysis demonstrates where Guanaco fails compared to ChatGPT. We release all of our models and code, including CUDA kernels for 4-bit training.",
+                    "year": "2023",
+                    "venue": "neurips"
+                },
+                {
+                    "paper_id": "30a5471c-3ff1-50b3-aedd-a296f25c1434",
+                    "title": "BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models",
+                    "abstract": "We introduce BitFit, a sparse-finetuning method where only the bias-terms of the model (or a subset of them) are being modified. We show that with small-to-medium training data, applying BitFit on pre-trained BERT models is competitive with (and sometimes better than) fine-tuning the entire model. For larger data, the method is competitive with other sparse fine-tuning methods. Besides their practical utility, these findings are relevant for the question of understanding the commonly-used process of finetuning: they support the hypothesis that finetuning is mainly about exposing knowledge induced by language-modeling training, rather than learning new task-specific linguistic knowledge.",
+                    "year": "2022",
+                    "venue": "acl"
+                },
+                {
+                    "paper_id": "86d1fd17-d08e-58d9-be4d-ae937a698226",
+                    "title": "Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning",
+                    "abstract": "Few-shot in-context learning (ICL) enables pre-trained language models to perform a previously-unseen task without any gradient-based training by feeding a small number of training examples as part of the input. ICL incurs substantial computational, memory, and storage costs because it involves processing all of the training examples every time a prediction is made. Parameter-efficient fine-tuning (PEFT) (e.g. adapter modules, prompt tuning, sparse update methods, etc.) offers an alternative paradigm where a small set of parameters are trained to enable a model to perform the new task. In this paper, we rigorously compare few-shot ICL and PEFT and demonstrate that the latter offers better accuracy as well as dramatically lower computational costs. Along the way, we introduce a new PEFT method called (IA)^3 that scales activations by learned vectors, attaining stronger performance while only introducing a relatively tiny amount of new parameters. We also propose a simple recipe based on the T0 model called T-Few that can be applied to new tasks without task-specific tuning or modifications. We validate the effectiveness of T-Few on completely unseen tasks by applying it to the RAFT benchmark, attaining super-human performance for the first time and outperforming the state-of-the-art by 6% absolute. All of the code used in our experiments will be publicly available.",
+                    "year": "2022",
+                    "venue": "neurips"
+                }
+            ]
+        }
+    ]
+}
