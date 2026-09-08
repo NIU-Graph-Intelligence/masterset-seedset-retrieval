@@ -380,6 +380,126 @@
                     "venue": "neurips"
                 }
             ]
+        },
+        {
+            "topic": "In-Context Learning",
+            "papers": [
+                {
+                    "paper_id": "663e3246-e812-5868-a491-4b1e68d6f61c",
+                    "title": "An Explanation of In-context Learning as Implicit Bayesian Inference",
+                    "abstract": "Large language models (LMs) such as GPT-3 have the surprising ability to do in-context learning, where the model learns to do a downstream task simply by conditioning on a prompt consisting of input-output examples. The LM learns from these examples without being explicitly pretrained to learn. Thus, it is unclear what enables in-context learning. In this paper, we study how in-context learning can emerge when pretraining documents have long-range coherence. Here, the LM must infer a latent document-level concept to generate coherent next tokens during pretraining. At test time, in-context learning occurs when the LM also infers a shared latent concept between examples in a prompt. We prove when this occurs despite a distribution mismatch between prompts and pretraining data in a setting where the pretraining distribution is a mixture of HMMs. In contrast to messy large-scale datasets used to train LMs capable of in-context learning, we generate a small-scale synthetic dataset (GINC) where Transformers and LSTMs both exhibit in-context learning. Beyond the theory, experiments on GINC exhibit large-scale real-world phenomena including improved in-context performance with model scaling (despite the same pretraining loss), sensitivity to example order, and instances where zero-shot is better than few-shot in-context learning.",
+                    "year": "2022",
+                    "venue": "iclr"
+                },
+                {
+                    "paper_id": "4e5e6f43-17e7-5e49-97f9-cf1f7a4c463d",
+                    "title": "Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?",
+                    "abstract": "Large language models (LMs) are able to in-context learn—perform a new task via inference alone by conditioning on a few input-label pairs (demonstrations) and making predictions for new inputs. However, there has been little understanding ofhowthe model learns andwhichaspects of the demonstrations contribute to end task performance. In this paper, we show that ground truth demonstrations are in fact not required—randomly replacing labels in the demonstrations barely hurts performance on a range of classification and multi-choce tasks, consistently over 12 different models including GPT-3. Instead, we find that other aspects of the demonstrations are the key drivers of endtask performance, including the fact that they provide a few examples of (1) the label space, (2) the distribution of the input text, and (3) the overall format of the sequence. Together, our analysis provides a new way of understanding how and why in-context learning works, while opening up new questions about how much can be learned from large language models through inference alone.",
+                    "year": "2022",
+                    "venue": "emnlp"
+                },
+                {
+                    "paper_id": "278fd7c7-54f3-5ed7-a0be-01eacc946753",
+                    "title": "Quantifying Aleatoric Uncertainty of In-Context Learning for Robust Measure ofLLMPrediction Confidence",
+                    "abstract": "In-Context Learning (ICL) allows large language models to adapt to new tasks from a few demonstrations, but its reliability remains a concern: predictions are highly sensitive to both prompt design and the model’s ability to understand the context, obscuring whether failures arise from data properties or model limitations. Uncertainty decomposition—separating aleatoric from epistemic sources—is particularly crucial in this setting, yet existing methods, designed for standard generation tasks, fail to capture the unique dynamics of ICL. To address this, we introduce a concept of self-function vectors, built upon Bayesian views and the mechanistic interpretability of ICL. These vectors leverage internal model representations to model the latent concept learned during in-context prompting, thereby enabling a direct estimation of aleatoric uncertainty within a Bayesian framework and circumventing the reliance on brittle input or decoding manipulations. Given the lack of established benchmarks and suitable evaluation protocols, we also propose the first and rigorous evaluation framework, initially grounded in synthetic tasks for conceptual development and subsequently extended to real-world datasets, in which aleatoric and epistemic uncertainty can be quantified separately under controlled settings. Moreover, we show it can be used as a practical tool for trustworthy-related applications, such as hallucination detection. Our findings pave a new direction for connecting the quantitative view of uncertainty with the mechanistic understanding of model behavior.",
+                    "year": "2026",
+                    "venue": "acl"
+                },
+                {
+                    "paper_id": "f56d5347-2cc1-5bae-ada3-3bcf78f9cf07",
+                    "title": "Transformers Learn In-Context by Gradient Descent",
+                    "abstract": "At present, the mechanisms of in-context learning in Transformers are not well understood and remain mostly an intuition. In this paper, we suggest that training Transformers on auto-regressive objectives is closely related to gradient-based meta-learning formulations. We start by providing a simple weight construction that shows the equivalence of data transformations induced by 1) a single linear self-attention layer and by 2) gradient-descent (GD) on a regression loss. Motivated by that construction, we show empirically that when training self-attention-only Transformers on simple regression tasks either the models learned by GD and Transformers show great similarity or, remarkably, the weights found by optimization match the construction. Thus we show how trained Transformers become mesa-optimizers i.e. learn models by gradient descent in their forward pass. This allows us, at least in the domain of regression problems, to mechanistically understand the inner workings of in-context learning in optimized Transformers. Building on this insight, we furthermore identify how Transformers surpass the performance of plain gradient descent by learning an iterative curvature correction and learn linear models on deep data representations to solve non-linear regression tasks. Finally, we discuss intriguing parallels to a mechanism identified to be crucial for in-context learning termed induction-head (Olsson et al., 2022) and show how it could be understood as a specific case of in-context learning by gradient descent learning within Transformers.",
+                    "year": "2023",
+                    "venue": "icml"
+                },
+                {
+                    "paper_id": "2fb20422-6c02-52aa-91fa-48943fceaea6",
+                    "title": "Why Multimodal In-Context Learning Lags Behind? Unveiling the Inner Mechanisms and Bottlenecks",
+                    "abstract": "In-context learning (ICL) enables models to adapt to new tasks via inference-time demonstrations. Despite its success in large language models, the extension of ICL to multimodal settings remains poorly understood in terms of its internal mechanisms and how it differs from text-only ICL. In this work, we conduct a systematic analysis of ICL in multimodal large language models. Using identical task formulations across modalities, we show that multimodal ICL performs comparably to text-only ICL in zero-shot settings but degrades significantly under few-shot demonstrations. To understand this gap, we decompose multimodal ICL into task mapping construction and task mapping transfer, and analyze how models establish cross-modal task mappings, and transfer them to query samples across layers. Our analysis reveals that current models lack reasoning-level alignment between visual and textual representations, and fail to reliably transfer learned task mappings to queries. Guided by these findings, we further propose a simple inference-stage enhancement method that reinforces task mapping transfer. Our results provide new insights into the mechanisms and limitations of multimodal ICL and suggest directions for more effective multimodal adaptation.",
+                    "year": "2026",
+                    "venue": "acl"
+                }
+            ]
+        },
+        {
+            "topic": "Mixed Set 1: RL + Formal Language + Efficient Transformers",
+            "papers": [
+                {
+                    "paper_id": "0c3a2e4c-3105-5d48-9dff-7a152439fb2d",
+                    "title": "Expected Policy Gradients",
+                    "abstract": "We propose expected policy gradients (EPG), which unify stochastic policy gradients (SPG) and deterministic policy gradients (DPG) for reinforcement learning. Inspired by expected sarsa, EPG integrates across the action when estimating the gradient, instead of relying only on the action in the sampled trajectory. We establish a new general policy gradient theorem, of which the stochastic and deterministic policy gradient theorems are special cases. We also prove that EPG reduces the variance of the gradient estimates without requiring deterministic policies and, for the Gaussian case, with no computational overhead. Finally, we show that it is optimal in a certain sense to explore with a Gaussian policy such that the covariance is proportional to the exponential of the scaled Hessian of the critic with respect to the actions. We present empirical results confirming that this new form of exploration substantially outperforms DPG with the Ornstein-Uhlenbeck heuristic in four challenging MuJoCo domains.",
+                    "year": "2018",
+                    "venue": "aaai"
+                },
+                {
+                    "paper_id": "3033508b-cd84-564e-94da-05e1c659837d",
+                    "title": "Distributed Distributional Deterministic Policy Gradients",
+                    "abstract": "This work adopts the very successful distributional perspective on reinforcement learning and adapts it to the continuous control setting. We combine this within a distributed framework for off-policy learning in order to develop what we call the Distributed Distributional Deep Deterministic Policy Gradient algorithm, D4PG. We also combine this technique with a number of additional, simple improvements such as the use of N-step returns and prioritized experience replay. Experimentally we examine the contribution of each of these individual components, and show how they interact, as well as their combined contributions. Our results show that across a wide variety of simple control tasks, difficult manipulation tasks, and a set of hard obstacle-based locomotion tasks the D4PG algorithm achieves state of the art performance.",
+                    "year": "2018",
+                    "venue": "iclr"
+                },
+                {
+                    "paper_id": "32e414d5-8c30-5f07-a7f6-c1ce419e7ff3",
+                    "title": "Representing Formal Languages: A Comparison Between Finite Automata and Recurrent Neural Networks ",
+                    "abstract": "We investigate the internal representations that a recurrent neural network (RNN) uses while learning to recognize a regular formal language. Specifically, we train a RNN on positive and negative examples from a regular language, and ask if there is a simple decoding function that maps states of this RNN to states of the minimal deterministic finite automaton (MDFA) for the language. Our experiments show that such a decoding function indeed exists, and that it maps states of the RNN not to MDFA states, but to states of an {\\em abstraction} obtained by clustering small sets of MDFA states into ``''superstates''. A qualitative analysis reveals that the abstraction often has a simple interpretation. Overall, the results suggest a strong structural relationship between internal representations used by RNNs and finite automata, and explain the well-known ability of RNNs to recognize formal grammatical structure. \n",
+                    "year": "2019",
+                    "venue": "iclr"
+                },
+                {
+                    "paper_id": "860c57c0-b5ab-5a59-ba43-ac806661e2e9",
+                    "title": "On theAbility andLimitations ofTransformers toRecognizeFormalLanguages",
+                    "abstract": "Transformers have supplanted recurrent models in a large number of NLP tasks. However, the differences in their abilities to model different syntactic properties remain largely unknown. Past works suggest that LSTMs generalize very well on regular languages and have close connections with counter languages. In this work, we systematically study the ability of Transformers to model such languages as well as the role of its individual components in doing so. We first provide a construction of Transformers for a subclass of counter languages, including well-studied languages such as n-ary Boolean Expressions, Dyck-1, and its generalizations. In experiments, we find that Transformers do well on this subclass, and their learned mechanism strongly correlates with our construction. Perhaps surprisingly, in contrast to LSTMs, Transformers do well only on a subset of regular languages with degrading performance as we make languages more complex according to a well-known measure of complexity. Our analysis also provides insights on the role of self-attention mechanism in modeling certain behaviors and the influence of positional encoding schemes on the learning and generalization abilities of the model.",
+                    "year": "2020",
+                    "venue": "emnlp"
+                },
+                {
+                    "paper_id": "1962adb0-d7f3-5c20-ad4c-e05c04a70fc9",
+                    "title": "Reformer: The Efficient Transformer",
+                    "abstract": "Large Transformer models routinely achieve state-of-the-art results on\na number of tasks but training these models can be prohibitively costly,\nespecially on long sequences. We introduce two techniques to improve\nthe efficiency of Transformers. For one, we replace dot-product attention\nby one that uses locality-sensitive hashing, changing its complexity\nfrom O($L^2$) to O($L \\log L$), where $L$ is the length of the sequence.\nFurthermore, we use reversible residual layers instead of the standard\nresiduals, which allows storing activations only once in the training\nprocess instead of N times, where N is the number of layers.\nThe resulting model, the Reformer, performs on par with Transformer models\nwhile being much more memory-efficient and much faster on long sequences.",
+                    "year": "2020",
+                    "venue": "iclr"
+                }
+            ]
+        },
+        {
+            "topic": "Mixed Set 2: Graph-Compatible",
+            "papers": [
+                {
+                    "paper_id": "aa57623e-39e6-53d0-a173-5b9971aabec1",
+                    "title": "Global Convergence of Two-Timescale Actor-Critic for Solving Linear Quadratic Regulator",
+                    "abstract": "The actor-critic (AC) reinforcement learning algorithms have been the powerhouse behind many challenging applications. Nevertheless, its convergence is fragile in general. To study its instability, existing works mostly consider the uncommon double-loop variant or basic models with finite state and action space. We investigate the more practical single-sample two-timescale AC for solving the canonical linear quadratic regulator (LQR) problem, where the actor and the critic update only once with a single sample in each iteration on an unbounded continuous state and action space. Existing analysis cannot conclude the convergence for such a challenging case. We develop a new analysis framework that allows establishing the global convergence to an epsilon-optimal solution with at most an order of epsilon to -2.5 sample complexity. To our knowledge, this is the first finite-time convergence analysis for the single sample two-timescale AC for solving LQR with global optimality. The sample complexity improves those of other variants by orders, which sheds light on the practical wisdom of single sample algorithms. We also further validate our theoretical findings via comprehensive simulation comparisons.",
+                    "year": "2023",
+                    "venue": "aaai"
+                },
+                {
+                    "paper_id": "6c981e85-a9eb-52f6-a5d3-309d3f0b83e7",
+                    "title": "Policy Gradient in Robust MDPs with Global Convergence Guarantee",
+                    "abstract": "Robust Markov decision processes (RMDPs) provide a promising framework for computing reliable policies in the face of model errors. Many successful reinforcement learning algorithms build on variations of policy-gradient methods, but adapting these methods to RMDPs has been challenging. As a result, the applicability of RMDPs to large, practical domains remains limited. This paper proposes a new Double-Loop Robust Policy Gradient (DRPG), the first generic policy gradient method for RMDPs. In contrast with prior robust policy gradient algorithms, DRPG monotonically reduces approximation errors to guarantee convergence to a globally optimal policy in tabular RMDPs. We introduce a novel parametric transition kernel and solve the inner loop robust policy via a gradient-based method. Finally, our numerical results demonstrate the utility of our new algorithm and confirm its global convergence properties.",
+                    "year": "2023",
+                    "venue": "icml"
+                },
+                {
+                    "paper_id": "5f42feb8-cb1b-57aa-bf28-e4c237e77b2c",
+                    "title": "Twins: Revisiting the Design of Spatial Attention in Vision Transformers",
+                    "abstract": "Very recently, a variety of vision transformer architectures for dense prediction tasks have been proposed and they show that the design of spatial attention is critical to their success in these tasks. In this work, we revisit the design of the spatial attention and demonstrate that a carefully devised yet simple spatial attention mechanism performs favorably against the state-of-the-art schemes. As a result, we propose two vision transformer architectures, namely, Twins- PCPVT and Twins-SVT. Our proposed architectures are highly efficient and easy to implement, only involving matrix multiplications that are highly optimized in modern deep learning frameworks. More importantly, the proposed architectures achieve excellent performance on a wide range of visual tasks including image-level classification as well as dense detection and segmentation. The simplicity and strong performance suggest that our proposed architectures may serve as stronger backbones for many vision tasks.",
+                    "year": "2021",
+                    "venue": "neurips"
+                },
+                {
+                    "paper_id": "bc2e7938-a748-51a7-8c2d-611307604176",
+                    "title": "Teaching Semi-Supervised Classifier via Generalized Distillation",
+                    "abstract": "Semi-Supervised Learning (SSL) is able to build reliable classifier with very scarce labeled examples by properly utilizing the abundant unlabeled examples. However, existing SSL algorithms often yield unsatisfactory performance due to the lack of supervision information. To address this issue, this paper formulates SSL as a Generalized Distillation (GD) problem, which treats existing SSL algorithm as a learner and introduces a teacher to guide the learner?s training process. Specifically, the intelligent teacher holds the privileged knowledge that ?explains? the training data but remains unknown to the learner, and the teacher should convey its rich knowledge to the imperfect learner through a specific teaching function. After that, the learner gains knowledge by ?imitating? the output of the teaching function under an optimization framework. Therefore, the learner in our algorithm learns from both the teacher and the training data, so its output can be substantially distilled and enhanced. By deriving the Rademacher complexity and error bounds of the proposed algorithm, the usefulness of the introduced teacher is theoretically demonstrated. The superiority of our algorithm to the related state-of-the-art methods has also been empirically demonstrated by the experiments on different datasets with various sources of privileged knowledge.",
+                    "year": "2018",
+                    "venue": "ijcai"
+                },
+                {
+                    "paper_id": "aab76fc3-3dc1-5895-8e75-fe5de66a40f0",
+                    "title": "AMRFact: Enhancing Summarization Factuality Evaluation withAMR-Driven Negative Samples Generation",
+                    "abstract": "Ensuring factual consistency is crucial for natural language generation tasks, particularly in abstractive summarization, where preserving the integrity of information is paramount. Prior works on evaluating factual consistency of summarization often take the entailment-based approaches that first generate perturbed (factual inconsistent) summaries and then train a classifier on the generated data to detect the factually inconsistencies during testing time. However, previous approaches generating perturbed summaries are either of low coherence or lack error-type coverage. To address these issues, we propose AMRFact, a framework that generates perturbed summaries using Abstract Meaning Representations (AMRs). Our approach parses factually consistent summaries into AMR graphs and injects controlled factual inconsistencies to create negative examples, allowing for coherent factually inconsistent summaries to be generated with high error-type coverage. Additionally, we present a data selection module NegFilter based on natural language inference and BARTScore to ensure the quality of the generated negative samples. Experimental results demonstrate our approach significantly outperforms previous systems on the AggreFact-SOTA benchmark, showcasing its efficacy in evaluating factuality of abstractive summarization.",
+                    "year": "2024",
+                    "venue": "naacl"
+                }
+            ]
         }
     ]
 }
