@@ -1,5 +1,6 @@
 output/citation_graph.pkl
 output/dense/
+output_aniruthan/
 *.pt
 *.pkl
 .env
