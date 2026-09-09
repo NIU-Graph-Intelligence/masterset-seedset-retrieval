@@ -1,6 +1,8 @@
 output/citation_graph.pkl
 output/dense/
 output_aniruthan/
+output/
 *.pt
 *.pkl
 .env
+*__pycache__*
