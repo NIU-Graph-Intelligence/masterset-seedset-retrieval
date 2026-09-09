@@ -6,3 +6,4 @@ output/
 *.pkl
 .env
 *__pycache__*
+*.log
