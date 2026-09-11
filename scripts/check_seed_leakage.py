@@ -28,7 +28,7 @@ def main() -> int:
         if not directory.exists():
             continue
         for path in sorted(directory.glob("*.json")):
-            data = json.loads(path.read_text())
+            data = json.loads(path.read_text(encoding='utf-8'))
             if "seed_paper_ids" not in data:
                 continue
             seeds = set(data["seed_paper_ids"])
